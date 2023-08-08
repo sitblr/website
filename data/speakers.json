@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "Arun Krishnamoorthy",
+        "email" :"arun.krishnamoorthy@aarini.com",
+        "company": "Aarini",
+        "linkedId": "",
+        "twitter": "",
+        "community": ""
+    },
+    {
+        "id": 2,
+        "name": "Subajith D",
+        "email" :"subajit.d@sap.com",
+        "company": "SAP",
+        "linkedId": "",
+        "twitter": "",
+        "community": ""
+    }
+]
