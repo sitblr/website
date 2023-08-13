@@ -10,7 +10,7 @@ import TimelineDot from '@mui/lab/TimelineDot';
 import TimelineOppositeContent, {
   timelineOppositeContentClasses,
 } from '@mui/lab/TimelineOppositeContent';
-
+import AddCircleIcon from '@mui/icons-material/AddCircle';
 
 export default function TimelineComponent({ 
   startTime,
@@ -20,7 +20,7 @@ export default function TimelineComponent({
   endTime: string
 }) {
     return (
-      <div className='flex items-start'>
+      <div className=''>
       <Timeline>
         <TimelineItem>
           <TimelineOppositeContent color="textSecondary">
@@ -30,16 +30,15 @@ export default function TimelineComponent({
             <TimelineDot />
             <TimelineConnector />
           </TimelineSeparator>
-          {/* <TimelineContent></TimelineContent> */}
         </TimelineItem>
         <TimelineItem>
           <TimelineOppositeContent color="textSecondary">
             {endTime}
           </TimelineOppositeContent>
           <TimelineSeparator>
-            <TimelineDot />
+            <TimelineDot>
+            </TimelineDot>
           </TimelineSeparator>
-          {/* <TimelineContent></TimelineContent> */}
         </TimelineItem>
       </Timeline>
       </div>

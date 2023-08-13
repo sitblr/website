@@ -2,6 +2,7 @@
 
 import LandingNavBar from '@/components/landing-navbar'
 import EventHeader from '@/components/event-header-section'
+import EventHero from '@/components/event-hero'
 import Footer from '@/components/footer'
 import TimelineComponent from '@/components/timeline'
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
@@ -11,6 +12,7 @@ import { useEffect } from 'react'
 import Image from 'next/image'
 import Bengaluru from '@/public/bengaluru_city.png'
 import { useRouter } from 'next/navigation'
+import Sessions from '@/components/sessions';
 
 type track = {
   id: string
@@ -60,7 +62,6 @@ const EventPage = ({ params }: { params: { id: string } }) => {
       </div>
       <div>
         <div className="mx-auto max-w-screen-xl">
-          {/* <div className="p-4 text-2xl font-semibold">Agenda</div> */}
           <div className="p-4 font-light">
             We have an exciting agenda planned for this event. There will be a
             total of 9 tracks and a dedicated track for Hands-on on the latest
@@ -70,17 +71,16 @@ const EventPage = ({ params }: { params: { id: string } }) => {
           </div>
         </div>
       </div>
-      <div>
+      {/* <div>
         <div className="mx-auto max-w-screen-xl">
           <div className="p-4 text-2xl font-semibold">Tracks</div>
-          <div className="p-4 flex flex-row space-x-2">
+          <div className="container grid grid-flow-col auto-cols-max space-x-2">
             {data?.tracks.map((track) => {
               return (
                 <div key={track.id}>
                   <Badge
                     onClick={(e) => {
-                      debugger
-                      alert('Hello')
+
                     }}
                     className="p-2"
                     variant={track?.active ? 'default' : 'outline'}
@@ -92,7 +92,7 @@ const EventPage = ({ params }: { params: { id: string } }) => {
             })}
           </div>
         </div>
-      </div>
+      </div> */}
       <div>
         <div className="mx-auto max-w-screen-xl">
           <div className="p-4 text-2xl font-semibold">Sessions</div>
@@ -107,50 +107,198 @@ const EventPage = ({ params }: { params: { id: string } }) => {
               })
             }
             </div> */}
-          <div className="flex flex-row items-center align-middle justify-around space-x-4">
-            <div className="font-lightt">
-              {/* Session details goes here */}
-              <TimelineComponent startTime="08:00 AM" endTime="09:10 AM" />
-            </div>
-            <div className="font-light">
-              <p className="mb-10">Registration and Networking</p>
-            </div>
-            <div className="font-light flex flex-row">
-              <p className="mb-10">
-                <Avatar>
-                  <AvatarImage src="https://github.com/shadcn.png" />
-                  <AvatarFallback>CN</AvatarFallback>
-                </Avatar>
-              </p>
-            </div>
-            <div className="font-light">
-              <p className="mb-10">
-                <Badge variant="outline">UI5</Badge>
-              </p>
+          <div className="mx-auto bg-slate-50">
+            <div className="flex p-4 ">
+              <div className="w-1/5 p-2">
+                <label className='text-gray-700'>08:00 AM - 09:15 AM</label>
+              </div>
+              <div className='w-4/5 p-2'>
+                <label className='text-gray-500'>Registration and Networking</label>
+              </div>
             </div>
           </div>
-          <div className="flex flex-row items-center align-middle justify-around space-x-4">
-            <div className="font-lightt">
-              {/* Session details goes here */}
-              <TimelineComponent startTime="09:15 AM" endTime="09:0 AM" />
-            </div>
-            <div className="font-light">
-              <p className="mb-10">Registration and Networking</p>
-            </div>
-            <div className="font-light">
-              <p className="mb-10">
-                <Avatar>
-                  <AvatarImage src="https://github.com/shadcn.png" />
-                  <AvatarFallback>CN</AvatarFallback>
-                </Avatar>
-              </p>
-            </div>
-            <div className="font-light">
-              <p className="mb-10">
-                <Badge variant="outline">CDS</Badge>
-              </p>
+
+          <div className="mx-auto bg-slate-50">
+            <div className="flex p-4 ">
+              <div className="w-1/5 p-2">
+                <label className='text-gray-700'>09:30 AM - 09:45 AM</label>
+              </div>
+              <div className='w-4/5 p-2 flex flex-col justify-between'>
+                <label className='text-gray-500'>Keynote from Sindhu Gangadharan (SVP & MD, SAP Labs India | Head User Enablement)</label>
+                <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full relative overflow-hidden mt-4 md:h-[160px] md:w-[160px]">
+                  <Image
+                    src="https://media.licdn.com/dms/image/D5603AQGTDZhMQ-rZdQ/profile-displayphoto-shrink_800_800/0/1678471357277?e=1697673600&v=beta&t=cI3L2iZ-AI9GUTqmmZvmcCm8FSRelDieOF78gYhvcFA"
+                    layout="fill"
+                    objectFit="cover"
+                    alt="Guest Speaker"
+                  />
+                </div>
+              </div>
             </div>
           </div>
+
+          <div className="mx-auto bg-slate-50">
+            <div className="flex p-4 ">
+              <div className="w-1/5 p-2">
+                <label className='text-gray-700'>10:00 AM - 10:25 AM</label>
+              </div>
+              <div className='w-4/5'>
+                <div className="flex flex-wrap">
+
+                  <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 xl:w-1/4 p-4">
+                    <h4 className="text-xs font-bold text-gray-500">SAP BTP General and Cross Topics</h4>
+                    <div className="bg-yellow-100 rounded-lg shadow-lg p-2 h-full flex flex-col justify-between">
+                      <p className="text-xs font-semibold text-gray-800 mt-2">SAP BTP and Data to Value Strategy</p>
+                      <p className="text-xs text-gray-600 mt-2">Speakers: Dharani Karthikeyan (SAP labs)</p>
+                    </div>
+                  </div>
+
+                  <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 xl:w-1/4 p-4">
+                    <h4 className="text-xs font-bold text-gray-500">Pro Code + Low Code + Integration</h4>
+                    <div className="bg-yellow-100 rounded-lg shadow-lg p-2 h-full flex flex-col justify-between">
+                      <p className="text-xs font-semibold text-gray-800 mt-2">Using SAP Build Process Automation Pre-packaged Content to Accelerate Application Development</p>
+                      <p className="text-xs text-gray-600 mt-2">Speakers: Archana Shukla (SAP labs)</p>
+                    </div>
+                  </div>
+
+                  <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 xl:w-1/4 p-4">
+                    <h4 className="text-xs font-bold text-gray-500">Data-to-Value + A.I</h4>
+                    <div className="bg-yellow-100 rounded-lg shadow-lg p-2 h-full flex flex-col justify-between">
+                      <p className="text-xs font-semibold text-gray-800 mt-2">Reusable AI Assets. A look at reusable AI assets from SAP</p>
+                      <p className="text-xs text-gray-600 mt-2">Speakers: Prasanna Bhat (SAP labs)</p>
+                    </div>
+                  </div>
+
+                  <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 xl:w-1/4 p-4">
+                    <h4 className="text-xs font-bold text-gray-500">SAP Cloud Products 1</h4>
+                    <div className="bg-yellow-100 rounded-lg shadow-lg p-2 h-full flex flex-col justify-between">
+                      <p className="text-xs font-semibold text-gray-800 mt-2">Insights into Value Chain using Modern Architecture: calculation of CO2e</p>
+                      <p className="text-xs text-gray-600 mt-2">Speakers: Sanil Bhandari (SAP labs)</p>
+                    </div>
+                  </div>
+
+                  <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 xl:w-1/4 p-4">
+                    <h4 className="text-xs font-bold text-gray-500">SAP Cloud Products 2</h4>
+                    <div className="bg-yellow-100 rounded-lg shadow-lg p-2 h-full flex flex-col justify-between">
+                      <p className="text-xs font-semibold text-gray-800 mt-2">Get the latest outlook of SAP Cloud ALM for Implementation</p>
+                      <p className="text-xs text-gray-600 mt-2">Speakers: Sonal Kumar, Umesh Jagadesh (SAP labs)</p>
+                    </div>
+                  </div>
+
+                  <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 xl:w-1/4 p-4">
+                    <h4 className="text-xs font-bold text-gray-500">SAP Concur</h4>
+                    <div className="bg-yellow-100 rounded-lg shadow-lg p-2 h-full flex flex-col justify-between">
+                      <p className="text-xs font-semibold text-gray-800 mt-2">Concur Welcome, Keynote, Product Direction and beyond</p>
+                      <p className="text-xs text-gray-600 mt-2">Speakers: Srivatsan Santhanam, Priyam Pandia, Amruta Mohanty(SAP labs)</p>
+                    </div>
+                  </div>
+
+                  <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 xl:w-1/4 p-4">
+                    <h4 className="text-xs font-bold text-gray-500">SAP UX & Cross Topics</h4>
+                    <div className="bg-yellow-100 rounded-lg shadow-lg p-2 h-full flex flex-col justify-between">
+                      <p className="text-xs font-semibold text-gray-800 mt-2">Global Search</p>
+                      <p className="text-xs text-gray-600 mt-2">Speakers: Roohi Ganatra (SAP labs)</p>
+                    </div>
+                  </div>
+
+                  <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 xl:w-1/4 p-4">
+                    <h4 className="text-xs font-bold text-gray-500">SAP Community & Cross Topics</h4>
+                    <div className="bg-yellow-100 rounded-lg shadow-lg p-2 h-full flex flex-col justify-between">
+                      <p className="text-xs font-semibold text-gray-800 mt-2">ABAP - Open to All!</p>
+                      <p className="text-xs text-gray-600 mt-2">Speakers: Mainak Aich (VS&Co)</p>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          {/* <div className="mx-auto p-4">
+            The different sessions that are to be held during the event are listed track wise as follows.
+          </div> */}
+
+          {/* <div className="mx-auto ">
+            <div className="flex p-4 bg-slate-50">
+              <div className="w-1/5 p-2">
+                <label className=''>SAP BTP General and Cross Topics</label>
+              </div>
+              <div className="w-4/5 p-2">
+                <div className="flex flex-wrap">
+                  <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 xl:w-1/4 p-4">
+                    <p className="text-xs text-gray-500">10:00 AM - 10:25 AM</p>
+                    <div className="bg-yellow-100 rounded-lg shadow-lg p-2 h-full flex flex-col justify-between">
+                      <p className="text-xs font-semibold text-gray-800 mt-2">SAP BTP and Data to Value Strategy</p>
+                      <p className="text-xs text-gray-600 mt-2">Speakers: Dharani Karthikeyan (SAP labs)</p>
+                    </div>
+                  </div>
+
+                  <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 xl:w-1/4 p-4">
+                    <p className="text-xs text-gray-500">10:00 AM - 10:25 AM</p>
+                    <div className="bg-yellow-100 rounded-lg shadow-md p-2 h-full flex flex-col justify-between">
+                      <p className="text-xs font-semibold text-gray-800 mt-2">SAP BTP and Data to Value Strategy</p>
+                      <p className="text-xs text-gray-600 mt-2">Speakers: Dharani Karthikeyan (SAP labs)</p>
+                    </div>
+                  </div>
+
+                  <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 xl:w-1/4 p-4">
+                    <p className="text-xs text-gray-500">10:00 AM - 10:25 AM</p>
+                    <div className="bg-yellow-100 rounded-lg shadow-md p-2 h-full flex flex-col justify-between">
+                      <p className="text-xs font-semibold text-gray-800 mt-2">SAP BTP CAP: Empowering Pro Code & Low Code Developers, Technical & Solution Architects</p>
+                      <p className="text-xs text-gray-600 mt-2">Speakers: Dharani Karthikeyan (SAP labs)</p>
+                    </div>
+                  </div>
+
+                  <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 xl:w-1/4 p-4">
+                    <p className="text-xs text-gray-500">10:00 AM - 10:25 AM</p>
+                    <div className="bg-yellow-100 rounded-lg shadow-md p-2 h-full flex flex-col justify-between">
+                      <p className="text-xs font-semibold text-gray-800 mt-2">SAP BTP CAP: Empowering Pro Code & Low Code Developers, Technical & Solution Architects</p>
+                      <p className="text-xs text-gray-600 mt-2">Speakers: Dharani Karthikeyan (SAP labs)</p>
+                    </div>
+                  </div>
+
+                  <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 xl:w-1/4 p-4">
+                    <p className="text-xs text-gray-500">10:00 AM - 10:25 AM</p>
+                    <div className="bg-yellow-100 rounded-lg shadow-lg p-2 h-full flex flex-col justify-between">
+                      <p className="text-xs font-semibold text-gray-800 mt-2">SAP BTP and Data to Value Strategy</p>
+                      <p className="text-xs text-gray-600 mt-2">Speakers: Dharani Karthikeyan (SAP labs)</p>
+                    </div>
+                  </div>
+
+                  <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 xl:w-1/4 p-4">
+                    <p className="text-xs text-gray-500">10:00 AM - 10:25 AM</p>
+                    <div className="bg-yellow-100 rounded-lg shadow-md p-2 h-full flex flex-col justify-between">
+                      <p className="text-xs font-semibold text-gray-800 mt-2">SAP BTP and Data to Value Strategy</p>
+                      <p className="text-xs text-gray-600 mt-2">Speakers: Dharani Karthikeyan (SAP labs)</p>
+                    </div>
+                  </div>
+
+                  <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 xl:w-1/4 p-4">
+                    <p className="text-xs text-gray-500">10:00 AM - 10:25 AM</p>
+                    <div className="bg-yellow-100 rounded-lg shadow-md p-2 h-full flex flex-col justify-between">
+                      <p className="text-xs font-semibold text-gray-800 mt-2">SAP BTP CAP: Empowering Pro Code & Low Code Developers, Technical & Solution Architects</p>
+                      <p className="text-xs text-gray-600 mt-2">Speakers: Dharani Karthikeyan (SAP labs)</p>
+                    </div>
+                  </div>
+
+                  <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 xl:w-1/4 p-4">
+                    <p className="text-xs text-gray-500">10:00 AM - 10:25 AM</p>
+                    <div className="bg-yellow-100 rounded-lg shadow-md p-2 h-full flex flex-col justify-between">
+                      <p className="text-xs font-semibold text-gray-800 mt-2">SAP BTP CAP: Empowering Pro Code & Low Code Developers, Technical & Solution Architects</p>
+                      <p className="text-xs text-gray-600 mt-2">Speakers: Dharani Karthikeyan (SAP labs)</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> */}
+
+          {/* <div className="mx-auto max-w-screen-xl ">
+          <Sessions />
+          </div> */}
+
+
         </div>
       </div>
       <div>
@@ -222,11 +370,11 @@ const EventPage = ({ params }: { params: { id: string } }) => {
           </div>
         </div>
       </div>
-      <div>
+      {/* <div>
         <div className="mx-auto max-w-screen-xl">
           <div className="p-4 text-2xl font-semibold">Speakers</div>
-          <div className="flex flex-row flex-wrap justify-between">
-            <div className="text-center p-4 mt-10">
+          <div className="flex flex-row flex-wrap justify-between"> */}
+      {/* <div className="text-center p-4 mt-10">
               <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full relative overflow-hidden mt-4 md:h-[160px] md:w-[160px]">
                 <Image
                   src="https://media.licdn.com/dms/image/C5603AQF1h1pPI0FNaQ/profile-displayphoto-shrink_800_800/0/1636718038591?e=1696464000&v=beta&t=YoLY6tdKKvAKmchvThWpIolT1r0VXI0FmagC4aMyw8Q"
@@ -345,8 +493,8 @@ const EventPage = ({ params }: { params: { id: string } }) => {
                   #RAP
                 </span>
               </div>
-            </div>
-            {/* <div class="max-w-sm rounded overflow-hidden shadow-lg">
+            </div> */}
+      {/* <div class="max-w-sm rounded overflow-hidden shadow-lg">
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full relative overflow-hidden mt-4 md:h-[200px] md:w-[200px]">
               <Image src="https://media.licdn.com/dms/image/C5603AQF1h1pPI0FNaQ/profile-displayphoto-shrink_800_800/0/1636718038591?e=1696464000&v=beta&t=YoLY6tdKKvAKmchvThWpIolT1r0VXI0FmagC4aMyw8Q" layout="fill" objectFit="cover" />
               </div>
@@ -363,7 +511,7 @@ const EventPage = ({ params }: { params: { id: string } }) => {
               </div>
             </div> */}
 
-            {/* <div className="text-center p-10 py-10">
+      {/* <div className="text-center p-10 py-10">
             <h2 className="text-xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-xl">
               Arun Krishnamoorthy
             </h2>
@@ -408,15 +556,15 @@ const EventPage = ({ params }: { params: { id: string } }) => {
               <Image src="https://media.licdn.com/dms/image/C5603AQF1h1pPI0FNaQ/profile-displayphoto-shrink_800_800/0/1636718038591?e=1696464000&v=beta&t=YoLY6tdKKvAKmchvThWpIolT1r0VXI0FmagC4aMyw8Q" layout="fill" objectFit="cover" />
             </div>
             </div> */}
-          </div>
+      {/* </div>
         </div>
-      </div>
-      <div>
+      </div> */}
+      {/* <div>
         <div className="mx-auto max-w-screen-xl">
           <div className="p-4 text-2xl font-semibold">Volunteers</div>
           <div className="p-4 font-light">Sponser details goes here</div>
         </div>
-      </div>
+      </div> */}
       <div className="bg-gradient-to-r from-[#041b30] to-[#001528]">
         <div className="mx-auto max-w-screen-xl">
           <Footer />

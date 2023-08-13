@@ -16,7 +16,7 @@
             {
                 "trackId": "1",
                 "active": true,
-                "trackName": "SAP BTP General & Pro code",
+                "trackName": "SAP BTP General and Cross Topics",
                 "sessions": [
                     {
                         "id": "1",
@@ -86,7 +86,7 @@
             {
                 "trackId": "2",
                 "active": false,
-                "trackName": "Low code solutions",
+                "trackName": "Pro Code + Low Code + Integration",
                 "sessions": [
                     {
                         "id": "1",
@@ -152,6 +152,48 @@
                         "speakers": ["1"]
                     }  
                 ]
+            },
+            {
+                "trackId": "3",
+                "active": false,
+                "trackName": "Data-to-Value + A.I",
+                "sessions": []
+            },
+            {
+                "trackId": "4",
+                "active": false,
+                "trackName": "SAP Cloud Products 1",
+                "sessions": []
+            },
+            {
+                "trackId": "5",
+                "active": false,
+                "trackName": "SAP Cloud Prodcuts 2",
+                "sessions": []
+            },
+            {
+                "trackId": "6",
+                "active": false,
+                "trackName": "Concur",
+                "sessions": []
+            },
+            {
+                "trackId": "7",
+                "active": false,
+                "trackName": "SAP UX & Cross Topics",
+                "sessions": []
+            },
+            {
+                "trackId": "8",
+                "active": false,
+                "trackName": "SAP Community & Cross Topics",
+                "sessions": []
+            },
+            {
+                "trackId": "9",
+                "active": false,
+                "trackName": "Developer Hands On",
+                "sessions": []
             }
         ],
         "sponsors": [

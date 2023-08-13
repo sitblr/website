@@ -17,7 +17,7 @@ const EventHeader = ({ title, register}: props ) => {
     const eventDate = '2023-07-31T23:59:59';
 
     return (
-    <div className="font-bold py-20 space-y-5">
+    <div className="font-bold py-20 space-y-5 inset-0 z-20">
         <div className="flex flex-row">
             <div>
                 <div className="text-2xl sm:text-5xl md:text-3xl lg:text-4xl font-extrabold space-y-5 px-4">

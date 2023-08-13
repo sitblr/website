@@ -5,21 +5,21 @@ const Footer = () => {
                 <div className="text-sm">© {new Date().getFullYear()} Your Company</div>
                 <nav>
                 <ul className="flex space-x-4">
-                    <li>
+                    {/* <li>
                     <a href="/">Home</a>
-                    </li>
-                    <li>
+                    </li> */}
+                    {/* <li>
                     <a href="/organizers">Organizers</a>
-                    </li>
+                    </li> */}
                     <li>
                     <a href="/feedback">Feedback</a>
                     </li>
                     <li>
                     <a href="/contributors">Contributors</a>
                     </li>
-                    <li>
+                    {/* <li>
                     <a href="/privacy">Privacy</a>
-                    </li>
+                    </li> */}
                 </ul>
                 </nav>
             </div>

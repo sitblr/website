@@ -14,11 +14,11 @@ const LandingNavBar = () => {
           <Image fill alt="Logo" src="/logo.png" />
         </div>
         <h1 className={cn("text-2xl font-bold text-black", font.className)}>
-          Bengaluru SAP Community Events
+          SAP Inside Track, Bangalore
         </h1>
       </Link>
       <div className="flex items-center gap-x-2">
-        <Link href="/">
+        {/* <Link href="/">
           <Button  className="rounded-full">
             Past Events
           </Button>
@@ -27,7 +27,7 @@ const LandingNavBar = () => {
           <Button  className="rounded-full">
             Organizers
           </Button>
-        </Link>
+        </Link> */}
         <Link href="/">
           <Button  className="rounded-full">
             Contact

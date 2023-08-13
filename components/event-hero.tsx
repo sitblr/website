@@ -1,43 +1,33 @@
-const EventHero = () => {
+import EventHeader from '@/components/event-header-section'
+import FlipClockCountdown from '@leenguyen/react-flip-clock-countdown'
+import '@leenguyen/react-flip-clock-countdown/dist/index.css'
+import Image from 'next/image'
 
-    return (
-        <div>
-            <div className="grid grid-cols-2 gap-6 max-w-md mx-auto">
-                    <div className="bg-blue-300 text-white text-center rounded-md">
-                        <div className="bg-[#15314b] font-medium p-2">
-                            <div className="flex items-start">Host</div>
-                        </div>
-                        <div>
-                            <h4>Details of the event to be specified here..</h4>
-                        </div>
-                    </div>
-                    <div className="bg-blue-300 text-white text-center">
-                        <div className="bg-[#02203c] font-medium p-2">
-                            <div className="flex items-start">Location</div>
-                        </div>
-                        <div>
-                            <h4>Details about event organizers</h4>
-                        </div>
-                    </div>
-                    <div className="bg-blue-300 text-white text-center">
-                        <div className="bg-[#02203c] font-medium p-2">
-                            <div className="flex items-start">When</div>
-                        </div>
-                        <div>
-                            <h4>When the event is going to take place with timer</h4>
-                        </div>
-                    </div>
-                    <div className="bg-blue-300 text-white text-center">
-                        <div className="bg-[#02203c] font-medium p-2">
-                            <div className="flex items-start">Where</div>
-                        </div>
-                        <div>
-                            <h4>Where the event is going to take place</h4>
-                        </div>
-                    </div>
-                </div>
+const EventHero = () => {
+  return (
+    // <div className="relative">
+    // <Image src="/bengaluru_city.png" alt="Background Image" className="absolute inset-0 object-cover w-full h-full opacity-50" />
+    // <div className="absolute inset-0 flex items-center justify-center">
+    //     <div className="bg-black bg-opacity-50 p-8 rounded-lg">
+    //     <EventHeader title="hello" register="" />
+    //     <p className="text-white mt-4">Your text goes here.</p>
+    //     </div>
+    // </div>
+    // </div>
+
+    <div>
+      <div className="bg-gradient-to-r from-[#ffb805] to-[#e1cf2b]">
+        <div className="mx-auto max-w-screen-xl bg-[url('/bengaluru_city.png')]">
+          <EventHeader title="hello" register="" />
         </div>
-    )
+        <div className="absolute inset-0 flex justify-end z-10">
+          <FlipClockCountdown className="mb-80"
+            to={new Date().getTime() + 24 * 3600 * 1000 + 5000}
+          />
+        </div>
+      </div>
+    </div>
+  )
 }
 
-export default EventHero;
+export default EventHero

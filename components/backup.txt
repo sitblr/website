@@ -1,0 +1,44 @@
+<div className="flex flex-row items-center align-middle justify-around space-x-4">
+            <div className="font-lightt">
+              {/* Session details goes here */}
+              <TimelineComponent startTime="08:00 AM" endTime="09:10 AM" />
+            </div>
+            <div className="font-light">
+              <p className="mb-10">Registration and Networking</p>
+            </div>
+            <div className="font-light flex flex-row">
+              <p className="mb-10">
+                <Avatar>
+                  <AvatarImage src="https://github.com/shadcn.png" />
+                  <AvatarFallback>CN</AvatarFallback>
+                </Avatar>
+              </p>
+            </div>
+            <div className="font-light">
+              <p className="mb-10">
+                <Badge variant="outline">UI5</Badge>
+              </p>
+            </div>
+          </div>
+          <div className="flex flex-row items-center align-middle justify-around space-x-4">
+            <div className="font-lightt">
+              {/* Session details goes here */}
+              <TimelineComponent startTime="09:15 AM" endTime="09:0 AM" />
+            </div>
+            <div className="font-light">
+              <p className="mb-10">Registration and Networking</p>
+            </div>
+            <div className="font-light">
+              <p className="mb-10">
+                <Avatar>
+                  <AvatarImage src="https://github.com/shadcn.png" />
+                  <AvatarFallback>CN</AvatarFallback>
+                </Avatar>
+              </p>
+            </div>
+            <div className="font-light">
+              <p className="mb-10">
+                <Badge variant="outline">CDS</Badge>
+              </p>
+            </div>
+          </div>
