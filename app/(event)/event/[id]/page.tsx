@@ -57,7 +57,7 @@ const EventPage = ({ params }: { params: { id: string } }) => {
       </div>
       <div className="bg-gradient-to-r from-[#ffb805] to-[#e1cf2b]">
         <div className="mx-auto max-w-screen-xl bg-[url('/bengaluru_city.png')]">
-          <EventHeader title={data?.title} register={data?.register} />
+          {/* <EventHeader title={data?.title} register={data?.register} /> */}
         </div>
       </div>
       <div>
