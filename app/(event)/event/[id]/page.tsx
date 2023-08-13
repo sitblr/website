@@ -62,7 +62,7 @@ const EventPage = ({ params }: { params: { id: string } }) => {
       </div>
       <div>
         <div className="mx-auto max-w-screen-xl">
-          <div className="p-4 font-light">
+          <div className="p-4 font-light text-gray-700">
             We have an exciting agenda planned for this event. There will be a
             total of 9 tracks and a dedicated track for Hands-on on the latest
             SAP Technologies including but not limited to SAP BTP, Concur, UX,
@@ -71,42 +71,9 @@ const EventPage = ({ params }: { params: { id: string } }) => {
           </div>
         </div>
       </div>
-      {/* <div>
-        <div className="mx-auto max-w-screen-xl">
-          <div className="p-4 text-2xl font-semibold">Tracks</div>
-          <div className="container grid grid-flow-col auto-cols-max space-x-2">
-            {data?.tracks.map((track) => {
-              return (
-                <div key={track.id}>
-                  <Badge
-                    onClick={(e) => {
-
-                    }}
-                    className="p-2"
-                    variant={track?.active ? 'default' : 'outline'}
-                  >
-                    {track.trackName}
-                  </Badge>
-                </div>
-              )
-            })}
-          </div>
-        </div>
-      </div> */}
       <div>
         <div className="mx-auto max-w-screen-xl">
           <div className="p-4 text-2xl font-semibold">Sessions</div>
-          {/* <div className="p-4 flex flex-row space-x-2">
-            {
-              data?.tracks.map((track) => {
-                  return(
-                    <div  key={track.id}>
-                       <Badge onClick={() => { debugger; alert("Hello") }} className="p-2" variant={track?.active ? 'default' : 'outline' }>{track.trackName}</Badge>
-                    </div>
-                  )
-              })
-            }
-            </div> */}
           <div className="mx-auto bg-slate-50">
             <div className="flex p-4 ">
               <div className="w-1/5 p-2">
