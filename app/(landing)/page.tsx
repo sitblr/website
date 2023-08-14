@@ -105,14 +105,14 @@ const Home = () => {
                             </div>
                             <div className='w-4/5 p-2 flex flex-col justify-between'>
                                 <label className='text-gray-500'>Keynote from Sindhu Gangadharan (SVP & MD, SAP Labs India | Head User Enablement)</label>
-                                <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full relative overflow-hidden mt-4 md:h-[160px] md:w-[160px]">
+{/*                                 <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full relative overflow-hidden mt-4 md:h-[160px] md:w-[160px]">
                                     <Image
                                         src="https://media.licdn.com/dms/image/D5603AQGTDZhMQ-rZdQ/profile-displayphoto-shrink_800_800/0/1678471357277?e=1697673600&v=beta&t=cI3L2iZ-AI9GUTqmmZvmcCm8FSRelDieOF78gYhvcFA"
                                         layout="fill"
                                         objectFit="cover"
                                         alt="Guest Speaker"
                                     />
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>
