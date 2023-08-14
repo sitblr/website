@@ -27,9 +27,9 @@ type tracks = {
 }
 
 type session = {
-    title: string,
+    time: string,
     type: string,
-    tracks: tracks[]
+    sessionsByTrack: tracks[]
 }
 
 type eventdata = {
