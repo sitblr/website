@@ -23,7 +23,8 @@ type track = {
 type tracks = {
     tracktitle: string,
     sessiontitle: string,
-    speakers: string
+    speakers: string,
+    track: string
 }
 
 type session = {
@@ -131,7 +132,8 @@ const Home = () => {
                                                     case "grid":
                                                         return (
                                                             <div key="track.tracktitle" className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 xl:w-1/4 p-4">
-                                                                <h4 className="text-xs font-bold text-gray-500">{track.tracktitle}</h4>
+                                                                <h4 className="text-xs font-bold text-gray-500">{track.track}</h4>
+{/*                                                                 <h4 className="text-xs font-bold text-gray-500">{track.tracktitle}</h4> */}
                                                                 <div className="bg-yellow-100 rounded-lg shadow-lg p-2 h-full flex flex-col justify-between">
                                                                     <p className="text-xs font-semibold text-gray-800 mt-2">{track.sessiontitle}</p>
                                                                     <p className="text-xs text-gray-600 mt-2">Speakers: {track.speakers}</p>
