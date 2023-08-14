@@ -118,14 +118,14 @@ const Home = () => {
 
                     {data?.sessions.map((session) => {
                         return (
-                            <div key="session.title" className="mx-auto bg-slate-50">
+                            <div key="session.time" className="mx-auto bg-slate-50">
                                 <div className="flex p-4 ">
                                     <div className="w-1/5 p-2">
-                                        <label className='text-gray-700'>{session.title}</label>
+                                        <label className='text-gray-700'>{session.time}</label>
                                     </div>
                                     <div className='w-4/5'>
                                         <div className="flex flex-wrap">
-                                            {session.tracks.map((track) => {
+                                            {session.sessionsByTrack.map((track) => {
                                                 switch (session.type) {
                                                     case "grid":
                                                         return (
