@@ -29,6 +29,7 @@ type tracks = {
 type session = {
     time: string,
     type: string,
+    tracktitle: string,
     sessionsByTrack: tracks[]
 }
 
@@ -140,8 +141,8 @@ const Home = () => {
                                                         break;
                                                     case "break":
                                                         return (
-                                                            <div key="track.tracktitle" className='mx-auto w-4/5 p-2 text-center bg-teal-200'>
-                                                                <label className=' text-gray-500'>{track.tracktitle}</label>
+                                                            <div key="session.tracktitle" className='mx-auto w-4/5 p-2 text-center bg-teal-200'>
+                                                                <label className=' text-gray-500'>{session.tracktitle}</label>
                                                             </div>
                                                         )
                                                         break;
