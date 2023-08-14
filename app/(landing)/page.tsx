@@ -77,10 +77,9 @@ const Home = () => {
                 <div className="mx-auto max-w-screen-xl">
                     <div className="p-4 font-light text-gray-700">
                         We have an exciting agenda planned for this event. There will be a
-                        total of 9 tracks and a dedicated track for Hands-on on the latest
+                        total of 9 tracks with a dedicated track for Hands-on on the latest
                         SAP Technologies including but not limited to SAP BTP, Concur, UX,
-                        SAP S/4HANA, AI with SAP and Low Code/No Code. Follow the below blog
-                        post to get the latest agenda.{' '}
+                        SAP S/4HANA, AI with SAP, and Low Code/No Code. Check the below sessions for more details.
                     </div>
                 </div>
             </div>
