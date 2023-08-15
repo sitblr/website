@@ -44,15 +44,43 @@ type eventdata = {
 
 type event = eventdata | null
 
+
+
 const Home = () => {
     const router = useRouter()
     const [data, setData] = useState<event>(null)
+
+    const [query, setQuery] = useState(false)
+
+    const multipleSearch = (data) => {
+        if (!query){
+            return data;
+        }
+        let filteredData = JSON.parse(JSON.stringify(data));
+        let filteredSessions = [];
+        filteredData.sessions.forEach(function(item){
+            if(item.type === "grid"){
+                var filtSessionsByTrack = item.sessionsByTrack.filter(function(el){
+                    return el.description.toLowerCase().includes(query);
+                }
+              );
+            }else{
+                filtSessionsByTrack = item.sessionsByTrack;
+            }
+            if(filtSessionsByTrack.length > 0){
+                item.sessionsByTrack = filtSessionsByTrack;
+                filteredSessions.push(item);
+            }
+        });
+        filteredData.sessions = filteredSessions;
+        return filteredData;
+    }
+
     const [isMounted, setIsMounted] = useState(false)
     useEffect(() => {
         fetch(`/api/events/sap-inside-track-aug-2023`)
             .then((res) => res.json())
             .then((data) => {
-                debugger;
                 setData(data)
             })
         setIsMounted(true)
@@ -62,6 +90,7 @@ const Home = () => {
         return null
     }
 
+    const filteredData = multipleSearch(data)
     return (
         // ffe505
         <div className="h-full">
@@ -72,7 +101,7 @@ const Home = () => {
             </div>
             <div className="bg-gradient-to-r from-[#ffb805] to-[#e1cf2b]">
                 <div className="mx-auto max-w-screen-xl bg-[url('/bengaluru_city.png')]">
-                    <EventHeader title={data?.title} register={data?.register} />
+                    <EventHeader title={filteredData?.title} register={filteredData?.register} />
                 </div>
             </div>
             <div>
@@ -87,7 +116,10 @@ const Home = () => {
             </div>
             <div>
                 <div className="mx-auto max-w-screen-xl">
-                    <div className="p-4 text-2xl font-semibold">Sessions</div>
+                    <div className='flex flex-row justify-between p-2'>                    
+                        <div className="p-4 text-2xl font-semibold">Sessions</div>
+                        <input type="text" name="search" onChange={(e)=>setQuery(e.target.value)} className="w-1/5 p-2 mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1" placeholder="Search sessions here..." />
+                    </div>
                     <div className="mx-auto bg-slate-50">
                         <div className="flex p-4 ">
                             <div className="w-1/5 p-2 ">
@@ -118,7 +150,7 @@ const Home = () => {
                         </div>
                     </div>
 
-                    {data?.sessions.map((session) => {
+                    {filteredData?.sessions.map((session) => {
                         return (
                             <div key="session.time" className="mx-auto bg-slate-50">
                                 <div className="flex p-4 ">
