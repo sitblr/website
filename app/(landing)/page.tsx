@@ -54,7 +54,8 @@ const Home = () => {
 
     const multipleSearch = (data) => {
         if (!query){
-            return data;
+            console.log(data);
+            return JSON.parse(JSON.stringify(data));
         }
         let filteredData = JSON.parse(JSON.stringify(data));
         let filteredSessions = [];
@@ -73,6 +74,7 @@ const Home = () => {
             }
         });
         filteredData.sessions = filteredSessions;
+        console.log(filteredData);
         return filteredData;
     }
 
@@ -165,7 +167,7 @@ const Home = () => {
                                                 switch (session.type) {
                                                     case "grid":
                                                         return (
-                                                            <div key="track.tracktitle" className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 xl:w-1/4 p-4">
+                                                            <div key="track.sessionseq" className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 xl:w-1/4 p-4">
                                                                 <h4 className="text-xs font-bold text-gray-500">{track.track}</h4>
 {/*                                                                 <h4 className="text-xs font-bold text-gray-500">{track.tracktitle}</h4> */}
                                                                 <div className="bg-slate-200 rounded-none shadow-md p-2 h-full flex flex-col justify-between">
@@ -177,7 +179,7 @@ const Home = () => {
                                                         break;
                                                     case "break":
                                                         return (
-                                                            <div key="session.tracktitle" className='mx-auto w-full p-2 text-center bg-teal-200'>
+                                                            <div key="track.sessionseq" className='mx-auto w-full p-2 text-center bg-teal-200'>
                                                                 <label className=' text-gray-500'>{session.tracktitle}</label>
                                                             </div>
                                                         )
