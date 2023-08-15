@@ -191,15 +191,15 @@ const Home = () => {
                                                                 <h4 className="text-xs font-bold text-gray-500">{track.tracktitle}</h4> */}
                                                                 <div className="bg-slate-100 border border-slate-200 rounded-none shadow-md p-2 h-full flex flex-col justify-between">
                                                                     <div>
-                                                                    <h4 className="text-xs font-bold text-gray-500">{track.track}</h4>
+                                                                    <h4 className="text-xs font-bold text-gray-700">{track.track}</h4>
                                                                     <p className="text-xs text-gray-500">{track.tracktitle}</p>
                                                                     </div>
                                                                     <hr />
                                                                     
-                                                                    <p className="text-xs font-semibold text-gray-800 mt-2">{track.sessiontitle}</p>
+                                                                    <p className="text-xs font-semibold text-gray-700 mt-2">{track.sessiontitle}</p>
                                                                     <p className="text-xs text-gray-800 mt-2 line-clamp-2">{track.description}</p>
                                                                     <hr />
-                                                                    <p className="text-xs text-gray-600 mt-2">Speakers: {track.speakers}</p>
+                                                                    <p className="text-xs font-semibold text-gray-500 mt-2">{track.speakers}</p>
                                                                 </div>
                                                             </div>
                                                         )
