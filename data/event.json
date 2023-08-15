@@ -1,593 +1,1022 @@
 [
-    {
-        "id": "sap-inside-track-aug-2023",
-        "title" : "SAP Inside Track, August 2023",
-        "location": "Chennai,Tamilnadu",
-        "dateFrom" : "2023-08-23T00:00:00",
-        "dateTo": "2023-08-23T00:00:00",
-        "map": "",
-        "banner": "",
-        "type": "Conference",
+  {
+    "id": "sap-inside-track-aug-2023",
+    "title": "SAP Inside Track, August 2023",
+    "location": "Chennai,Tamilnadu",
+    "dateFrom": "2023-08-23T00:00:00",
+    "dateTo": "2023-08-23T00:00:00",
+    "map": "",
+    "banner": "",
+    "type": "Conference",
+    "active": true,
+    "register": "https://www.eventbrite.com/e/sap-inside-track-bengaluru-august-19th-2023-tickets-672925065987?aff=oddtdtcreator",
+    "hostId": 1,
+    "agenda": "",
+    "sessions":
+    [
+      {
+        "sessionsByTrack": [
+          {
+            "speakers": "Dharani Karthikeyan",
+            "sessiontitle": "SAP BTP and Data to Value Strategy",
+            "description": "SAP BTP and Data-2-Value Strategy",
+            "organization": "SAP Labs",
+            "socialmedia": "-",
+            "track": "Track 1",
+            "sessionseq": 1,
+            "tracktitle": "SAP BTP General and Cross Topics"
+          },
+          {
+            "speakers": "Archana Shukla",
+            "sessiontitle": "Using SAP Build Process Automation Pre-packaged Content to Accelerate Application Development",
+            "description": "With the increasing scarcity of technical developers, there is a growing need of pre-packaged content which helps organizations to accelerate their solution development and integration to common business problems. In this session, you will learn about different pre-packaged content from SAP Build Process Automation and how can you leverage them to speed up your application development and integration.",
+            "organization": "SAP",
+            "socialmedia": "www.linkedin.com/in/shuklaarchana",
+            "sapcommunity": "https://people.sap.com/archana.shukla",
+            "track": "Track 2",
+            "sessionseq": 1,
+            "tracktitle": "Pro Code + Low Code + Integration"
+          },
+          {
+            "speakers": "Prasanna Bhat, Sudarshan Pavanje",
+            "sessiontitle": "Reusable AI Assets. A look at reusable AI assets from SAP",
+            "description": "Reusable AI Assets. A look at reusable AI assets from SAP",
+            "organization": "SAP Labs",
+            "socialmedia": "linkedin",
+            "track": "Track 3",
+            "sessionseq": 1,
+            "tracktitle": "SAP AI + Data to Value"
+          },
+          {
+            "speakers": "Sanil Bhandari",
+            "sessiontitle": "Insights into Value Chain using Modern Architecture: calculation of CO2e",
+            "description": "The session would focus on innovations around Component Breakdown as part of Universal Parallel Accounting, which helps to provide various vectors such as Product Cost and Quantity Breakdown with one use case example",
+            "organization": "SAP Labs India Pvt Ltd",
+            "socialmedia": "https://www.linkedin.com/in/sanilbhandari/",
+            "sapcommunity": "https://people.sap.com/sanil0309",
+            "track": "Track 4",
+            "sessionseq": 1,
+            "tracktitle": "SAP Cloud Products 1"
+          },
+          {
+            "speakers": "Sonal Kumar, Umesh Jagadesh",
+            "sessiontitle": "Get the latest outlook of SAP Cloud ALM for Implementation",
+            "description": "Get the latest outlook of SAP Cloud ALM for Implementation",
+            "organization": "SAP Labs",
+            "socialmedia": "-",
+            "track": "Track 5",
+            "sessionseq": 1,
+            "tracktitle": "SAP Cloud Prodcuts 2"
+          },
+          {
+            "speakers": "Omprakash H",
+            "sessiontitle": "SAP Concur Integrations with SAP and Non-SAP & User Adoption Platform",
+            "description": "SAP Concur to SAP ECC / S4 Integration through ICS.\nSAP Concur to Non-SAP integration through BTP - CPI\nSAP Concur Dashboards using BTP - SAC\nUser Navigation Chatbot within Concur for User Adoption",
+            "organization": "BLUEPRINT TECHNOLOGIES PVT LTD",
+            "socialmedia": "https://www.linkedin.com/in/omprakashh/",
+            "track": "Track 6",
+            "sessionseq": 1,
+            "tracktitle": "Concur"
+          },
+          {
+            "speakers": "Roohi Ganatra",
+            "sessiontitle": "Global Search",
+            "description": "Powerful enterprise elastic search in SAP Sales Cloud and SAP Service Cloud. Global Search is built on the concept of elastic search to take advantage of its speed. It has been built to achieve flexibility and ease of use considering usability and is enabled by default in service cloud version 2 solution",
+            "organization": "Sap Lab",
+            "socialmedia": "https://www.linkedin.com/in/roohi-ganatra-47027a25/",
+            "track": "Track 7",
+            "sessionseq": 1,
+            "tracktitle": "SAP UX & Cross Topics"
+          },
+          {
+            "speakers": "Mainak Aich",
+            "sessiontitle": "ABAP - Open to All!",
+            "description": "Get an overview of rapid rise of Open-source applications in ABAP and learn how SAP customers can be benefitted by leveraging them in their projects and products.",
+            "organization": "VS&Co",
+            "socialmedia": "https://www.linkedin.com/in/mainakaich/",
+            "sapcommunity": "https://people.sap.com/mainak-aich",
+            "track": "Track 8",
+            "sessionseq": 1,
+            "tracktitle": "General & Cross SAP Topics"
+          }
+        ],
+        "sequence": "1",
+        "time": "10:00 - 10:25",
+        "type": "grid"
+      },
+      {
+        "sessionsByTrack": [
+          {
+            "speakers": "Nagesh Caparthy ",
+            "sessiontitle": "SAP BTP Governance, Security and Best Practices ",
+            "description": "Agenda includes, BTP Overview, Governance, Account Models, Security options, etc",
+            "organization": "SAP ",
+            "socialmedia": "https://www.linkedin.com/in/nagesh-caparthy-027b7016",
+            "sapcommunity": "https://people.sap.com/nagesh.caparthy2",
+            "track": "Track 1",
+            "sessionseq": 2,
+            "tracktitle": "SAP BTP General and Cross Topics"
+          },
+          {
+            "speakers": "Nagashiva Shankar Kona, Vijay Chinterlapalli",
+            "sessiontitle": "ABAP for S4HANA Cloud &\nExtensibility using SAP Extensibility Explorer",
+            "description": "Overview of the ABAP offering for Cloud and Exploration of Extensibility options possible in S4HANA Cloud using SAP Extensibility Explorer",
+            "organization": "SAP",
+            "socialmedia": "www.linkedin.com/in/nagashivashankarkona",
+            "sapcommunity": "https://people.sap.com/k_nagashivashankar",
+            "track": "Track 2",
+            "sessionseq": 2,
+            "tracktitle": "Pro Code + Low Code + Integration"
+          },
+          {
+            "speakers": "Siddhant Mahapatra, Jitendra Ghanta",
+            "sessiontitle": "Overview of SAP Datasphere - Capabilities and Model Data Journey",
+            "description": "With a unified experience for data integration, data cataloging, semantic modeling, data warehousing, data federation, and data virtualization, SAP Datasphere enables data professionals to easily distribute mission-critical business data—with business context and logic preserved—across their organization’s data landscape.\n\nThe session will provide an overview of the importance of SAP Datasphere and how to get started. We will look at the steps that the customers need to take - Operate, Integrate, Manage, and Use - to have a successful data journey with SAP Datasphere.",
+            "organization": "SAP Labs India Pvt Ltd",
+            "socialmedia": "https://www.linkedin.com/in/siddhantmahapatra/",
+            "track": "Track 3",
+            "sessionseq": 2,
+            "tracktitle": "SAP AI + Data to Value"
+          },
+          {
+            "speakers": "Sridevi Sridharan ",
+            "sessiontitle": "ICMR in Group Reporting ",
+            "description": "Intercompany matching and reconciliation in Group Reporting ",
+            "organization": "Résoudre Des Solution Informatiques ",
+            "socialmedia": "https://www.linkedin.com/in/sridevi-sridharan-94824016b",
+            "track": "Track 4",
+            "sessionseq": 2,
+            "tracktitle": "SAP Cloud Products 1"
+          },
+          {
+            "speakers": "Balamurali Muraleedharan ",
+            "sessiontitle": "RISE with SAP on AWS",
+            "description": "Advantages of RISE with SAP on AWS. How SAP vetted Joint Reference Architectures enable customers to combine S/4HANA, BTP services and native AWS services to realize business objectives in area of data & analytics and AI. ",
+            "organization": "AWS (Amazon Web Services)",
+            "socialmedia": "www.linkedin.com/in/bala-sap",
+            "track": "Track 5",
+            "sessionseq": 2,
+            "tracktitle": "SAP Cloud Prodcuts 2"
+          },
+          {
+            "speakers": "Komal Nalawade",
+            "sessiontitle": "Concur",
+            "description": "NA",
+            "organization": "Hafele India Pvt Ltd",
+            "socialmedia": "https://www.linkedin.com/in/komalbn14/",
+            "sapcommunity": "NA",
+            "track": "Track 6",
+            "sessionseq": 2,
+            "tracktitle": "Concur"
+          },
+          {
+            "speakers": "Varsha Jadhav, Deviprasad Kaplieshwari",
+            "sessiontitle": "Design Harmonisation",
+            "description": "How the team sifted through over 100 apps to define consistency parameters for our apps and why it matters.\n",
+            "organization": "Sap lab",
+            "socialmedia": "https://www.linkedin.com/in/varshaj/",
+            "track": "Track 7",
+            "sessionseq": 2,
+            "tracktitle": "SAP UX & Cross Topics"
+          },
+          {
+            "speakers": "Juhi Kulshreshtha",
+            "sessiontitle": "Fuelling Business Innovation Through SAP BTP & Hyperscalers Joint Reference Architectures",
+            "description": "This session will be about SAP BTP’s ‘Joint Reference Architecture’ with Cloud Service providers like Google Cloud Platform. We will be talking about different ways in which these architectures help reduce TCO, support automation or enable use of AI/ML in Business Scenarios. Helping to understand how organisations can get most out of their investments in SAP BTP and Cloud Service Providers",
+            "organization": "Mindset Consulting",
+            "socialmedia": "https://www.linkedin.com/in/juhi-kulshreshtha-aba8486",
+            "sapcommunity": "https://people.sap.com/juhik2003",
+            "track": "Track 8",
+            "sessionseq": 2,
+            "tracktitle": "General & Cross SAP Topics"
+          }
+        ],
+        "sequence": "2",
+        "time": "10:35 - 11:00",
+        "type": "grid"
+      },
+      {
+        "sessionsByTrack": [
+          {
+            "speakers": "DUMMY Break",
+            "sessiontitle": "DUMMY Break",
+            "track": "Track 1",
+            "sessionseq": 2.1,
+            "tracktitle": "SAP BTP General and Cross Topics"
+          }
+        ],
+        "sequence": "2.1",
+        "time": "11:00 - 11:30",
+        "type": "break",
+        "tracktitle": "Break and Netwokring"
+      },
+      {
+        "sessionsByTrack": [
+          {
+            "speakers": "Rahul Lodhe",
+            "sessiontitle": "SAP Buseinss AI and Generative AI Strategy",
+            "description": "SAP AI and Generative AI Strategy",
+            "organization": "SAP Labs",
+            "socialmedia": "-",
+            "track": "Track 1",
+            "sessionseq": 3,
+            "tracktitle": "SAP BTP General and Cross Topics"
+          },
+          {
+            "speakers": "Subhajit Das, Aryan Raj Singh",
+            "sessiontitle": "Storyboard in CAP: The Low-Code Application Development Way",
+            "description": "The Storyboard is a detailed graphical view for CAP applications that presents their logical components and the connections between them available in SAP Business Application Studio.\nJoin us for an engaging session that delves into the world of low-code application development using the power of CAP (Cloud Application Programming Model) within SAP Business Application Studio.",
+            "organization": "SAP",
+            "socialmedia": "https://www.linkedin.com/in/iheartsap/",
+            "sapcommunity": "https://people.sap.com/subh4171",
+            "track": "Track 2",
+            "sessionseq": 3,
+            "tracktitle": "Pro Code + Low Code + Integration"
+          },
+          {
+            "speakers": "Ratnesh Sonawane",
+            "sessiontitle": "Using SAC capabilities for Finance Operations in Mercedes-Benz",
+            "description": "This session will provide an insight on practical use of SAC within Mercedes-Benz for addressing day to day Finance related topics. It will also focus on how SAC helps end users to save time from repetitive tasks to focus on quality analysis.",
+            "organization": "Mercedes Benz Research & Development India Pvt Ltd",
+            "socialmedia": "https://www.linkedin.com/in/ratnesh-sonawane-92bb6616/",
+            "sapcommunity": "https://people.sap.com/ratnesh.sonawane",
+            "track": "Track 3",
+            "sessionseq": 3,
+            "tracktitle": "SAP AI + Data to Value"
+          },
+          {
+            "speakers": "Prashant Ganganagoudar, Nemani Sagar",
+            "sessiontitle": "Rise with SAP Offering highlights",
+            "description": "RISE with SAP can transition your current ERP data and processes to the cloud with less risk and without compromise. The bundle of tailor-made ERP software, transformation services, business analytics, and partner expertise guides you along a personalized path to the cloud.",
+            "organization": "Bosch",
+            "socialmedia": "www.linkedin.com/in/prashant-g-72253a13",
+            "sapcommunity": "https://people.sap.com/ag.prashanth",
+            "track": "Track 4",
+            "sessionseq": 3,
+            "tracktitle": "SAP Cloud Products 1"
+          },
+          {
+            "speakers": "Prasath E",
+            "sessiontitle": "Optimizing Supply Chain in S/4HANA with Material Requirement Planning",
+            "description": "This will give an understanding of Supply chain optimizations  and how to achieve a minimal disruption and resilience of the business by using SAP S/4HANA MRP features. You will also learn how the AI and ML are contributing to supply chain optimization's in SAP S/4HANA.",
+            "organization": "Walmart Global tech India Pvt Ltd",
+            "socialmedia": "www.linkedin.com/in/prasath-elumalai-42309463",
+            "sapcommunity": "https:",
+            "track": "Track 5",
+            "sessionseq": 3,
+            "tracktitle": "SAP Cloud Prodcuts 2"
+          },
+          {
+            "speakers": "Maclean Josh C",
+            "sessiontitle": "Concur",
+            "description": "Concur ",
+            "organization": "LTIMindtree Limited",
+            "socialmedia": "macleanjosh",
+            "track": "Track 6",
+            "sessionseq": 3,
+            "tracktitle": "Concur"
+          },
+          {
+            "speakers": "Saurabh Singh",
+            "sessiontitle": "Flexible Programming Model Makes SAP Fiori elements for OData V4 even easier to use",
+            "description": "While most apps at SAP fall into a few general categories, we have recently introduced the flexible programming model to allow applications that don't look like one of our standard SAP Fiori elements floorplans. The flexible programming model makes it easier to create or extend apps based on SAP Fiori elements for OData V4. In this session, we’ll show some of the new capabilities of this approach and how it will help you reduce development and maintenance time on the apps you create.",
+            "organization": "Sap Lab",
+            "socialmedia": "https://www.linkedin.com/in/ranjeet-kumar-8b8152b1/",
+            "track": "Track 7",
+            "sessionseq": 3,
+            "tracktitle": "SAP UX & Cross Topics"
+          },
+          {
+            "speakers": "Sujaya VK",
+            "sessiontitle": "Empower yourself, Empower women in tech!",
+            "description": "SAP Women in Tech is delighted to share that this session will help you to know the importance of empowering yourself along with empowering women in tech. Lets talk about how to build a supportive network, celebrate your achievements, mindful working and how to ignore the moments of self-doubt.  Join our session and lets discuss on various aspects of empowering yourself.",
+            "organization": "SAP Labs",
+            "socialmedia": "-",
+            "track": "Track 8",
+            "sessionseq": 3,
+            "tracktitle": "General & Cross SAP Topics"
+          }
+        ],
+        "sequence": "3",
+        "time": "11:30 - 11:55",
+        "type": "grid"
+      },
+      {
+        "sessionsByTrack": [
+          {
+            "speakers": "Jitendra Nene",
+            "sessiontitle": "SAP BTP Adoption for Public Cloud Implementation [TBD]",
+            "description": "SAP BTP Adoption for Public Cloud Implementation [TBD]",
+            "organization": "PRIMUS Techsystems",
+            "socialmedia": "-",
+            "track": "Track 1",
+            "sessionseq": 4,
+            "tracktitle": "SAP BTP General and Cross Topics"
+          },
+          {
+            "speakers": "Chaitanya Priya Puvvada ,Sunny Kapoor",
+            "sessiontitle": "Enterprise Automation with SAP (SAP Build+SAP Integration Suite+SAP Signavio)",
+            "description": "Accelerating Time to Business Impact\n\nLearn how SAP enterprise automation can help you automate business and IT processes faster.\n\nThe more you automate, the greater the impact. In this session, you can understand and act, automate completely, and accelerate impact. You’ll see: \n\t• Why traditional automation and RPA are only a part of the solution\n\t• How AI, process mining and analytics, and integration are critical\n\t• How SAP customers are creating value with enterprise automation \nSee a  demo of enterprise automation in action ",
+            "organization": "SAP",
+            "socialmedia": "https://www.linkedin.com/in/puvvada-chaitanya-priya-b1884617/, https://www.linkedin.com/in/sunny-kapoor-6a013129/",
+            "sapcommunity": "https://people.sap.com/chaitanyapriya.puvvada",
+            "track": "Track 2",
+            "sessionseq": 4,
+            "tracktitle": "Pro Code + Low Code + Integration"
+          },
+          {
+            "speakers": "Pooja Prakash, Sowmya Srinivasan",
+            "sessiontitle": "SAP BW bridge capabilities of SAP Datasphere",
+            "description": "A concept of providing SAP BW functionality in public cloud and to access SAP BW data model in SAP Datasphere.",
+            "organization": "Bosch Global Software technologies",
+            "socialmedia": "www.linkedin.com/in/pooja-p-8893a6109",
+            "track": "Track 3",
+            "sessionseq": 4,
+            "tracktitle": "SAP AI + Data to Value"
+          },
+          {
+            "speakers": "Vaibhav Kansal",
+            "sessiontitle": "Leveraging SAP Signavio business process modeling with SAP EWM​",
+            "description": "How Signavio business process modeling can be used with SAP EWM e.g. BPMN 2.0, Value chain diagrams, PFDs etc.",
+            "organization": "Tata Consultancy Services Ltd.",
+            "socialmedia": "www.linkedin.com/in/vaibhav-kansal",
+            "sapcommunity": "https://people.sap.com/vaibhav.kansal",
+            "track": "Track 4",
+            "sessionseq": 4,
+            "tracktitle": "SAP Cloud Products 1"
+          },
+          {
+            "speakers": "Rowllah T Basheer, Anand Behera",
+            "sessiontitle": "Intelligent Mobile Sales – SAP Sales Cloud v2",
+            "description": "SAP Sales Cloud Mobile App increases sales efficiency with intuitive, mobile friendly sales capabilities that prepare and empower connected selling. It helps streamline selling from anywhere with a purpose-built native application designed for intelligent and fast sales interactions. It allows to engage customers on the go with prescriptive recommendations, guided actions, and intelligent insights. And it provides quick access to activity and transactional data via native widgets.",
+            "organization": "SAP Labs",
+            "socialmedia": "-",
+            "track": "Track 5",
+            "sessionseq": 4,
+            "tracktitle": "SAP Cloud Prodcuts 2"
+          },
+          {
+            "speakers": "Arijt Garg, Shiva Kumar H S",
+            "sessiontitle": "Concur product strategy and roadmap",
+            "description": "Concur product strategy and roadmap",
+            "organization": "SAP Labs",
+            "socialmedia": "https://www.linkedin.com/in/gargarjit/",
+            "track": "Track 6",
+            "sessionseq": 4,
+            "tracktitle": "Concur"
+          },
+          {
+            "speakers": "Rai Kamal Saha, Abhijeet Singh Panwar",
+            "sessiontitle": "Unleashing Digital Workplace Experiences",
+            "description": "Too many apps with too many notifications can get distracting and overwhelming.\n\nSAP Build Work Zone is one solution, facilitating the rapid creation of engaging and personalized business sites.\n\nIt is available in two different editions - SAP Build Work Zone, standard edition (previously SAP Launchpad service)\nand SAP Build Work Zone, advanced edition (previously SAP Work Zone service). \n\nJoin this session to learn how SAP Build Zone is used as a single access point to applications, processes, and tasks .\n",
+            "organization": "SAP Labs India",
+            "socialmedia": "https://www.linkedin.com/in/rai-kamal-saha-644a7524/",
+            "sapcommunity": "https://people.sap.com/rai.kamal.saha",
+            "track": "Track 7",
+            "sessionseq": 4,
+            "tracktitle": "SAP UX & Cross Topics"
+          },
+          {
+            "speakers": "SHAIK AZMATHULLA",
+            "sessiontitle": "Would you like to become an Integration black belter?",
+            "description": "Integration Black Belt is an enabler program from SAP to become a subject matter expert in SAP’s integration technology and strategy. Learn about the various capabilities of SAP’s integration platform and learn best practices to effectively support your integration journey. It’s a technology knowledge program by SAP enterprise support value maps. \n\nSession Covers:\n•\tOverview On API-based Integration Architecture\n•\tUnderstand Integration Between SAP Lob Applications and SAP’s Integration Strategy\n•\tUnderstand Key Capabilities Of The SAP Integration Suite\n•\tUnderstand The Current Integration Challenge for Enterprise Architects\n",
+            "organization": "Himalaya Wellness Company ",
+            "socialmedia": "www.linkedin.com/in/shaik-azmathulla-685508b4",
+            "sapcommunity": "https://people.sap.com/azmathip",
+            "track": "Track 8",
+            "sessionseq": 4,
+            "tracktitle": "General & Cross SAP Topics"
+          }
+        ],
+        "sequence": "4",
+        "time": "12:05 - 12:30",
+        "type": "grid"
+      },
+      {
+        "sessionsByTrack": [
+          {
+            "speakers": "DUMMY Break",
+            "sessiontitle": "DUMMY Break",
+            "track": "Track 1",
+            "sessionseq": 4.1,
+            "tracktitle": "SAP BTP General and Cross Topics"
+          }
+        ],
+        "sequence": "4.1",
+        "time": "12:30 - 02:00",
+        "type": "break",
+        "tracktitle": "Lunch"
+      },
+      {
+        "sessionsByTrack": [
+          {
+            "speakers": "S2 Integrators [TBD]",
+            "sessiontitle": "S2 Integrators [TBD]",
+            "description": "S2 Integrators [TBD]",
+            "organization": "S2 Integrators",
+            "socialmedia": "-",
+            "track": "Track 1",
+            "sessionseq": 5,
+            "tracktitle": "SAP BTP General and Cross Topics"
+          },
+          {
+            "speakers": "Pavan Kumar Reddy",
+            "sessiontitle": "ABAP RESTful Programming Model (RAP) Developer Extensibility",
+            "description": "The topic gives an overview of RAP extensibility architecture, extension development artifacts such as BO interfaces, all available extensibility features and how to enable and develop RAP extensions such as data model extension, behavior extensions and node extensions. ",
+            "organization": "Booking Holdings",
+            "socialmedia": "https://www.linkedin.com/in/reddypavankumar/",
+            "sapcommunity": "https://people.sap.com/reddypavankumar",
+            "track": "Track 2",
+            "sessionseq": 5,
+            "tracktitle": "Pro Code + Low Code + Integration"
+          },
+          {
+            "speakers": "Narayana Kanamarlapudi",
+            "sessiontitle": "Live Demo on Developing & Integrating Datasphere Models into SAP Analytics Cloud",
+            "description": "In this session we will showcase how easy we can consume SAP Datasphere models into SAP Analytics cloud.",
+            "organization": "TATA Consultancy Services",
+            "socialmedia": "https://www.linkedin.com/in/narayana-kanamarlapudi-8581756a",
+            "track": "Track 3",
+            "sessionseq": 5,
+            "tracktitle": "SAP AI + Data to Value"
+          },
+          {
+            "speakers": "swapna borra",
+            "sessiontitle": "Subscription/ usage  based business ",
+            "description": "Billing revenue innovation management to  support subscription  based business",
+            "organization": "Verizon",
+            "socialmedia": "Swapna borra",
+            "track": "Track 4",
+            "sessionseq": 5,
+            "tracktitle": "SAP Cloud Products 1"
+          },
+          {
+            "speakers": "Phani Kumar Velakuchi",
+            "sessiontitle": "SAP Commerce Cloud & Backend Systems",
+            "description": "Strategy & Design Commerce Portal",
+            "organization": "Trelleborg Sealing Solutions",
+            "socialmedia": "https://www.linkedin.com/in/phani-kumar-b9506236/",
+            "sapcommunity": "Strategy & Design Commerce Portal",
+            "track": "Track 5",
+            "sessionseq": 5,
+            "tracktitle": "SAP Cloud Prodcuts 2"
+          },
+          {
+            "speakers": "Saurabh Tewari",
+            "sessiontitle": "Supporting Your Employees & Management Teams Through Actionable Insights & Unparalleled Services",
+            "description": "International SOS is in the business of saving lives, and protecting global workforces from health and security threats. The company is trusted by 9,500 organisations, including the majority of the Fortune Global 500 as well as mid-size enterprises, governments, educational institutions, and NGOs. 13,000 multi-cultural security, medical, logistics and digital experts to provide support & assistance from over 1,000 locations in 90 countries, 24/7, 365 days.",
+            "organization": "International SOS",
+            "socialmedia": "https://www.linkedin.com/in/saurabh-tewari-5415b3b/",
+            "track": "Track 6",
+            "sessionseq": 5,
+            "tracktitle": "Concur"
+          },
+          {
+            "speakers": "Praveen Kumar Padegal, Ajit Kumar Panda",
+            "sessiontitle": "Develop Generative AI applications using SAP BTP AI Core and Azure Open AI",
+            "description": "How to develop Generative AI applications using SAP BTP AI Core and Azure Open AI",
+            "organization": "SAP Labs India Pvt. Ltd.",
+            "socialmedia": "https://www.linkedin.com/in/praveenkumarpadegal/",
+            "sapcommunity": "https://people.sap.com/praveenpadegal",
+            "track": "Track 7",
+            "sessionseq": 5,
+            "tracktitle": "SAP UX & Cross Topics"
+          },
+          {
+            "speakers": "Joinal Ahmed",
+            "sessiontitle": "Intergate ML in your SAP Applications using ABAP ML SDK for Google Cloud",
+            "description": "In this session i will talk about the newly launched ABAP ML SDK for Google Cloud and its capabilities, and how ABAP developers can Intergate ML capabilities with existing SAP applications.",
+            "organization": "Google Cloud",
+            "socialmedia": "https://linkedin.com/in/joinalahmed",
+            "track": "Track 8",
+            "sessionseq": 5,
+            "tracktitle": "General & Cross SAP Topics"
+          }
+        ],
+        "sequence": "5",
+        "time": "02:00 - 02:25",
+        "type": "grid"
+      },
+      {
+        "sessionsByTrack": [
+          {
+            "speakers": "Partha Sarathi Goswami",
+            "sessiontitle": "SAP BTP CAP for Everyone: Empowering Pro Code & Low Code Developers, Technical & Solution Architects",
+            "description": "\n4. Simplifying the Understanding of Each Part of CAP Frameworks [Pro Coders]\n   - Breaking down each project file and mta.yaml to facilitate comprehension\n   - Providing insights and tips for efficient development using CAP for Pro Coders\n\n6. The Roadmap to Becoming a Pro-Code CAP Developer & Architect\n   - Outlining the learning path and resources for aspiring Pro-Code CAP Developers\n   - Suggesting career progression opportunities for CAP Architects",
+            "organization": "ACloudGuruji.com",
+            "socialmedia": "https://www.linkedin.com/in/parthasap/",
+            "sapcommunity": "https://people.sap.com/saptechengineer",
+            "track": "Track 1",
+            "sessionseq": 6,
+            "tracktitle": "SAP BTP General and Cross Topics"
+          },
+          {
+            "speakers": "Pamoli Banerjee",
+            "sessiontitle": "Overview of Event-Driven Architecture in SAP",
+            "description": "Overview of Event-Driven Architecture in SAP using Event Mesh",
+            "organization": "BearingPoint India",
+            "socialmedia": "Yes , no problem",
+            "sapcommunity": "https://www.linkedin.com/in/pamoli-banerjee-08a28a19/",
+            "track": "Track 2",
+            "sessionseq": 6,
+            "tracktitle": "Pro Code + Low Code + Integration"
+          },
+          {
+            "speakers": "Prasanna Bhat, Sudarshan Pavanje",
+            "sessiontitle": "SAP AI Business Document processing service. Overview, Vision with a Quick Demo",
+            "description": "SAP AI Business Document processing service. Overview, Vision with a Quick Demo",
+            "organization": "SAP Labs",
+            "socialmedia": "LN",
+            "track": "Track 3",
+            "sessionseq": 6,
+            "tracktitle": "SAP AI + Data to Value"
+          },
+          {
+            "speakers": "Abinash Routray",
+            "sessiontitle": "Managing & determining Responsibilities easily & centrally using S/4HANA Responsibility Management",
+            "description": "S/4HANA Responsibility Management helps today’s Intelligent Enterprises manage their Business Users’ responsibilities uniformly & centrally. It also helps determine the right agents/recipients to be notified for work items / events / situations occurring in their business processes. Customizing & extensibility has been provided out of the box in Responsibility Management.",
+            "organization": "SAP Labs India",
+            "socialmedia": "www.linkedin.com/in/abinashroutray",
+            "sapcommunity": "https://people.sap.com/abinash.routray",
+            "track": "Track 4",
+            "sessionseq": 6,
+            "tracktitle": "SAP Cloud Products 1"
+          },
+          {
+            "speakers": "Moumita Saha",
+            "sessiontitle": "Sap Sustainability Control Tower & ISSB updates",
+            "description": "ESG frameworks and future of SAP Sustainability reporting",
+            "organization": "Hitachi Vantara",
+            "socialmedia": "https://www.linkedin.com/in/moumitasaha7",
+            "sapcommunity": "https://people.sap.com/moumitasaha.thedatatherapist",
+            "track": "Track 5",
+            "sessionseq": 6,
+            "tracktitle": "SAP Cloud Prodcuts 2"
+          },
+          {
+            "speakers": "Raj Ahuja",
+            "sessiontitle": "Managing Cost & Compliance with T&E Process Transformation",
+            "description": "T&E Process Transformation by Deploying SAP Concur Expense",
+            "organization": "Capgemini",
+            "socialmedia": "https://in.linkedin.com/in/raj-ahuja-4955187?trk=public_post-text",
+            "track": "Track 6",
+            "sessionseq": 6,
+            "tracktitle": "Concur"
+          },
+          {
+            "speakers": "Shubham Johari",
+            "sessiontitle": "Design Eye Opener Mini",
+            "description": "SAP General Topic",
+            "organization": "Sap Lab",
+            "socialmedia": "https://www.linkedin.com/in/shubham-johari-58a92672/",
+            "track": "Track 7",
+            "sessionseq": 6,
+            "tracktitle": "SAP UX & Cross Topics"
+          },
+          {
+            "speakers": "Prasanth RJ, Karthick Chandrasekaran",
+            "sessiontitle": "HXM Best Practices for 3rd Party Integrations & SAP BTP Extensions Development",
+            "description": "HXM - Reliability, Observability & Multi Cloud Orchestration",
+            "organization": "SAP Labs",
+            "socialmedia": "-",
+            "track": "Track 8",
+            "sessionseq": 6,
+            "tracktitle": "General & Cross SAP Topics"
+          }
+        ],
+        "sequence": "6",
+        "time": "02:35 - 03:00",
+        "type": "grid"
+      },
+      {
+        "sessionsByTrack": [
+          {
+            "speakers": "DUMMY Break",
+            "sessiontitle": "DUMMY Break",
+            "track": "Track 1",
+            "sessionseq": 6.1,
+            "tracktitle": "SAP BTP General and Cross Topics"
+          }
+        ],
+        "sequence": "6.1",
+        "time": "03:00 - 03:30",
+        "type": "break",
+        "tracktitle": "Break and Netwokring"
+      },
+      {
+        "sessionsByTrack": [
+          {
+            "speakers": "Raja Prasad Gupta",
+            "sessiontitle": "DevOps with SAP BTP",
+            "description": "The session will include overview of SAP BTP DevOps portfolio, understanding different BTP services and frameworks around DevOps. Participants will also learn how an end-to-end DevOps in SAP BTP works. \r\nThis session will be a great opportunity to get yourself up to speed and ready to embark your DevOps journey with SAP BTP.",
+            "organization": "SAP",
+            "socialmedia": "https://www.linkedin.com/in/raja-gupta\nhttps://twitter.com/rajagupta20",
+            "sapcommunity": "https://people.sap.com/rajaprasad.gupta",
+            "track": "Track 1",
+            "sessionseq": 7,
+            "tracktitle": "SAP BTP General and Cross Topics"
+          },
+          {
+            "speakers": "Mrutyunjay Padmasali Sidda, Naga Durga Krishna Mohan Eaty",
+            "sessiontitle": "Migration tool in Cloud Integration Capability to migrate integration artifacts from SAP Process Orchestration to SAP Integration Suite",
+            "description": "Migration Tooling is a feature in the Cloud Integration capability of the SAP Integration Suite that enables you to semi-automate the migrations of integration scenarios from SAP Process Orchestration (PO) to SAP Integration Suite. In the session, we will explain the high-level architecture of the migration tool. In addition to this, we will show case end to end demo which will cover how to leverage migration assessment capability of SAP Integration suite to assess whether the scenario is migratable or not and how much effort is required for the migration. We will also cover the usage of the migration tool feature of Cloud integration capability which will essentially migrate the PO artifacts in a semi-automatic way which will drastically reduce the effort required for the migration. ",
+            "organization": "SAP Labs India Pvt Ltd.",
+            "socialmedia": "https://www.linkedin.com/in/kamlesh-zanje-8ab433a/",
+            "sapcommunity": "https://people.sap.com/kamlesh.zanje",
+            "track": "Track 2",
+            "sessionseq": 7,
+            "tracktitle": "Pro Code + Low Code + Integration"
+          },
+          {
+            "speakers": "Srivathsa Gunda Dixit, Vishal Mour",
+            "sessiontitle": "SAP AI core and AI Launchpad Overview Session",
+            "description": "SAP AI core and AI Launchpad Overview Session",
+            "organization": "SAP Labs",
+            "socialmedia": "-",
+            "track": "Track 3",
+            "sessionseq": 7,
+            "tracktitle": "SAP AI + Data to Value"
+          },
+          {
+            "speakers": "Deepika HM",
+            "sessiontitle": "Automate a Procurement Business Process using SAP Build Process Automation",
+            "description": "Automate repetitive manual tasks within SAP Ariba solutions and SAP S/4HANA using pre-built content and connectors with SAP Build Process Automation.",
+            "organization": "Cognizant",
+            "socialmedia": "linkedin.com/in/deepika-hirematt-68040b198",
+            "sapcommunity": "https://people.sap.com/deepika_hm",
+            "track": "Track 4",
+            "sessionseq": 7,
+            "tracktitle": "SAP Cloud Products 1"
+          },
+          {
+            "speakers": "Richa Grover",
+            "sessiontitle": "IKEA's Journey with SuccessFactors",
+            "description": "Overview of IKEA transformation journey with Success Factor ",
+            "organization": "IKEA",
+            "socialmedia": "https://www.linkedin.com/in/richa-grover-960b3915/",
+            "sapcommunity": "https://people.sap.com/richa.grover",
+            "track": "Track 5",
+            "sessionseq": 7,
+            "tracktitle": "SAP Cloud Prodcuts 2"
+          },
+          {
+            "speakers": "Poonam Nikat",
+            "sessiontitle": "Cybersecurity best practices for S4 HANA and BTP",
+            "description": "The topic explains about best cyber practices one should follow while implementing and using SAP products (especially SAP S4, BTP and other cloud solutions). These practices might be evident and easy to implement with other java based or cloud systems with SAP ABAP systems, but it comes with its challenges due to the proprietorship of SAP products / their codes. The topic will explain some key aspects of those security checks, specifically in terms of SAP systems",
+            "organization": "Mindset Consulting",
+            "socialmedia": "https://www.linkedin.com/in/pnikat09/",
+            "track": "Track 7",
+            "sessionseq": 7,
+            "tracktitle": "SAP UX & Cross Topics"
+          },
+          {
+            "speakers": "Ganga Koli, Shashidhar Moudgal",
+            "sessiontitle": "Customer experience with using Tricentis Tools with SAP applications for Quality Engineering",
+            "description": "Usage experience with Tricentis Tools in the SAP programs of Mercedes Benz:\nTosca - Test automation\nLive Compare - Impact analysis\nNeoLoad - Performance testing",
+            "organization": "Mercedes Benz Research & Development India ltd",
+            "socialmedia": "Yes",
+            "track": "Track 8",
+            "sessionseq": 7,
+            "tracktitle": "General & Cross SAP Topics"
+          }
+        ],
+        "sequence": "7",
+        "time": "03:30 - 03:55",
+        "type": "grid"
+      },
+      {
+        "sessionsByTrack": [
+          {
+            "speakers": "Krishna Kishor Kammaje",
+            "sessiontitle": "Contributing to SAP Community: What's in it for you and How to get Started?",
+            "description": "Contributing to SAP Community: What's in it for you and How to get Started?",
+            "organization": "ConvergentIS",
+            "socialmedia": "-",
+            "track": "Track 1",
+            "sessionseq": 8,
+            "tracktitle": "SAP BTP General and Cross Topics"
+          },
+          {
+            "speakers": "Vikas Kumar Gupta, Kushagra Mishra",
+            "sessiontitle": "Create Mobile Apps with a few clicks - Leveraging SAP Build",
+            "description": "With the constraint of time in today's fast paced world, it has become important to create quick applications for client approvals. Recently our team created a mobile app within 2 weeks from design to distribute with backend integration. The EY ERA app built using SAP Build is already available on Google play and Apple app store.    ",
+            "organization": "EY",
+            "socialmedia": "https://www.linkedin.com/in/vikas-gupta-a2855092/, https://www.linkedin.com/in/kushagra-mishra-685a8717/",
+            "sapcommunity": "https://people.sap.com/vikastechgupta",
+            "track": "Track 2",
+            "sessionseq": 8,
+            "tracktitle": "Pro Code + Low Code + Integration"
+          },
+          {
+            "speakers": "Syambabu Allu",
+            "sessiontitle": " SAP Master Data Integration for the Intelligent Enterprise",
+            "description": "We will explore the key concepts of master data integration and its role as a fundamental building block in achieving an Intelligent Enterprise. We will discuss the challenges organizations encounter when handling diverse and dispersed data sources and how SAP's integrated solutions offer seamless data harmonization.",
+            "organization": "Tata Consultancy Services",
+            "socialmedia": "https://linktr.ee/syambabuallu",
+            "sapcommunity": "https://people.sap.com/syambabu.allu",
+            "track": "Track 3",
+            "sessionseq": 8,
+            "tracktitle": "SAP AI + Data to Value"
+          },
+          {
+            "speakers": "Ranjeet Kumar, Vasantha S",
+            "sessiontitle": "All new extended Situation Handling in S/4HANA ",
+            "description": "The new age Situation handling framework comes with an extended framework of Situation Handling concepts and supports customers in creating custom situations. In this session let us see an end-to-end demo of how customers can create the entire Situation scenario from the start.",
+            "organization": "Sap Labs India",
+            "socialmedia": "https://www.linkedin.com/in/ranjeet-kumar-8b8152b1/",
+            "track": "Track 4",
+            "sessionseq": 8,
+            "tracktitle": "SAP Cloud Products 1"
+          },
+          {
+            "speakers": "Satheeshkumar D",
+            "sessiontitle": "SAP S/4HANA Public Cloud Implementation Experience",
+            "description": "This was one of the first public cloud implementation with all core module.Can share the Experience ",
+            "organization": "Deloitte",
+            "socialmedia": "https://www.linkedin.com/in/dskumar2000/",
+            "sapcommunity": "https://people.sap.com/dskumar_2000",
+            "track": "Track 5",
+            "sessionseq": 8,
+            "tracktitle": "SAP Cloud Prodcuts 2"
+          },
+          {
+            "speakers": "Savithaa Rajendran",
+            "sessiontitle": "Cyclic Action Research: Experiences and Best Practices from Oil and Gas Field Logistics",
+            "description": "For Upstream Field Logistics in the Oil and Gas area, in collaboration with our consortium of customers including Shell, BP, Inpex, ConocoPhillips and Chevron, we conducted remote research at each stage of the design process. This includes requirements gathering, conceptual walkthroughs, usability testing and follow-up post implementation remote Usability Testing. The process matches the 5 stages of Action Research Cycle: diagnosing, action planning, action taking, evaluating and specifying learning.",
+            "organization": "Sap Lab",
+            "socialmedia": "https://www.linkedin.com/in/savithaar/",
+            "track": "Track 7",
+            "sessionseq": 8,
+            "tracktitle": "SAP UX & Cross Topics"
+          },
+          {
+            "speakers": "Anjitha KA",
+            "sessiontitle": "Strategies for Effective Communication: Speaking and Writing with Success",
+            "description": "Strategies for Effective Communication: Speaking and Writing with Success",
+            "organization": "SAP Labs",
+            "socialmedia": "-",
+            "track": "Track 8",
+            "sessionseq": 8,
+            "tracktitle": "General & Cross SAP Topics"
+          }
+        ],
+        "sequence": "8",
+        "time": "04:05 - 04:30",
+        "type": "grid"
+      },
+      {
+        "sessionsByTrack": [
+          {
+            "speakers": "DUMMY Break",
+            "sessiontitle": "DUMMY Break",
+            "track": "Track 1",
+            "sessionseq": 8.1,
+            "tracktitle": "SAP BTP General and Cross Topics"
+          }
+        ],
+        "sequence": "8.1",
+        "time": "04:00 - 05:00",
+        "type": "break",
+        "tracktitle": "Speaker Recognitions and Giveaways"
+      }
+    ]
+    ,
+    "tracks": [
+      {
+        "trackId": "1",
         "active": true,
-        "register": "https://google.com",
-        "hostId": 1,
-        "agenda": "",
+        "trackName": "SAP BTP General and Cross Topics",
         "sessions": [
-            {
-                "title": "10:00 AM - 10:25 AM",
-                "type": "grid",
-                "tracks": [
-                    {
-                        "trackid": "Track 1",
-                        "tracktitle" : "SAP BTP General and Cross Topics",
-                        "sessiontitle": "SAP BTP and Data to Value Strategy",
-                        "speakers": "Dharani Karthikeyan (SAP labs)"
-                    },
-                    {
-                        "trackid": "Track 2",
-                        "tracktitle" : "Pro Code + Low Code + Integration",
-                        "sessiontitle": "Using SAP Build Process Automation Pre-packaged Content to Accelerate Application Development",
-                        "speakers": "Archana Shukla (SAP labs)"
-                    },
-                    {
-                        "trackid": "Track 3",
-                        "tracktitle" : "Data-to-Value + A.I",
-                        "sessiontitle": "Reusable AI Assets. A look at reusable AI assets from SAP",
-                        "speakers": "Prasanna Bhat (SAP labs)"
-                    },
-                    {
-                        "trackid": "",
-                        "tracktitle" : "SAP Cloud Products 1",
-                        "sessiontitle": "Insights into Value Chain using Modern Architecture: calculation of CO2e",
-                        "speakers": "Sanil Bhandari (SAP labs)"
-                    },
-                    {
-                        "trackid": "",
-                        "tracktitle" : "SAP Cloud Products 2",
-                        "sessiontitle": "Get the latest outlook of SAP Cloud ALM for Implementation",
-                        "speakers": "Sonal Kumar, Umesh Jagadesh (SAP labs)"
-                    },
-                    {
-                        "trackid": "",
-                        "tracktitle" : "SAP Concur",
-                        "sessiontitle": "Concur Welcome, Keynote, Product Direction and beyond",
-                        "speakers": "Srivatsan Santhanam, Priyam Pandia, Amruta Mohanty (SAP labs)"
-                    },
-                    {
-                        "trackid": "",
-                        "tracktitle" : "SAP UX & Cross Topics",
-                        "sessiontitle": "Global Search",
-                        "speakers": "Roohi Ganatra (SAP labs)"
-                    },
-                    {
-                        "trackid": "",
-                        "tracktitle" : "SAP Community & Cross Topics",
-                        "sessiontitle": "ABAP - Open to All!",
-                        "speakers": "Mainak Aich (VS&Co)"
-                    }
-                ]
-            },
-            {   
-                "title": "10:35 AM - 11:00 AM",
-                "type": "grid",
-                "tracks": [
-                    {
-                        "tracktitle" : "SAP BTP General and Cross Topics",
-                        "sessiontitle": "SAP BTP Governance, Security and Best Practices",
-                        "speakers": "Nagesh Caparthy (SAP labs)"
-                    },
-                    {
-                        "tracktitle" : "Pro Code + Low Code + Integration",
-                        "sessiontitle": "ABAP for S4HANA Cloud & Extensibility using SAP Extensibility Explorer",
-                        "speakers": "Nagashiva Shankar Kona (SAP labs)"
-                    },
-                    {
-                        "tracktitle" : "Data-to-Value + A.I",
-                        "sessiontitle": "Overview of SAP Datasphere - Capabilities and Model Data Journey",
-                        "speakers": "Siddhant Mahapatra(SAP labs)"
-                    },
-                    {
-                        "tracktitle" : "SAP Cloud Products 1",
-                        "sessiontitle": "ICMR in Group Reporting",
-                        "speakers": "Sridevi Sridharan(Résoudre Des Solution Informatiques )"
-                    },
-                    {
-                        "tracktitle" : "SAP Cloud Products 2",
-                        "sessiontitle": "RISE with SAP on AWS",
-                        "speakers": "Balamurali Muraleedharan(AWS/Amazon Web Services)"
-                    },
-                    {
-                        "tracktitle" : "SAP UX & Cross Topics",
-                        "sessiontitle": "Flexible Programming Model Makes SAP Fiori elements for OData V4 even easier to use",
-                        "speakers": "Saurabh Singh (SAP labs)"
-                    },
-                    {
-                        "tracktitle" : "SAP Community & Cross Topics",
-                        "sessiontitle": "Would you like to become an Integration black belter?",
-                        "speakers": "Shaik Azamthulla(Himalaya Wellness Company)"
-                    }
-                ]
-            },
-            {   
-                "title": "11:00 AM - 11:30 AM",
-                "type": "break",
-                "tracks": [
-                    {
-                        "tracktitle" : "Time for tea and fun talk",
-                        "sessiontitle": "",
-                        "speakers": ""
-                    }
-                ]
-            },
-            {   
-                "title": "11:30 AM - 11:55 AM",
-                "type": "grid",
-                "tracks": [
-                    {
-                        "tracktitle" : "SAP BTP General and Cross Topics",
-                        "sessiontitle": "SAP Buseinss AI and Generative AI Strategy",
-                        "speakers": "Rahul Lodhe (SAP labs)"
-                    },
-                    {
-                        "tracktitle" : "Pro Code + Low Code + Integration",
-                        "sessiontitle": "Storyboard in CAP : The Low-Code Application Development Way",
-                        "speakers": "Subhajit Das, Aryan Raj Singh (SAP labs)"
-                    },
-                    {
-                        "tracktitle" : "Data-to-Value + A.I",
-                        "sessiontitle": "[DataToValue TBD]",
-                        "speakers": "(Mercedes Benz Research & Development India ltd)"
-                    },
-                    {
-                        "tracktitle" : "SAP Cloud Products 1",
-                        "sessiontitle": "Rise with SAP Offering highlights",
-                        "speakers": "Prashant Ganganagoudar, Sagar Nemani(Bosch)"
-                    },
-                    {
-                        "tracktitle" : "SAP UX & Cross Topics",
-                        "sessiontitle": "Design Harmonisation",
-                        "speakers": "Varsha Jadhav, Deviprasad Kaplieshwari (SAP labs)"
-                    },
-                    {
-                        "tracktitle" : "SAP Community & Cross Topics",
-                        "sessiontitle": "[Women in Tech Session]",
-                        "speakers": "Sujaya VK (SAP Labs)"
-                    }
-                ]
-            },
-            {   
-                "title": "12:05 PM - 12:30 PM",
-                "type": "grid",
-                "tracks": [
-                    {
-                        "tracktitle" : "SAP BTP General and Cross Topics",
-                        "sessiontitle": "SAP BTP Adoption for Public Cloud Implementation [TBD]",
-                        "speakers": "Jitendra Nene (Primus Tech Sys)"
-                    },
-                    {
-                        "tracktitle" : "Pro Code + Low Code + Integration",
-                        "sessiontitle": "ABAP RESTful Programming Model (RAP) Developer Extensibility",
-                        "speakers": "Pavan Kumar Reddy (Booking Holdings)"
-                    },
-                    {
-                        "tracktitle" : "Data-to-Value + A.I",
-                        "sessiontitle": "SAP BW Bridge Capabilities of SAP Datasphere",
-                        "speakers": "Pooja Prakash, Sowmya Srinivasan(Bosch)"
-                    },
-                    {
-                        "tracktitle" : "SAP Cloud Products 1",
-                        "sessiontitle": "Leveraging SAP Signavio business process modeling with SAP EWM​",
-                        "speakers": "Vaibhav Kansal(TCS)"
-                    },
-                    {
-                        "tracktitle" : "SAP Cloud Products 2",
-                        "sessiontitle": "HXM Best Practices for 3rd Party Integrations & SAP BTP Extensions Development",
-                        "speakers": "Prasanth RJ, Karthick Chandrasekaran(SAP Labs)"
-                    },
-                    {
-                        "tracktitle" : "SAP UX & Cross Topics",
-                        "sessiontitle": "Unleashing Digital Workplace Experiences",
-                        "speakers": "Rai Kamal Saha, Abhijeet Singh Panwar (SAP labs)"
-                    },
-                    {
-                        "tracktitle" : "SAP Community & Cross Topics",
-                        "sessiontitle": "Fuelling Business Innovation Through SAP & Hyperscalers Joint Reference Architectures",
-                        "speakers": "Poonam Nikat(Mindset Consulting)"
-                    }
-                ]
-            },
-            {   
-                "title": "12:30 PM - 02:00 PM",
-                "type": "break",
-                "tracks": [
-                    {
-                        "tracktitle" : "Treat yourself with tasty lunch",
-                        "sessiontitle": "",
-                        "speakers": ""
-                    }
-                ]
-            },
-            {   
-                "title": "02:00 PM - 02:25 PM",
-                "type": "grid",
-                "tracks": [
-                    {
-                        "tracktitle" : "SAP BTP General and Cross Topics",
-                        "sessiontitle": "Enterprise Automation with SAP (SAP Build+SAP Integration Suite+SAP Signavio)",
-                        "speakers": "Chaitanya Priya Puvvada ,Sunny Kapoor (SAP labs)"
-                    },
-                    {
-                        "tracktitle" : "Pro Code + Low Code + Integration",
-                        "sessiontitle": "Overview of Event-Driven Architecture in SAP",
-                        "speakers": "Pamoli Banerjee (BearingPoint India)"
-                    },
-                    {
-                        "tracktitle" : "Data-to-Value + A.I",
-                        "sessiontitle": "Live Demo on Developing & Integrating Datasphere Models into SAP Analytics Cloud",
-                        "speakers": "Narayana Kanamarlapudi(TCS)"
-                    },
-                    {
-                        "tracktitle" : "SAP Cloud Products 1",
-                        "sessiontitle": "Subscription/ usage  based business",
-                        "speakers": "Swapna Borra(Verizon)"
-                    },
-                    {
-                        "tracktitle" : "SAP Cloud Products 2",
-                        "sessiontitle": "SAP Commerce Cloud & Backend Systems",
-                        "speakers": "Phani Kumar Velakuchi(Trelleborg Sealing Solutions)"
-                    },
-                    {
-                        "tracktitle" : "SAP UX & Cross Topics",
-                        "sessiontitle": "Develop Generative AI applications using SAP BTP AI Core and Azure Open AI",
-                        "speakers": "Praveen Padegal, Ajit Kumar Panda(SAP labs)"
-                    },
-                    {
-                        "tracktitle" : "SAP Community & Cross Topics",
-                        "sessiontitle": "Contributing to SAP Community: What's in it for you and How to get Started?",
-                        "speakers": "Krishna Kishor Kammaje(ConvergentIS)"
-                    }
-                ]
-            },
-            {   
-                "title": "02:35 PM - 03:00 PM",
-                "type": "grid",
-                "tracks": [
-                    {
-                        "tracktitle" : "SAP BTP General and Cross Topics",
-                        "sessiontitle": "S2 Integrators [TBD]",
-                        "speakers": "S2 Integrators [TBD](S2 Integrators)"
-                    },
-                    {
-                        "tracktitle" : "Pro Code + Low Code + Integration",
-                        "sessiontitle": "Migration tool in Cloud Integration Capability to migrate integration artifacts from SAP Process Orchestration to SAP Integration Suite",
-                        "speakers": "Mrutyunjay Padmasali Sidda, Naga Durga Krishna Mohan Eaty (SAP labs)"
-                    },
-                    {
-                        "tracktitle" : "Data-to-Value + A.I",
-                        "sessiontitle": "SAP AI Business Document processing service. Overview, Vision with a Quick Demo",
-                        "speakers": "Prasanna Bhat(SAP labs)"
-                    },
-                    {
-                        "tracktitle" : "SAP Cloud Products 1",
-                        "sessiontitle": "Managing responsibilities in Intelligent Enterprise",
-                        "speakers": "Abinash Routray(SAP Labs)"
-                    },
-                    {
-                        "tracktitle" : "SAP Cloud Products 2",
-                        "sessiontitle": "Sap Sustainability Control Tower & ISSB updates",
-                        "speakers": "Moumita Saha(Hitachi Vantara)"
-                    },
-                    {
-                        "tracktitle" : "SAP UX & Cross Topics",
-                        "sessiontitle": "Design Eye Opener Mini",
-                        "speakers": "Shubham Johari (SAP labs)"
-                    },
-                    {
-                        "tracktitle" : "SAP Community & Cross Topics",
-                        "sessiontitle": "Customer experience with using Tricentis Tools with SAP applications for Quality Engineering",
-                        "speakers": "Ganga Koli, Shashidhar Moudgal(Mercedes Benz Research & Development India ltd)"
-                    }
-                ]
-            },
-            {   
-                "title": "03:00 PM - 03:30 PM",
-                "type": "break",
-                "tracks": [
-                    {
-                        "tracktitle" : "Time for Break & Networking",
-                        "sessiontitle": "",
-                        "speakers": ""
-                    }
-                ]
-            },
-            {   
-                "title": "03:30 PM - 03:55 PM",
-                "type": "grid",
-                "tracks": [
-                    {
-                        "tracktitle" : "SAP BTP General and Cross Topics",
-                        "sessiontitle": "SAP BTP CAP for Everyone: Empowering Pro Code & Low Code Developers, Technical & Solution Architects",
-                        "speakers": "Partha Sarathi Goswami(ACloudGuruji)"
-                    },
-                    {
-                        "tracktitle" : "Pro Code + Low Code + Integration",
-                        "sessiontitle": "Create Mobile Apps with a few clicks - Leveraging SAP Build",
-                        "speakers": "Vikas Kumar Gupta, Kushagra Mishra(EY)"
-                    },
-                    {
-                        "tracktitle" : "Data-to-Value + A.I",
-                        "sessiontitle": "SAP AI core and AI Launchpad Overview Session",
-                        "speakers": "Srivathsa Gunda Dixit, Vishal Mour(SAP Labs)"
-                    },
-                    {
-                        "tracktitle" : "SAP Cloud Products 1",
-                        "sessiontitle": "Automate a Procurement Business Process using SAP Build Process Automation",
-                        "speakers": "Deepika HM(Cognizant)"
-                    },
-                    {
-                        "tracktitle" : "SAP Cloud Products 2",
-                        "sessiontitle": "IKEA's Journey with SuccessFactors",
-                        "speakers": "Richa Grover(IKEA)"
-                    },
-                    {
-                        "tracktitle" : "SAP UX & Cross Topics",
-                        "sessiontitle": "Cybersecurity best practices for S4 HANA and BTP",
-                        "speakers": "Poonam Nikat(Mindset Consulting)"
-                    },
-                    {
-                        "tracktitle" : "SAP Community & Cross Topics",
-                        "sessiontitle": "Strategies for Effective Communication: Speaking and Writing with Success",
-                        "speakers": "Anjitha KA(SAP Labs)"
-                    }
-                ]
-            },
-            {   
-                "title": "04:05 PM - 04:30 PM",
-                "type": "grid",
-                "tracks": [
-                    {
-                        "tracktitle" : "SAP BTP General and Cross Topics",
-                        "sessiontitle": "DevOps with SAP BTP",
-                        "speakers": "Raja Prasad Gupta(SAP labs)"
-                    },
-                    {
-                        "tracktitle" : "Pro Code + Low Code + Integration",
-                        "sessiontitle": "Intergate ML in your SAP Applications using ABAP ML SDK for Google Cloud",
-                        "speakers": "Joinal Ahmed(Google Cloud)"
-                    },
-                    {
-                        "tracktitle" : "Data-to-Value + A.I",
-                        "sessiontitle": "SAP Master Data Integration for the Intelligent Enterprise",
-                        "speakers": "Syambabu Allu(TCS)"
-                    },
-                    {
-                        "tracktitle" : "SAP Cloud Products 1",
-                        "sessiontitle": "All new extended Situation Handling in S/4HANA ",
-                        "speakers": "Ranjeet Kumar (SAP Labs)"
-                    },
-                    {
-                        "tracktitle" : "SAP Cloud Products 2",
-                        "sessiontitle": "SAP S/4HANA Public Cloud Implementation Experience",
-                        "speakers": "Satheeshkumar D(Deloitte)"
-                    },
-                    {
-                        "tracktitle" : "SAP UX & Cross Topics",
-                        "sessiontitle": "Cyclic Action Research: Experiences and Best Practices from Oil and Gas Field Logistics",
-                        "speakers": "Savithaa Rajendran(SAP Labs)"
-                    }
-                ]
-            },
-            {   
-                "title": "04:30 PM - 05:00 PM",
-                "type": "break",
-                "tracks": [
-                    {
-                        "tracktitle" : "Closing Ceremony, Recognitions & Give Aways",
-                        "sessiontitle": "",
-                        "speakers": ""
-                    }
-                ]
-            }
-        ],
-        "tracks": [
-            {
-                "trackId": "1",
-                "active": true,
-                "trackName": "SAP BTP General and Cross Topics",
-                "sessions": [
-                    {
-                        "id": "1",
-                        "title": "Registration and Networking",
-                        "abstract": "",
-                        "startTime": "08:00 AM",
-                        "endTime": "09:15 AM",
-                        "date": "28-Aug-2023",
-                        "speakers": ["1","2"]
-                    },
-                    {
-                        "id": "2",
-                        "title": "Keynote from Sindhu Gangadharan(SVP & MD, SAP Labs India | Head User Enablement",
-                        "abstract": "",
-                        "startTime": "09:15 AM",
-                        "endTime": "09:40 AM",
-                        "date": "28-Aug-2023",
-                        "speakers": ["1"]
-                    },
-                    {
-                        "id": "3",
-                        "title": "Developing multi tenant application with cloud application programming",
-                        "abstract": "",
-                        "startTime": "10:35 AM",
-                        "endTime": "11:05 AM",
-                        "date": "28-Aug-2023",
-                        "speakers": ["1"]
-                    },
-                    {
-                        "id": "4",
-                        "title": "",
-                        "abstract": "TEA",
-                        "startTime": "11:05 AM",
-                        "endTime": "11:35 AM",
-                        "date": "28-Aug-2023",
-                        "speakers": ["1"]
-                    },
-                    {
-                        "id": "5",
-                        "title": "Demystifying ABAP Cloud, SAP BTP ABAP Environment",
-                        "abstract": "",
-                        "startTime": "11:35 AM",
-                        "endTime": "12:05 AM",
-                        "date": "28-Aug-2023",
-                        "speakers": ["1"]
-                    },
-                    {
-                        "id": "6",
-                        "title": "",
-                        "abstract": "LUNCH",
-                        "startTime": "12:40 PM",
-                        "endTime": "01:15 PM",
-                        "date": "28-Aug-2023",
-                        "speakers": ["1"]
-                    },
-                    {
-                        "id": "7",
-                        "title": "Dev Ops with SAP BTP",
-                        "abstract": "",
-                        "startTime": "01:15 PM",
-                        "endTime": "02:30 PM",
-                        "date": "28-Aug-2023",
-                        "speakers": ["1"]
-                    }  
-                ]
-            },
-            {
-                "trackId": "2",
-                "active": false,
-                "trackName": "Pro Code + Low Code + Integration",
-                "sessions": [
-                    {
-                        "id": "1",
-                        "title": "Registration and Networking",
-                        "abstract": "",
-                        "startTime": "08:00 AM",
-                        "endTime": "09:15 AM",
-                        "date": "28-Aug-2023",
-                        "speakers": ["1","2"]
-                    },
-                    {
-                        "id": "2",
-                        "title": "Keynote from Sindhu Gangadharan(SVP & MD, SAP Labs India | Head User Enablement",
-                        "abstract": "",
-                        "startTime": "09:15 AM",
-                        "endTime": "09:40 AM",
-                        "date": "28-Aug-2023",
-                        "speakers": ["1"]
-                    },
-                    {
-                        "id": "3",
-                        "title": "Developing multi tenant application with cloud application programming",
-                        "abstract": "",
-                        "startTime": "10:35 AM",
-                        "endTime": "11:05 AM",
-                        "date": "28-Aug-2023",
-                        "speakers": ["1"]
-                    },
-                    {
-                        "id": "4",
-                        "title": "",
-                        "abstract": "TEA",
-                        "startTime": "11:05 AM",
-                        "endTime": "11:35 AM",
-                        "date": "28-Aug-2023",
-                        "speakers": ["1"]
-                    },
-                    {
-                        "id": "5",
-                        "title": "Demystifying ABAP Cloud, SAP BTP ABAP Environment",
-                        "abstract": "",
-                        "startTime": "11:35 AM",
-                        "endTime": "12:05 AM",
-                        "date": "28-Aug-2023",
-                        "speakers": ["1"]
-                    },
-                    {
-                        "id": "6",
-                        "title": "",
-                        "abstract": "LUNCH",
-                        "startTime": "12:40 PM",
-                        "endTime": "01:15 PM",
-                        "date": "28-Aug-2023",
-                        "speakers": ["1"]
-                    },
-                    {
-                        "id": "7",
-                        "title": "Dev Ops with SAP BTP",
-                        "abstract": "",
-                        "startTime": "01:15 PM",
-                        "endTime": "02:30 PM",
-                        "date": "28-Aug-2023",
-                        "speakers": ["1"]
-                    }  
-                ]
-            },
-            {
-                "trackId": "3",
-                "active": false,
-                "trackName": "Data-to-Value + A.I",
-                "sessions": []
-            },
-            {
-                "trackId": "4",
-                "active": false,
-                "trackName": "SAP Cloud Products 1",
-                "sessions": []
-            },
-            {
-                "trackId": "5",
-                "active": false,
-                "trackName": "SAP Cloud Prodcuts 2",
-                "sessions": []
-            },
-            {
-                "trackId": "6",
-                "active": false,
-                "trackName": "Concur",
-                "sessions": []
-            },
-            {
-                "trackId": "7",
-                "active": false,
-                "trackName": "SAP UX & Cross Topics",
-                "sessions": []
-            },
-            {
-                "trackId": "8",
-                "active": false,
-                "trackName": "SAP Community & Cross Topics",
-                "sessions": []
-            },
-            {
-                "trackId": "9",
-                "active": false,
-                "trackName": "Developer Hands On",
-                "sessions": []
-            }
-        ],
-        "sponsors": [
-            {
-                "id": 1,
-                "type": "Gold"
-            },
-            {
-                "id": 2,
-                "type": "Silver"
-            },
-            {
-                "id": 3,
-                "type": "Platinum"
-            }
-        ],
-        "organizers": [1,2,3],
-        "volunteers": [1,2]        
-    }
+          {
+            "id": "1",
+            "title": "Registration and Networking",
+            "abstract": "",
+            "startTime": "08:00 AM",
+            "endTime": "09:15 AM",
+            "date": "28-Aug-2023",
+            "speakers": [
+              "1",
+              "2"
+            ]
+          },
+          {
+            "id": "2",
+            "title": "Keynote from Sindhu Gangadharan(SVP & MD, SAP Labs India | Head User Enablement",
+            "abstract": "",
+            "startTime": "09:15 AM",
+            "endTime": "09:40 AM",
+            "date": "28-Aug-2023",
+            "speakers": [
+              "1"
+            ]
+          },
+          {
+            "id": "3",
+            "title": "Developing multi tenant application with cloud application programming",
+            "abstract": "",
+            "startTime": "10:35 AM",
+            "endTime": "11:05 AM",
+            "date": "28-Aug-2023",
+            "speakers": [
+              "1"
+            ]
+          },
+          {
+            "id": "4",
+            "title": "",
+            "abstract": "TEA",
+            "startTime": "11:05 AM",
+            "endTime": "11:35 AM",
+            "date": "28-Aug-2023",
+            "speakers": [
+              "1"
+            ]
+          },
+          {
+            "id": "5",
+            "title": "Demystifying ABAP Cloud, SAP BTP ABAP Environment",
+            "abstract": "",
+            "startTime": "11:35 AM",
+            "endTime": "12:05 AM",
+            "date": "28-Aug-2023",
+            "speakers": [
+              "1"
+            ]
+          },
+          {
+            "id": "6",
+            "title": "",
+            "abstract": "LUNCH",
+            "startTime": "12:40 PM",
+            "endTime": "01:15 PM",
+            "date": "28-Aug-2023",
+            "speakers": [
+              "1"
+            ]
+          },
+          {
+            "id": "7",
+            "title": "Dev Ops with SAP BTP",
+            "abstract": "",
+            "startTime": "01:15 PM",
+            "endTime": "02:30 PM",
+            "date": "28-Aug-2023",
+            "speakers": [
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "trackId": "2",
+        "active": false,
+        "trackName": "Pro Code + Low Code + Integration",
+        "sessions": [
+          {
+            "id": "1",
+            "title": "Registration and Networking",
+            "abstract": "",
+            "startTime": "08:00 AM",
+            "endTime": "09:15 AM",
+            "date": "28-Aug-2023",
+            "speakers": [
+              "1",
+              "2"
+            ]
+          },
+          {
+            "id": "2",
+            "title": "Keynote from Sindhu Gangadharan(SVP & MD, SAP Labs India | Head User Enablement",
+            "abstract": "",
+            "startTime": "09:15 AM",
+            "endTime": "09:40 AM",
+            "date": "28-Aug-2023",
+            "speakers": [
+              "1"
+            ]
+          },
+          {
+            "id": "3",
+            "title": "Developing multi tenant application with cloud application programming",
+            "abstract": "",
+            "startTime": "10:35 AM",
+            "endTime": "11:05 AM",
+            "date": "28-Aug-2023",
+            "speakers": [
+              "1"
+            ]
+          },
+          {
+            "id": "4",
+            "title": "",
+            "abstract": "TEA",
+            "startTime": "11:05 AM",
+            "endTime": "11:35 AM",
+            "date": "28-Aug-2023",
+            "speakers": [
+              "1"
+            ]
+          },
+          {
+            "id": "5",
+            "title": "Demystifying ABAP Cloud, SAP BTP ABAP Environment",
+            "abstract": "",
+            "startTime": "11:35 AM",
+            "endTime": "12:05 AM",
+            "date": "28-Aug-2023",
+            "speakers": [
+              "1"
+            ]
+          },
+          {
+            "id": "6",
+            "title": "",
+            "abstract": "LUNCH",
+            "startTime": "12:40 PM",
+            "endTime": "01:15 PM",
+            "date": "28-Aug-2023",
+            "speakers": [
+              "1"
+            ]
+          },
+          {
+            "id": "7",
+            "title": "Dev Ops with SAP BTP",
+            "abstract": "",
+            "startTime": "01:15 PM",
+            "endTime": "02:30 PM",
+            "date": "28-Aug-2023",
+            "speakers": [
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "trackId": "3",
+        "active": false,
+        "trackName": "Data-to-Value + A.I",
+        "sessions": []
+      },
+      {
+        "trackId": "4",
+        "active": false,
+        "trackName": "SAP Cloud Products 1",
+        "sessions": []
+      },
+      {
+        "trackId": "5",
+        "active": false,
+        "trackName": "SAP Cloud Prodcuts 2",
+        "sessions": []
+      },
+      {
+        "trackId": "6",
+        "active": false,
+        "trackName": "Concur",
+        "sessions": []
+      },
+      {
+        "trackId": "7",
+        "active": false,
+        "trackName": "SAP UX & Cross Topics",
+        "sessions": []
+      },
+      {
+        "trackId": "8",
+        "active": false,
+        "trackName": "SAP Community & Cross Topics",
+        "sessions": []
+      },
+      {
+        "trackId": "9",
+        "active": false,
+        "trackName": "Developer Hands On",
+        "sessions": []
+      }
+    ],
+    "sponsors": [
+      {
+        "id": 1,
+        "type": "Gold"
+      },
+      {
+        "id": 2,
+        "type": "Silver"
+      },
+      {
+        "id": 3,
+        "type": "Platinum"
+      }
+    ],
+    "organizers": [
+      1,
+      2,
+      3
+    ],
+    "volunteers": [
+      1,
+      2
+    ]
+  }
 ]
