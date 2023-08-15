@@ -62,9 +62,9 @@ const Home = () => {
         filteredData.sessions.forEach(function(item){
             if(item.type === "grid"){
                 var filtSessionsByTrack = item.sessionsByTrack.filter(function(el){
-                    return el.description.toLowerCase().includes(query) || 
-                        el.sessiontitle.toLowerCase().includes(query) ||
-                        el.track.toLowerCase().includes(query);
+                    return el.description.toLowerCase().includes(query.toLowerCase()) || 
+                        el.sessiontitle.toLowerCase().includes(query.toLowerCase()) ||
+                        el.track.toLowerCase().includes(query.toLowerCase());
                 }
               );
             }else{
