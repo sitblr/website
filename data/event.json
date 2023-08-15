@@ -12,18 +12,19 @@
     "register": "https://www.eventbrite.com/e/sap-inside-track-bengaluru-august-19th-2023-tickets-672925065987?aff=oddtdtcreator",
     "hostId": 1,
     "agenda": "",
-    "sessions": [
+    "sessions":
+    [
       {
         "sessionsByTrack": [
           {
             "speakers": "Dharani Karthikeyan",
-            "sessiontitle": "SAP BTP and Data-2-Value Strategy [To Be Updated]",
-            "description": "SAP BTP and Data-2-Value Strategy [To Be Updated]",
+            "sessiontitle": "SAP BTP and Data to Value Strategy",
+            "description": "SAP BTP and Data-2-Value Strategy",
             "organization": "SAP Labs",
             "socialmedia": "-",
             "track": "Track 1",
             "sessionseq": 1,
-            "tracktitle": "dummyWillBeUpdated"
+            "tracktitle": "SAP BTP General and Cross Topics"
           },
           {
             "speakers": "Archana Shukla",
@@ -34,7 +35,7 @@
             "sapcommunity": "https://people.sap.com/archana.shukla",
             "track": "Track 2",
             "sessionseq": 1,
-            "tracktitle": "dummyWillBeUpdated"
+            "tracktitle": "Pro Code + Low Code + Integration"
           },
           {
             "speakers": "Prasanna Bhat, Sudarshan Pavanje",
@@ -44,7 +45,7 @@
             "socialmedia": "linkedin",
             "track": "Track 3",
             "sessionseq": 1,
-            "tracktitle": "dummyWillBeUpdated"
+            "tracktitle": "SAP AI + Data to Value"
           },
           {
             "speakers": "Sanil Bhandari",
@@ -55,7 +56,7 @@
             "sapcommunity": "https://people.sap.com/sanil0309",
             "track": "Track 4",
             "sessionseq": 1,
-            "tracktitle": "dummyWillBeUpdated"
+            "tracktitle": "SAP Cloud Products 1"
           },
           {
             "speakers": "Sonal Kumar, Umesh Jagadesh",
@@ -65,7 +66,7 @@
             "socialmedia": "-",
             "track": "Track 5",
             "sessionseq": 1,
-            "tracktitle": "dummyWillBeUpdated"
+            "tracktitle": "SAP Cloud Prodcuts 2"
           },
           {
             "speakers": "Omprakash H",
@@ -75,7 +76,7 @@
             "socialmedia": "https://www.linkedin.com/in/omprakashh/",
             "track": "Track 6",
             "sessionseq": 1,
-            "tracktitle": "dummyWillBeUpdated"
+            "tracktitle": "Concur"
           },
           {
             "speakers": "Roohi Ganatra",
@@ -85,7 +86,7 @@
             "socialmedia": "https://www.linkedin.com/in/roohi-ganatra-47027a25/",
             "track": "Track 7",
             "sessionseq": 1,
-            "tracktitle": "dummyWillBeUpdated"
+            "tracktitle": "SAP UX & Cross Topics"
           },
           {
             "speakers": "Mainak Aich",
@@ -96,7 +97,7 @@
             "sapcommunity": "https://people.sap.com/mainak-aich",
             "track": "Track 8",
             "sessionseq": 1,
-            "tracktitle": "dummyWillBeUpdated"
+            "tracktitle": "General & Cross SAP Topics"
           }
         ],
         "sequence": "1",
@@ -114,7 +115,7 @@
             "sapcommunity": "https://people.sap.com/nagesh.caparthy2",
             "track": "Track 1",
             "sessionseq": 2,
-            "tracktitle": "dummyWillBeUpdated"
+            "tracktitle": "SAP BTP General and Cross Topics"
           },
           {
             "speakers": "Nagashiva Shankar Kona, Vijay Chinterlapalli",
@@ -125,7 +126,7 @@
             "sapcommunity": "https://people.sap.com/k_nagashivashankar",
             "track": "Track 2",
             "sessionseq": 2,
-            "tracktitle": "dummyWillBeUpdated"
+            "tracktitle": "Pro Code + Low Code + Integration"
           },
           {
             "speakers": "Siddhant Mahapatra, Jitendra Ghanta",
@@ -135,7 +136,7 @@
             "socialmedia": "https://www.linkedin.com/in/siddhantmahapatra/",
             "track": "Track 3",
             "sessionseq": 2,
-            "tracktitle": "dummyWillBeUpdated"
+            "tracktitle": "SAP AI + Data to Value"
           },
           {
             "speakers": "Sridevi Sridharan ",
@@ -145,7 +146,7 @@
             "socialmedia": "https://www.linkedin.com/in/sridevi-sridharan-94824016b",
             "track": "Track 4",
             "sessionseq": 2,
-            "tracktitle": "dummyWillBeUpdated"
+            "tracktitle": "SAP Cloud Products 1"
           },
           {
             "speakers": "Balamurali Muraleedharan ",
@@ -155,7 +156,7 @@
             "socialmedia": "www.linkedin.com/in/bala-sap",
             "track": "Track 5",
             "sessionseq": 2,
-            "tracktitle": "dummyWillBeUpdated"
+            "tracktitle": "SAP Cloud Prodcuts 2"
           },
           {
             "speakers": "Komal Nalawade",
@@ -166,7 +167,7 @@
             "sapcommunity": "NA",
             "track": "Track 6",
             "sessionseq": 2,
-            "tracktitle": "dummyWillBeUpdated"
+            "tracktitle": "Concur"
           },
           {
             "speakers": "Varsha Jadhav, Deviprasad Kaplieshwari",
@@ -176,7 +177,7 @@
             "socialmedia": "https://www.linkedin.com/in/varshaj/",
             "track": "Track 7",
             "sessionseq": 2,
-            "tracktitle": "dummyWillBeUpdated"
+            "tracktitle": "SAP UX & Cross Topics"
           },
           {
             "speakers": "Juhi Kulshreshtha",
@@ -187,7 +188,7 @@
             "sapcommunity": "https://people.sap.com/juhik2003",
             "track": "Track 8",
             "sessionseq": 2,
-            "tracktitle": "dummyWillBeUpdated"
+            "tracktitle": "General & Cross SAP Topics"
           }
         ],
         "sequence": "2",
@@ -201,7 +202,7 @@
             "sessiontitle": "DUMMY Break",
             "track": "Track 1",
             "sessionseq": 2.1,
-            "tracktitle": "dummyWillBeUpdated"
+            "tracktitle": "SAP BTP General and Cross Topics"
           }
         ],
         "sequence": "2.1",
@@ -214,12 +215,12 @@
           {
             "speakers": "Rahul Lodhe",
             "sessiontitle": "SAP Buseinss AI and Generative AI Strategy",
-            "description": "SAP AI and Generative AI Strategy [To be Changed]",
+            "description": "SAP AI and Generative AI Strategy",
             "organization": "SAP Labs",
             "socialmedia": "-",
             "track": "Track 1",
             "sessionseq": 3,
-            "tracktitle": "dummyWillBeUpdated"
+            "tracktitle": "SAP BTP General and Cross Topics"
           },
           {
             "speakers": "Subhajit Das, Aryan Raj Singh",
@@ -230,7 +231,7 @@
             "sapcommunity": "https://people.sap.com/subh4171",
             "track": "Track 2",
             "sessionseq": 3,
-            "tracktitle": "dummyWillBeUpdated"
+            "tracktitle": "Pro Code + Low Code + Integration"
           },
           {
             "speakers": "Ratnesh Sonawane",
@@ -241,7 +242,7 @@
             "sapcommunity": "https://people.sap.com/ratnesh.sonawane",
             "track": "Track 3",
             "sessionseq": 3,
-            "tracktitle": "dummyWillBeUpdated"
+            "tracktitle": "SAP AI + Data to Value"
           },
           {
             "speakers": "Prashant Ganganagoudar, Nemani Sagar",
@@ -252,7 +253,7 @@
             "sapcommunity": "https://people.sap.com/ag.prashanth",
             "track": "Track 4",
             "sessionseq": 3,
-            "tracktitle": "dummyWillBeUpdated"
+            "tracktitle": "SAP Cloud Products 1"
           },
           {
             "speakers": "Prasath E",
@@ -263,7 +264,7 @@
             "sapcommunity": "https:",
             "track": "Track 5",
             "sessionseq": 3,
-            "tracktitle": "dummyWillBeUpdated"
+            "tracktitle": "SAP Cloud Prodcuts 2"
           },
           {
             "speakers": "Maclean Josh C",
@@ -273,7 +274,7 @@
             "socialmedia": "macleanjosh",
             "track": "Track 6",
             "sessionseq": 3,
-            "tracktitle": "dummyWillBeUpdated"
+            "tracktitle": "Concur"
           },
           {
             "speakers": "Saurabh Singh",
@@ -283,17 +284,17 @@
             "socialmedia": "https://www.linkedin.com/in/ranjeet-kumar-8b8152b1/",
             "track": "Track 7",
             "sessionseq": 3,
-            "tracktitle": "dummyWillBeUpdated"
+            "tracktitle": "SAP UX & Cross Topics"
           },
           {
             "speakers": "Sujaya VK",
-            "sessiontitle": "[Women in Tech Session]",
-            "description": "[Women in Tech Session]",
+            "sessiontitle": "Empower yourself, Empower women in tech!",
+            "description": "SAP Women in Tech is delighted to share that this session will help you to know the importance of empowering yourself along with empowering women in tech. Lets talk about how to build a supportive network, celebrate your achievements, mindful working and how to ignore the moments of self-doubt.  Join our session and lets discuss on various aspects of empowering yourself.",
             "organization": "SAP Labs",
             "socialmedia": "-",
             "track": "Track 8",
             "sessionseq": 3,
-            "tracktitle": "dummyWillBeUpdated"
+            "tracktitle": "General & Cross SAP Topics"
           }
         ],
         "sequence": "3",
@@ -310,7 +311,7 @@
             "socialmedia": "-",
             "track": "Track 1",
             "sessionseq": 4,
-            "tracktitle": "dummyWillBeUpdated"
+            "tracktitle": "SAP BTP General and Cross Topics"
           },
           {
             "speakers": "Chaitanya Priya Puvvada ,Sunny Kapoor",
@@ -321,7 +322,7 @@
             "sapcommunity": "https://people.sap.com/chaitanyapriya.puvvada",
             "track": "Track 2",
             "sessionseq": 4,
-            "tracktitle": "dummyWillBeUpdated"
+            "tracktitle": "Pro Code + Low Code + Integration"
           },
           {
             "speakers": "Pooja Prakash, Sowmya Srinivasan",
@@ -331,7 +332,7 @@
             "socialmedia": "www.linkedin.com/in/pooja-p-8893a6109",
             "track": "Track 3",
             "sessionseq": 4,
-            "tracktitle": "dummyWillBeUpdated"
+            "tracktitle": "SAP AI + Data to Value"
           },
           {
             "speakers": "Vaibhav Kansal",
@@ -342,7 +343,7 @@
             "sapcommunity": "https://people.sap.com/vaibhav.kansal",
             "track": "Track 4",
             "sessionseq": 4,
-            "tracktitle": "dummyWillBeUpdated"
+            "tracktitle": "SAP Cloud Products 1"
           },
           {
             "speakers": "Rowllah T Basheer, Anand Behera",
@@ -352,7 +353,7 @@
             "socialmedia": "-",
             "track": "Track 5",
             "sessionseq": 4,
-            "tracktitle": "dummyWillBeUpdated"
+            "tracktitle": "SAP Cloud Prodcuts 2"
           },
           {
             "speakers": "Arijt Garg, Shiva Kumar H S",
@@ -362,7 +363,7 @@
             "socialmedia": "https://www.linkedin.com/in/gargarjit/",
             "track": "Track 6",
             "sessionseq": 4,
-            "tracktitle": "dummyWillBeUpdated"
+            "tracktitle": "Concur"
           },
           {
             "speakers": "Rai Kamal Saha, Abhijeet Singh Panwar",
@@ -373,7 +374,7 @@
             "sapcommunity": "https://people.sap.com/rai.kamal.saha",
             "track": "Track 7",
             "sessionseq": 4,
-            "tracktitle": "dummyWillBeUpdated"
+            "tracktitle": "SAP UX & Cross Topics"
           },
           {
             "speakers": "SHAIK AZMATHULLA",
@@ -384,7 +385,7 @@
             "sapcommunity": "https://people.sap.com/azmathip",
             "track": "Track 8",
             "sessionseq": 4,
-            "tracktitle": "dummyWillBeUpdated"
+            "tracktitle": "General & Cross SAP Topics"
           }
         ],
         "sequence": "4",
@@ -398,7 +399,7 @@
             "sessiontitle": "DUMMY Break",
             "track": "Track 1",
             "sessionseq": 4.1,
-            "tracktitle": "dummyWillBeUpdated"
+            "tracktitle": "SAP BTP General and Cross Topics"
           }
         ],
         "sequence": "4.1",
@@ -416,7 +417,7 @@
             "socialmedia": "-",
             "track": "Track 1",
             "sessionseq": 5,
-            "tracktitle": "dummyWillBeUpdated"
+            "tracktitle": "SAP BTP General and Cross Topics"
           },
           {
             "speakers": "Pavan Kumar Reddy",
@@ -427,7 +428,7 @@
             "sapcommunity": "https://people.sap.com/reddypavankumar",
             "track": "Track 2",
             "sessionseq": 5,
-            "tracktitle": "dummyWillBeUpdated"
+            "tracktitle": "Pro Code + Low Code + Integration"
           },
           {
             "speakers": "Narayana Kanamarlapudi",
@@ -437,7 +438,7 @@
             "socialmedia": "https://www.linkedin.com/in/narayana-kanamarlapudi-8581756a",
             "track": "Track 3",
             "sessionseq": 5,
-            "tracktitle": "dummyWillBeUpdated"
+            "tracktitle": "SAP AI + Data to Value"
           },
           {
             "speakers": "swapna borra",
@@ -447,7 +448,7 @@
             "socialmedia": "Swapna borra",
             "track": "Track 4",
             "sessionseq": 5,
-            "tracktitle": "dummyWillBeUpdated"
+            "tracktitle": "SAP Cloud Products 1"
           },
           {
             "speakers": "Phani Kumar Velakuchi",
@@ -458,7 +459,7 @@
             "sapcommunity": "Strategy & Design Commerce Portal",
             "track": "Track 5",
             "sessionseq": 5,
-            "tracktitle": "dummyWillBeUpdated"
+            "tracktitle": "SAP Cloud Prodcuts 2"
           },
           {
             "speakers": "Saurabh Tewari",
@@ -468,7 +469,7 @@
             "socialmedia": "https://www.linkedin.com/in/saurabh-tewari-5415b3b/",
             "track": "Track 6",
             "sessionseq": 5,
-            "tracktitle": "dummyWillBeUpdated"
+            "tracktitle": "Concur"
           },
           {
             "speakers": "Praveen Kumar Padegal, Ajit Kumar Panda",
@@ -479,7 +480,7 @@
             "sapcommunity": "https://people.sap.com/praveenpadegal",
             "track": "Track 7",
             "sessionseq": 5,
-            "tracktitle": "dummyWillBeUpdated"
+            "tracktitle": "SAP UX & Cross Topics"
           },
           {
             "speakers": "Joinal Ahmed",
@@ -489,7 +490,7 @@
             "socialmedia": "https://linkedin.com/in/joinalahmed",
             "track": "Track 8",
             "sessionseq": 5,
-            "tracktitle": "dummyWillBeUpdated"
+            "tracktitle": "General & Cross SAP Topics"
           }
         ],
         "sequence": "5",
@@ -507,7 +508,7 @@
             "sapcommunity": "https://people.sap.com/saptechengineer",
             "track": "Track 1",
             "sessionseq": 6,
-            "tracktitle": "dummyWillBeUpdated"
+            "tracktitle": "SAP BTP General and Cross Topics"
           },
           {
             "speakers": "Pamoli Banerjee",
@@ -518,7 +519,7 @@
             "sapcommunity": "https://www.linkedin.com/in/pamoli-banerjee-08a28a19/",
             "track": "Track 2",
             "sessionseq": 6,
-            "tracktitle": "dummyWillBeUpdated"
+            "tracktitle": "Pro Code + Low Code + Integration"
           },
           {
             "speakers": "Prasanna Bhat, Sudarshan Pavanje",
@@ -528,7 +529,7 @@
             "socialmedia": "LN",
             "track": "Track 3",
             "sessionseq": 6,
-            "tracktitle": "dummyWillBeUpdated"
+            "tracktitle": "SAP AI + Data to Value"
           },
           {
             "speakers": "Abinash Routray",
@@ -539,7 +540,7 @@
             "sapcommunity": "https://people.sap.com/abinash.routray",
             "track": "Track 4",
             "sessionseq": 6,
-            "tracktitle": "dummyWillBeUpdated"
+            "tracktitle": "SAP Cloud Products 1"
           },
           {
             "speakers": "Moumita Saha",
@@ -550,7 +551,7 @@
             "sapcommunity": "https://people.sap.com/moumitasaha.thedatatherapist",
             "track": "Track 5",
             "sessionseq": 6,
-            "tracktitle": "dummyWillBeUpdated"
+            "tracktitle": "SAP Cloud Prodcuts 2"
           },
           {
             "speakers": "Raj Ahuja",
@@ -560,7 +561,7 @@
             "socialmedia": "https://in.linkedin.com/in/raj-ahuja-4955187?trk=public_post-text",
             "track": "Track 6",
             "sessionseq": 6,
-            "tracktitle": "dummyWillBeUpdated"
+            "tracktitle": "Concur"
           },
           {
             "speakers": "Shubham Johari",
@@ -570,7 +571,7 @@
             "socialmedia": "https://www.linkedin.com/in/shubham-johari-58a92672/",
             "track": "Track 7",
             "sessionseq": 6,
-            "tracktitle": "dummyWillBeUpdated"
+            "tracktitle": "SAP UX & Cross Topics"
           },
           {
             "speakers": "Prasanth RJ, Karthick Chandrasekaran",
@@ -580,7 +581,7 @@
             "socialmedia": "-",
             "track": "Track 8",
             "sessionseq": 6,
-            "tracktitle": "dummyWillBeUpdated"
+            "tracktitle": "General & Cross SAP Topics"
           }
         ],
         "sequence": "6",
@@ -594,7 +595,7 @@
             "sessiontitle": "DUMMY Break",
             "track": "Track 1",
             "sessionseq": 6.1,
-            "tracktitle": "dummyWillBeUpdated"
+            "tracktitle": "SAP BTP General and Cross Topics"
           }
         ],
         "sequence": "6.1",
@@ -613,7 +614,7 @@
             "sapcommunity": "https://people.sap.com/rajaprasad.gupta",
             "track": "Track 1",
             "sessionseq": 7,
-            "tracktitle": "dummyWillBeUpdated"
+            "tracktitle": "SAP BTP General and Cross Topics"
           },
           {
             "speakers": "Mrutyunjay Padmasali Sidda, Naga Durga Krishna Mohan Eaty",
@@ -624,7 +625,7 @@
             "sapcommunity": "https://people.sap.com/kamlesh.zanje",
             "track": "Track 2",
             "sessionseq": 7,
-            "tracktitle": "dummyWillBeUpdated"
+            "tracktitle": "Pro Code + Low Code + Integration"
           },
           {
             "speakers": "Srivathsa Gunda Dixit, Vishal Mour",
@@ -634,7 +635,7 @@
             "socialmedia": "-",
             "track": "Track 3",
             "sessionseq": 7,
-            "tracktitle": "dummyWillBeUpdated"
+            "tracktitle": "SAP AI + Data to Value"
           },
           {
             "speakers": "Deepika HM",
@@ -645,7 +646,7 @@
             "sapcommunity": "https://people.sap.com/deepika_hm",
             "track": "Track 4",
             "sessionseq": 7,
-            "tracktitle": "dummyWillBeUpdated"
+            "tracktitle": "SAP Cloud Products 1"
           },
           {
             "speakers": "Richa Grover",
@@ -656,7 +657,7 @@
             "sapcommunity": "https://people.sap.com/richa.grover",
             "track": "Track 5",
             "sessionseq": 7,
-            "tracktitle": "dummyWillBeUpdated"
+            "tracktitle": "SAP Cloud Prodcuts 2"
           },
           {
             "speakers": "Poonam Nikat",
@@ -666,7 +667,7 @@
             "socialmedia": "https://www.linkedin.com/in/pnikat09/",
             "track": "Track 7",
             "sessionseq": 7,
-            "tracktitle": "dummyWillBeUpdated"
+            "tracktitle": "SAP UX & Cross Topics"
           },
           {
             "speakers": "Ganga Koli, Shashidhar Moudgal",
@@ -676,7 +677,7 @@
             "socialmedia": "Yes",
             "track": "Track 8",
             "sessionseq": 7,
-            "tracktitle": "dummyWillBeUpdated"
+            "tracktitle": "General & Cross SAP Topics"
           }
         ],
         "sequence": "7",
@@ -693,7 +694,7 @@
             "socialmedia": "-",
             "track": "Track 1",
             "sessionseq": 8,
-            "tracktitle": "dummyWillBeUpdated"
+            "tracktitle": "SAP BTP General and Cross Topics"
           },
           {
             "speakers": "Vikas Kumar Gupta, Kushagra Mishra",
@@ -704,7 +705,7 @@
             "sapcommunity": "https://people.sap.com/vikastechgupta",
             "track": "Track 2",
             "sessionseq": 8,
-            "tracktitle": "dummyWillBeUpdated"
+            "tracktitle": "Pro Code + Low Code + Integration"
           },
           {
             "speakers": "Syambabu Allu",
@@ -715,7 +716,7 @@
             "sapcommunity": "https://people.sap.com/syambabu.allu",
             "track": "Track 3",
             "sessionseq": 8,
-            "tracktitle": "dummyWillBeUpdated"
+            "tracktitle": "SAP AI + Data to Value"
           },
           {
             "speakers": "Ranjeet Kumar, Vasantha S",
@@ -725,7 +726,7 @@
             "socialmedia": "https://www.linkedin.com/in/ranjeet-kumar-8b8152b1/",
             "track": "Track 4",
             "sessionseq": 8,
-            "tracktitle": "dummyWillBeUpdated"
+            "tracktitle": "SAP Cloud Products 1"
           },
           {
             "speakers": "Satheeshkumar D",
@@ -736,7 +737,7 @@
             "sapcommunity": "https://people.sap.com/dskumar_2000",
             "track": "Track 5",
             "sessionseq": 8,
-            "tracktitle": "dummyWillBeUpdated"
+            "tracktitle": "SAP Cloud Prodcuts 2"
           },
           {
             "speakers": "Savithaa Rajendran",
@@ -746,7 +747,7 @@
             "socialmedia": "https://www.linkedin.com/in/savithaar/",
             "track": "Track 7",
             "sessionseq": 8,
-            "tracktitle": "dummyWillBeUpdated"
+            "tracktitle": "SAP UX & Cross Topics"
           },
           {
             "speakers": "Anjitha KA",
@@ -756,7 +757,7 @@
             "socialmedia": "-",
             "track": "Track 8",
             "sessionseq": 8,
-            "tracktitle": "dummyWillBeUpdated"
+            "tracktitle": "General & Cross SAP Topics"
           }
         ],
         "sequence": "8",
@@ -770,7 +771,7 @@
             "sessiontitle": "DUMMY Break",
             "track": "Track 1",
             "sessionseq": 8.1,
-            "tracktitle": "dummyWillBeUpdated"
+            "tracktitle": "SAP BTP General and Cross Topics"
           }
         ],
         "sequence": "8.1",
@@ -778,7 +779,8 @@
         "type": "break",
         "tracktitle": "Speaker Recognitions and Giveaways"
       }
-    ],
+    ]
+    ,
     "tracks": [
       {
         "trackId": "1",

@@ -1,6 +1,7 @@
 'use client'
 
 import LandingNavBar from '@/components/landing-navbar'
+import DropDownTracks from './DropDown'
 import EventHeader from '@/components/event-header-section'
 import EventHero from '@/components/event-hero'
 import Footer from '@/components/footer'
@@ -61,7 +62,9 @@ const Home = () => {
         filteredData.sessions.forEach(function(item){
             if(item.type === "grid"){
                 var filtSessionsByTrack = item.sessionsByTrack.filter(function(el){
-                    return el.description.toLowerCase().includes(query);
+                    return el.description.toLowerCase().includes(query) || 
+                        el.sessiontitle.toLowerCase().includes(query) ||
+                        el.track.toLowerCase().includes(query);
                 }
               );
             }else{
@@ -134,6 +137,7 @@ const Home = () => {
                     <div className='flex flex-row justify-between p-2'>                    
                         <div className="p-4 text-2xl font-semibold">Sessions</div>
                         <input type="text" ref={searchButton} onFocus={onFocusHandle} name="search" onChange={onChangeHandle} className="w-1/5 p-2 mt-1 px-3 py-2 bg-white border shadow-sm border-grey-300 placeholder-grey-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1" placeholder="Search sessions here..." />
+                        {/* <DropDownTracks/> */}
                     </div>
                     {query ? "" : (
                         <div>
@@ -182,11 +186,18 @@ const Home = () => {
                                                     case "grid":
                                                         return (
                                                             <div key={track.track + track.sessionseq} className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 xl:w-1/4 p-4">
-                                                                <h4 className="text-xs font-bold text-gray-500">{track.track}</h4>
-{/*                                                                 <h4 className="text-xs font-bold text-gray-500">{track.tracktitle}</h4> */}
+                                                                {/* <h4 className="text-xs font-bold text-gray-500">{track.track}</h4>
+                                                                <h4 className="text-xs font-bold text-gray-500">{track.tracktitle}</h4> */}
                                                                 <div className="bg-slate-100 border border-slate-200 rounded-none shadow-md p-2 h-full flex flex-col justify-between">
+                                                                    <div>
+                                                                    <h4 className="text-xs font-bold text-gray-500">{track.track}</h4>
+                                                                    <p className="text-xs text-gray-500">Speakers: {track.tracktitle}</p>
+                                                                    </div>
+                                                                    <hr />
+                                                                    
                                                                     <p className="text-xs font-semibold text-gray-800 mt-2">{track.sessiontitle}</p>
-                                                                    <p className="text-xs text-gray-800 mt-2 overflow-hidden h-[2.5rem]">{track.description}</p>
+                                                                    <p className="text-xs text-gray-800 mt-2 line-clamp-2">{track.description}</p>
+                                                                    <hr />
                                                                     <p className="text-xs text-gray-600 mt-2">Speakers: {track.speakers}</p>
                                                                 </div>
                                                             </div>
