@@ -192,7 +192,7 @@ const Home = () => {
                                                                 <div className="bg-slate-100 border border-slate-200 rounded-none shadow-md p-2 h-full flex flex-col justify-between">
                                                                     <div>
                                                                     <h4 className="text-xs font-bold text-gray-500">{track.track}</h4>
-                                                                    <p className="text-xs text-gray-500">Speakers: {track.tracktitle}</p>
+                                                                    <p className="text-xs text-gray-500">{track.tracktitle}</p>
                                                                     </div>
                                                                     <hr />
                                                                     
