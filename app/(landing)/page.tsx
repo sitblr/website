@@ -51,12 +51,13 @@ const Home = () => {
     const router = useRouter()
     const [data, setData] = useState<event>(null)
 
-    const [query, setQuery] = useState(false)
+    const [query, setQuery] = useState<String>("")
 
     const multipleSearch = (data) => {
         if (!query){
             return JSON.parse(JSON.stringify(data));
         }
+        
         let filteredData = JSON.parse(JSON.stringify(data));
         let filteredSessions = [];
         filteredData.sessions.forEach(function(item){
