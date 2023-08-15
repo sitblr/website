@@ -134,7 +134,7 @@ const Home = () => {
                                                             <div key="track.tracktitle" className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 xl:w-1/4 p-4">
                                                                 <h4 className="text-xs font-bold text-gray-500">{track.track}</h4>
 {/*                                                                 <h4 className="text-xs font-bold text-gray-500">{track.tracktitle}</h4> */}
-                                                                <div className="bg-slate-200 rounded-lg shadow-lg p-2 h-full flex flex-col justify-between">
+                                                                <div className="bg-slate-200 rounded-none shadow-md p-2 h-full flex flex-col justify-between">
                                                                     <p className="text-xs font-semibold text-gray-800 mt-2">{track.sessiontitle}</p>
                                                                     <p className="text-xs text-gray-600 mt-2">Speakers: {track.speakers}</p>
                                                                 </div>
@@ -143,7 +143,7 @@ const Home = () => {
                                                         break;
                                                     case "break":
                                                         return (
-                                                            <div key="session.tracktitle" className='mx-auto w-4/5 p-2 text-center bg-teal-200'>
+                                                            <div key="session.tracktitle" className='mx-auto w-full p-2 text-center bg-teal-200'>
                                                                 <label className=' text-gray-500'>{session.tracktitle}</label>
                                                             </div>
                                                         )
