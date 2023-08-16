@@ -147,7 +147,7 @@ const Home = () => {
                         <input type="text" ref={searchButton} onFocus={onFocusHandle} name="search" onChange={onChangeHandle} className="w-1/5 p-2 mt-1 px-3 py-2 bg-white border shadow-sm border-grey-300 placeholder-grey-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1" placeholder="Search sessions here..." />
                         {/* <DropDownTracks/> */}
                         {/* <Button>Download Session Details</Button> */}
-                        <div className="p-4 font-semibold "><Link className='p-4' legacyBehavior href="https://docs.google.com/spreadsheets/d/1uuVxpWiAthIiWt4l9Djzg1YfTAY_AdxZKiIC5WPugOU/edit"><a className="underline underline-offset-auto" target="_blank" rel="noopener noreferrer">Export Session Details</a></Link></div>
+                        <div className="p-4 font-semibold "><Link className='p-4' legacyBehavior href="https://docs.google.com/spreadsheets/d/1uuVxpWiAthIiWt4l9Djzg1YfTAY_AdxZKiIC5WPugOU/edit"><a className="underline underline-offset-auto" target="_blank" rel="noopener noreferrer"><p className="text-blue">Link to Excel</p></a></Link></div>
                     </div>
                     {query ? "" : (
                         <div>

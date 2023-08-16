@@ -7,8 +7,8 @@ import { Montserrat } from "next/font/google";
 const font = Montserrat({ weight: '600', subsets: ['latin'] });
 
 const LandingNavBar = () => {
-    return (
-        <nav className="p-4 bg-transparent flex items-center justify-between ">
+  return (
+    <nav className="p-4 bg-transparent flex items-center justify-between ">
       <Link href="/" className="flex items-center">
         <div className="relative h-14 w-14 mr-4">
           <Image fill alt="Logo" src="/logo.png" />
@@ -29,13 +29,13 @@ const LandingNavBar = () => {
           </Button>
         </Link> */}
         <Link href="/">
-          <Button  className="rounded-full">
-            Event Feedback
+          <Button className="rounded-full">
+            Give your Feedback
           </Button>
         </Link>
       </div>
     </nav>
-    )
+  )
 }
 
 export default LandingNavBar;
