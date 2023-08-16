@@ -140,12 +140,12 @@ const Home = () => {
                         SAP Technologies including but not limited to SAP BTP, Concur, UX,
                         SAP S/4HANA, AI with SAP, and Low Code/No Code. Check the below sessions for more details.
                     </div>
-                    <Button onClick={() => {
+                    {/* <Button onClick={() => {
                         setTrackTitle("Track Title");
                         setSessionTitle("Session");
                         setSessionDesc("Session desc");
                         onOpen();
-                    }}>Open Dialog</Button>
+                    }}>Open Dialog</Button> */}
                 </div>
             </div>
             <div>
