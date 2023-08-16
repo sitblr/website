@@ -57,7 +57,7 @@ type event = eventdata | null
 
 const Home = () => {
 
-    const { onOpen, setTrackTitle, setTrackDescription, setSessionTitle, setSessionDesc } = useSession();
+    const { onOpen, setTrackTitle, setTrackDescription, setSessionTitle, setSessionDesc, setOrganization, setSpeakers, setTrack } = useSession();
     const router = useRouter()
     const [data, setData] = useState<event>(null)
 
@@ -209,14 +209,15 @@ const Home = () => {
                                                     case "grid":
                                                         return (
                                                             <div key={track.track + track.sessionseq} className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 xl:w-1/4 p-4">
-                                                                {/* <h4 className="text-xs font-bold text-gray-500">{track.track}</h4>
-                                                                <h4 className="text-xs font-bold text-gray-500">{track.tracktitle}</h4> */}
                                                                 <div onClick={() => {
-                                                                    setTrackTitle("Track Title");
-                                                                    setSessionTitle("Session");
-                                                                    setSessionDesc("Session desc");
+                                                                    setTrackTitle(track.tracktitle);
+                                                                    setSessionTitle(track.sessiontitle);
+                                                                    setSessionDesc(track.description);
+                                                                    setSpeakers(track.speakers);
+                                                                    setTrack(track.track);
+                                                                    setOrganization(track.organization);
                                                                     onOpen();
-                                                                }} className="bg-slate-100 border border-slate-200 rounded-none shadow-md p-2 h-full flex flex-col justify-between">
+                                                                }} className="cursor-pointer transition duration-200 ease-in-out transform hover:scale-105 bg-slate-100 border border-slate-200 rounded-none drop-shadow-xl p-2 h-full flex flex-col justify-between">
                                                                     <div>
                                                                         <h4 className="text-xs font-bold text-gray-700">{track.track}</h4>
                                                                         <p className="text-xs text-gray-500">{track.tracktitle}</p>

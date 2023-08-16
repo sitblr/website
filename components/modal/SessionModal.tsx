@@ -15,6 +15,8 @@ interface ModalProps {
     tracktitle: string;
     session: string;
     sessiondetail: string;
+    speakers: string;
+    organization: string;
     isOpen: boolean;
     onClose: () => void;
     children?: React.ReactNode
@@ -25,6 +27,8 @@ const SessionModal: React.FC<ModalProps> = ({
     tracktitle,
     session,
     sessiondetail,
+    speakers,
+    organization,
     isOpen,
     onClose,
     children
@@ -42,13 +46,14 @@ const SessionModal: React.FC<ModalProps> = ({
         <Dialog open={sessiondata.isOpen} onOpenChange={sessiondata.onClose}>
             <DialogContent>
                 <DialogHeader>
-                    <DialogTitle>{sessiondata.tracktitle}</DialogTitle>
+                    <DialogTitle>{sessiondata.session}</DialogTitle>
                     <DialogDescription>
-                        {sessiondata.session}
+                        {sessiondata.sessiondesc}
                     </DialogDescription>
                 </DialogHeader>
                 <div>
-                    <p>{sessiondata.sessiondesc}</p>
+                    <p className='text-xs text-gray-500'><span className="inline font-semibold text-gray-600">{sessiondata.track}:</span> {sessiondata.tracktitle}</p>
+                    <p className='text-xs text-gray-500'><span className="inline font-semibold text-gray-600">Speakers:</span> {sessiondata.speakers} ({sessiondata.organization})</p>
                 </div>
             </DialogContent>
         </Dialog>
