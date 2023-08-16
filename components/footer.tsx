@@ -2,7 +2,7 @@ const Footer = () => {
     return (
         <footer className="border-t-white py-4 text-white">
             <div className="container mx-auto flex justify-between items-center">
-                <div className="text-sm">© {new Date().getFullYear()} SIT Community, Bangalore</div>
+                <div className="text-sm">© {new Date().getFullYear()} SAP Inside Track, Bengaluru</div>
                 <nav>
                     <ul className="flex space-x-4">
                         {/* <li>
@@ -11,12 +11,12 @@ const Footer = () => {
                         {/* <li>
                     <a href="/organizers">Organizers</a>
                     </li> */}
-                        <li>
+                        {/* <li>
                             <a href="/feedback">Feedback</a>
                         </li>
                         <li>
                             <a href="/contributors">Contributors</a>
-                        </li>
+                        </li> */}
                         {/* <li>
                     <a href="/privacy">Privacy</a>
                     </li> */}
