@@ -12,8 +12,7 @@
     "register": "https://www.eventbrite.com/e/sap-inside-track-bengaluru-august-19th-2023-tickets-672925065987?aff=oddtdtcreator",
     "hostId": 1,
     "agenda": "",
-    "sessions":
-    [
+    "sessions": [
       {
         "sessionsByTrack": [
           {
@@ -40,7 +39,7 @@
           {
             "speakers": "Prasanna Bhat, Sudarshan Pavanje",
             "sessiontitle": "Reusable AI Assets. A look at reusable AI assets from SAP",
-            "description": "Reusable AI Assets. A look at reusable AI assets from SAP",
+            "description": "SAP has a rich and diverse reusable AI Assets portfolio. Reusable AI Assets include various AI Business Services and one digital assistance. AI Business Service covers various recommendation services it offers, extraction services and classification services. One digital assistance provides a unified digital assistance experience to its end users. The session here gives an overview of these offerings.",
             "organization": "SAP Labs",
             "socialmedia": "linkedin",
             "track": "Track 3",
@@ -49,7 +48,7 @@
           },
           {
             "speakers": "Sanil Bhandari",
-            "sessiontitle": "Insights into Value Chain using Modern Architecture: calculation of CO2e",
+            "sessiontitle": "Concept of Value Chain Analysis with use case: CO2e Calculation",
             "description": "The session would focus on innovations around Component Breakdown as part of Universal Parallel Accounting, which helps to provide various vectors such as Product Cost and Quantity Breakdown with one use case example",
             "organization": "SAP Labs India Pvt Ltd",
             "socialmedia": "https://www.linkedin.com/in/sanilbhandari/",
@@ -69,11 +68,11 @@
             "tracktitle": "SAP Cloud Prodcuts 2"
           },
           {
-            "speakers": "Omprakash H",
-            "sessiontitle": "SAP Concur Integrations with SAP and Non-SAP & User Adoption Platform",
-            "description": "SAP Concur to SAP ECC / S4 Integration through ICS.\nSAP Concur to Non-SAP integration through BTP - CPI\nSAP Concur Dashboards using BTP - SAC\nUser Navigation Chatbot within Concur for User Adoption",
-            "organization": "BLUEPRINT TECHNOLOGIES PVT LTD",
-            "socialmedia": "https://www.linkedin.com/in/omprakashh/",
+            "speakers": "Reshma Jeyadeva Prakash, Arjit Garg",
+            "sessiontitle": "Concur Product Strategy and Roadmap",
+            "description": "SAP Concur roadmap will be explained in depth along with giving an overview on the look forward and strategy defined for Concur Solutions and Feature capabilities",
+            "organization": "SAP Labs",
+            "socialmedia": "https://www.linkedin.com/in/gargarjit/",
             "track": "Track 6",
             "sessionseq": 1,
             "tracktitle": "Concur"
@@ -90,7 +89,7 @@
           },
           {
             "speakers": "Mainak Aich",
-            "sessiontitle": "ABAP - Open to All!",
+            "sessiontitle": "Discovering Open-Source ABAP",
             "description": "Get an overview of rapid rise of Open-source applications in ABAP and learn how SAP customers can be benefitted by leveraging them in their projects and products.",
             "organization": "VS&Co",
             "socialmedia": "https://www.linkedin.com/in/mainakaich/",
@@ -108,7 +107,7 @@
         "sessionsByTrack": [
           {
             "speakers": "Nagesh Caparthy ",
-            "sessiontitle": "SAP BTP Governance, Security and Best Practices ",
+            "sessiontitle": "SAP BTP Governance, Cloud Identity Services, and Best Practices",
             "description": "Agenda includes, BTP Overview, Governance, Account Models, Security options, etc",
             "organization": "SAP ",
             "socialmedia": "https://www.linkedin.com/in/nagesh-caparthy-027b7016",
@@ -150,8 +149,8 @@
           },
           {
             "speakers": "Balamurali Muraleedharan ",
-            "sessiontitle": "RISE with SAP on AWS",
-            "description": "Advantages of RISE with SAP on AWS. How SAP vetted Joint Reference Architectures enable customers to combine S/4HANA, BTP services and native AWS services to realize business objectives in area of data & analytics and AI. ",
+            "sessiontitle": "Digitizing Sourcing & Procurement in Rise with SAP",
+            "description": "The topic gives an overview of how customers are innovating faster and transforming businesses with RISE with SAP on AWS. How the unique architecture of SAP on AWS helps maximize performance and protect you from disruptions",
             "organization": "AWS (Amazon Web Services)",
             "socialmedia": "www.linkedin.com/in/bala-sap",
             "track": "Track 5",
@@ -160,8 +159,8 @@
           },
           {
             "speakers": "Komal Nalawade",
-            "sessiontitle": "Concur",
-            "description": "NA",
+            "sessiontitle": "Elevating From Paper Trails to Digital Highways",
+            "description": "A Half-Decade of Digital Transformation in Travel & Expenses with SAP Concur.",
             "organization": "Hafele India Pvt Ltd",
             "socialmedia": "https://www.linkedin.com/in/komalbn14/",
             "sapcommunity": "NA",
@@ -208,7 +207,7 @@
         "sequence": "2.1",
         "time": "11:00 - 11:30",
         "type": "break",
-        "tracktitle": "Break and Netwokring"
+        "tracktitle": "Break and Networking"
       },
       {
         "sessionsByTrack": [
@@ -223,7 +222,7 @@
             "tracktitle": "SAP BTP General and Cross Topics"
           },
           {
-            "speakers": "Subhajit Das, Aryan Raj Singh",
+            "speakers": "Subhajit Das, Aryan Raj Sinha",
             "sessiontitle": "Storyboard in CAP: The Low-Code Application Development Way",
             "description": "The Storyboard is a detailed graphical view for CAP applications that presents their logical components and the connections between them available in SAP Business Application Studio.\nJoin us for an engaging session that delves into the world of low-code application development using the power of CAP (Cloud Application Programming Model) within SAP Business Application Studio.",
             "organization": "SAP",
@@ -235,7 +234,7 @@
           },
           {
             "speakers": "Ratnesh Sonawane",
-            "sessiontitle": "Using SAC capabilities for Finance Operations in Mercedes-Benz",
+            "sessiontitle": "Using SAC Capabilities for day to day Finance Operations",
             "description": "This session will provide an insight on practical use of SAC within Mercedes-Benz for addressing day to day Finance related topics. It will also focus on how SAC helps end users to save time from repetitive tasks to focus on quality analysis.",
             "organization": "Mercedes Benz Research & Development India Pvt Ltd",
             "socialmedia": "https://www.linkedin.com/in/ratnesh-sonawane-92bb6616/",
@@ -267,11 +266,11 @@
             "tracktitle": "SAP Cloud Prodcuts 2"
           },
           {
-            "speakers": "Maclean Josh C",
-            "sessiontitle": "Concur",
-            "description": "Concur ",
-            "organization": "LTIMindtree Limited",
-            "socialmedia": "macleanjosh",
+            "speakers": "Sidharth Jain, Chunmun Gupta, Shiva Kumar H S, Trisha Sinha",
+            "sessiontitle": "Reimagining payments in concur world",
+            "description": "The next-generation payment solutions with Concur is seamless, allowing customers to effortlessly harness the benefits of this innovation. This innovative enterprise payment solution aims to provide customers with significant cost savings and enhanced controls. \nRazorpay is a payment gateway that can add value to SAP Concur by offering a variety of payment methods, real-time payments, fraud protection, API integration, and customer support. These features can help businesses to process payments, improve their cash flow, protect themselves from fraud, and automate the payment process. ",
+            "organization": "Razorpay Software Private Limited",
+            "socialmedia": "https://www.linkedin.com/in/sidharth-jain-3ab7969a/",
             "track": "Track 6",
             "sessionseq": 3,
             "tracktitle": "Concur"
@@ -288,8 +287,8 @@
           },
           {
             "speakers": "Sujaya VK",
-            "sessiontitle": "Empower yourself, Empower women in tech!",
-            "description": "SAP Women in Tech is delighted to share that this session will help you to know the importance of empowering yourself along with empowering women in tech. Lets talk about how to build a supportive network, celebrate your achievements, mindful working and how to ignore the moments of self-doubt.  Join our session and lets discuss on various aspects of empowering yourself.",
+            "sessiontitle": "Empower Yourself, Empower Women In Tech!",
+            "description": "SAP Women in Tech is delighted to share that this session will help you to know the importance of empowering yourself along with empowering women in tech. Let’s talk about how to build a supportive network, celebrate your achievements, mindful working and how to ignore the moments of self-doubt. Join our session and let’s discuss on various aspects of empowering yourself.",
             "organization": "SAP Labs",
             "socialmedia": "-",
             "track": "Track 8",
@@ -304,9 +303,9 @@
       {
         "sessionsByTrack": [
           {
-            "speakers": "Jitendra Nene",
-            "sessiontitle": "SAP BTP Adoption for Public Cloud Implementation [TBD]",
-            "description": "SAP BTP Adoption for Public Cloud Implementation [TBD]",
+            "speakers": "Kedar Ketkar, Surekha Chawale, Reshma Pawar",
+            "sessiontitle": "SAP BTP Adoption for Public Cloud",
+            "description": "It is an art of possibilities to enrich SAP application on public cloud with better user experience, flexibility to adapt to business changes and better decision making with Analytics & AI.",
             "organization": "PRIMUS Techsystems",
             "socialmedia": "-",
             "track": "Track 1",
@@ -356,11 +355,11 @@
             "tracktitle": "SAP Cloud Prodcuts 2"
           },
           {
-            "speakers": "Arijt Garg, Shiva Kumar H S",
-            "sessiontitle": "Concur product strategy and roadmap",
-            "description": "Concur product strategy and roadmap",
-            "organization": "SAP Labs",
-            "socialmedia": "https://www.linkedin.com/in/gargarjit/",
+            "speakers": "Maclean Josh C",
+            "sessiontitle": "Seamless Concur Rollout: Empowering 45K Minds",
+            "description": "Streamlined Integration and rollout experience of Onboarding 45,000 Mindtree Employees onto Concur system after LTI Merger",
+            "organization": "LTIMindtree Limited",
+            "socialmedia": "macleanjosh",
             "track": "Track 6",
             "sessionseq": 4,
             "tracktitle": "Concur"
@@ -442,8 +441,8 @@
           },
           {
             "speakers": "swapna borra",
-            "sessiontitle": "Subscription/ usage  based business ",
-            "description": "Billing revenue innovation management to  support subscription  based business",
+            "sessiontitle": "Smart Automation with SAP BRIM",
+            "description": "SAP BRIM - Smart automation of billing, invoicing , usage based ,consumption based and account processing.",
             "organization": "Verizon",
             "socialmedia": "Swapna borra",
             "track": "Track 4",
@@ -462,11 +461,11 @@
             "tracktitle": "SAP Cloud Prodcuts 2"
           },
           {
-            "speakers": "Saurabh Tewari",
-            "sessiontitle": "Supporting Your Employees & Management Teams Through Actionable Insights & Unparalleled Services",
-            "description": "International SOS is in the business of saving lives, and protecting global workforces from health and security threats. The company is trusted by 9,500 organisations, including the majority of the Fortune Global 500 as well as mid-size enterprises, governments, educational institutions, and NGOs. 13,000 multi-cultural security, medical, logistics and digital experts to provide support & assistance from over 1,000 locations in 90 countries, 24/7, 365 days.",
-            "organization": "International SOS",
-            "socialmedia": "https://www.linkedin.com/in/saurabh-tewari-5415b3b/",
+            "speakers": "Raj Ahuja",
+            "sessiontitle": "Managing Cost & Compliance with Concur's T&E Process Transformation",
+            "description": "Deployment of SAP Concur to Transform the T&E Process, Increase the process efficiency, Optimize the Cost and Enhance the Compliance. How we leverage our experience to address the key customer requirements considering all aspects of T&E Process, lessons learnt and the value leavers to unlock the potential business value for clients, with presence in multiple counties across the globe.",
+            "organization": "Capgemini",
+            "socialmedia": "https://in.linkedin.com/in/raj-ahuja-4955187?trk=public_post-text",
             "track": "Track 6",
             "sessionseq": 5,
             "tracktitle": "Concur"
@@ -483,11 +482,11 @@
             "tracktitle": "SAP UX & Cross Topics"
           },
           {
-            "speakers": "Joinal Ahmed",
-            "sessiontitle": "Intergate ML in your SAP Applications using ABAP ML SDK for Google Cloud",
-            "description": "In this session i will talk about the newly launched ABAP ML SDK for Google Cloud and its capabilities, and how ABAP developers can Intergate ML capabilities with existing SAP applications.",
-            "organization": "Google Cloud",
-            "socialmedia": "https://linkedin.com/in/joinalahmed",
+            "speakers": "Ganga Koli, Shashidhar Moudgal",
+            "sessiontitle": "Customer experience with using Tricentis Tools with SAP applications for Quality Engineering",
+            "description": "Usage experience with Tricentis Tools in the SAP programs of Mercedes Benz:\nTosca - Test automation\nLive Compare - Impact analysis\nNeoLoad - Performance testing",
+            "organization": "Mercedes Benz Research & Development India ltd",
+            "socialmedia": "Yes",
             "track": "Track 8",
             "sessionseq": 5,
             "tracktitle": "General & Cross SAP Topics"
@@ -512,8 +511,8 @@
           },
           {
             "speakers": "Pamoli Banerjee",
-            "sessiontitle": "Overview of Event-Driven Architecture in SAP",
-            "description": "Overview of Event-Driven Architecture in SAP using Event Mesh",
+            "sessiontitle": "Overview of SAP Event Driven Architecture and SAP Event Mesh",
+            "description": "The session will include an overview of event driven architecture - it’s basic concept and benefits , get familiarized with SAP BTP service - Event Mesh and its components .We will also go through a use case that leverages event mesh and understand the end-to-end flow.",
             "organization": "BearingPoint India",
             "socialmedia": "Yes , no problem",
             "sapcommunity": "https://www.linkedin.com/in/pamoli-banerjee-08a28a19/",
@@ -522,9 +521,9 @@
             "tracktitle": "Pro Code + Low Code + Integration"
           },
           {
-            "speakers": "Prasanna Bhat, Sudarshan Pavanje",
-            "sessiontitle": "SAP AI Business Document processing service. Overview, Vision with a Quick Demo",
-            "description": "SAP AI Business Document processing service. Overview, Vision with a Quick Demo",
+            "speakers": "Prasanna Bhat",
+            "sessiontitle": "SAP AI Business Document Processing Service Overview",
+            "description": "Business document extraction is part of various lines of business use cases. Business gets printed documents for their business process. But it involves a huge manual intervention to trigger the business process.  This has been solved using business document extraction. However, the current document extraction supports a pre-defined structure. It does not solve the entire problem. This has been solved using supporting schema and templates in the document extraction workflow. The end users get the flexibility of defining their own headers and line items specific to their document. This can be achieved using defining their schemas. Or they can also their end users’ scenarios. They may have their HR-specific documents with different headers or finance documents in the different headers or line items. They can define various schemas for these use cases. There can also be situations that document structures are different for their different vendors. This can be defined using their templates.",
             "organization": "SAP Labs",
             "socialmedia": "LN",
             "track": "Track 3",
@@ -554,11 +553,11 @@
             "tracktitle": "SAP Cloud Prodcuts 2"
           },
           {
-            "speakers": "Raj Ahuja",
-            "sessiontitle": "Managing Cost & Compliance with T&E Process Transformation",
-            "description": "T&E Process Transformation by Deploying SAP Concur Expense",
-            "organization": "Capgemini",
-            "socialmedia": "https://in.linkedin.com/in/raj-ahuja-4955187?trk=public_post-text",
+            "speakers": "Omprakash H",
+            "sessiontitle": "SAP Concur Integrations with SAP and Non-SAP & User Adoption Platform",
+            "description": "SAP Concur to SAP ECC / S4 Integration through ICS.\nSAP Concur to Non-SAP integration through BTP - CPI\nSAP Concur Dashboards using BTP - SAC\nUser Navigation Chatbot within Concur for User Adoption",
+            "organization": "BLUEPRINT TECHNOLOGIES PVT LTD",
+            "socialmedia": "https://www.linkedin.com/in/omprakashh/",
             "track": "Track 6",
             "sessionseq": 6,
             "tracktitle": "Concur"
@@ -575,8 +574,8 @@
           },
           {
             "speakers": "Prasanth RJ, Karthick Chandrasekaran",
-            "sessiontitle": "HXM Best Practices for 3rd Party Integrations & SAP BTP Extensions Development",
-            "description": "HXM - Reliability, Observability & Multi Cloud Orchestration",
+            "sessiontitle": "SAP HXM Best Practices for 3rd Party Integrations & SAP BTP Extensions Development",
+            "description": "In this session get an overview for SAP SuccessFactors partner strategy and considerations for building SAP SuccessFactors Extensions on SAP BTP along with the overview for how to make the journey from Independent software partner to SAP Partner",
             "organization": "SAP Labs",
             "socialmedia": "-",
             "track": "Track 8",
@@ -601,7 +600,7 @@
         "sequence": "6.1",
         "time": "03:00 - 03:30",
         "type": "break",
-        "tracktitle": "Break and Netwokring"
+        "tracktitle": "Break and Networking"
       },
       {
         "sessionsByTrack": [
@@ -639,8 +638,8 @@
           },
           {
             "speakers": "Deepika HM",
-            "sessiontitle": "Automate a Procurement Business Process using SAP Build Process Automation",
-            "description": "Automate repetitive manual tasks within SAP Ariba solutions and SAP S/4HANA using pre-built content and connectors with SAP Build Process Automation.",
+            "sessiontitle": "Intelligent Spend Management with SAP BTP and Ariba Business Network",
+            "description": "This session gives an overview and understand on how SAP BTP can be effectively applied within spend management solutions, equipped with insights into various BTP extension types, integration possibilities and the real-time analytics potential that SAP BTP offers, all contributing to improved efficiency, cost-effectiveness, and informed decision-making in the realm of spend management solutions - Ariba",
             "organization": "Cognizant",
             "socialmedia": "linkedin.com/in/deepika-hirematt-68040b198",
             "sapcommunity": "https://people.sap.com/deepika_hm",
@@ -660,6 +659,16 @@
             "tracktitle": "SAP Cloud Prodcuts 2"
           },
           {
+            "speakers": "Saurabh Tewari",
+            "sessiontitle": "Strengthening Workforce Resilience with SAP Concur Solutions",
+            "description": "Integrated Tracking Solution \n To Quickly Locate And Communicate With Your Mobile Workforce supporting international and domestic travelers, and assignees.",
+            "organization": "International SOS",
+            "socialmedia": "https://www.linkedin.com/in/saurabh-tewari-5415b3b/",
+            "track": "Track 6",
+            "sessionseq": 7,
+            "tracktitle": "Concur"
+          },
+          {
             "speakers": "Poonam Nikat",
             "sessiontitle": "Cybersecurity best practices for S4 HANA and BTP",
             "description": "The topic explains about best cyber practices one should follow while implementing and using SAP products (especially SAP S4, BTP and other cloud solutions). These practices might be evident and easy to implement with other java based or cloud systems with SAP ABAP systems, but it comes with its challenges due to the proprietorship of SAP products / their codes. The topic will explain some key aspects of those security checks, specifically in terms of SAP systems",
@@ -670,11 +679,11 @@
             "tracktitle": "SAP UX & Cross Topics"
           },
           {
-            "speakers": "Ganga Koli, Shashidhar Moudgal",
-            "sessiontitle": "Customer experience with using Tricentis Tools with SAP applications for Quality Engineering",
-            "description": "Usage experience with Tricentis Tools in the SAP programs of Mercedes Benz:\nTosca - Test automation\nLive Compare - Impact analysis\nNeoLoad - Performance testing",
-            "organization": "Mercedes Benz Research & Development India ltd",
-            "socialmedia": "Yes",
+            "speakers": "Joinal Ahmed",
+            "sessiontitle": "Intergate ML in your SAP Applications using ABAP ML SDK for Google Cloud",
+            "description": "In this session i will talk about the newly launched ABAP ML SDK for Google Cloud and its capabilities, and how ABAP developers can Intergate ML capabilities with existing SAP applications.",
+            "organization": "Google Cloud",
+            "socialmedia": "https://linkedin.com/in/joinalahmed",
             "track": "Track 8",
             "sessionseq": 7,
             "tracktitle": "General & Cross SAP Topics"
@@ -740,6 +749,16 @@
             "tracktitle": "SAP Cloud Prodcuts 2"
           },
           {
+            "speakers": "Sambhu Mishra",
+            "sessiontitle": "Principles of user centered design in SAP Concur",
+            "description": "From simplifying workflows to enhancing accessibility, learn how SAP Concur's UX innovations are driving efficiency, satisfaction, and productivity for both end-users and businesses.",
+            "organization": "SAP Labs India",
+            "socialmedia": "https://www.linkedin.com/in/sambhu-mishra/",
+            "track": "Track 6",
+            "sessionseq": 8,
+            "tracktitle": "Concur"
+          },
+          {
             "speakers": "Savithaa Rajendran",
             "sessiontitle": "Cyclic Action Research: Experiences and Best Practices from Oil and Gas Field Logistics",
             "description": "For Upstream Field Logistics in the Oil and Gas area, in collaboration with our consortium of customers including Shell, BP, Inpex, ConocoPhillips and Chevron, we conducted remote research at each stage of the design process. This includes requirements gathering, conceptual walkthroughs, usability testing and follow-up post implementation remote Usability Testing. The process matches the 5 stages of Action Research Cycle: diagnosing, action planning, action taking, evaluating and specifying learning.",
@@ -751,7 +770,7 @@
           },
           {
             "speakers": "Anjitha KA",
-            "sessiontitle": "Strategies for Effective Communication: Speaking and Writing with Success",
+            "sessiontitle": "Strategies for Effective Communication: Writing with Success",
             "description": "Strategies for Effective Communication: Speaking and Writing with Success",
             "organization": "SAP Labs",
             "socialmedia": "-",
@@ -775,7 +794,7 @@
           }
         ],
         "sequence": "8.1",
-        "time": "04:00 - 05:00",
+        "time": "04:40 - 05:00",
         "type": "break",
         "tracktitle": "Speaker Recognitions and Giveaways"
       }
