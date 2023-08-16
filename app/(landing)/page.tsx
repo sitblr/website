@@ -22,7 +22,8 @@ import s2integrations from '@/public/sponsers/s2integrations.png';
 import sappress from '@/public/sponsers/sap-press.jpg';
 import { Button } from '@/components/ui/button'
 import Link from 'next/link'
-
+import SessionModal from '@/components/modal/SessionModal';
+import { useSession } from '@/hooks/use-session-modal';
 type track = {
     id: string
     trackName: string
@@ -55,6 +56,8 @@ type event = eventdata | null
 
 
 const Home = () => {
+
+    const { onOpen, setTrackTitle, setTrackDescription, setSessionTitle, setSessionDesc } = useSession();
     const router = useRouter()
     const [data, setData] = useState<event>(null)
 
@@ -115,6 +118,7 @@ const Home = () => {
     }
 
     const filteredData = multipleSearch(data)
+
     return (
         // ffe505
         <div className="h-full">
@@ -136,6 +140,12 @@ const Home = () => {
                         SAP Technologies including but not limited to SAP BTP, Concur, UX,
                         SAP S/4HANA, AI with SAP, and Low Code/No Code. Check the below sessions for more details.
                     </div>
+                    <Button onClick={() => {
+                        setTrackTitle("Track Title");
+                        setSessionTitle("Session");
+                        setSessionDesc("Session desc");
+                        onOpen();
+                    }}>Open Dialog</Button>
                 </div>
             </div>
             <div>
@@ -201,7 +211,12 @@ const Home = () => {
                                                             <div key={track.track + track.sessionseq} className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 xl:w-1/4 p-4">
                                                                 {/* <h4 className="text-xs font-bold text-gray-500">{track.track}</h4>
                                                                 <h4 className="text-xs font-bold text-gray-500">{track.tracktitle}</h4> */}
-                                                                <div className="bg-slate-100 border border-slate-200 rounded-none shadow-md p-2 h-full flex flex-col justify-between">
+                                                                <div onClick={() => {
+                                                                    setTrackTitle("Track Title");
+                                                                    setSessionTitle("Session");
+                                                                    setSessionDesc("Session desc");
+                                                                    onOpen();
+                                                                }} className="bg-slate-100 border border-slate-200 rounded-none shadow-md p-2 h-full flex flex-col justify-between">
                                                                     <div>
                                                                         <h4 className="text-xs font-bold text-gray-700">{track.track}</h4>
                                                                         <p className="text-xs text-gray-500">{track.tracktitle}</p>
