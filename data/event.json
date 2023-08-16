@@ -12,8 +12,7 @@
     "register": "https://www.eventbrite.com/e/sap-inside-track-bengaluru-august-19th-2023-tickets-672925065987?aff=oddtdtcreator",
     "hostId": 1,
     "agenda": "",
-    "sessions":
-    [
+    "sessions": [
       {
         "sessionsByTrack": [
           {
@@ -49,7 +48,7 @@
           },
           {
             "speakers": "Sanil Bhandari",
-            "sessiontitle": "Insights into Value Chain using Modern Architecture: calculation of CO2e",
+            "sessiontitle": "Concept of Value Chain Analysis with use case: CO2e Calculation",
             "description": "The session would focus on innovations around Component Breakdown as part of Universal Parallel Accounting, which helps to provide various vectors such as Product Cost and Quantity Breakdown with one use case example",
             "organization": "SAP Labs India Pvt Ltd",
             "socialmedia": "https://www.linkedin.com/in/sanilbhandari/",
@@ -90,7 +89,7 @@
           },
           {
             "speakers": "Mainak Aich",
-            "sessiontitle": "ABAP - Open to All!",
+            "sessiontitle": "Discovering Open-Source ABAP",
             "description": "Get an overview of rapid rise of Open-source applications in ABAP and learn how SAP customers can be benefitted by leveraging them in their projects and products.",
             "organization": "VS&Co",
             "socialmedia": "https://www.linkedin.com/in/mainakaich/",
@@ -208,7 +207,7 @@
         "sequence": "2.1",
         "time": "11:00 - 11:30",
         "type": "break",
-        "tracktitle": "Break and Netwokring"
+        "tracktitle": "Break and Networking"
       },
       {
         "sessionsByTrack": [
@@ -483,11 +482,11 @@
             "tracktitle": "SAP UX & Cross Topics"
           },
           {
-            "speakers": "Joinal Ahmed",
-            "sessiontitle": "Intergate ML in your SAP Applications using ABAP ML SDK for Google Cloud",
-            "description": "In this session i will talk about the newly launched ABAP ML SDK for Google Cloud and its capabilities, and how ABAP developers can Intergate ML capabilities with existing SAP applications.",
-            "organization": "Google Cloud",
-            "socialmedia": "https://linkedin.com/in/joinalahmed",
+            "speakers": "Ganga Koli, Shashidhar Moudgal",
+            "sessiontitle": "Customer experience with using Tricentis Tools with SAP applications for Quality Engineering",
+            "description": "Usage experience with Tricentis Tools in the SAP programs of Mercedes Benz:\nTosca - Test automation\nLive Compare - Impact analysis\nNeoLoad - Performance testing",
+            "organization": "Mercedes Benz Research & Development India ltd",
+            "socialmedia": "Yes",
             "track": "Track 8",
             "sessionseq": 5,
             "tracktitle": "General & Cross SAP Topics"
@@ -512,8 +511,8 @@
           },
           {
             "speakers": "Pamoli Banerjee",
-            "sessiontitle": "Overview of Event-Driven Architecture in SAP",
-            "description": "Overview of Event-Driven Architecture in SAP using Event Mesh",
+            "sessiontitle": "Overview of SAP Event Driven Architecture and SAP Event Mesh",
+            "description": "The session will include an overview of event driven architecture - it’s basic concept and benefits , get familiarized with SAP BTP service - Event Mesh and its components .We will also go through a use case that leverages event mesh and understand the end-to-end flow.",
             "organization": "BearingPoint India",
             "socialmedia": "Yes , no problem",
             "sapcommunity": "https://www.linkedin.com/in/pamoli-banerjee-08a28a19/",
@@ -601,7 +600,7 @@
         "sequence": "6.1",
         "time": "03:00 - 03:30",
         "type": "break",
-        "tracktitle": "Break and Netwokring"
+        "tracktitle": "Break and Networking"
       },
       {
         "sessionsByTrack": [
@@ -639,8 +638,8 @@
           },
           {
             "speakers": "Deepika HM",
-            "sessiontitle": "Automate a Procurement Business Process using SAP Build Process Automation",
-            "description": "Automate repetitive manual tasks within SAP Ariba solutions and SAP S/4HANA using pre-built content and connectors with SAP Build Process Automation.",
+            "sessiontitle": "Intelligent Spend Management with SAP BTP and Ariba Business Network",
+            "description": "This session gives an overview and understand on how SAP BTP can be effectively applied within spend management solutions, equipped with insights into various BTP extension types, integration possibilities and the real-time analytics potential that SAP BTP offers, all contributing to improved efficiency, cost-effectiveness, and informed decision-making in the realm of spend management solutions - Ariba",
             "organization": "Cognizant",
             "socialmedia": "linkedin.com/in/deepika-hirematt-68040b198",
             "sapcommunity": "https://people.sap.com/deepika_hm",
@@ -660,6 +659,17 @@
             "tracktitle": "SAP Cloud Prodcuts 2"
           },
           {
+            "speakers": "Reshma Jayadeva Prakash",
+            "sessiontitle": "Concur Product Direction and Strategy",
+            "description": "In this session, concur roadmap will be explained in depth along with giving an overview on the look forward and strategy defined for Concur Solutions and Feature capabilities",
+            "organization": "SAP Labs",
+            "socialmedia": "https://www.linkedin.com/in/reshma-jayadeva-prakash-bb805321/",
+            "sapcommunity": "https://people.sap.com/reshmaj",
+            "track": "Track 6",
+            "sessionseq": 7,
+            "tracktitle": "Concur"
+          },
+          {
             "speakers": "Poonam Nikat",
             "sessiontitle": "Cybersecurity best practices for S4 HANA and BTP",
             "description": "The topic explains about best cyber practices one should follow while implementing and using SAP products (especially SAP S4, BTP and other cloud solutions). These practices might be evident and easy to implement with other java based or cloud systems with SAP ABAP systems, but it comes with its challenges due to the proprietorship of SAP products / their codes. The topic will explain some key aspects of those security checks, specifically in terms of SAP systems",
@@ -670,11 +680,11 @@
             "tracktitle": "SAP UX & Cross Topics"
           },
           {
-            "speakers": "Ganga Koli, Shashidhar Moudgal",
-            "sessiontitle": "Customer experience with using Tricentis Tools with SAP applications for Quality Engineering",
-            "description": "Usage experience with Tricentis Tools in the SAP programs of Mercedes Benz:\nTosca - Test automation\nLive Compare - Impact analysis\nNeoLoad - Performance testing",
-            "organization": "Mercedes Benz Research & Development India ltd",
-            "socialmedia": "Yes",
+            "speakers": "Joinal Ahmed",
+            "sessiontitle": "Intergate ML in your SAP Applications using ABAP ML SDK for Google Cloud",
+            "description": "In this session i will talk about the newly launched ABAP ML SDK for Google Cloud and its capabilities, and how ABAP developers can Intergate ML capabilities with existing SAP applications.",
+            "organization": "Google Cloud",
+            "socialmedia": "https://linkedin.com/in/joinalahmed",
             "track": "Track 8",
             "sessionseq": 7,
             "tracktitle": "General & Cross SAP Topics"
@@ -740,6 +750,16 @@
             "tracktitle": "SAP Cloud Prodcuts 2"
           },
           {
+            "speakers": "Sidharth Jain, Chunmun Gupta",
+            "sessiontitle": "Automation of Petty Cash Management",
+            "description": "a comprehensive solution for integrating Razorpay's wallet app with SAP Concur expense management platform. This integration aims to revolutionise the way businesses handle employee cash advances by automating the process, reducing manual interventions, and ensuring digital transaction tracking. By detailing the workflow, technical requirements, and anticipated benefits",
+            "organization": "Razorpay Software Private Limited",
+            "socialmedia": "https://www.linkedin.com/in/sidharth-jain-3ab7969a/",
+            "track": "Track 6",
+            "sessionseq": 8,
+            "tracktitle": "Concur"
+          },
+          {
             "speakers": "Savithaa Rajendran",
             "sessiontitle": "Cyclic Action Research: Experiences and Best Practices from Oil and Gas Field Logistics",
             "description": "For Upstream Field Logistics in the Oil and Gas area, in collaboration with our consortium of customers including Shell, BP, Inpex, ConocoPhillips and Chevron, we conducted remote research at each stage of the design process. This includes requirements gathering, conceptual walkthroughs, usability testing and follow-up post implementation remote Usability Testing. The process matches the 5 stages of Action Research Cycle: diagnosing, action planning, action taking, evaluating and specifying learning.",
@@ -775,7 +795,7 @@
           }
         ],
         "sequence": "8.1",
-        "time": "04:00 - 05:00",
+        "time": "04:40 - 05:00",
         "type": "break",
         "tracktitle": "Speaker Recognitions and Giveaways"
       }

@@ -30,7 +30,7 @@ const LandingNavBar = () => {
         </Link> */}
         <Link href="/">
           <Button  className="rounded-full">
-            Contact
+            Event Feedback
           </Button>
         </Link>
       </div>
