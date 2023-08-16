@@ -142,12 +142,15 @@ const Home = () => {
                 <div className="mx-auto max-w-screen-xl">
 
 
-                    <div className='flex flex-row justify-between p-2'>
-                        <div className="p-4 text-2xl font-semibold">Sessions</div>
-                        <input type="text" ref={searchButton} onFocus={onFocusHandle} name="search" onChange={onChangeHandle} className="w-1/5 p-2 mt-1 px-3 py-2 bg-white border shadow-sm border-grey-300 placeholder-grey-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1" placeholder="Search sessions here..." />
+                    <div className="font-semibold ">
+                        <Link legacyBehavior href="https://docs.google.com/spreadsheets/d/1uuVxpWiAthIiWt4l9Djzg1YfTAY_AdxZKiIC5WPugOU/edit">
+                            <a className="decoration-blue-500 underline underline-offset-auto" target="_blank" rel="noopener noreferrer">
+                                <p className="p-2 text-blue-600">Link to Excel</p></a></Link></div>
+                    <div className='flex flex-row justify-between'>
+                        <div className="p-2 text-2xl font-semibold">Sessions</div>
+                        <input type="text" ref={searchButton} onFocus={onFocusHandle} name="search" onChange={onChangeHandle} className="w-1/5 mt-1 px-3 py-2 bg-white border shadow-sm border-grey-300 placeholder-grey-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1" placeholder="Search sessions here..." />
                         {/* <DropDownTracks/> */}
                         {/* <Button>Download Session Details</Button> */}
-                        <div className="p-4 font-semibold "><Link className='p-4' legacyBehavior href="https://docs.google.com/spreadsheets/d/1uuVxpWiAthIiWt4l9Djzg1YfTAY_AdxZKiIC5WPugOU/edit"><a className="underline underline-offset-auto" target="_blank" rel="noopener noreferrer"><p className="text-blue">Link to Excel</p></a></Link></div>
                     </div>
                     {query ? "" : (
                         <div>

@@ -39,7 +39,7 @@
           {
             "speakers": "Prasanna Bhat, Sudarshan Pavanje",
             "sessiontitle": "Reusable AI Assets. A look at reusable AI assets from SAP",
-            "description": "Reusable AI Assets. A look at reusable AI assets from SAP",
+            "description": "SAP has a rich and diverse reusable AI Assets portfolio. Reusable AI Assets include various AI Business Services and one digital assistance. AI Business Service covers various recommendation services it offers, extraction services and classification services. One digital assistance provides a unified digital assistance experience to its end users. The session here gives an overview of these offerings.",
             "organization": "SAP Labs",
             "socialmedia": "linkedin",
             "track": "Track 3",
@@ -234,7 +234,7 @@
           },
           {
             "speakers": "Ratnesh Sonawane",
-            "sessiontitle": "Using SAC capabilities for Finance Operations in Mercedes-Benz",
+            "sessiontitle": "Using SAC Capabilities for day to day Finance Operations",
             "description": "This session will provide an insight on practical use of SAC within Mercedes-Benz for addressing day to day Finance related topics. It will also focus on how SAC helps end users to save time from repetitive tasks to focus on quality analysis.",
             "organization": "Mercedes Benz Research & Development India Pvt Ltd",
             "socialmedia": "https://www.linkedin.com/in/ratnesh-sonawane-92bb6616/",
@@ -522,8 +522,8 @@
           },
           {
             "speakers": "Prasanna Bhat",
-            "sessiontitle": "SAP AI Business Document processing service. Overview, Vision with a Quick Demo",
-            "description": "SAP AI Business Document processing service. Overview, Vision with a Quick Demo",
+            "sessiontitle": "SAP AI Business Document Processing Service Overview",
+            "description": "Business document extraction is part of various lines of business use cases. Business gets printed documents for their business process. But it involves a huge manual intervention to trigger the business process.  This has been solved using business document extraction. However, the current document extraction supports a pre-defined structure. It does not solve the entire problem. This has been solved using supporting schema and templates in the document extraction workflow. The end users get the flexibility of defining their own headers and line items specific to their document. This can be achieved using defining their schemas. Or they can also their end users’ scenarios. They may have their HR-specific documents with different headers or finance documents in the different headers or line items. They can define various schemas for these use cases. There can also be situations that document structures are different for their different vendors. This can be defined using their templates.",
             "organization": "SAP Labs",
             "socialmedia": "LN",
             "track": "Track 3",
