@@ -337,9 +337,9 @@ const Home = () => {
                         <div className="flex flex-row justify-between p-10">
                             <a
                                 className="flex items-center justify-center text-gray-400 hover:text-gray-200"
-                                href="https://laradir.com"
+                                href="https://acloudguruji.com/"
                                 target="_blank"
-                                title="Laradir"
+                                title="A Cloud Guruji"
                             >
                                 <Image
                                     width={200}
@@ -352,9 +352,9 @@ const Home = () => {
                             </a>
                             <a
                                 className="flex items-center justify-center text-gray-400 hover:text-gray-200"
-                                href="https://ploi.io"
+                                href=""
                                 target="_blank"
-                                title="Ploi"
+                                title="Archtech"
                             >
                                 <div className='object-contain'>
                                     <Image
@@ -370,9 +370,9 @@ const Home = () => {
 
                             <a
                                 className="flex items-center justify-center text-gray-400 hover:text-gray-200"
-                                href="https://ploi.io"
+                                href=""
                                 target="_blank"
-                                title="Ploi"
+                                title="Primus"
                             >
                                 <div className='object-contain'>
                                     <Image
@@ -381,16 +381,16 @@ const Home = () => {
                                         width={100}
                                         height={100}
                                         objectFit="contain"
-                                        alt="A Cloud Guruju"
+                                        alt="Primus"
                                     />
                                 </div>
                             </a>
 
                             <a
                                 className="flex items-center justify-center text-gray-400 hover:text-gray-200"
-                                href="https://ploi.io"
+                                href=""
                                 target="_blank"
-                                title="Ploi"
+                                title="S2 integrations"
                             >
                                 <div className='object-contain'>
                                     <Image
@@ -399,23 +399,23 @@ const Home = () => {
                                         width={100}
                                         height={100}
                                         objectFit="contain"
-                                        alt="A Cloud Guruju"
+                                        alt="s2 integrations"
                                     />
                                 </div>
                             </a>
 
                             <a
                                 className="flex items-center justify-center text-gray-400 hover:text-gray-200"
-                                href="https://ploi.io"
+                                href=""
                                 target="_blank"
-                                title="Ploi"
+                                title="SAP Press"
                             >
                                 <Image
                                     width={175}
                                     height={175}
                                     src={sappress}
                                     objectFit="cover"
-                                    alt="A Cloud Guruju"
+                                    alt="SAP Press"
                                 />
                             </a>
                         </div>
