@@ -217,7 +217,7 @@ const Home = () => {
                                                                     setTrack(track.track);
                                                                     setOrganization(track.organization);
                                                                     onOpen();
-                                                                }} className="cursor-pointer bg-slate-100 border border-slate-200 rounded-none drop-shadow-xl p-2 h-full flex flex-col justify-between">
+                                                                }} className="cursor-pointer bg-white border border-slate-200 rounded-none drop-shadow-xl p-2 h-full flex flex-col justify-between">
                                                                     <div>
                                                                         <h4 className="text-xs font-bold text-gray-700">{track.track}</h4>
                                                                         <p className="text-xs text-gray-500">{track.tracktitle}</p>
