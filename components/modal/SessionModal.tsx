@@ -51,7 +51,8 @@ const SessionModal: React.FC<ModalProps> = ({
                         {sessiondata.sessiondesc}
                     </DialogDescription>
                 </DialogHeader>
-                <div>
+                <hr></hr>
+                <div >
                     <p className='text-xs text-gray-500'><span className="inline font-semibold text-gray-600">{sessiondata.track}:</span> {sessiondata.tracktitle}</p>
                     <p className='text-xs text-gray-500'><span className="inline font-semibold text-gray-600">Speakers:</span> {sessiondata.speakers} ({sessiondata.organization})</p>
                 </div>
