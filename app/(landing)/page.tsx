@@ -224,7 +224,7 @@ const Home = () => {
                                                                     </div>
                                                                     <hr />
 
-                                                                    <p className="text-xs font-semibold text-gray-700 mt-2">{track.sessiontitle}</p>
+                                                                    <p className="text-blue-600 underline text-xs font-semibold mt-2">{track.sessiontitle}</p>
                                                                     <p className="text-xs text-gray-800 mt-2 line-clamp-2">{track.description}</p>
                                                                     <hr />
                                                                     <p className="text-xs font-semibold text-gray-500 mt-2">{track.speakers}</p>
