@@ -78,11 +78,11 @@
             "tracktitle": "Concur"
           },
           {
-            "speakers": "Roohi Ganatra",
-            "sessiontitle": "Global Search",
-            "description": "Powerful enterprise elastic search in SAP Sales Cloud and SAP Service Cloud. Global Search is built on the concept of elastic search to take advantage of its speed. It has been built to achieve flexibility and ease of use considering usability and is enabled by default in service cloud version 2 solution",
+            "speakers": "Shubham Johari",
+            "sessiontitle": "Design Eye Opener Mini",
+            "description": "SAP General Topic",
             "organization": "SAP",
-            "socialmedia": "https://www.linkedin.com/in/roohi-ganatra-47027a25/",
+            "socialmedia": "https://www.linkedin.com/in/shubham-johari-58a92672/",
             "track": "Track 7",
             "sessionseq": 1,
             "tracktitle": "SAP UX & Cross Topics"
@@ -169,11 +169,11 @@
             "tracktitle": "Concur"
           },
           {
-            "speakers": "Varsha Jadhav, Deviprasad Kaplieshwari",
-            "sessiontitle": "Design Harmonisation",
-            "description": "How the team sifted through over 100 apps to define consistency parameters for our apps and why it matters.\n",
+            "speakers": "Roohi Ganatra",
+            "sessiontitle": "Global Search",
+            "description": "Powerful enterprise elastic search in SAP Sales Cloud and SAP Service Cloud. Global Search is built on the concept of elastic search to take advantage of its speed. It has been built to achieve flexibility and ease of use considering usability and is enabled by default in service cloud version 2 solution",
             "organization": "SAP",
-            "socialmedia": "https://www.linkedin.com/in/varshaj/",
+            "socialmedia": "https://www.linkedin.com/in/roohi-ganatra-47027a25/",
             "track": "Track 7",
             "sessionseq": 2,
             "tracktitle": "SAP UX & Cross Topics"
@@ -542,10 +542,10 @@
             "tracktitle": "SAP Cloud Products 1"
           },
           {
-            "speakers": "Moumita Saha",
+            "speakers": "Moumita Saha, Supreet Kaur",
             "sessiontitle": "Sap Sustainability Control Tower & ISSB updates",
             "description": "ESG frameworks and future of SAP Sustainability reporting",
-            "organization": "Hitachi Vantara",
+            "organization": "Hitachi Vantara, SAP Labs",
             "socialmedia": "https://www.linkedin.com/in/moumitasaha7",
             "sapcommunity": "https://people.sap.com/moumitasaha.thedatatherapist",
             "track": "Track 5",
@@ -563,11 +563,11 @@
             "tracktitle": "Concur"
           },
           {
-            "speakers": "Shubham Johari",
-            "sessiontitle": "Design Eye Opener Mini",
-            "description": "SAP General Topic",
+            "speakers": "Varsha Jadhav, Deviprasad Kaplieshwari",
+            "sessiontitle": "Design Harmonisation",
+            "description": "How the team sifted through over 100 apps to define consistency parameters for our apps and why it matters.\n",
             "organization": "SAP",
-            "socialmedia": "https://www.linkedin.com/in/shubham-johari-58a92672/",
+            "socialmedia": "https://www.linkedin.com/in/varshaj/",
             "track": "Track 7",
             "sessionseq": 6,
             "tracktitle": "SAP UX & Cross Topics"
