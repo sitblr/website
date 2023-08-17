@@ -225,10 +225,10 @@
           },
           {
             "sessiontitle": "Rise with SAP Offering Highlights",
-            "description": "RISE with SAP can transition your current ERP data and processes to the cloud with less risk and without compromise. The bundle of tailor-made ERP software, transformation services, business analytics, and partner expertise guides you along a personalized path to the cloud.",
+            "description": "Understand how \"RISE with SAP\" help businesses transform and adapt to the challenges of the digital economy. Explore how it's essentially a holistic package that combines various elements, including technology, services, and expertise, to enable businesses to embark on their digital transformation journey.",
             "organization": "Bosch",
             "socialmedia": "www.linkedin.com/in/prashant-g-72253a13",
-            "sapcommunity": "https://people.sap.com/ag.prashanth",
+            "sapcommunity": "https:",
             "track": "Track 4",
             "sessionseq": 3,
             "tracktitle": "SAP Cloud Products 1"
@@ -238,7 +238,7 @@
             "description": "This will give an understanding of Supply chain optimizations  and how to achieve a minimal disruption and resilience of the business by using SAP S/4HANA MRP features. You will also learn how the AI and ML are contributing to supply chain optimization's in SAP S/4HANA.",
             "organization": "Walmart Global tech India Pvt Ltd",
             "socialmedia": "www.linkedin.com/in/prasath-elumalai-42309463",
-            "sapcommunity": "https:",
+            "sapcommunity": "https://people.sap.com/maniprasath_73",
             "track": "Track 5",
             "sessionseq": 3,
             "tracktitle": "SAP Cloud Prodcuts 2"
