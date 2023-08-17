@@ -53,8 +53,8 @@ const SessionModal: React.FC<ModalProps> = ({
                 </DialogHeader>
                 <hr></hr>
                 <div >
-                    <p className='text-xs text-gray-500'><span className="inline font-semibold text-gray-600">{sessiondata.track}:</span> {sessiondata.tracktitle}</p>
-                    <p className='text-xs text-gray-500'><span className="inline font-semibold text-gray-600">Speakers:</span> {sessiondata.speakers} ({sessiondata.organization})</p>
+                    <p className='flex sm:flex-none flex-col sm:flex-row space-y-1.5 text-center sm:text-left text-xs text-gray-500'><span className="inline font-semibold text-gray-600 space-x-4">{sessiondata.track}:‎ ‎ </span> {sessiondata.tracktitle}</p>
+                    <p className='flex sm:flex-none flex-col sm:flex-row space-y-1.5 text-center sm:text-left text-xs text-gray-500'><span className="inline font-semibold text-gray-600 space-x-4">Speakers:‎ ‎ </span> {sessiondata.speakers} ({sessiondata.organization})</p>
                 </div>
             </DialogContent>
         </Dialog>
