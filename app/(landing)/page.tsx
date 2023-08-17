@@ -152,7 +152,7 @@ const Home = () => {
                 <div className="mx-auto max-w-screen-xl">
 
 
-                    <div className="font-semibold ">
+                    <div className="font-semibold w-1/4">
                         <Link legacyBehavior href="https://docs.google.com/spreadsheets/d/1uuVxpWiAthIiWt4l9Djzg1YfTAY_AdxZKiIC5WPugOU/edit">
                             <a className="decoration-blue-500 underline underline-offset-auto" target="_blank" rel="noopener noreferrer">
                                 <p className="p-2 text-blue-600">Link to Excel</p></a></Link></div>
