@@ -61,7 +61,7 @@ type event = eventdata | null
 
 const Home = () => {
 
-    const { onOpen, setTrackTitle, setTrackDescription, setSessionTitle, setSessionDesc, setOrganization, setSpeakers, setTrack } = useSession();
+    const { onOpen, setTrackTitle, setTrackDescription, setSessionTitle, setSessionDesc, setOrganization, setSpeakers, setTrack, setSessionNo } = useSession();
     const { onOpen:onOpenChecklist }  = usechecklist();
     
     const router = useRouter()
@@ -226,6 +226,7 @@ const Home = () => {
                                                                     setSpeakers(track.speakers);
                                                                     setTrack(track.track);
                                                                     setOrganization(track.organization);
+                                                                    setSessionNo(track.sessionseq);
                                                                     onOpen();
                                                                 }} className="cursor-pointer bg-white border border-slate-200 rounded-none drop-shadow-xl p-2 h-full flex flex-col justify-between">
                                                                     <div>

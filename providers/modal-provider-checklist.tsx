@@ -19,7 +19,7 @@ export const ModalProviderChecklist = () => {
 
     return (
         <>
-            <ChecklistModal isOpen onClose={() => { }}></ChecklistModal>
+            <ChecklistModal isOpen onClose={() => { } } track="" tracktitle="" sessionno="" session=""></ChecklistModal>
         </>
     )
 

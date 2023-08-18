@@ -11,14 +11,20 @@ import {
 import { usechecklist } from '@/hooks/use-checklist-modal';
 
 interface ModalProps {
-    
+    track: string;
+    tracktitle: string;
+    sessionno: string;
+    session: string;
     isOpen: boolean;
     onClose: () => void;
     children?: React.ReactNode
 }
 
 const ChecklistModal: React.FC<ModalProps> = ({
-   
+    track,
+    tracktitle,
+    session,
+    sessionno,
     isOpen,
     onClose,
     children
