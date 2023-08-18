@@ -168,7 +168,7 @@ const Home = () => {
                     </div>
                     <div className='flex flex-row justify-between pb-2'>
                         <div className="p-2 text-2xl font-semibold">Sessions</div>
-                        <input type="text" ref={searchButton} onFocus={onFocusHandle} name="search" onChange={onChangeHandle} className="w-1/5 mt-1 px-3 py-2 bg-white border shadow-sm border-grey-300 placeholder-grey-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1" placeholder="Search sessions here..." />
+                        <input type="text" ref={searchButton} onFocus={onFocusHandle} name="search" onChange={onChangeHandle} className="w-1/5 mt-1 px-3 py-2 bg-white border shadow-sm border-grey-300 placeholder-grey-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1" placeholder="Search for sessions here..." />
                         {/* <DropDownTracks/> */}
                         {/* <Button>Download Session Details</Button> */}
                     </div>
