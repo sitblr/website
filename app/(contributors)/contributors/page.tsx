@@ -4,6 +4,7 @@ import LandingNavBar from '@/components/landing-navbar'
 import Image from 'next/image'
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import SAP from '@/public/sap-logo-svg.svg';
+import Subhajit from '@/public/Subhajit.png';
 import Footer from '@/components/footer'
 
 
@@ -88,14 +89,14 @@ const ContributorsPage = () => {
                             <div className="rounded-full relative overflow-hidden mt-4 md:h-[250px] md:w-[250px]">
                                 <div>
                                     <Image
-                                        src="https://media.licdn.com/dms/image/D5603AQFt6sPsRD2pzg/profile-displayphoto-shrink_800_800/0/1687086850516?e=1697673600&v=beta&t=znRtEH-JwI8s4UCmWmI6TA-aYh7vwPRIwX--b2vKQHU"
+                                        src={Subhajit}
                                         layout="fill"
                                         objectFit="cover"
                                         alt="Profile Picture"
                                     />
                                 </div>
                             </div>
-                            <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">Subhajit D</h5>
+                            <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">Subhajit Das</h5>
                             <span className="text-sm text-gray-500 dark:text-gray-400">Organizer</span>
                             <div className="flex mt-4 space-x-3 md:mt-6">
                                 <a href="https://www.linkedin.com/in/iheartsap/" target="_blank" className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-gray-700 rounded-lg hover:bg-black focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"><LinkedInIcon /></a>
