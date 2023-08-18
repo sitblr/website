@@ -24,17 +24,20 @@ const EventHeader = ({ title, register}: props ) => {
                     <h1>{title}</h1>
                     <h2>Bengaluru, India</h2>
                 </div>  
-                <div className="p-4 mt-8">
-                    {/* <Link href={register}> */}
-                    <a target="_blank" href={register} rel="noopener noreferrer">
-                    <Button className="md:text-lg p-4 md:p-6 rounded-full font-semibold  text-white hover:bg-gray-500 hover:text-white">
+                <div className="p-4 mt-8 ">
+                    {/* <a target="_blank" href={register} rel="noopener noreferrer">
+                    <Button className="px-4  md:text-lg p-4 md:p-6 rounded-full font-semibold  text-white hover:bg-gray-500 hover:text-white">
                         Register
                     </Button>
+                    </a> */}
+                    <a target="_blank" href="https://forms.gle/fvbPFrWD8XYSt3Qy9" rel="noopener noreferrer">
+                    <Button className="bg-blue-700 px-4 md:text-lg p-4 md:p-6 rounded-full font-semibold  text-white hover:bg-gray-500 hover:text-white">
+                        Event Feedback
+                    </Button>
                     </a>
-                    {/* </Link> */}
                 </div>
             </div>
-            <div className="flex px-20 items-center">
+            {/* <div className="flex px-20 items-center"> */}
                 {/* <EventHero /> */}
                 {/* <div className="grid grid-cols-2 gap-6 max-w-md mx-auto">
                     <div className="bg-blue-300 text-white text-center rounded-md">
@@ -70,7 +73,7 @@ const EventHeader = ({ title, register}: props ) => {
                         </div>
                     </div>
                 </div> */}
-            </div>
+            {/* </div> */}
         </div>
     </div>
     )

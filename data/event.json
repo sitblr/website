@@ -18,7 +18,7 @@
           {
             "speakers": "Dharani Karthikeyan",
             "sessiontitle": "SAP BTP and Data to Value Strategy",
-            "description": "SAP BTP and Data-2-Value Strategy",
+            "description": "Learn about the capabilities of SAP BTP and understand how a data-to-value strategy can transform your business operations.",
             "organization": "SAP",
             "socialmedia": "-",
             "track": "Track 1",
@@ -180,10 +180,10 @@
           },
           {
             "speakers": "Juhi Kulshreshtha",
-            "sessiontitle": "Fuelling Business Innovation Through SAP BTP & Hyperscalers Joint Reference Architectures",
+            "sessiontitle": "Buisness Use cases based on SAP's Reference Architectures with SAP BTP and Hyperscalers",
             "description": "This session will be about SAP BTP’s ‘Joint Reference Architecture’ with Cloud Service providers like Google Cloud Platform. We will be talking about different ways in which these architectures help reduce TCO, support automation or enable use of AI/ML in Business Scenarios. Helping to understand how organisations can get most out of their investments in SAP BTP and Cloud Service Providers",
             "organization": "Mindset Consulting",
-            "socialmedia": "https://www.linkedin.com/in/juhi-kulshreshtha-aba8486",
+            "socialmedia": "https:",
             "sapcommunity": "https://people.sap.com/juhik2003",
             "track": "Track 8",
             "sessionseq": 2,
@@ -249,7 +249,7 @@
             "description": "Understand how \"RISE with SAP\" help businesses transform and adapt to the challenges of the digital economy. Explore how it's essentially a holistic package that combines various elements, including technology, services, and expertise, to enable businesses to embark on their digital transformation journey.",
             "organization": "Bosch",
             "socialmedia": "www.linkedin.com/in/prashant-g-72253a13",
-            "sapcommunity": "https:",
+            "sapcommunity": "https://people.sap.com/ag.prashanth",
             "track": "Track 4",
             "sessionseq": 3,
             "tracktitle": "SAP Cloud Products 1 (SAP S/4HANA and others)"
@@ -409,9 +409,9 @@
       {
         "sessionsByTrack": [
           {
-            "speakers": "S2 Integrators [TBD]",
-            "sessiontitle": "S2 Integrators [TBD]",
-            "description": "S2 Integrators [TBD]",
+            "speakers": "S2 Integrators",
+            "sessiontitle": "S2 Integrators",
+            "description": "S2 Integrators",
             "organization": "S2 Integrators",
             "socialmedia": "-",
             "track": "Track 1",
