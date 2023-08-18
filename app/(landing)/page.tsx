@@ -24,6 +24,10 @@ import { Button } from '@/components/ui/button'
 import Link from 'next/link'
 import SessionModal from '@/components/modal/SessionModal';
 import { useSession } from '@/hooks/use-session-modal';
+
+
+import ChecklistModal from '@/components/modal/ChecklistModal';
+import { usechecklist } from '@/hooks/use-checklist-modal';
 type track = {
     id: string
     trackName: string
@@ -57,7 +61,9 @@ type event = eventdata | null
 
 const Home = () => {
 
-    const { onOpen, setTrackTitle, setTrackDescription, setSessionTitle, setSessionDesc, setOrganization, setSpeakers, setTrack } = useSession();
+    const { onOpen, setTrackTitle, setTrackDescription, setSessionTitle, setSessionDesc, setOrganization, setSpeakers, setTrack, setSessionNo } = useSession();
+    const { onOpen:onOpenChecklist }  = usechecklist();
+    
     const router = useRouter()
     const [data, setData] = useState<event>(null)
 
@@ -151,11 +157,15 @@ const Home = () => {
             <div>
                 <div className="mx-auto max-w-screen-xl">
 
-
-                    <div className="font-semibold w-1/4">
-                        <Link legacyBehavior href="https://docs.google.com/spreadsheets/d/1uuVxpWiAthIiWt4l9Djzg1YfTAY_AdxZKiIC5WPugOU/edit">
-                            <a className="decoration-blue-500 underline underline-offset-auto" target="_blank" rel="noopener noreferrer">
-                                <p className="p-2 text-blue-600">Link to Excel</p></a></Link></div>
+                    <div className='flex flex-wrap px-2'>
+                        {/* <div className="font-semibold w-32">
+                            <Link legacyBehavior href="https://docs.google.com/spreadsheets/d/1uuVxpWiAthIiWt4l9Djzg1YfTAY_AdxZKiIC5WPugOU/edit">
+                                <a className="decoration-blue-500 underline underline-offset-auto" target="_blank" rel="noopener noreferrer">
+                                    <p className="p-2 text-blue-600">Link to Excel</p></a></Link>
+                        </div> */}
+                        <a className="px-2 text-white font-semibold bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800" href="https://docs.google.com/spreadsheets/d/1uuVxpWiAthIiWt4l9Djzg1YfTAY_AdxZKiIC5WPugOU/edit" target="_blank" rel="noopener noreferrer">Sessions Excel</a>
+                        <div onClick={()=>{onOpenChecklist()}} className="cursor-pointer px-2 text-white font-semibold bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Attendee Checklist</div>
+                    </div>
                     <div className='flex flex-row justify-between pb-2'>
                         <div className="p-2 text-2xl font-semibold">Sessions</div>
                         <input type="text" ref={searchButton} onFocus={onFocusHandle} name="search" onChange={onChangeHandle} className="w-1/5 mt-1 px-3 py-2 bg-white border shadow-sm border-grey-300 placeholder-grey-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1" placeholder="Search sessions here..." />
@@ -216,8 +226,9 @@ const Home = () => {
                                                                     setSpeakers(track.speakers);
                                                                     setTrack(track.track);
                                                                     setOrganization(track.organization);
+                                                                    setSessionNo(track.sessionseq);
                                                                     onOpen();
-                                                                }} className="cursor-pointer bg-slate-100 border border-slate-200 rounded-none drop-shadow-xl p-2 h-full flex flex-col justify-between">
+                                                                }} className="cursor-pointer bg-white border border-slate-200 rounded-none drop-shadow-xl p-2 h-full flex flex-col justify-between">
                                                                     <div>
                                                                         <h4 className="text-xs font-bold text-gray-700">{track.track}</h4>
                                                                         <p className="text-xs text-gray-500">{track.tracktitle}</p>

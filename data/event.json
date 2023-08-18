@@ -1,7 +1,7 @@
 [
   {
     "id": "sap-inside-track-aug-2023",
-    "title": "SAP Inside Track, August 2023",
+    "title": "SAP Inside Track, 19th August 2023",
     "location": "Chennai,Tamilnadu",
     "dateFrom": "2023-08-23T00:00:00",
     "dateTo": "2023-08-23T00:00:00",
@@ -34,7 +34,7 @@
             "sapcommunity": "https://people.sap.com/archana.shukla",
             "track": "Track 2",
             "sessionseq": 1,
-            "tracktitle": "Pro Code + Low Code + Integration"
+            "tracktitle": "Pro Code, Low Code and Integration"
           },
           {
             "speakers": "Prasanna Bhat, Sudarshan Pavanje",
@@ -55,7 +55,7 @@
             "sapcommunity": "https://people.sap.com/sanil0309",
             "track": "Track 4",
             "sessionseq": 1,
-            "tracktitle": "SAP Cloud Products 1"
+            "tracktitle": "SAP Cloud Products 1 (SAP S/4HANA and others)"
           },
           {
             "speakers": "Sonal Kumar, Umesh Jagadesh",
@@ -65,7 +65,7 @@
             "socialmedia": "-",
             "track": "Track 5",
             "sessionseq": 1,
-            "tracktitle": "SAP Cloud Prodcuts 2"
+            "tracktitle": "SAP Cloud Prodcuts 2 (SAP S/4HANA and others)"
           },
           {
             "speakers": "Reshma Jeyadeva Prakash, Arjit Garg",
@@ -78,14 +78,14 @@
             "tracktitle": "Concur"
           },
           {
-            "speakers": "Roohi Ganatra",
-            "sessiontitle": "Global Search",
-            "description": "Powerful enterprise elastic search in SAP Sales Cloud and SAP Service Cloud. Global Search is built on the concept of elastic search to take advantage of its speed. It has been built to achieve flexibility and ease of use considering usability and is enabled by default in service cloud version 2 solution",
+            "speakers": "Shubham Johari",
+            "sessiontitle": "Design Eye Opener Mini",
+            "description": "SAP General Topic",
             "organization": "SAP",
-            "socialmedia": "https://www.linkedin.com/in/roohi-ganatra-47027a25/",
+            "socialmedia": "https://www.linkedin.com/in/shubham-johari-58a92672/",
             "track": "Track 7",
             "sessionseq": 1,
-            "tracktitle": "SAP UX & Cross Topics"
+            "tracktitle": "SAP UX and Cross Topics"
           },
           {
             "speakers": "Mainak Aich",
@@ -96,7 +96,7 @@
             "sapcommunity": "https://people.sap.com/mainak-aich",
             "track": "Track 8",
             "sessionseq": 1,
-            "tracktitle": "General & Cross SAP Topics"
+            "tracktitle": "General and Cross SAP Topics"
           }
         ],
         "sequence": "1",
@@ -125,7 +125,7 @@
             "sapcommunity": "https://people.sap.com/k_nagashivashankar",
             "track": "Track 2",
             "sessionseq": 2,
-            "tracktitle": "Pro Code + Low Code + Integration"
+            "tracktitle": "Pro Code, Low Code and Integration"
           },
           {
             "speakers": "Siddhant Mahapatra, Jitendra Ghanta",
@@ -145,17 +145,17 @@
             "socialmedia": "https://www.linkedin.com/in/sridevi-sridharan-94824016b",
             "track": "Track 4",
             "sessionseq": 2,
-            "tracktitle": "SAP Cloud Products 1"
+            "tracktitle": "SAP Cloud Products 1 (SAP S/4HANA and others)"
           },
           {
             "speakers": "Balamurali Muraleedharan ",
-            "sessiontitle": "Digitizing Sourcing & Procurement in Rise with SAP",
+            "sessiontitle": "RISE with SAP on AWS",
             "description": "The topic gives an overview of how customers are innovating faster and transforming businesses with RISE with SAP on AWS. How the unique architecture of SAP on AWS helps maximize performance and protect you from disruptions",
             "organization": "AWS (Amazon Web Services)",
             "socialmedia": "www.linkedin.com/in/bala-sap",
             "track": "Track 5",
             "sessionseq": 2,
-            "tracktitle": "SAP Cloud Prodcuts 2"
+            "tracktitle": "SAP Cloud Prodcuts 2 (SAP S/4HANA and others)"
           },
           {
             "speakers": "Komal Nalawade",
@@ -169,14 +169,14 @@
             "tracktitle": "Concur"
           },
           {
-            "speakers": "Varsha Jadhav, Deviprasad Kaplieshwari",
-            "sessiontitle": "Design Harmonisation",
-            "description": "How the team sifted through over 100 apps to define consistency parameters for our apps and why it matters.\n",
+            "speakers": "Roohi Ganatra",
+            "sessiontitle": "Global Search",
+            "description": "Powerful enterprise elastic search in SAP Sales Cloud and SAP Service Cloud. Global Search is built on the concept of elastic search to take advantage of its speed. It has been built to achieve flexibility and ease of use considering usability and is enabled by default in service cloud version 2 solution",
             "organization": "SAP",
-            "socialmedia": "https://www.linkedin.com/in/varshaj/",
+            "socialmedia": "https://www.linkedin.com/in/roohi-ganatra-47027a25/",
             "track": "Track 7",
             "sessionseq": 2,
-            "tracktitle": "SAP UX & Cross Topics"
+            "tracktitle": "SAP UX and Cross Topics"
           },
           {
             "speakers": "Juhi Kulshreshtha",
@@ -187,7 +187,7 @@
             "sapcommunity": "https://people.sap.com/juhik2003",
             "track": "Track 8",
             "sessionseq": 2,
-            "tracktitle": "General & Cross SAP Topics"
+            "tracktitle": "General and Cross SAP Topics"
           }
         ],
         "sequence": "2",
@@ -230,7 +230,7 @@
             "sapcommunity": "https://people.sap.com/subh4171",
             "track": "Track 2",
             "sessionseq": 3,
-            "tracktitle": "Pro Code + Low Code + Integration"
+            "tracktitle": "Pro Code, Low Code and Integration"
           },
           {
             "speakers": "Ratnesh Sonawane",
@@ -245,14 +245,14 @@
           },
           {
             "speakers": "Prashant Ganganagoudar, Nemani Sagar",
-            "sessiontitle": "Rise with SAP Offering highlights",
-            "description": "RISE with SAP can transition your current ERP data and processes to the cloud with less risk and without compromise. The bundle of tailor-made ERP software, transformation services, business analytics, and partner expertise guides you along a personalized path to the cloud.",
+            "sessiontitle": "Rise with SAP Offering Highlights",
+            "description": "Understand how \"RISE with SAP\" help businesses transform and adapt to the challenges of the digital economy. Explore how it's essentially a holistic package that combines various elements, including technology, services, and expertise, to enable businesses to embark on their digital transformation journey.",
             "organization": "Bosch",
             "socialmedia": "www.linkedin.com/in/prashant-g-72253a13",
-            "sapcommunity": "https://people.sap.com/ag.prashanth",
+            "sapcommunity": "https:",
             "track": "Track 4",
             "sessionseq": 3,
-            "tracktitle": "SAP Cloud Products 1"
+            "tracktitle": "SAP Cloud Products 1 (SAP S/4HANA and others)"
           },
           {
             "speakers": "Prasath E",
@@ -260,10 +260,10 @@
             "description": "This will give an understanding of Supply chain optimizations  and how to achieve a minimal disruption and resilience of the business by using SAP S/4HANA MRP features. You will also learn how the AI and ML are contributing to supply chain optimization's in SAP S/4HANA.",
             "organization": "Walmart Global tech India Pvt Ltd",
             "socialmedia": "www.linkedin.com/in/prasath-elumalai-42309463",
-            "sapcommunity": "https:",
+            "sapcommunity": "https://people.sap.com/maniprasath_73",
             "track": "Track 5",
             "sessionseq": 3,
-            "tracktitle": "SAP Cloud Prodcuts 2"
+            "tracktitle": "SAP Cloud Prodcuts 2 (SAP S/4HANA and others)"
           },
           {
             "speakers": "Sidharth Jain, Chunmun Gupta, Shiva Kumar H S, Trisha Sinha",
@@ -283,7 +283,7 @@
             "socialmedia": "https://www.linkedin.com/in/ranjeet-kumar-8b8152b1/",
             "track": "Track 7",
             "sessionseq": 3,
-            "tracktitle": "SAP UX & Cross Topics"
+            "tracktitle": "SAP UX and Cross Topics"
           },
           {
             "speakers": "Sujaya VK",
@@ -293,7 +293,7 @@
             "socialmedia": "-",
             "track": "Track 8",
             "sessionseq": 3,
-            "tracktitle": "General & Cross SAP Topics"
+            "tracktitle": "General and Cross SAP Topics"
           }
         ],
         "sequence": "3",
@@ -304,7 +304,7 @@
         "sessionsByTrack": [
           {
             "speakers": "Kedar Ketkar, Surekha Chawale, Reshma Pawar",
-            "sessiontitle": "SAP BTP Adoption for Public Cloud",
+            "sessiontitle": "SAP BTP Adaption for Public Cloud",
             "description": "It is an art of possibilities to enrich SAP application on public cloud with better user experience, flexibility to adapt to business changes and better decision making with Analytics & AI.",
             "organization": "PRIMUS Techsystems",
             "socialmedia": "-",
@@ -321,7 +321,7 @@
             "sapcommunity": "https://people.sap.com/chaitanyapriya.puvvada",
             "track": "Track 2",
             "sessionseq": 4,
-            "tracktitle": "Pro Code + Low Code + Integration"
+            "tracktitle": "Pro Code, Low Code and Integration"
           },
           {
             "speakers": "Pooja Prakash, Sowmya Srinivasan",
@@ -342,17 +342,17 @@
             "sapcommunity": "https://people.sap.com/vaibhav.kansal",
             "track": "Track 4",
             "sessionseq": 4,
-            "tracktitle": "SAP Cloud Products 1"
+            "tracktitle": "SAP Cloud Products 1 (SAP S/4HANA and others)"
           },
           {
-            "speakers": "Rowllah T Basheer, Anand Behera",
+            "speakers": "Kavya Kumari, Anand Behera",
             "sessiontitle": "Intelligent Mobile Sales – SAP Sales Cloud v2",
             "description": "SAP Sales Cloud Mobile App increases sales efficiency with intuitive, mobile friendly sales capabilities that prepare and empower connected selling. It helps streamline selling from anywhere with a purpose-built native application designed for intelligent and fast sales interactions. It allows to engage customers on the go with prescriptive recommendations, guided actions, and intelligent insights. And it provides quick access to activity and transactional data via native widgets.",
             "organization": "SAP",
             "socialmedia": "-",
             "track": "Track 5",
             "sessionseq": 4,
-            "tracktitle": "SAP Cloud Prodcuts 2"
+            "tracktitle": "SAP Cloud Prodcuts 2 (SAP S/4HANA and others)"
           },
           {
             "speakers": "Maclean Josh C",
@@ -373,7 +373,7 @@
             "sapcommunity": "https://people.sap.com/rai.kamal.saha",
             "track": "Track 7",
             "sessionseq": 4,
-            "tracktitle": "SAP UX & Cross Topics"
+            "tracktitle": "SAP UX and Cross Topics"
           },
           {
             "speakers": "SHAIK AZMATHULLA",
@@ -384,7 +384,7 @@
             "sapcommunity": "https://people.sap.com/azmathip",
             "track": "Track 8",
             "sessionseq": 4,
-            "tracktitle": "General & Cross SAP Topics"
+            "tracktitle": "General and Cross SAP Topics"
           }
         ],
         "sequence": "4",
@@ -427,7 +427,7 @@
             "sapcommunity": "https://people.sap.com/reddypavankumar",
             "track": "Track 2",
             "sessionseq": 5,
-            "tracktitle": "Pro Code + Low Code + Integration"
+            "tracktitle": "Pro Code, Low Code and Integration"
           },
           {
             "speakers": "Narayana Kanamarlapudi",
@@ -447,7 +447,7 @@
             "socialmedia": "Swapna borra",
             "track": "Track 4",
             "sessionseq": 5,
-            "tracktitle": "SAP Cloud Products 1"
+            "tracktitle": "SAP Cloud Products 1 (SAP S/4HANA and others)"
           },
           {
             "speakers": "Phani Kumar Velakuchi",
@@ -458,7 +458,7 @@
             "sapcommunity": "Strategy & Design Commerce Portal",
             "track": "Track 5",
             "sessionseq": 5,
-            "tracktitle": "SAP Cloud Prodcuts 2"
+            "tracktitle": "SAP Cloud Prodcuts 2 (SAP S/4HANA and others)"
           },
           {
             "speakers": "Raj Ahuja",
@@ -471,7 +471,7 @@
             "tracktitle": "Concur"
           },
           {
-            "speakers": "Praveen Kumar Padegal, Ajit Kumar Panda",
+            "speakers": "Praveen Kumar Padegal, Uma Anbazhagan",
             "sessiontitle": "Develop Generative AI applications using SAP BTP AI Core and Azure Open AI",
             "description": "How to develop Generative AI applications using SAP BTP AI Core and Azure Open AI",
             "organization": "SAP",
@@ -479,7 +479,7 @@
             "sapcommunity": "https://people.sap.com/praveenpadegal",
             "track": "Track 7",
             "sessionseq": 5,
-            "tracktitle": "SAP UX & Cross Topics"
+            "tracktitle": "SAP UX and Cross Topics"
           },
           {
             "speakers": "Ganga Koli, Shashidhar Moudgal",
@@ -489,7 +489,7 @@
             "socialmedia": "Yes",
             "track": "Track 8",
             "sessionseq": 5,
-            "tracktitle": "General & Cross SAP Topics"
+            "tracktitle": "General and Cross SAP Topics"
           }
         ],
         "sequence": "5",
@@ -518,7 +518,7 @@
             "sapcommunity": "https://www.linkedin.com/in/pamoli-banerjee-08a28a19/",
             "track": "Track 2",
             "sessionseq": 6,
-            "tracktitle": "Pro Code + Low Code + Integration"
+            "tracktitle": "Pro Code, Low Code and Integration"
           },
           {
             "speakers": "Prasanna Bhat",
@@ -539,18 +539,18 @@
             "sapcommunity": "https://people.sap.com/abinash.routray",
             "track": "Track 4",
             "sessionseq": 6,
-            "tracktitle": "SAP Cloud Products 1"
+            "tracktitle": "SAP Cloud Products 1 (SAP S/4HANA and others)"
           },
           {
-            "speakers": "Moumita Saha",
+            "speakers": "Moumita Saha, Supreet Kaur",
             "sessiontitle": "Sap Sustainability Control Tower & ISSB updates",
             "description": "ESG frameworks and future of SAP Sustainability reporting",
-            "organization": "Hitachi Vantara",
+            "organization": "Hitachi Vantara, SAP Labs",
             "socialmedia": "https://www.linkedin.com/in/moumitasaha7",
             "sapcommunity": "https://people.sap.com/moumitasaha.thedatatherapist",
             "track": "Track 5",
             "sessionseq": 6,
-            "tracktitle": "SAP Cloud Prodcuts 2"
+            "tracktitle": "SAP Cloud Prodcuts 2 (SAP S/4HANA and others)"
           },
           {
             "speakers": "Omprakash H",
@@ -563,14 +563,14 @@
             "tracktitle": "Concur"
           },
           {
-            "speakers": "Shubham Johari",
-            "sessiontitle": "Design Eye Opener Mini",
-            "description": "SAP General Topic",
+            "speakers": "Varsha Jadhav, Deviprasad Kaplieshwari",
+            "sessiontitle": "Design Harmonisation",
+            "description": "How the team sifted through over 100 apps to define consistency parameters for our apps and why it matters.\n",
             "organization": "SAP",
-            "socialmedia": "https://www.linkedin.com/in/shubham-johari-58a92672/",
+            "socialmedia": "https://www.linkedin.com/in/varshaj/",
             "track": "Track 7",
             "sessionseq": 6,
-            "tracktitle": "SAP UX & Cross Topics"
+            "tracktitle": "SAP UX and Cross Topics"
           },
           {
             "speakers": "Prasanth RJ, Karthick Chandrasekaran",
@@ -580,7 +580,7 @@
             "socialmedia": "-",
             "track": "Track 8",
             "sessionseq": 6,
-            "tracktitle": "General & Cross SAP Topics"
+            "tracktitle": "General and Cross SAP Topics"
           }
         ],
         "sequence": "6",
@@ -624,7 +624,7 @@
             "sapcommunity": "https://people.sap.com/kamlesh.zanje",
             "track": "Track 2",
             "sessionseq": 7,
-            "tracktitle": "Pro Code + Low Code + Integration"
+            "tracktitle": "Pro Code, Low Code and Integration"
           },
           {
             "speakers": "Srivathsa Gunda Dixit, Vishal Mour",
@@ -645,7 +645,7 @@
             "sapcommunity": "https://people.sap.com/deepika_hm",
             "track": "Track 4",
             "sessionseq": 7,
-            "tracktitle": "SAP Cloud Products 1"
+            "tracktitle": "SAP Cloud Products 1 (SAP S/4HANA and others)"
           },
           {
             "speakers": "Richa Grover",
@@ -656,7 +656,7 @@
             "sapcommunity": "https://people.sap.com/richa.grover",
             "track": "Track 5",
             "sessionseq": 7,
-            "tracktitle": "SAP Cloud Prodcuts 2"
+            "tracktitle": "SAP Cloud Prodcuts 2 (SAP S/4HANA and others)"
           },
           {
             "speakers": "Saurabh Tewari",
@@ -676,7 +676,7 @@
             "socialmedia": "https://www.linkedin.com/in/pnikat09/",
             "track": "Track 7",
             "sessionseq": 7,
-            "tracktitle": "SAP UX & Cross Topics"
+            "tracktitle": "SAP UX and Cross Topics"
           },
           {
             "speakers": "Joinal Ahmed",
@@ -686,7 +686,7 @@
             "socialmedia": "https://linkedin.com/in/joinalahmed",
             "track": "Track 8",
             "sessionseq": 7,
-            "tracktitle": "General & Cross SAP Topics"
+            "tracktitle": "General and Cross SAP Topics"
           }
         ],
         "sequence": "7",
@@ -714,7 +714,7 @@
             "sapcommunity": "https://people.sap.com/vikastechgupta",
             "track": "Track 2",
             "sessionseq": 8,
-            "tracktitle": "Pro Code + Low Code + Integration"
+            "tracktitle": "Pro Code, Low Code and Integration"
           },
           {
             "speakers": "Syambabu Allu",
@@ -735,7 +735,7 @@
             "socialmedia": "https://www.linkedin.com/in/ranjeet-kumar-8b8152b1/",
             "track": "Track 4",
             "sessionseq": 8,
-            "tracktitle": "SAP Cloud Products 1"
+            "tracktitle": "SAP Cloud Products 1 (SAP S/4HANA and others)"
           },
           {
             "speakers": "Satheeshkumar D",
@@ -746,7 +746,7 @@
             "sapcommunity": "https://people.sap.com/dskumar_2000",
             "track": "Track 5",
             "sessionseq": 8,
-            "tracktitle": "SAP Cloud Prodcuts 2"
+            "tracktitle": "SAP Cloud Prodcuts 2 (SAP S/4HANA and others)"
           },
           {
             "speakers": "Sambhu Mishra",
@@ -766,7 +766,7 @@
             "socialmedia": "https://www.linkedin.com/in/savithaar/",
             "track": "Track 7",
             "sessionseq": 8,
-            "tracktitle": "SAP UX & Cross Topics"
+            "tracktitle": "SAP UX and Cross Topics"
           },
           {
             "speakers": "Anjitha KA",
@@ -776,7 +776,7 @@
             "socialmedia": "-",
             "track": "Track 8",
             "sessionseq": 8,
-            "tracktitle": "General & Cross SAP Topics"
+            "tracktitle": "General and Cross SAP Topics"
           }
         ],
         "sequence": "8",

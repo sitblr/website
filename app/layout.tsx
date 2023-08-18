@@ -2,6 +2,7 @@ import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import { ModalProvider } from '@/providers/modal-provider';
+import { ModalProviderChecklist } from '@/providers/modal-provider-checklist';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -22,6 +23,7 @@ export default function RootLayout({
       </head>
       <body className={inter.className}>
         <ModalProvider />
+        <ModalProviderChecklist />
         {children}
       </body>
     </html>
