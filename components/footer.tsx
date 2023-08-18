@@ -5,6 +5,9 @@ const Footer = () => {
                 <div className="text-sm">© {new Date().getFullYear()} SAP Inside Track, Bengaluru</div>
                 <nav>
                     <ul className="flex space-x-4">
+                        <li>
+                            <a href="/contributors"><p className="text-sm">Contributors</p></a>
+                        </li>
                         {/* <li>
                     <a href="/">Home</a>
                     </li> */}
