@@ -44,7 +44,7 @@ const ChecklistModal: React.FC<ModalProps> = ({
                 <DialogHeader>
                     <DialogTitle>Checklist</DialogTitle>
                     <DialogDescription>
-                    <ol className="list-decimal p-2">
+                    <ol className="list-decimal p-2 text-left">
                         <li>Use Gate 4 <a className="decoration-blue-500 underline underline-offset-auto text-blue-600" href="https://goo.gl/maps/9kHzt9qpNMSpvhmB7">(Location)</a> to enter, located on the backside of the campus next to the parking facility (MLCP).</li>
                         <li>You can also use Gate-1, just in front of Kundalahalli Metro.</li>
                         <li>Park your vehicles in MLCP as directed by security.
