@@ -6,7 +6,7 @@ const Footer = () => {
                 <nav>
                     <ul className="flex space-x-4">
                         <li>
-                            <a href="/contributors"><p className="text-sm">Contributors</p></a>
+                            <a href="/contributors"><p className="underline underline-offset-4 text-sm">Website Contributors</p></a>
                         </li>
                         {/* <li>
                     <a href="/">Home</a>

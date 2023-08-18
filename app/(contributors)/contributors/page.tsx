@@ -20,19 +20,19 @@ const ContributorsPage = () => {
                 </div>
 
 
-                <div className="mx-auto min-h-screen max-w-screen-xl flex flex-row pt-24">
+                <div className="flex flex-wrap sm:flex-nowrap mx-auto min-h-screen max-w-screen-xl flex flex-row pt-24">
                     {/* <div className="absolute top-0 -left-4 w-72 h-72 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
                     <div className="absolute top-0 right-20 w-72 h-72 bg-yellow-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
                     <div className="absolute -bottom-8 left-20 w-72 h-72 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div> */}
 
-                    <div className="w-full rounded-lg px-4 pt-4  dark:bg-gray-800 dark:border-gray-700">
+                    <div className=" w-full rounded-lg px-4 pt-4  dark:bg-gray-800 dark:border-gray-700">
                         {/* <div>
                             <div className="absolute top-0 -left-4 w-72 h-72 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
                             <div className="absolute top-0 right-20 w-72 h-72 bg-yellow-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
                             <div className="absolute -bottom-8 left-20 w-72 h-72 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
                         </div> */}
                         <div className="flex flex-col items-center pb-10">
-                            <div className="rounded-full relative overflow-hidden mt-4 md:h-[250px] md:w-[250px]">
+                            <div className="rounded-full relative overflow-hidden mt-4 h-[150px] md:h-[250px] w-[150px] md:w-[250px]">
                                 <div>
                                     <Image
                                         src="https://media.licdn.com/dms/image/C5603AQF1h1pPI0FNaQ/profile-displayphoto-shrink_800_800/0/1636718038591?e=1696464000&v=beta&t=YoLY6tdKKvAKmchvThWpIolT1r0VXI0FmagC4aMyw8Q"
@@ -62,7 +62,7 @@ const ContributorsPage = () => {
                             <div className="absolute -bottom-8 left-20 w-72 h-72 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
                         </div> */}
                         <div className="flex flex-col items-center pb-10">
-                            <div className="rounded-full relative overflow-hidden mt-4 md:h-[250px] md:w-[250px]">
+                            <div className="rounded-full relative overflow-hidden mt-4  h-[150px] md:h-[250px] w-[150px] md:w-[250px]">
                                 <div>
                                     <Image
                                         src="https://media.licdn.com/dms/image/D5603AQEVs-iqv3Kj7w/profile-displayphoto-shrink_800_800/0/1666281472958?e=1697673600&v=beta&t=SI01A5bx2F0X8MKHVgyZZJo6jnSM5L-qPS9HhxMiWhc"
@@ -86,7 +86,7 @@ const ContributorsPage = () => {
                     </div>
                     <div className="w-full rounded-lg px-4 pt-4  dark:bg-gray-800 dark:border-gray-700">
                         <div className="flex flex-col items-center pb-10">
-                            <div className="rounded-full relative overflow-hidden mt-4 md:h-[250px] md:w-[250px]">
+                            <div className="rounded-full relative overflow-hidden mt-4  h-[150px] md:h-[250px] w-[150px] md:w-[250px]">
                                 <div>
                                     <Image
                                         src={Subhajit}
