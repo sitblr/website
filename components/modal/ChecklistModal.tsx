@@ -57,6 +57,7 @@ const ChecklistModal: React.FC<ModalProps> = ({
                         </li><li>Please keep your phone silent while you attend sessions.
                         </li><li>Post on social media (LinkedIn & Twitter) with the hashtags #sapcommunity #sapinsidetrack and #sitBLR. Watch out for the social media contest and win exciting prizes at the end of the day.
                         </li><li>Please wear your badges at all times and do not leave your belongings unattended at any point in time. Any loss of your belongings will not be SAP’s responsibility.
+                        </li><li><a target="_blank" className="decoration-blue-500 underline underline-offset-auto text-blue-600" href="https://raw.githubusercontent.com/sitblr/website/main/data/map/GuestWifiWorkZone.png">(Guest Wifi Details)</a>
                         </li></ol>
                     </DialogDescription>
                 </DialogHeader>
