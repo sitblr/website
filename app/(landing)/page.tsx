@@ -163,8 +163,8 @@ const Home = () => {
                                 <a className="decoration-blue-500 underline underline-offset-auto" target="_blank" rel="noopener noreferrer">
                                     <p className="p-2 text-blue-600">Link to Excel</p></a></Link>
                         </div> */}
-                        <a className="px-2 text-white font-semibold bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800" href="https://docs.google.com/spreadsheets/d/1uuVxpWiAthIiWt4l9Djzg1YfTAY_AdxZKiIC5WPugOU/edit" target="_blank" rel="noopener noreferrer">Sessions Excel</a>
-                        <div onClick={()=>{onOpenChecklist()}} className="cursor-pointer px-2 text-white font-semibold bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Attendee Checklist</div>
+                        <a className="px-2 text-white font-semibold bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800" href="https://drive.google.com/drive/folders/1ZGKIRrq38DVm3FJ5QH3o7t8pfFBESmRB?usp=sharing" target="_blank" rel="noopener noreferrer">Link to Presentations</a>
+                        {/* <div onClick={()=>{onOpenChecklist()}} className="cursor-pointer px-2 text-white font-semibold bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Attendee Checklist</div> */}
                     </div>
                     <div className='flex flex-row justify-between pb-2'>
                         <div className="p-2 text-2xl font-semibold">Sessions</div>
