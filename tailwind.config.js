@@ -16,6 +16,12 @@ module.exports = {
       },
     },
     extend: {
+      height:{
+        '24.8':'25rem'
+      },
+      margin:{
+        '-custom':'-22.3rem'
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

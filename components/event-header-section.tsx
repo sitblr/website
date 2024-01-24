@@ -3,43 +3,58 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import Timer from "@/components/Timer";
-import FlipClockCountdown from '@leenguyen/react-flip-clock-countdown';
-import '@leenguyen/react-flip-clock-countdown/dist/index.css';
+import FlipClockCountdown from "@leenguyen/react-flip-clock-countdown";
+import "@leenguyen/react-flip-clock-countdown/dist/index.css";
 import EventHero from "@/components/event-hero";
 
 type props = {
-    title: string | any;
-    register: string | any;
-}
+  title: string | any;
+  register: string | any;
+  eventCompleted: boolean;
+  linktoeventfeedback: string;
+};
 
-const EventHeader = ({ title, register}: props ) => {
+const EventHeader = ({
+  title,
+  register,
+  eventCompleted,
+  linktoeventfeedback,
+}: props) => {
+  const eventDate = "2023-07-31T23:59:59";
 
-    const eventDate = '2023-07-31T23:59:59';
-
-    return (
-    <div className="font-bold py-20 space-y-5 inset-0 z-20">
-        <div className="flex flex-row">
-            <div>
-                <div className="text-2xl sm:text-5xl md:text-3xl lg:text-4xl font-extrabold space-y-5 px-4">
-                    <h1>{title}</h1>
-                    <h2>Bengaluru, India</h2>
-                </div>  
-                <div className="p-4 mt-8 ">
-                    {/* <a target="_blank" href={register} rel="noopener noreferrer">
-                    <Button className="px-4  md:text-lg p-4 md:p-6 rounded-full font-semibold  text-white hover:bg-gray-500 hover:text-white">
-                        Register
-                    </Button>
-                    </a> */}
-                    <a target="_blank" href="https://forms.gle/fvbPFrWD8XYSt3Qy9" rel="noopener noreferrer">
-                    <Button className="bg-blue-700 px-4 md:text-lg p-4 md:p-6 rounded-full font-semibold  text-white hover:bg-gray-500 hover:text-white">
-                        Event Feedback
-                    </Button>
-                    </a>
-                </div>
+  return (
+    <div className="font-bold py-16 space-y-5 inset-0 z-20">
+      <div className="flex flex-row">
+        <div>
+          <div className="text-2xl sm:text-4xl md:text-3xl lg:text-4xl font-extrabold space-y-1 px-4">
+            <h1>{title}</h1>
+            <h3>Bengaluru, India</h3>
+          </div>
+          {eventCompleted ? (
+            <div className="p-4 mt-8 ">
+              <a
+                target="_blank"
+                href={linktoeventfeedback}
+                rel="noopener noreferrer"
+              >
+                <Button className="bg-blue-700 px-4 md:text-lg p-4 md:p-6 rounded-full font-semibold  text-white hover:bg-gray-500 hover:text-white">
+                  Event Feedback
+                </Button>
+              </a>
             </div>
-            {/* <div className="flex px-20 items-center"> */}
-                {/* <EventHero /> */}
-                {/* <div className="grid grid-cols-2 gap-6 max-w-md mx-auto">
+          ) : (
+            <div className="p-4 mt-8 ">
+              <a target="_blank" href={register} rel="noopener noreferrer">
+                <Button className="px-4  md:text-lg p-4 md:p-6 rounded-full font-semibold  text-white hover:bg-gray-500 hover:text-white">
+                  Register Here
+                </Button>
+              </a>
+            </div>
+          )}
+        </div>
+        {/* <div className="flex px-20 items-center"> */}
+        {/* <EventHero /> */}
+        {/* <div className="grid grid-cols-2 gap-6 max-w-md mx-auto">
                     <div className="bg-blue-300 text-white text-center rounded-md">
                         <div className="bg-[#15314b] font-medium p-2">
                             <div className="flex items-start">What</div>
@@ -73,10 +88,10 @@ const EventHeader = ({ title, register}: props ) => {
                         </div>
                     </div>
                 </div> */}
-            {/* </div> */}
-        </div>
+        {/* </div> */}
+      </div>
     </div>
-    )
-}  
+  );
+};
 
 export default EventHeader;
