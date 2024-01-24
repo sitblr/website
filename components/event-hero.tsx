@@ -18,7 +18,7 @@ const EventHero = () => {
     <div>
       <div className="bg-gradient-to-r from-[#ffb805] to-[#e1cf2b]">
         <div className="mx-auto max-w-screen-xl bg-[url('/bengaluru_city.png')]">
-          <EventHeader title="hello" register="" />
+          {/* <EventHeader title="hello" register="" /> */}
         </div>
         <div className="absolute inset-0 flex justify-end z-10">
           <FlipClockCountdown className="mb-80"
