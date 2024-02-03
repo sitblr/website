@@ -1,0 +1,34 @@
+name: Update Data JSON file
+
+on:
+  workflow_dispatch:
+    branches:
+      - main  # replace with the name of your branch
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v2
+
+      - name: Set Up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16.18.0' # use your Node.js version
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build and update JSON file
+        run: |
+          npm run builddata
+
+      - name: Commit and push if it changed
+        run: |
+          git diff
+          git config --local user.email "sapcommunitybengaluru@gmail.com"
+          git config --local user.name "SAP Community"
+          git commit -am "Update JSON file"
+          git push

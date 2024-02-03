@@ -12,21 +12,49 @@
     "register": "https://konfhub.com/sitblr2024",
     "hostId": 1,
     "agenda": "",
-    "eventCompleted":false,
-    "linktoeventfeedback":"",
-    "linktopresentations":"",
+    "eventCompleted": false,
+    "linktoeventfeedback": "",
+    "linktopresentations": "",
     "sessions": [
       {
         "sessionsByTrack": [
+          {
+            "speakers": "DUMMY Break",
+            "sessiontitle": "DUMMY Break",
+            "track": "Track 1",
+            "sessionseq": 2.1,
+            "tracktitle": "SAP BTP General and Cross Topics"
+          }
         ],
         "sequence": "1",
+        "time": "08:00 - 09:30",
+        "type": "break",
+        "tracktitle": "Registration and Networking"
+      },
+      {
+        "sessionsByTrack": [
+          {
+            "speakers": "DUMMY Break",
+            "sessiontitle": "DUMMY Break",
+            "track": "Track 1",
+            "sessionseq": 2.1,
+            "tracktitle": "SAP BTP General and Cross Topics"
+          }
+        ],
+        "sequence": "1",
+        "time": "09:30 - 09:45",
+        "type": "break",
+        "tracktitle": "Keynote from Sindhu Gangadharan (SVP & MD, SAP Labs India| Head User Enablement)"
+      },
+      {
+        "sessionsByTrack": [],
+        "sequence": "2",
         "time": "10:00 - 10:25",
         "type": "grid"
       },
       {
-        "sessionsByTrack": [
-        ],
-        "sequence": "2",
+        "sessionsByTrack": [],
+        "sequence": "3",
         "time": "10:35 - 11:00",
         "type": "grid"
       },
@@ -46,15 +74,13 @@
         "tracktitle": "Break and Networking"
       },
       {
-        "sessionsByTrack": [
-        ],
+        "sessionsByTrack": [],
         "sequence": "3",
         "time": "11:30 - 11:55",
         "type": "grid"
       },
       {
-        "sessionsByTrack": [
-        ],
+        "sessionsByTrack": [],
         "sequence": "4",
         "time": "12:05 - 12:30",
         "type": "grid"
@@ -75,15 +101,13 @@
         "tracktitle": "Lunch"
       },
       {
-        "sessionsByTrack": [
-        ],
+        "sessionsByTrack": [],
         "sequence": "5",
         "time": "02:00 - 02:25",
         "type": "grid"
       },
       {
-        "sessionsByTrack": [
-        ],
+        "sessionsByTrack": [],
         "sequence": "6",
         "time": "02:35 - 03:00",
         "type": "grid"
@@ -104,15 +128,13 @@
         "tracktitle": "Break and Networking"
       },
       {
-        "sessionsByTrack": [
-        ],
+        "sessionsByTrack": [],
         "sequence": "7",
         "time": "03:30 - 03:55",
         "type": "grid"
       },
       {
-        "sessionsByTrack": [
-        ],
+        "sessionsByTrack": [],
         "sequence": "8",
         "time": "04:05 - 04:30",
         "type": "grid"
@@ -132,10 +154,8 @@
         "type": "break",
         "tracktitle": "Speaker Recognitions and Giveaways"
       }
-    ]
-    ,
-    "tracks": [
     ],
+    "tracks": [],
     "sponsors": [
       {
         "id": 1,
@@ -173,7 +193,7 @@
     "register": "https://www.eventbrite.com/e/sap-inside-track-bengaluru-august-19th-2023-tickets-672925065987?aff=oddtdtcreator",
     "hostId": 1,
     "agenda": "",
-    "linktopresentations":"https://drive.google.com/drive/folders/1ZGKIRrq38DVm3FJ5QH3o7t8pfFBESmRB?usp=sharing",
+    "linktopresentations": "https://drive.google.com/drive/folders/1ZGKIRrq38DVm3FJ5QH3o7t8pfFBESmRB?usp=sharing",
     "sessions": [
       {
         "sessionsByTrack": [
@@ -960,8 +980,7 @@
         "type": "break",
         "tracktitle": "Speaker Recognitions and Giveaways"
       }
-    ]
-    ,
+    ],
     "tracks": [
       {
         "trackId": "1",

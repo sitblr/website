@@ -43,7 +43,7 @@ type session = {
   time: string;
   type: string;
   tracktitle: string;
-  sessionsByTrack: tracks[];
+  sessionsBySequence: tracks[];
 };
 
 type eventdata = {
@@ -84,18 +84,18 @@ const Home = () => {
     let filteredSessions = [];
     filteredData.sessions.forEach(function (item) {
       if (item.type === "grid") {
-        var filtSessionsByTrack = item.sessionsByTrack.filter(function (el) {
+        var filtSessionsByTrack = item.sessionsBySequence.filter(function (el) {
           return (
             el.description.toLowerCase().includes(query.toLowerCase()) ||
             el.sessiontitle.toLowerCase().includes(query.toLowerCase()) ||
-            el.track.toLowerCase().includes(query.toLowerCase())
+            el.tracktitle.toLowerCase().includes(query.toLowerCase())
           );
         });
       } else {
-        filtSessionsByTrack = item.sessionsByTrack;
+        filtSessionsByTrack = item.sessionsBySequence;
       }
       if (filtSessionsByTrack.length > 0) {
-        item.sessionsByTrack = filtSessionsByTrack;
+        item.sessionsBySequence = filtSessionsByTrack;
         filteredSessions.push(item);
       }
     });
@@ -203,46 +203,7 @@ const Home = () => {
             {/* <DropDownTracks/> */}
             {/* <Button>Download Session Details</Button> */}
           </div>
-          {query ? (
-            ""
-          ) : (
-            <div>
-              <div className="mx-auto bg-gray-50">
-                <div className="flex p-4 ">
-                  <div className="w-1/5 p-2 ">
-                    <label className="text-gray-700">08:00 AM - 09:15 AM</label>
-                  </div>
-                  <div className="w-4/5 p-2">
-                    <label className="text-gray-500">
-                      Registration and Networking
-                    </label>
-                  </div>
-                </div>
-              </div>
-
-              <div className="mx-auto bg-gray-50">
-                <div className="flex p-4 ">
-                  <div className="w-1/5 p-2">
-                    <label className="text-gray-700">09:30 AM - 09:45 AM</label>
-                  </div>
-                  <div className="w-4/5 p-2 flex flex-col justify-between">
-                    <label className="text-gray-500">
-                      Keynote from Sindhu Gangadharan (SVP & MD, SAP Labs India
-                      | Head User Enablement)
-                    </label>
-                    {/*                                 <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full relative overflow-hidden mt-4 md:h-[160px] md:w-[160px]">
-                                    <Image
-                                        src="https://media.licdn.com/dms/image/D5603AQGTDZhMQ-rZdQ/profile-displayphoto-shrink_800_800/0/1678471357277?e=1697673600&v=beta&t=cI3L2iZ-AI9GUTqmmZvmcCm8FSRelDieOF78gYhvcFA"
-                                        layout="fill"
-                                        objectFit="cover"
-                                        alt="Guest Speaker"
-                                    />
-                                </div> */}
-                  </div>
-                </div>
-              </div>
-            </div>
-          )}
+          
           {filteredData?.sessions.map((session, idx) => {
             return (
               <div key={session.time + idx} className="mx-auto bg-gray-50">
@@ -252,7 +213,10 @@ const Home = () => {
                   </div>
                   <div className="w-4/5">
                     <div className="flex flex-wrap">
-                      {session.sessionsByTrack.map((track) => {
+                    
+                    {session.type === "grid" ?
+                            
+                      session.sessionsBySequence.map((track) => {
                         switch (session.type) {
                           case "grid":
                             return (
@@ -310,7 +274,16 @@ const Home = () => {
                             );
                             break;
                         }
-                      })}
+                      })
+                      
+                    :  <div
+                    key="track.sessionseq"
+                    className="mx-auto w-full p-2 text-center bg-teal-200"
+                  >
+                    <label className=" text-gray-500">
+                      {session.tracktitle}
+                    </label>
+                  </div>}
                     </div>
                   </div>
                 </div>

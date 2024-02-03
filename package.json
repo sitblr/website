@@ -4,9 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "npm run builddata && next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "builddata":"node ./data/generator_data/index.js sap-inside-track-feb-2024"
   },
   "dependencies": {
     "@emotion/react": "^11.11.1",
@@ -37,6 +38,9 @@
     "tailwindcss": "3.3.3",
     "tailwindcss-animate": "^1.0.6",
     "typescript": "5.1.6",
-    "zustand": "^4.4.1"
+    "zustand": "^4.4.1",
+    "google-auth-library": "^9.6.0",
+    "google-spreadsheet": "^4.1.1",
+    "googleapis": "^131.0.0"
   }
 }
