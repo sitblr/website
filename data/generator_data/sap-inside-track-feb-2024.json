@@ -6,16 +6,16 @@
         "sessionsBySequence": [
             {
                 "speakers": "",
-                "speaker1": "Rahul Lodhe",
+                "speaker1": "Dharani Karthikeyan",
                 "speaker2": "",
-                "speaker1_social": "https://in.linkedin.com/in/rahullodhe",
+                "speaker1_social": "https://www.linkedin.com/in/dharani-karthikeyan-3a7a703/",
                 "speaker2_social": "",
-                "sessiontitle": "SAP Business AI strategy and Partnership opportunities",
-                "description": "The session will cover overall strategy of business transformation by Generative AI , roads map and key innovations like Joule, GenAI hub and build etc. you will also learn about partnerships/co-innovation opportunities with SAP for business AI",
-                "organization": "SAP Labs",
+                "sessiontitle": "Data & Analytics portfolio, BTP",
+                "description": "Session on BTP, SAP Datasphere, SAC",
+                "organization": "SAP Labs India",
                 "socialmedia": "",
                 "sessionseq": "1",
-                "tracktitle": "Artificial Intelligence",
+                "tracktitle": "Data & Analytics",
                 "trackid": "Track 1"
             },
             {
@@ -125,16 +125,16 @@
         "sessionsBySequence": [
             {
                 "speakers": "",
-                "speaker1": "Dharani Karthikeyan",
+                "speaker1": "Rahul Lodhe",
                 "speaker2": "",
-                "speaker1_social": "https://www.linkedin.com/in/dharani-karthikeyan-3a7a703/",
+                "speaker1_social": "https://in.linkedin.com/in/rahullodhe",
                 "speaker2_social": "",
-                "sessiontitle": "Data & Analytics portfolio, BTP",
-                "description": "Session on BTP, SAP Datasphere, SAC",
-                "organization": "SAP Labs India",
+                "sessiontitle": "SAP Business AI strategy and Partnership opportunities",
+                "description": "The session will cover overall strategy of business transformation by Generative AI , roads map and key innovations like Joule, GenAI hub and build etc. you will also learn about partnerships/co-innovation opportunities with SAP for business AI",
+                "organization": "SAP Labs",
                 "socialmedia": "",
                 "sessionseq": "2",
-                "tracktitle": "Data & Analytics",
+                "tracktitle": "Artificial Intelligence",
                 "trackid": "Track 1"
             },
             {
