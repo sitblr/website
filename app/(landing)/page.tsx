@@ -36,6 +36,8 @@ type tracks = {
   tracktitle: string;
   sessiontitle: string;
   speakers: string;
+  speaker1: string;
+  speaker2: string;
   track: string;
 };
 
@@ -216,46 +218,46 @@ const Home = () => {
                     
                     {session.type === "grid" ?
                             
-                      session.sessionsBySequence.map((track) => {
+                      session.sessionsBySequence.map((seqsession) => {
                         switch (session.type) {
                           case "grid":
                             return (
                               <div
-                                key={track.track + track.sessionseq}
+                                key={seqsession.track + seqsession.sessionseq}
                                 className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 xl:w-1/4 p-4"
                               >
                                 <div
                                   onClick={() => {
-                                    setTrackTitle(track.tracktitle);
-                                    setSessionTitle(track.sessiontitle);
-                                    setSessionDesc(track.description);
-                                    setSpeakers(track.speakers);
-                                    setTrack(track.track);
-                                    setOrganization(track.organization);
-                                    setSessionNo(track.sessionseq);
+                                    setTrackTitle(seqsession.tracktitle);
+                                    setSessionTitle(seqsession.sessiontitle);
+                                    setSessionDesc(seqsession.description);
+                                    setSpeakers(seqsession.speaker2 ? seqsession.speaker1 + " | " + seqsession.speaker2 : seqsession.speaker1);
+                                    setTrack(seqsession.trackid);
+                                    setOrganization(seqsession.organization);
+                                    setSessionNo(seqsession.sessionseq);
                                     onOpen();
                                   }}
                                   className="cursor-pointer bg-white border border-slate-200 rounded-none drop-shadow-xl p-2 h-full flex flex-col justify-between"
                                 >
                                   <div>
                                     <h4 className="text-xs font-bold text-gray-700">
-                                      {track.track}
+                                      {seqsession.trackid}
                                     </h4>
                                     <p className="text-xs text-gray-500">
-                                      {track.tracktitle}
+                                      {seqsession.tracktitle}
                                     </p>
                                   </div>
                                   <hr />
 
                                   <p className="text-blue-600 underline text-xs font-semibold mt-2">
-                                    {track.sessiontitle}
+                                    {seqsession.sessiontitle}
                                   </p>
                                   <p className="text-xs text-gray-800 mt-2 line-clamp-2">
-                                    {track.description}
+                                    {seqsession.description}
                                   </p>
                                   <hr />
                                   <p className="text-xs font-semibold text-gray-500 mt-2">
-                                    {track.speakers}
+                                  {seqsession.speaker2 ? seqsession.speaker1 + " | " + seqsession.speaker2 : seqsession.speaker1}
                                   </p>
                                 </div>
                               </div>

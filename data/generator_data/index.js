@@ -70,7 +70,7 @@ async function run() {
       organization: data.company1,
       socialmedia: "",
       sessionseq: data.sessionseq,
-      tracktitle: data.stopic,
+      tracktitle: data.trackname,
       trackid: data.trackno,
     };
     convertedData.push(sessionOriginal);
