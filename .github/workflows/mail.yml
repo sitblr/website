@@ -2,8 +2,6 @@ name: Update Data JSON file
 
 on:
   workflow_dispatch:
-    branches:
-      - main  # replace with the name of your branch
 
 jobs:
   build:
