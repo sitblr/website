@@ -1,10 +1,12 @@
 const { JWT } = require("google-auth-library");
 const { GoogleSpreadsheet } = require("google-spreadsheet");
-const creds = require("./credentials.json"); // the file saved above
+// const creds = require("./credentials.json"); // the file saved above
 const fs = require("fs");
 const path = require("path");
 // console.log(process.argv);
-console.log(process.env.GOOGLEWORKSHEETSAPI);
+require('dotenv').config();
+let creds = JSON.parse(process.env.GOOGLEWORKSHEETSAPI);
+console.log(creds)
 async function run() {
   const SCOPES = [
     "https://www.googleapis.com/auth/spreadsheets",
@@ -120,6 +122,7 @@ async function run() {
   let session = JSON.parse(JSON.stringify(sessionOriginal));
   // Write data to JSON file
   fs.writeFileSync(__dirname + "/" + process.argv[2] + ".json", dataStr);
+  console.log("Succesfully the agenda is updated in the file")
 }
 
 run();
