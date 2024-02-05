@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "npm run builddata && next build",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint",
     "builddata":"node ./data/generator_data/index.js sap-inside-track-feb-2024"

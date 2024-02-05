@@ -4,7 +4,7 @@ const creds = require("./credentials.json"); // the file saved above
 const fs = require("fs");
 const path = require("path");
 // console.log(process.argv);
-
+console.log(process.env.GOOGLEWORKSHEETSAPI);
 async function run() {
   const SCOPES = [
     "https://www.googleapis.com/auth/spreadsheets",

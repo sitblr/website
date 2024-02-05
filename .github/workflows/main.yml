@@ -6,13 +6,15 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      GOOGLEWORKSHEETSAPI: ${{ secrets.GOOGLEWORKSHEETSAPI }}
 
     steps:
       - name: Check out repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: Set Up Node.js
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v4
         with:
           node-version: '16.18.0' # use your Node.js version
 
@@ -20,8 +22,8 @@ jobs:
         run: npm ci
 
       - name: Build and update JSON file
-        run: |
-          npm run builddata
+        # uses: actions/run
+        run: npm run builddata
 
       - name: Commit and push if it changed
         run: |
