@@ -6,7 +6,7 @@ const path = require("path");
 // console.log(process.argv);
 require('dotenv').config();
 let creds = JSON.parse(process.env.GOOGLEWORKSHEETSAPI);
-console.log(creds)
+// console.log(creds)
 async function run() {
   const SCOPES = [
     "https://www.googleapis.com/auth/spreadsheets",
