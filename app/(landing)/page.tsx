@@ -212,7 +212,7 @@ const Home = () => {
                 <div className="flex p-4 ">
                   <div className="sm:w-1/6 p-2 w-2/6">
                     <div className="flex items-center justify-center mt-2">
-                    <div className="p-4 bg-white border border-slate-200 rounded-none drop-shadow-xl">
+                    <div className="p-4 bg-white border border-slate-200 rounded-none drop-shadow-md">
                       <label className="text-gray-500">{session.time}</label>
                     </div>
                     </div>
@@ -284,7 +284,7 @@ const Home = () => {
                       
                     :  <div
                     key="track.sessionseq"
-                    className="flex items-center justify-center mt-4 mx-auto w-full text-center bg-white border border-slate-200 rounded-none drop-shadow-x"
+                    className="flex items-center justify-center mt-4 mx-auto w-full text-center bg-white border border-slate-200 rounded-none drop-shadow-md"
                   >
                     <div className="p-4">
                       <label className="text-gray-700"> {session.tracktitle}</label>

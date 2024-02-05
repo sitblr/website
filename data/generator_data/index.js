@@ -1,5 +1,6 @@
 const { JWT } = require("google-auth-library");
 const { GoogleSpreadsheet } = require("google-spreadsheet");
+const {google} = require('googleapis');
 // const creds = require("./credentials.json"); // the file saved above
 const fs = require("fs");
 const path = require("path");
@@ -50,6 +51,27 @@ async function run() {
       rawdata.push(obj.toObject());
     }
   });
+
+  // const auth = new google.auth.GoogleAuth({
+  //   keyFile: __dirname+"/cred.json",
+  //   scopes: ['https://www.googleapis.com/auth/spreadsheets'],
+  // });
+  // const authClient = await auth.getClient();
+  // var googlesheets = google.sheets({
+  //   version: 'v4',
+  //   auth: authClient,
+  // });
+
+  // const data = await googlesheets.spreadsheets.values.get(
+  //   { auth :auth,
+  //   spreadsheetId:"1DqHqfKfDJgxgXjxk-RRWxK7MdGXEpnuccXxJwZJ9DCI",
+  //   range: "Sheet1"
+  //   }).catch(function(e){
+  //     console.log(e)
+  //   });
+
+
+// return;
 
   rawdata.sort((a, b) => a.trackno.localeCompare(b.trackno));
   const groupBy = (array, key) =>
