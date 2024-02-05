@@ -370,6 +370,20 @@
         "sessionsBySequence": [
             {
                 "speakers": "",
+                "speaker1": "Surekha Chawale",
+                "speaker2": "Shivani Patil",
+                "speaker1_social": "https://www.linkedin.com/in/surekha-chawale-dhumal-42101b4a",
+                "speaker2_social": "www.linkedin.com/in/shivani-patil-9137a0188",
+                "sessiontitle": "Unlocking Innovation: Exploring Low-Code Pro-Code Solutions in SAP\n",
+                "description": "Exploring Low-Code Pro-Code Solutions in SAP\n",
+                "organization": "Primus Techsystems Pvt.Ltd.",
+                "socialmedia": "",
+                "sessionseq": "4",
+                "tracktitle": "General (SAP BTP and other Products)",
+                "trackid": "Track 1"
+            },
+            {
+                "speakers": "",
                 "speaker1": "Pamoli Banerjee",
                 "speaker2": "",
                 "speaker1_social": "https://www.linkedin.com/in/pamoli-banerjee-08a28a19/",
@@ -473,6 +487,20 @@
         "time": "01:45 - 02:25",
         "type": "grid",
         "sessionsBySequence": [
+            {
+                "speakers": "",
+                "speaker1": "Anbazhagan, Uma",
+                "speaker2": "",
+                "speaker1_social": "NA",
+                "speaker2_social": "",
+                "sessiontitle": "End-to-End Use Cases with SAP BTP, SAP S/4HANA, and other SAP Cloud Products",
+                "description": "End-to-End Use Cases with SAP BTP, SAP S/4HANA, and other SAP Cloud Products",
+                "organization": "SAP Labs",
+                "socialmedia": "",
+                "sessionseq": "5",
+                "tracktitle": "General (SAP BTP and other Products)",
+                "trackid": "Track 1"
+            },
             {
                 "speakers": "",
                 "speaker1": "Pavan Kumar Reddy",
@@ -668,6 +696,20 @@
                 "sessionseq": "7",
                 "tracktitle": "Artificial Intelligence + Automation",
                 "trackid": "Track 4"
+            },
+            {
+                "speakers": "",
+                "speaker1": "Rajashree Raghavendra",
+                "speaker2": "Raghav Komato",
+                "speaker1_social": "https://www.linkedin.com/in/rajashreeraghavendra/",
+                "speaker2_social": "",
+                "sessiontitle": "Fiori Elements OData v4 and Flexible Programming Model",
+                "description": "FioriElements aims to achieve UX consistency and deliver high-quality UI5 applications. By focusing on streamlining the user experience, developers benefit from writing less UI code, leading to a significant reduction in maintenance costs. The implementation of a flexible programming model facilitates the extension of  apps though  accessible extension points. \n\n",
+                "organization": "SAP ",
+                "socialmedia": "",
+                "sessionseq": "7",
+                "tracktitle": "SAP UI5, Fiori & Design",
+                "trackid": "Track 5"
             }
         ]
     },
