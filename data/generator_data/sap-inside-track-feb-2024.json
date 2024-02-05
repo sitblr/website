@@ -640,6 +640,34 @@
                 "sessionseq": "7",
                 "tracktitle": "Development - Pro Code + Low Code",
                 "trackid": "Track 2"
+            },
+            {
+                "speakers": "",
+                "speaker1": "Rushikesh Bhandare",
+                "speaker2": "",
+                "speaker1_social": "https://www.linkedin.com/in/rushikesh-bhandare-625801149/",
+                "speaker2_social": "",
+                "sessiontitle": "\nStrategic Insights: SAP Analytics Cloud and Business Warehouse in Powering Intelligent Enterprises.",
+                "description": "In today's competitive landscape, intelligent enterprises leverage data-driven insights to make informed decisions and achieve strategic goals. Discover how SAP Analytics Cloud and SAP Business Warehouse act as your data powerhouses, unlocking hidden insights through analytics and a robust, centralized data foundation.\n\nKey Takeaways:\n•\tWitness how data and analytics drive intelligent decision-making across business functions.\n•\tExplore the capabilities of SAP Analytics Cloud for self-service analytics, automated insights, and collaborative decision-making.\n•\tUncover the power of SAP Business Warehouse for data consolidation, scalability, and security.\n•\tLearn how these solutions work together, guiding you on your path to becoming a data-powered leader.",
+                "organization": "PRIMUS Techsystems Private Limited",
+                "socialmedia": "",
+                "sessionseq": "7",
+                "tracktitle": "Data & Analytics + Integration",
+                "trackid": "Track 3"
+            },
+            {
+                "speakers": "",
+                "speaker1": "Priti Dhingra",
+                "speaker2": "Ramya Devrajan",
+                "speaker1_social": "https://www.linkedin.com/in/priti-dhingra-7029374/",
+                "speaker2_social": "",
+                "sessiontitle": "AI Integration into Business Applications with Intelligent Scenario Lifecycle Management (ISLM)",
+                "description": "Join us as we explore the capabilities of Intelligent Scenario Lifecycle Management (ISLM). Learn how this framework seamlessly integrates AI into your applications and optimizes the operation of AI workloads across SAP HANA, SAP AI Core, and SAP AI Services on the SAP Business Technology Platform (BTP). Discover the advanced features and gain insights into the roadmap, with a special focus on the upcoming integration of generative AI.",
+                "organization": "SAP Labs India",
+                "socialmedia": "",
+                "sessionseq": "7",
+                "tracktitle": "Artificial Intelligence + Automation",
+                "trackid": "Track 4"
             }
         ]
     },
