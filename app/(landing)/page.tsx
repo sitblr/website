@@ -210,10 +210,14 @@ const Home = () => {
             return (
               <div key={session.time + idx} className="mx-auto bg-gray-50">
                 <div className="flex p-4 ">
-                  <div className="w-1/5 p-2">
-                    <label className="text-gray-700">{session.time}</label>
+                  <div className="sm:w-1/6 p-2 w-2/6">
+                    <div className="flex items-center justify-center mt-2">
+                    <div className="p-4 bg-white border border-slate-200 rounded-none drop-shadow-xl">
+                      <label className="text-gray-500">{session.time}</label>
+                    </div>
+                    </div>
                   </div>
-                  <div className="w-4/5">
+                  <div className="sm:w-5/6 w-4/6">
                     <div className="flex flex-wrap">
                     
                     {session.type === "grid" ?
@@ -264,27 +268,30 @@ const Home = () => {
                             );
                             break;
                           case "break":
-                            return (
-                              <div
-                                key="track.sessionseq"
-                                className="mx-auto w-full p-2 text-center bg-teal-200"
-                              >
-                                <label className=" text-gray-500">
-                                  {session.tracktitle}
-                                </label>
-                              </div>
-                            );
-                            break;
+                            // return (
+                            //   <div
+                            //     key="track.sessionseq"
+                            //     className="mx-auto w-full p-2 text-center bg-teal-200"
+                            //   >
+                            //     <label className=" text-gray-500">
+                            //       {session.tracktitle}
+                            //     </label>
+                            //   </div>
+                            // );
+                            // break;
                         }
                       })
                       
                     :  <div
                     key="track.sessionseq"
-                    className="mx-auto w-full p-2 text-center bg-teal-200"
+                    className="flex items-center justify-center mt-4 mx-auto w-full text-center bg-white border border-slate-200 rounded-none drop-shadow-x"
                   >
-                    <label className=" text-gray-500">
+                    <div className="p-4">
+                      <label className="text-gray-700"> {session.tracktitle}</label>
+                    </div>
+                    {/* <label className=" text-gray-500">
                       {session.tracktitle}
-                    </label>
+                    </label> */}
                   </div>}
                     </div>
                   </div>

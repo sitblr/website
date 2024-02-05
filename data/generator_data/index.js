@@ -82,7 +82,9 @@ async function run() {
   convertedData = groupBy(convertedData, "sessionseq");
   // console.log(rawdata);
   const sessionsseq = [
-    { sequence: 1, time: "10:00 - 10:40", type: "grid" },
+    { sequence: 0.1, time: "07:30 - 09:30", type: "break", tracktitle: "Networking & Registration - Ask Me Anyting Booths" },
+    { sequence: 0.2, time: "09:30 - 09:45", type: "break", tracktitle: "Keynote: Sindhu Gangadharan (SVP & MD, SAP Labs India | Head User Enablement)" },
+    { sequence: "1", time: "10:00 - 10:40", type: "grid" },
     { sequence: "2", time: "10:45 - 11:25", type: "grid" },
     { sequence: "3", time: "11:30 - 12:10", type: "grid" },
     {

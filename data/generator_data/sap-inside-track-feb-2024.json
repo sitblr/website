@@ -1,6 +1,20 @@
 [
     {
-        "sequence": 1,
+        "sequence": 0.1,
+        "time": "07:30 - 09:30",
+        "type": "break",
+        "tracktitle": "Networking & Registration - Ask Me Anyting Booths",
+        "sessionsBySequence": []
+    },
+    {
+        "sequence": 0.2,
+        "time": "09:30 - 09:45",
+        "type": "break",
+        "tracktitle": "Keynote: Sindhu Gangadharan (SVP & MD, SAP Labs India | Head User Enablement)",
+        "sessionsBySequence": []
+    },
+    {
+        "sequence": "1",
         "time": "10:00 - 10:40",
         "type": "grid",
         "sessionsBySequence": [
@@ -52,8 +66,8 @@
                 "speaker2": "Prashant Gautham",
                 "speaker1_social": "www.linkedin.com/in/shuklaarchana",
                 "speaker2_social": "www.linkedin.com/in/prashant-gautam-1674862",
-                "sessiontitle": "Title 1 : Harness Inherent Power of Generative AI in SAP Build Process Automation | Title 2 : Using SAP Build Code and SAP Build to Improve Developer Productivity with Generative AI",
-                "description": "Abstract 1 : Process Automation plays a crucial role in enhancing organizational efficiency by replacing manual and time-consuming tasks with automated processes.\n \nGenerative AI has the potential to significantly improve human productivity by reducing the time required to comprehend, summarize, generate content, and respond based on comprehensive knowledge and data.\n \nThe convergence of Generative AI and Process Automation has the potential to revolutionize the field, redefining our current understanding of process automation and low-code, no-code process design. There is potential to reshape the way we approach and envision process automation, leading to substantial advancements in operational efficiency and effectiveness.\n \nDuring this session, we will explore how Generative AI capability with SAP Joule can enhance the design process, decision-making, and other aspects of future workflows. We will provide a demonstration showcasing how SAP Build Process Automation can enhance the experience of citizen developers through features such as recommendations, natural language-based modelling, editing, and summarization of complex objects.\n\nAbstract 2 : Low-code and no-code tools greatly accelerate the development of applications and business processes. There is need to further enhance the experience with Generative AI capabilities for quicker and more effective solutions. Introduction of Generative AI will see a break through in how we create, implement and extend business processes and applications, with increased productivity in overall development cycles.\n \nIn this session, you will learn how embedded Generative AI capabilities with SAP Joule in SAP Build Code and SAP Build services can help you develop full stack application with backend logics, integrated with complex approval and decision making processes to accelerate the fusion development process for highly customised projects.",
+                "sessiontitle": "Harness Inherent Power of Generative AI in SAP Build Process Automation",
+                "description": "The convergence of Generative AI and Process Automation has the potential to revolutionize the field, redefining our current understanding of process automation and low-code, no-code process design. During this session, we will explore how Generative AI capability with SAP Joule can enhance the design process, decision-making, and other aspects of future workflows. We will provide a demonstration showcasing how SAP Build Process Automation can enhance the experience of citizen developers through features such as recommendations, natural language-based modelling, editing, and summarization of complex objects.",
                 "organization": "SAP Labs India",
                 "socialmedia": "",
                 "sessionseq": "1",
