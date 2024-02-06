@@ -459,7 +459,7 @@
                 "speaker1_social": "www.linkedin.com/in/raven9",
                 "speaker2_social": "www.linkedin.com/in/raven9",
                 "sessiontitle": "SuccessFactors Foundation Object(Organization Structure) - SAP CPI integration",
-                "description": "Case study on SuccessFactors Foundation Object(Organisation structure) as generic integration to multiple target systems via SAP CI. This provides a lot of value add in HR landscape when the SuccessFactors EC is the source with Organisation structure and target systems like Recruitment, Access Management, Learning Management.",
+                "description": "Case study on SuccessFactors Foundation Object (Organisation Structure) as generic integration to multiple target systems via SAP CI. A typical HR landscape contains multi-vendor applications to support HR functions like Recruitment, Learning Management, Access Management, Analytics, Payroll, Workforce Management etc. Keeping Organisation structure as standard/separate integration (iFlow) enables the target system to subscribe to this integration as a separate component rather than bundled with employee data.\n\nTarget audience could be SAP CI enthusiasts, HR Functions, Payroll and SuccessFactors Consultants.",
                 "organization": "H&M",
                 "socialmedia": "",
                 "sessionseq": "4",
