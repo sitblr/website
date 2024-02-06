@@ -661,6 +661,20 @@
                 "sessionseq": "6",
                 "tracktitle": "SAP S/4HANA",
                 "trackid": "Track 7"
+            },
+            {
+                "speakers": "",
+                "speaker1": "Pankaj Naik",
+                "speaker2": "Mahesh Sonawane",
+                "speaker1_social": "www.linkedin.com/in/mahesh-sonawane-1113271aa",
+                "speaker2_social": "",
+                "sessiontitle": "Unlocking the Future: A Journey into SAP Digital Transformation with new gen SAP Products\n\n(SEN, Signavio, Synthesia, Success Factors)",
+                "description": "In the rapidly evolving landscape of digital transformation, organizations are continually seeking innovative solutions to meet their training needs effectively. \n\nThis presentation explores a pioneering approach of PRIMUS Techsystems to address these challenges by synergistically combining four cutting-edge SAP products: SAP Enable Now, SAP Signavio, Synthesia, and SuccessFactors.\n\nThe presentation will delve into the unique capabilities of each product and showcase how their seamless collaboration creates a powerful ecosystem for digital transformation. \n\nSAP Enable Now serves as a digital adoption platform, crafted to assist organizations in developing, implementing, and sustaining training and support materials for employees spanning diverse SAP and non-SAP applications, enhancing the efficacy of training initiatives. SAP Signavio introduces advanced process modelling functionalities, empowering employees with comprehensive visibility into end-to-end processes. Synthesia leverages innovative AI-driven video synthesis to revolutionize the creation of training content, ensuring its dynamic and adaptable nature. SuccessFactors LMS offers a centralized repository for the storage and management of various learning content types.\n\nAttendees will gain insights into how this holistic approach not only streamlines training processes but also contributes to overall organizational efficiency and agility.\n",
+                "organization": "PRIMUS Techsystems Pvt. Ltd.",
+                "socialmedia": "",
+                "sessionseq": "6",
+                "tracktitle": "SAP S/4HANA + Other Cloud Products (SF, CX)",
+                "trackid": "Track 8"
             }
         ]
     },
