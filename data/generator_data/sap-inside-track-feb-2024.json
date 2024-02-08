@@ -706,6 +706,20 @@
             },
             {
                 "speakers": "",
+                "speaker1": "Sanchit Agarwal",
+                "speaker2": "Rachitha Suresh",
+                "speaker1_social": "https://www.linkedin.com/in/sanchitagarwalmdi/",
+                "speaker2_social": "https://www.linkedin.com/in/rachithas/",
+                "sessiontitle": "Petty Cash and Employee Expense Management through UPI ",
+                "description": " a comprehensive solution for integrating Razorpay's wallet app with SAP Concur expense management platform. This integration aims to revolutionize the way businesses handle employee cash advances by automating the process, reducing manual interventions, and ensuring digital transaction tracking.",
+                "organization": "Razorpay ",
+                "socialmedia": "",
+                "sessionseq": "6",
+                "tracktitle": "Concur",
+                "trackid": "Track 7"
+            },
+            {
+                "speakers": "",
                 "speaker1": "Jayprakash Sharma",
                 "speaker2": "Sowrabh Mehetre",
                 "speaker1_social": "https://in.linkedin.com/in/jayprakash-sharma-982bb8127",
