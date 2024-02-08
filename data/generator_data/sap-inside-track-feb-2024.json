@@ -64,10 +64,10 @@
                 "speakers": "",
                 "speaker1": "Ajay Tikare",
                 "speaker2": "",
-                "speaker1_social": "NA",
+                "speaker1_social": "https://linkedin.com/in/ajaytikare",
                 "speaker2_social": "",
                 "sessiontitle": "SAP Generative AI Strategy and Offerings",
-                "description": "SAP Generative AI Strategy and Offerings",
+                "description": "In today's rapidly evolving business landscape, Generative AI has emerged as a powerful tool for driving innovation and transforming organizations. Join us at this conference as we delve into SAP's Business AI Strategy and explore the cutting-edge offerings that SAP brings to the table in this space. Discover how Generative AI can unlock new possibilities, empower decision-making, and revolutionize business processes. Gain insights into the future of AI-driven business solutions and learn how SAP is leading the way in this exciting field.",
                 "organization": "SAP Labs",
                 "socialmedia": "",
                 "sessionseq": "1",
@@ -570,6 +570,20 @@
                 "sessionseq": "5",
                 "tracktitle": "SAP UI5, Fiori & Design",
                 "trackid": "Track 5"
+            },
+            {
+                "speakers": "",
+                "speaker1": "Arvind Suthan",
+                "speaker2": "Joemon Johnson",
+                "speaker1_social": "https://www.linkedin.com/in/arvind-suthan-0a470a4?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+                "speaker2_social": " https://www.linkedin.com/in/joemon-johnson-12296a109?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+                "sessiontitle": "UST Concur Implementation- Knowledge sharing and thoughts on new Product capabilities from our experience.",
+                "description": "Quick walk through on how Concur implementation was done at UST. Few things we learned post implementation, which could be beneficial to upcoming customers. Thoughts on new Product capabilities on Concur which could take implementations more successful based on our experience implementing Concur and professional services experience with other clients.",
+                "organization": "UST ",
+                "socialmedia": "",
+                "sessionseq": "5",
+                "tracktitle": "Concur",
+                "trackid": "Track 6"
             },
             {
                 "speakers": "",
