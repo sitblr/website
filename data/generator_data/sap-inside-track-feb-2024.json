@@ -522,7 +522,7 @@
                 "speaker1_social": "https://www.linkedin.com/in/reddypavankumar/",
                 "speaker2_social": "https://www.linkedin.com/in/seshaiah-machavarapu-94a91970/",
                 "sessiontitle": "Deep Dive into RAP Developer Extensibility",
-                "description": "ABAP RESTful programming Model (RAP) Developer Extensibility is about how to enable and develop extension for RAP Business Objects",
+                "description": "ABAP RESTful programming Model (RAP) Developer Extensibility is about how to enable and develop RAP custom extensions such as data model extensions, behavior extensions and node extensions for standard ABAP RAP based applications in S/4HANA Public, Private Cloud, BTP ABAP environment and On-premise platforms.",
                 "organization": "Booking Holdings",
                 "socialmedia": "",
                 "sessionseq": "5",
