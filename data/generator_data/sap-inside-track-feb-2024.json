@@ -1,13 +1,13 @@
 [
     {
-        "sequence": 0.1,
+        "sequence": "0.1",
         "time": "07:30 - 09:30",
         "type": "break",
-        "tracktitle": "Networking & Registration - Ask Me Anything Booths",
+        "tracktitle": "Registration, Networking & Ask Me Anything Booths (SAP BTP, A.I & SAP S/4HANA)",
         "sessionsBySequence": []
     },
     {
-        "sequence": 0.2,
+        "sequence": "0.2",
         "time": "09:30 - 09:45",
         "type": "break",
         "tracktitle": "Keynote: Sindhu Gangadharan (SVP & MD, SAP Labs India | Head User Enablement)",
@@ -15,8 +15,9 @@
     },
     {
         "sequence": "1",
-        "time": "10:00 - 10:40",
+        "time": "10:00 - 10:45",
         "type": "grid",
+        "tracktitle": "<Not Required>",
         "sessionsBySequence": [
             {
                 "speakers": "",
@@ -134,8 +135,9 @@
     },
     {
         "sequence": "2",
-        "time": "10:45 - 11:25",
+        "time": "10:45 - 11:30",
         "type": "grid",
+        "tracktitle": "<Not Required>",
         "sessionsBySequence": [
             {
                 "speakers": "",
@@ -253,8 +255,9 @@
     },
     {
         "sequence": "3",
-        "time": "11:30 - 12:10",
+        "time": "11:30 - 12:15",
         "type": "grid",
+        "tracktitle": "<Not Required>",
         "sessionsBySequence": [
             {
                 "speakers": "",
@@ -372,15 +375,16 @@
     },
     {
         "sequence": "3.5",
-        "time": "12:10 - 01:00",
+        "time": "12:15 - 01:00",
         "type": "break",
         "tracktitle": "Lunch",
         "sessionsBySequence": []
     },
     {
         "sequence": "4",
-        "time": "01:00 - 01:40",
+        "time": "01:00 - 01:45",
         "type": "grid",
+        "tracktitle": "<Not Required>",
         "sessionsBySequence": [
             {
                 "speakers": "",
@@ -498,8 +502,9 @@
     },
     {
         "sequence": "5",
-        "time": "01:45 - 02:25",
+        "time": "01:45 - 02:30",
         "type": "grid",
+        "tracktitle": "<Not Required>",
         "sessionsBySequence": [
             {
                 "speakers": "",
@@ -617,8 +622,9 @@
     },
     {
         "sequence": "6",
-        "time": "02:30 - 03:10",
+        "time": "02:30 - 03:15",
         "type": "grid",
+        "tracktitle": "<Not Required>",
         "sessionsBySequence": [
             {
                 "speakers": "",
@@ -738,6 +744,7 @@
         "sequence": "7",
         "time": "03:15 - 04:00",
         "type": "grid",
+        "tracktitle": "<Not Required>",
         "sessionsBySequence": [
             {
                 "speakers": "",
@@ -840,14 +847,14 @@
         ]
     },
     {
-        "sequence": "8",
+        "sequence": "99",
         "time": "04:00 - 04:15",
         "type": "break",
-        "tracktitle": "Speakers & Volunteers Recognition",
+        "tracktitle": "Speakers, Volunteers & Top Attendees Recognition",
         "sessionsBySequence": []
     },
     {
-        "sequence": "10",
+        "sequence": "100",
         "time": "04:15 - 05:00",
         "type": "break",
         "tracktitle": "The End - Evening Snacks & Networking",

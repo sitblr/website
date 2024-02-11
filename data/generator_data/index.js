@@ -42,14 +42,22 @@ async function run() {
   );
 
   await doc.loadInfo();
-  const sheet = doc.sheetsByIndex[0];
-  rows = await sheet.getRows();
+  const sheet = doc.sheetsByTitle["Sessions Sequenced"];
+  const sheetTrackSeq = doc.sheetsByTitle["Tracks Sequenced"];
+  // const sheet = doc.sheetsByIndex[0];
+  const rows = await sheet.getRows();
+  const sessionrawsseq = await sheetTrackSeq.getRows();
 
   let rawdata = [];
   rows.forEach(function (obj) {
     if (obj.get("selected") === "Selected") {
       rawdata.push(obj.toObject());
     }
+  });
+
+  let sessionsseq = [];
+  sessionrawsseq.forEach(function (obj) {
+      sessionsseq.push(obj.toObject());
   });
 
   // const auth = new google.auth.GoogleAuth({
@@ -103,35 +111,35 @@ async function run() {
 
   convertedData = groupBy(convertedData, "sessionseq");
   // console.log(rawdata);
-  const sessionsseq = [
-    { sequence: 0.1, time: "07:30 - 09:30", type: "break", tracktitle: "Networking & Registration - Ask Me Anything Booths" },
-    { sequence: 0.2, time: "09:30 - 09:45", type: "break", tracktitle: "Keynote: Sindhu Gangadharan (SVP & MD, SAP Labs India | Head User Enablement)" },
-    { sequence: "1", time: "10:00 - 10:40", type: "grid" },
-    { sequence: "2", time: "10:45 - 11:25", type: "grid" },
-    { sequence: "3", time: "11:30 - 12:10", type: "grid" },
-    {
-      sequence: "3.5",
-      time: "12:10 - 01:00",
-      type: "break",
-      tracktitle: "Lunch",
-    },
-    { sequence: "4", time: "01:00 - 01:40", type: "grid" },
-    { sequence: "5", time: "01:45 - 02:25", type: "grid" },
-    { sequence: "6", time: "02:30 - 03:10", type: "grid" },
-    { sequence: "7", time: "03:15 - 04:00", type: "grid" },
-    {
-      sequence: "8",
-      time: "04:00 - 04:15",
-      type: "break",
-      tracktitle: "Speakers & Volunteers Recognition",
-    },
-    {
-      sequence: "10",
-      time: "04:15 - 05:00",
-      type: "break",
-      tracktitle: "The End - Evening Snacks & Networking",
-    },
-  ];
+  // const sessionsseq = [
+  //   { sequence: 0.1, time: "07:30 - 09:30", type: "break", tracktitle: "Networking & Registration - Ask Me Anything Booths" },
+  //   { sequence: 0.2, time: "09:30 - 09:45", type: "break", tracktitle: "Keynote: Sindhu Gangadharan (SVP & MD, SAP Labs India | Head User Enablement)" },
+  //   { sequence: "1", time: "10:00 - 10:40", type: "grid" },
+  //   { sequence: "2", time: "10:45 - 11:25", type: "grid" },
+  //   { sequence: "3", time: "11:30 - 12:10", type: "grid" },
+  //   {
+  //     sequence: "3.5",
+  //     time: "12:10 - 01:00",
+  //     type: "break",
+  //     tracktitle: "Lunch",
+  //   },
+  //   { sequence: "4", time: "01:00 - 01:40", type: "grid" },
+  //   { sequence: "5", time: "01:45 - 02:25", type: "grid" },
+  //   { sequence: "6", time: "02:30 - 03:10", type: "grid" },
+  //   { sequence: "7", time: "03:15 - 04:00", type: "grid" },
+  //   {
+  //     sequence: "8",
+  //     time: "04:00 - 04:15",
+  //     type: "break",
+  //     tracktitle: "Speakers & Volunteers Recognition",
+  //   },
+  //   {
+  //     sequence: "10",
+  //     time: "04:15 - 05:00",
+  //     type: "break",
+  //     tracktitle: "The End - Evening Snacks & Networking",
+  //   },
+  // ];
 
   let finalSessions = [];
 
