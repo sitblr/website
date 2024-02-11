@@ -65,6 +65,7 @@ const Home = () => {
     setTrackDescription,
     setSessionTitle,
     setSessionDesc,
+    setSessionFeedbackURL,
     setOrganization,
     setSpeakers,
     setTrack,
@@ -233,6 +234,7 @@ const Home = () => {
                                       setTrackTitle(seqsession.tracktitle);
                                       setSessionTitle(seqsession.sessiontitle);
                                       setSessionDesc(seqsession.description);
+                                      setSessionFeedbackURL(filteredData?.linktosessionfeedback);
                                       setSpeakers(
                                         seqsession.speaker2
                                           ? seqsession.speaker1 +

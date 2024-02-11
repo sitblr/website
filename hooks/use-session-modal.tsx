@@ -10,12 +10,14 @@ interface useStoreSession {
     session: string;
     sessiondesc: string;
     sessionno: string;
+    sessionFeedbackURL: string;
     onOpen: () => void;
     onClose: () => void;
     setTrackTitle: (title: string) => void;
     setTrackDescription: (value: string) => void;
     setSessionTitle: (value: string) => void;
     setSessionDesc: (value: string) => void;
+    setSessionFeedbackURL: (value: string) => void;
     setSessionNo: (value: string) => void;
     setSpeakers: (value: string) => void;
     setOrganization: (value: string) => void;
@@ -30,6 +32,7 @@ export const useSession = create<useStoreSession>((set) => ({
     sessiondesc: "",
     sessionno: "",
     track:"",
+    sessionFeedbackURL:"",
     speakers: "",
     organization: "",
     onOpen: () => set({ isOpen: true }),
@@ -41,5 +44,6 @@ export const useSession = create<useStoreSession>((set) => ({
     setSessionNo: (value: string) => set({ sessionno: value }),
     setSpeakers: (value: string) => set({ speakers: value }),
     setOrganization: (value: string) => set({ organization: value }),
+    setSessionFeedbackURL: (value: string) => set({ sessionFeedbackURL: value }),
     setTrack: (value: string) => set({ track: value })
 }));

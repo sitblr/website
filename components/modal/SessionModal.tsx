@@ -59,8 +59,8 @@ const SessionModal: React.FC<ModalProps> = ({
                     <p className='flex sm:flex-none flex-col sm:flex-row space-y-1.5 text-center sm:text-left text-xs text-gray-500'><span className="inline font-semibold text-gray-600 space-x-4">Speakers:‎ ‎ </span> {sessiondata.speakers} ({sessiondata.organization})</p>
                 </div>
                 <hr></hr>
-                {/* <a className="text-center px-2 text-white font-semibold bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800" 
-                    href={`https://docs.google.com/forms/d/e/1FAIpQLSfrnFowWmbFmBjRFzB5Aq58Q0ckoCAbWVPGAhy5CYGpq08vjw/viewform?usp=pp_url&entry.1161658033=${sessiondata.track}&entry.973977996=${sessiondata.sessionno}&entry.749693569=${sessiondata.tracktitle}&entry.96440064=${sessiondata.session}`} target="_blank" rel="noopener noreferrer">Give Your Feedback</a> */}
+                <a className="text-center px-2 text-white font-semibold bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800" 
+                    href={`https://docs.google.com/forms/d/e/${sessiondata.sessionFeedbackURL}/viewform?usp=pp_url&entry.1161658033=${sessiondata.track}&entry.973977996=${sessiondata.sessionno}&entry.749693569=${sessiondata.tracktitle}&entry.96440064=${sessiondata.session}`} target="_blank" rel="noopener noreferrer">Give Your Feedback</a>
             </DialogContent>
         </Dialog>
     )
