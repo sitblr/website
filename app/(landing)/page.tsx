@@ -138,22 +138,21 @@ const Home = () => {
     // ffe505
     <div className="h-full">
       {/* <div className="relative"> */}
-        <div className="w-full bg-gradient-to-r from-[#ffb805] to-[#e1cf2b] ">
-          <div className="mx-auto max-w-screen-xl">
-            <LandingNavBar />
-          </div>
+      <div className="w-full bg-gradient-to-r from-[#ffb805] to-[#e1cf2b] ">
+        <div className="mx-auto max-w-screen-xl">
+          <LandingNavBar />
         </div>
-        <div className="top-6 w-full  bg-gradient-to-r from-[#ffb805] to-[#e1cf2b] ">
-          <div className=" max-w-screen-xl mx-auto bg-[url('/bengaluru_city.png')]">
-            
-            <EventHeader
-              title={filteredData?.title}
-              register={filteredData?.register}
-              eventCompleted={filteredData?.eventCompleted}
-              linktoeventfeedback={filteredData?.linktoeventfeedback}
-            />
-          </div>
+      </div>
+      <div className="top-6 w-full  bg-gradient-to-r from-[#ffb805] to-[#e1cf2b] ">
+        <div className=" max-w-screen-xl mx-auto bg-[url('/bengaluru_city.png')]">
+          <EventHeader
+            title={filteredData?.title}
+            register={filteredData?.register}
+            eventCompleted={filteredData?.eventCompleted}
+            linktoeventfeedback={filteredData?.linktoeventfeedback}
+          />
         </div>
+      </div>
       {/* </div> */}
 
       <div>
@@ -173,25 +172,26 @@ const Home = () => {
       </div>
       <div>
         <div className="mx-auto max-w-screen-xl">
-          {filteredData?.eventCompleted && !!filteredData?.linktopresentations && (
-            <div className="flex flex-wrap px-2">
-            {/* <div className="font-semibold w-32">
+          {filteredData?.eventCompleted &&
+            !!filteredData?.linktopresentations && (
+              <div className="flex flex-wrap px-2">
+                {/* <div className="font-semibold w-32">
                             <Link legacyBehavior href="https://docs.google.com/spreadsheets/d/1uuVxpWiAthIiWt4l9Djzg1YfTAY_AdxZKiIC5WPugOU/edit">
                                 <a className="decoration-blue-500 underline underline-offset-auto" target="_blank" rel="noopener noreferrer">
                                     <p className="p-2 text-blue-600">Link to Excel</p></a></Link>
                         </div> */}
-            <a
-              className="px-2 text-white font-semibold bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
-              href={filteredData?.linktopresentations}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Link to Presentations
-            </a>
-            {/* <div onClick={()=>{onOpenChecklist()}} className="cursor-pointer px-2 text-white font-semibold bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Attendee Checklist</div> */}
-          </div>
-          )}
-          <div className="flex flex-row justify-between pb-2">
+                <a
+                  className="px-2 text-white font-semibold bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+                  href={filteredData?.linktopresentations}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Link to Presentations
+                </a>
+                {/* <div onClick={()=>{onOpenChecklist()}} className="cursor-pointer px-2 text-white font-semibold bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Attendee Checklist</div> */}
+              </div>
+            )}
+          <div className="flex flex-row justify-between pb-2 sticky">
             <div className="p-2 text-2xl font-semibold">Sessions</div>
             <input
               type="text"
@@ -205,69 +205,77 @@ const Home = () => {
             {/* <DropDownTracks/> */}
             {/* <Button>Download Session Details</Button> */}
           </div>
-          
+
           {filteredData?.sessions.map((session, idx) => {
             return (
-              <div key={session.time + idx} className="mx-auto bg-gray-50">
-                <div className="flex p-4 ">
-                  <div className="sm:w-1/6 p-2 w-2/6">
-                    <div className="flex items-center justify-center mt-2">
-                    <div className="p-4 bg-white border border-slate-200 rounded-none drop-shadow-md">
+              <div key={session.time + idx} className="mx-auto bg-gray-50 ">
+                <div className="sticky top-0 z-50 rounded-l mt-4 bg-gradient-to-r from-gray-200 w-full ">
+                  <div className="flex">
+                    <div className="p-4">
                       <label className="text-gray-500">{session.time}</label>
                     </div>
-                    </div>
                   </div>
-                  <div className="sm:w-5/6 w-4/6">
+                </div>
+                <div className="flex pt-4 pb-4 pl-4 pr-4">
+                  <div className=" w-full">
                     <div className="flex flex-wrap">
-                    
-                    {session.type === "grid" ?
-                            
-                      session.sessionsBySequence.map((seqsession) => {
-                        switch (session.type) {
-                          case "grid":
-                            return (
-                              <div
-                                key={seqsession.track + seqsession.sessionseq}
-                                className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 xl:w-1/4 p-4"
-                              >
+                      {session.type === "grid" ? (
+                        session.sessionsBySequence.map((seqsession) => {
+                          switch (session.type) {
+                            case "grid":
+                              return (
                                 <div
-                                  onClick={() => {
-                                    setTrackTitle(seqsession.tracktitle);
-                                    setSessionTitle(seqsession.sessiontitle);
-                                    setSessionDesc(seqsession.description);
-                                    setSpeakers(seqsession.speaker2 ? seqsession.speaker1 + " | " + seqsession.speaker2 : seqsession.speaker1);
-                                    setTrack(seqsession.trackid);
-                                    setOrganization(seqsession.organization);
-                                    setSessionNo(seqsession.sessionseq);
-                                    onOpen();
-                                  }}
-                                  className="cursor-pointer bg-white border border-slate-200 rounded-none drop-shadow-xl p-2 h-full flex flex-col justify-between"
+                                  key={seqsession.track + seqsession.sessionseq}
+                                  className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 xl:w-1/4 pt-4 pr-4"
                                 >
-                                  <div>
-                                    <h4 className="text-xs font-bold text-gray-700">
-                                      {seqsession.trackid}
-                                    </h4>
-                                    <p className="text-xs text-gray-500">
-                                      {seqsession.tracktitle}
+                                  <div
+                                    onClick={() => {
+                                      setTrackTitle(seqsession.tracktitle);
+                                      setSessionTitle(seqsession.sessiontitle);
+                                      setSessionDesc(seqsession.description);
+                                      setSpeakers(
+                                        seqsession.speaker2
+                                          ? seqsession.speaker1 +
+                                              " | " +
+                                              seqsession.speaker2
+                                          : seqsession.speaker1
+                                      );
+                                      setTrack(seqsession.trackid);
+                                      setOrganization(seqsession.organization);
+                                      setSessionNo(seqsession.sessionseq);
+                                      onOpen();
+                                    }}
+                                    className="cursor-pointer bg-white border border-slate-200 rounded-none drop-shadow-xl p-2 h-full flex flex-col justify-between"
+                                  >
+                                    <div>
+                                      <h4 className="text-xs font-bold text-gray-700">
+                                        {seqsession.trackid}
+                                      </h4>
+                                      <p className="text-xs text-gray-500">
+                                        {seqsession.tracktitle}
+                                      </p>
+                                    </div>
+                                    <hr />
+
+                                    <p className="text-blue-600 underline text-xs font-semibold mt-2">
+                                      {seqsession.sessiontitle}
+                                    </p>
+                                    <p className="text-xs text-gray-800 mt-2 line-clamp-2">
+                                      {seqsession.description}
+                                    </p>
+                                    <hr />
+                                    <p className="text-xs font-semibold text-gray-500 mt-2">
+                                      {seqsession.speaker2
+                                        ? seqsession.speaker1 +
+                                          " | " +
+                                          seqsession.speaker2
+                                        : seqsession.speaker1}
                                     </p>
                                   </div>
-                                  <hr />
-
-                                  <p className="text-blue-600 underline text-xs font-semibold mt-2">
-                                    {seqsession.sessiontitle}
-                                  </p>
-                                  <p className="text-xs text-gray-800 mt-2 line-clamp-2">
-                                    {seqsession.description}
-                                  </p>
-                                  <hr />
-                                  <p className="text-xs font-semibold text-gray-500 mt-2">
-                                  {seqsession.speaker2 ? seqsession.speaker1 + " | " + seqsession.speaker2 : seqsession.speaker1}
-                                  </p>
                                 </div>
-                              </div>
-                            );
-                            break;
-                          case "break":
+                              );
+                              break;
+                            case "break":
                             // return (
                             //   <div
                             //     key="track.sessionseq"
@@ -279,20 +287,24 @@ const Home = () => {
                             //   </div>
                             // );
                             // break;
-                        }
-                      })
-                      
-                    :  <div
-                    key="track.sessionseq"
-                    className="flex items-center justify-center mt-4 mx-auto w-full text-center bg-white border border-slate-200 rounded-none drop-shadow-md"
-                  >
-                    <div className="p-4">
-                      <label className="text-gray-700"> {session.tracktitle}</label>
-                    </div>
-                    {/* <label className=" text-gray-500">
+                          }
+                        })
+                      ) : (
+                        <div
+                          key="track.sessionseq"
+                          className="flex items-center justify-center mt-4 mx-auto w-full text-center bg-white border border-slate-200 rounded-none drop-shadow-md"
+                        >
+                          <div className="p-4">
+                            <label className="text-gray-700">
+                              {" "}
+                              {session.tracktitle}
+                            </label>
+                          </div>
+                          {/* <label className=" text-gray-500">
                       {session.tracktitle}
                     </label> */}
-                  </div>}
+                        </div>
+                      )}
                     </div>
                   </div>
                 </div>
