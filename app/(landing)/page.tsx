@@ -254,7 +254,7 @@ const Home = () => {
                                     <p className="text-blue-600 underline text-xs font-semibold mt-2">
                                       {seqsession.sessiontitle}
                                     </p>
-                                    <p className="text-xs text-gray-800 mt-2 line-clamp-2">
+                                    <p className="text-xs text-gray-800 mt-2 line-clamp-3">
                                       {seqsession.description}
                                     </p>
                                     <hr />
