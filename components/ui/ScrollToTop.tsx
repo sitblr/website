@@ -1,4 +1,4 @@
-import { ChevronUpIcon } from '@heroicons/react/solid'
+import { ChevronUpIcon } from '@heroicons/react/20/solid'
 import { Transition } from '@headlessui/react'
 import { useEffect, useState } from 'react'
 export default function ScrollToTop() {

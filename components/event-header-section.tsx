@@ -30,28 +30,38 @@ const EventHeader = ({
             <h1>{title}</h1>
             <h3>Bengaluru, India</h3>
           </div>
-          {eventCompleted ? (
+          <div className="flex">
+            {eventCompleted ? (
+              <div className="p-4 mt-8 ">
+                <a
+                  target="_blank"
+                  href={linktoeventfeedback}
+                  rel="noopener noreferrer"
+                >
+                  <Button className="bg-blue-700 px-4 md:text-lg p-4 md:p-6 rounded-full font-semibold  text-white hover:bg-gray-500 hover:text-white">
+                    Event Feedback
+                  </Button>
+                </a>
+              </div>
+            ) : (
+              <div className="p-4 mt-8 ">
+                <a target="_blank" href={register} rel="noopener noreferrer">
+                  <Button className="px-4  md:text-lg p-4 md:p-6 rounded-full font-semibold  text-white hover:bg-gray-500 hover:text-white">
+                    Register Here
+                  </Button>
+                </a>
+              </div>
+            )}
             <div className="p-4 mt-8 ">
-              <a
-                target="_blank"
-                href={linktoeventfeedback}
-                rel="noopener noreferrer"
-              >
-                <Button className="bg-blue-700 px-4 md:text-lg p-4 md:p-6 rounded-full font-semibold  text-white hover:bg-gray-500 hover:text-white">
-                  Event Feedback
+              <a href="/paths" rel="noopener noreferrer">
+                <Button className="px-4 bg-blue-700 md:text-lg p-4 md:p-6 rounded-full font-semibold text-white hover:bg-gray-500 hover:text-white">
+                  AI Discovery Paths
                 </Button>
               </a>
             </div>
-          ) : (
-            <div className="p-4 mt-8 ">
-              <a target="_blank" href={register} rel="noopener noreferrer">
-                <Button className="px-4  md:text-lg p-4 md:p-6 rounded-full font-semibold  text-white hover:bg-gray-500 hover:text-white">
-                  Register Here
-                </Button>
-              </a>
-            </div>
-          )}
+          </div>
         </div>
+
         {/* <div className="flex px-20 items-center"> */}
         {/* <EventHero /> */}
         {/* <div className="grid grid-cols-2 gap-6 max-w-md mx-auto">
