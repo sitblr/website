@@ -16,6 +16,7 @@ import { useRouter } from "next/navigation";
 import Sessions from "@/components/sessions";
 import CoffeeMakerIcon from "@mui/icons-material/CoffeeMaker";
 import AcloudGuruji from "@/public/sponsers/acloudguruji.png";
+import SAPConcur from "@/public/sponsers/SAP_Concur_R_grad_blk.jpg";
 import archtech from "@/public/sponsers/archtech.png";
 import primus from "@/public/sponsers/primus.png";
 import s2integrations from "@/public/sponsers/s2integrations.png";
@@ -26,6 +27,7 @@ import SessionModal from "@/components/modal/SessionModal";
 import { useSession } from "@/hooks/use-session-modal";
 
 import ChecklistModal from "@/components/modal/ChecklistModal";
+import ScrollToTop from "@/components/ui/ScrollToTop";
 import { usechecklist } from "@/hooks/use-checklist-modal";
 type track = {
   id: string;
@@ -384,46 +386,14 @@ const Home = () => {
         </div>
       </div>
       <div>
-        <div className="invisible mx-auto max-w-screen-xl">
+        <div className="mx-auto max-w-screen-xl">
           <div className="p-4 text-2xl font-semibold">Sponsors</div>
-          <div className="p-4 font-light">
+          <div className="font-light">
             {/* <p className="w-full mb-4 -mt-4 text-center text-base font-semibold uppercase text-gray-400 tracking-wider">
                             Platinum Sponsors
                         </p> */}
 
             <div className="flex flex-row justify-between p-10">
-              <a
-                className="flex items-center justify-center text-gray-400 hover:text-gray-200"
-                href="https://acloudguruji.com/"
-                target="_blank"
-                title="A Cloud Guruji"
-              >
-                <Image
-                  width={200}
-                  height={200}
-                  src={AcloudGuruji}
-                  objectFit="cover"
-                  alt="A Cloud Guruju"
-                />
-              </a>
-              <a
-                className="flex items-center justify-center text-gray-400 hover:text-gray-200"
-                href=""
-                target="_blank"
-                title="Archtech"
-              >
-                <div className="object-contain">
-                  <Image
-                    // className="w-auto"
-                    src={archtech}
-                    width={250}
-                    height={200}
-                    objectFit="cover"
-                    alt="archtech"
-                  />
-                </div>
-              </a>
-
               <a
                 className="flex items-center justify-center text-gray-400 hover:text-gray-200"
                 href=""
@@ -459,7 +429,20 @@ const Home = () => {
                   />
                 </div>
               </a>
-
+              <a
+                className="flex items-center justify-center text-gray-400 hover:text-gray-200"
+                href=""
+                target="_blank"
+                title="SAP Press"
+              >
+                <Image
+                  width={175}
+                  height={175}
+                  src={SAPConcur}
+                  objectFit="cover"
+                  alt="SAP Concur"
+                />
+              </a>
               <a
                 className="flex items-center justify-center text-gray-400 hover:text-gray-200"
                 href=""
@@ -478,12 +461,15 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <ScrollToTop />
       <div className="bg-gradient-to-r from-[#041b30] to-[#001528]">
         <div className="mx-auto max-w-screen-xl">
           <Footer />
         </div>
       </div>
+      
     </div>
+    
   );
 };
 
