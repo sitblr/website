@@ -156,21 +156,15 @@ const Home = () => {
       </div>
       {/* </div> */}
 
-      <div>
+      {/* <div>
         <div className="mx-auto max-w-screen-xl">
           <div className="p-4 font-light text-gray-700">
             *Agenda is in preperation phase*. We have an exciting agenda planned
             for this event. There will be a total of 9 tracks with a dedicated
             track for Hands-on.
           </div>
-          {/* <Button onClick={() => {
-                        setTrackTitle("Track Title");
-                        setSessionTitle("Session");
-                        setSessionDesc("Session desc");
-                        onOpen();
-                    }}>Open Dialog</Button> */}
         </div>
-      </div>
+      </div> */}
       <div>
         <div className="mx-auto max-w-screen-xl">
           {filteredData?.eventCompleted &&
@@ -192,25 +186,23 @@ const Home = () => {
                 {/* <div onClick={()=>{onOpenChecklist()}} className="cursor-pointer px-2 text-white font-semibold bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Attendee Checklist</div> */}
               </div>
             )}
-          <div className="flex flex-row justify-between pb-2 sticky">
-            <div className="p-2 text-2xl font-semibold">Sessions</div>
+          <div className="flex pt-4 sticky top-0 z-50 items-center bg-white">
+            <div className="text-2xl font-semibold pr-4">Search</div>
             <input
               type="text"
               ref={searchButton}
               onFocus={onFocusHandle}
               name="search"
               onChange={onChangeHandle}
-              className="w-1/5 mt-1 px-3 py-2 bg-white border shadow-sm border-grey-300 placeholder-grey-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1"
+              className="w-1/5 mt-1 px-3 py-4 bg-white border shadow-sm border-grey-300 placeholder-grey-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1"
               placeholder="Search for sessions here..."
             />
-            {/* <DropDownTracks/> */}
-            {/* <Button>Download Session Details</Button> */}
           </div>
 
           {filteredData?.sessions.map((session, idx) => {
             return (
               <div key={session.time + idx} className="mx-auto bg-gray-50 ">
-                <div className="sticky top-0 z-50 rounded-l mt-4 bg-gradient-to-r from-gray-200 w-full ">
+                <div className="sticky top-20 z-40 rounded-l mt-4 bg-gradient-to-r from-gray-200 w-full ">
                   <div className="flex">
                     <div className="p-4">
                       <label className="text-gray-500">{session.time}</label>
