@@ -656,6 +656,20 @@
             },
             {
                 "speakers": "",
+                "speaker1": "Sunny Kapoor",
+                "speaker2": "",
+                "speaker1_social": "https://www.linkedin.com/in/sunny-kapoor-6a013129/",
+                "speaker2_social": "",
+                "sessiontitle": "What's New in SAP Integration Suite",
+                "description": "Explore all the latest and greatest innovations in SAP Integration Suite capabilities including Edge Integration Cell, the next-generation hybrid integration runtime offered with SAP Integration Suite.",
+                "organization": "SAP Labs",
+                "socialmedia": "",
+                "sessionseq": "6",
+                "tracktitle": "Data & Analytics + Integration",
+                "trackid": "Track 3"
+            },
+            {
+                "speakers": "",
                 "speaker1": "Shivananda B",
                 "speaker2": "Ajay S",
                 "speaker1_social": "https://www.linkedin.com/in/shivananda-b-aab781197/",
