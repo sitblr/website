@@ -1,5 +1,3 @@
-"use client";
-
 import {
     Dialog,
     DialogContent,
@@ -9,6 +7,7 @@ import {
 } from '@/components/ui/dialog';
 
 import { useSession } from '@/hooks/use-session-modal';
+import Link from "next/link";
 
 interface ModalProps {
     track: string;
@@ -60,7 +59,21 @@ const SessionModal: React.FC<ModalProps> = ({
                 <hr></hr>
                 <div >
                     <p className='flex sm:flex-none flex-col sm:flex-row space-y-1.5 text-center sm:text-left text-xs text-gray-500'><span className="inline font-semibold text-gray-600 space-x-4">{sessiondata.track}:‎ ‎ </span> {sessiondata.tracktitle}</p>
-                    <p className='flex sm:flex-none flex-col sm:flex-row space-y-1.5 text-center sm:text-left text-xs text-gray-500'><span className="inline font-semibold text-gray-600 space-x-4">Speakers:‎ ‎ </span> {sessiondata.speakers} ({sessiondata.organization})</p>
+                    <p className='flex sm:flex-none flex-col sm:flex-row text-center sm:text-left text-xs text-gray-500'>
+                        <span className="inline font-semibold text-gray-600 space-x-4">Speakers:‎ ‎ </span>
+
+                        <a href={sessiondata.speaker1_social} target="_blank" rel="noopener noreferrer">
+                            <span className="inline underline text-blue-600">{sessiondata.speaker1}</span>
+                        </a>
+                        {sessiondata.speaker2 &&
+                            <span>
+                                <span>, </span>
+                                <a href={sessiondata.speaker2_social} target="_blank" rel="noopener noreferrer">
+                                    <span className="inline underline text-blue-600">{sessiondata.speaker2}</span>
+                                </a> 
+                            </span>}
+                        <span>‎ | {sessiondata.organization}</span>
+                    </p>
                 </div>
                 <hr></hr>
                 <a className="text-center px-2 text-white font-semibold bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800" 
