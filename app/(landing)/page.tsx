@@ -133,7 +133,7 @@ const Home = () => {
                   <Image
                     // className="w-auto"
                     src={primus}
-                    width={100}
+                    width={250}
                     height={100}
                     objectFit="contain"
                     alt="Primus"
