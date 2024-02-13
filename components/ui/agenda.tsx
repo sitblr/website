@@ -96,7 +96,7 @@ const AgendaUI: React.FC<AgendaProps> = (AgendaProps) => {
       } else {
         filtSessionsByTrack = item.sessionsBySequence;
       }
-      if (filtSessionsByTrack.length > 0) {
+      if (filtSessionsByTrack.length > 0 || item.type === "break") {
         item.sessionsBySequence = filtSessionsByTrack;
         filteredSessions.push(item);
       }
