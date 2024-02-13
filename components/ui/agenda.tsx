@@ -7,6 +7,7 @@ interface AgendaProps {
     hideSearch?: boolean;
     searchPathsValue?: listdataPropos;
     hideSticky?: boolean;
+    searchShowBreaks?: boolean;
 }
 type track = {
   id: string;
@@ -72,7 +73,7 @@ const AgendaUI: React.FC<AgendaProps> = (AgendaProps) => {
   }, []);
 
   const multipleSearch = (data) => {
-    if (!query && !AgendaProps.searchPathsValue && data?.length>0) {
+    if (!query && !AgendaProps.searchPathsValue) {
       return JSON.parse(JSON.stringify(data));
     }
 
@@ -96,7 +97,7 @@ const AgendaUI: React.FC<AgendaProps> = (AgendaProps) => {
       } else {
         filtSessionsByTrack = item.sessionsBySequence;
       }
-      if (filtSessionsByTrack.length > 0 || item.type === "break") {
+      if (filtSessionsByTrack.length > 0 || (item.type === "break" && AgendaProps.searchShowBreaks)) {
         item.sessionsBySequence = filtSessionsByTrack;
         filteredSessions.push(item);
       }
