@@ -51,7 +51,7 @@ const ListBox: React.FC<SwitchProps> = ({ selectedValue, setSelected, data }) =>
                   {({ selected }) => (
                     <>
                       <span
-                        className={`block truncate text-xl ${
+                        className={`block text-xl ${
                           selected ? 'font-bold' : 'font-normal'
                         }`}
                       >

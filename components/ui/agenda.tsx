@@ -3,7 +3,7 @@ import { useSession } from "@/hooks/use-session-modal";
 
 interface AgendaProps {
     hideSearch?: boolean;
-    searchValue?: string;
+    searchPathsValue?: string;
     hideSticky?: boolean;
 }
 type track = {

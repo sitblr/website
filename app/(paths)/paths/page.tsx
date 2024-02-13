@@ -57,7 +57,7 @@ const PathsPage = () => {
             setSelected={setSelected}
           ></ListBox>
         </div>
-        {selectedValue && <AgendaUI hideSearch={true} searchValue="{selectedValue}" hideSticky={true} />}
+        {selectedValue && <AgendaUI hideSearch={true} searchPathsValue="{selectedValue}" hideSticky={true} />}
       </div>
     </div>
   );
