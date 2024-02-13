@@ -19,7 +19,7 @@ export const ModalProvider = () => {
 
     return (
         <>
-            <SessionModal track="" tracktitle={sessiondata.tracktitle} session="" sessionno="" sessiondetail="" speakers="" organization="" isOpen onClose={() => { }}></SessionModal>
+            <SessionModal speaker1="" speaker1_social="" speaker2="" speaker2_social="" track="" tracktitle={sessiondata.tracktitle} session="" sessionno="" sessiondetail="" speakers="" organization="" isOpen onClose={() => { }}></SessionModal>
         </>
     )
 

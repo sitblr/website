@@ -54,6 +54,10 @@ const AgendaUI: React.FC<AgendaProps> = (AgendaProps) => {
     setSessionFeedbackURL,
     setOrganization,
     setSpeakers,
+    setSpeaker1,
+    setSpeaker1Social,
+    setSpeaker2,
+    setSpeaker2Social,
     setTrack,
     setSessionNo,
   } = useSession();
@@ -181,6 +185,10 @@ const AgendaUI: React.FC<AgendaProps> = (AgendaProps) => {
                                             seqsession.speaker2
                                         : seqsession.speaker1
                                     );
+                                    setSpeaker1(seqsession.speaker1);
+                                    setSpeaker2(seqsession.speaker2);
+                                    setSpeaker1Social(seqsession.speaker1_social);
+                                    setSpeaker2Social(seqsession.speaker2_social);
                                     setTrack(seqsession.trackid);
                                     setOrganization(seqsession.organization);
                                     setSessionNo(seqsession.sessionseq);
