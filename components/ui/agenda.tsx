@@ -1,9 +1,11 @@
 import { useState, useEffect, useRef } from "react";
+
+import { listdataPropos } from "@/components/ui/listbox";
 import { useSession } from "@/hooks/use-session-modal";
 
 interface AgendaProps {
     hideSearch?: boolean;
-    searchPathsValue?: string;
+    searchPathsValue?: listdataPropos;
     hideSticky?: boolean;
 }
 type track = {
@@ -17,6 +19,9 @@ type sessionsSequence = {
   speakers: string;
   speaker1: string;
   speaker2: string;
+  speaker1_social: string;
+  speaker2_social: string;
+  pathtags: string;
   track: string;
 };
 
@@ -58,23 +63,30 @@ const AgendaUI: React.FC<AgendaProps> = (AgendaProps) => {
       .then((res) => res.json())
       .then((data) => {
         setData(data);
+        setIsMounted(true);
       });
-    setIsMounted(true);
   }, []);
 
   const multipleSearch = (data) => {
-    if (!query) {
+    if (!query && !AgendaProps.searchPathsValue && data?.length>0) {
       return JSON.parse(JSON.stringify(data));
     }
+
+    let queryLCL = query;
+    if(AgendaProps.searchPathsValue){
+        queryLCL = AgendaProps.searchPathsValue.key;
+    }
+
     let filteredData = JSON.parse(JSON.stringify(data));
     let filteredSessions = [];
     filteredData.sessions.forEach(function (item) {
       if (item.type === "grid") {
         var filtSessionsByTrack = item.sessionsBySequence.filter(function (el) {
           return (
-            el.description.toLowerCase().includes(query.toLowerCase()) ||
-            el.sessiontitle.toLowerCase().includes(query.toLowerCase()) ||
-            el.tracktitle.toLowerCase().includes(query.toLowerCase())
+            el.description.toLowerCase().includes(queryLCL.toLowerCase()) ||
+            el.sessiontitle.toLowerCase().includes(queryLCL.toLowerCase()) ||
+            el.tracktitle.toLowerCase().includes(queryLCL.toLowerCase()) ||
+            el?.pathtags?.toLowerCase()?.includes(queryLCL.toLowerCase())
           );
         });
       } else {

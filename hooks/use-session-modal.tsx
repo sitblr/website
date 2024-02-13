@@ -6,6 +6,10 @@ interface useStoreSession {
     trackdesc: string;
     track: string;
     speakers: string;
+    speaker1: string;
+    speaker2: string;
+    speaker1_social: string;
+    speaker2_social: string;
     organization: string;
     session: string;
     sessiondesc: string;
@@ -20,6 +24,10 @@ interface useStoreSession {
     setSessionFeedbackURL: (value: string) => void;
     setSessionNo: (value: string) => void;
     setSpeakers: (value: string) => void;
+    setSpeaker1: (value: string) => void;
+    setSpeaker2: (value: string) => void;
+    setSpeaker1Social: (value: string) => void;
+    setSpeaker2Social: (value: string) => void;
     setOrganization: (value: string) => void;
     setTrack: (value: string) => void;
 }
@@ -35,6 +43,14 @@ export const useSession = create<useStoreSession>((set) => ({
     sessionFeedbackURL:"",
     speakers: "",
     organization: "",
+    speaker1: "",
+    speaker2: "",
+    speaker1_social: "",
+    speaker2_social: "",
+    setSpeaker1: (value: string) => set({ speaker1: value }),
+    setSpeaker2: (value: string) => set({ speaker2: value }),
+    setSpeaker1Social: (value: string) => set({ speaker1_social: value }),
+    setSpeaker2Social: (value: string) => set({ speaker2_social: value }),
     onOpen: () => set({ isOpen: true }),
     onClose: () => set({ isOpen: false }),
     setTrackTitle: (title: string) => set({ tracktitle: title }),

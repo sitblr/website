@@ -3,14 +3,14 @@ import { Listbox, Transition } from '@headlessui/react'
 import { CheckIcon, ChevronUpDownIcon } from '@heroicons/react/20/solid'
 import { Dropdown } from 'primereact/dropdown';
 
-interface listdataPropos {
+export interface listdataPropos {
     key: string;
     value: string;
 }
 
 interface SwitchProps {
-    selectedValue: string;
-    setSelected: (value: string) => void;
+    selectedValue: listdataPropos;
+    setSelected: (value: listdataPropos) => void;
     data: listdataPropos[];
 }
 
@@ -23,7 +23,7 @@ const ListBox: React.FC<SwitchProps> = ({ selectedValue, setSelected, data }) =>
       <Listbox value={selectedValue} onChange={setSelected}>
         <div className="relative mt-1">
           <Listbox.Button className="relative w-full cursor-default rounded-lg bg-gray-100 h-14 pl-3 pr-10 text-left shadow-md focus:outline-none focus-visible:border-indigo-500 focus-visible:ring-2 focus-visible:ring-white/75 focus-visible:ring-offset-2 focus-visible:ring-offset-orange-300 sm:text-sm">
-            <span className="block truncate text-xl">{selectedValue}</span>
+            <span className="block truncate text-xl">{selectedValue?.value}</span>
             <span className="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-2">
               <ChevronUpDownIcon
                 className="h-6 text-gray-400"
@@ -46,7 +46,7 @@ const ListBox: React.FC<SwitchProps> = ({ selectedValue, setSelected, data }) =>
                       active ? 'bg-slate-100 text-slate-900' : 'text-gray-900'
                     }`
                   }
-                  value={person.value}
+                  value={person}
                 >
                   {({ selected }) => (
                     <>

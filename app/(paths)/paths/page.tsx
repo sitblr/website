@@ -4,7 +4,7 @@ import Link from "next/link";
 import { cn } from "@/lib/utils";
 import ArrowLeftIcon from "@heroicons/react/24/solid/ArrowLeftCircleIcon";
 import { Montserrat } from "next/font/google";
-import ListBox from "@/components/ui/listbox";
+import ListBox, { listdataPropos } from "@/components/ui/listbox";
 import { useState } from "react";
 
 // const aijourneys: string[] = [
@@ -15,21 +15,18 @@ import { useState } from "react";
 //     "Consultants Journey"
 //   ];
 
-interface listdataPropos {
-  key: string;
-  value: string;
-}
 let aijourneys: listdataPropos[] = [
-  { key: "dev", value: "Developer" },
-  { key: "arch", value: "Architect" },
-  { key: "consult", value: "Consultant" },
-  { key: "admin", value: "Admin" },
-  { key: "pm", value: "Product Manager" },
+//   { key: "initial", value: "" },
+  { key: "ai_dev", value: "Developer" },
+  { key: "ai_arch", value: "Architect" },
+  { key: "ai_cons", value: "Consultant" },
+  { key: "ai_admin", value: "Admin" },
+  { key: "ai_pm", value: "Product Manager" },
 ];
 
 const font = Montserrat({ weight: "600", subsets: ["latin"] });
 const PathsPage = () => {
-  const [selectedValue, setSelected] = useState<string>("");
+  const [selectedValue, setSelected] = useState<listdataPropos>();
   return (
     <div>
       <div className="bg-gradient-to-r from-[#ffb805] to-[#e1cf2b]  sticky top-0 z-50 h-20 flex justify-start items-center">
@@ -57,7 +54,7 @@ const PathsPage = () => {
             setSelected={setSelected}
           ></ListBox>
         </div>
-        {selectedValue && <AgendaUI hideSearch={true} searchPathsValue="{selectedValue}" hideSticky={true} />}
+        {selectedValue && <AgendaUI hideSearch={true} searchPathsValue={selectedValue} hideSticky={true} />}
       </div>
     </div>
   );

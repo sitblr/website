@@ -105,6 +105,7 @@ async function run() {
       sessionseq: data.sessionseq,
       tracktitle: data.trackname,
       trackid: data.trackno,
+      pathtags: data.PathTags
     };
     convertedData.push(sessionOriginal);
   });

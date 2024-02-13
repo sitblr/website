@@ -31,7 +31,8 @@
                 "socialmedia": "",
                 "sessionseq": "1",
                 "tracktitle": "General (SAP BTP and other Products)",
-                "trackid": "Track 1"
+                "trackid": "Track 1",
+                "pathtags": "ai_arch, ai_cons"
             },
             {
                 "speakers": "",
@@ -59,7 +60,8 @@
                 "socialmedia": "",
                 "sessionseq": "1",
                 "tracktitle": "Data & Analytics + Integration",
-                "trackid": "Track 3"
+                "trackid": "Track 3",
+                "pathtags": "ai_arch, ai_cons, ai_pm"
             },
             {
                 "speakers": "",
@@ -73,7 +75,8 @@
                 "socialmedia": "",
                 "sessionseq": "1",
                 "tracktitle": "Artificial Intelligence + Automation",
-                "trackid": "Track 4"
+                "trackid": "Track 4",
+                "pathtags": "ai_arch, ai_cons, ai_admin, ai_pm"
             },
             {
                 "speakers": "",
@@ -101,7 +104,8 @@
                 "socialmedia": "",
                 "sessionseq": "1",
                 "tracktitle": "Concur",
-                "trackid": "Track 6"
+                "trackid": "Track 6",
+                "pathtags": "ai_cons, ai_pm"
             },
             {
                 "speakers": "",
@@ -115,7 +119,8 @@
                 "socialmedia": "",
                 "sessionseq": "1",
                 "tracktitle": "SAP S/4HANA",
-                "trackid": "Track 7"
+                "trackid": "Track 7",
+                "pathtags": "ai_cons, ai_admin"
             },
             {
                 "speakers": "",
@@ -129,7 +134,8 @@
                 "socialmedia": "",
                 "sessionseq": "1",
                 "tracktitle": "SAP S/4HANA + Other Cloud Products (SF, CX)",
-                "trackid": "Track 8"
+                "trackid": "Track 8",
+                "pathtags": "ai_admin, ai_arch"
             }
         ]
     },
@@ -151,7 +157,8 @@
                 "socialmedia": "",
                 "sessionseq": "2",
                 "tracktitle": "General (SAP BTP and other Products)",
-                "trackid": "Track 1"
+                "trackid": "Track 1",
+                "pathtags": "ai_arch, ai_admin, ai_pm"
             },
             {
                 "speakers": "",
@@ -193,7 +200,8 @@
                 "socialmedia": "",
                 "sessionseq": "2",
                 "tracktitle": "Artificial Intelligence + Automation",
-                "trackid": "Track 4"
+                "trackid": "Track 4",
+                "pathtags": "ai_dev, ai_arch, ai_admin"
             },
             {
                 "speakers": "",
@@ -271,7 +279,8 @@
                 "socialmedia": "",
                 "sessionseq": "3",
                 "tracktitle": "General (SAP BTP and other Products)",
-                "trackid": "Track 1"
+                "trackid": "Track 1",
+                "pathtags": "ai_arch, ai_pm"
             },
             {
                 "speakers": "",
@@ -313,7 +322,8 @@
                 "socialmedia": "",
                 "sessionseq": "3",
                 "tracktitle": "Artificial Intelligence + Automation",
-                "trackid": "Track 4"
+                "trackid": "Track 4",
+                "pathtags": "ai_dev, ai_arch, ai_pm"
             },
             {
                 "speakers": "",
@@ -341,7 +351,8 @@
                 "socialmedia": "",
                 "sessionseq": "3",
                 "tracktitle": "Concur",
-                "trackid": "Track 6"
+                "trackid": "Track 6",
+                "pathtags": "ai_cons, ai_pm"
             },
             {
                 "speakers": "",
@@ -398,7 +409,8 @@
                 "socialmedia": "",
                 "sessionseq": "4",
                 "tracktitle": "General (SAP BTP and other Products)",
-                "trackid": "Track 1"
+                "trackid": "Track 1",
+                "pathtags": "ai_cons"
             },
             {
                 "speakers": "",
@@ -440,7 +452,8 @@
                 "socialmedia": "",
                 "sessionseq": "4",
                 "tracktitle": "Artificial Intelligence + Automation",
-                "trackid": "Track 4"
+                "trackid": "Track 4",
+                "pathtags": "ai_dev, ai_arch"
             },
             {
                 "speakers": "",
@@ -482,7 +495,8 @@
                 "socialmedia": "",
                 "sessionseq": "4",
                 "tracktitle": "SAP S/4HANA",
-                "trackid": "Track 7"
+                "trackid": "Track 7",
+                "pathtags": "ai_cons, ai_dev"
             },
             {
                 "speakers": "",
@@ -523,9 +537,9 @@
             {
                 "speakers": "",
                 "speaker1": "Pavan Kumar Reddy",
-                "speaker2": "Seshaiah Machavarapu",
+                "speaker2": "Kameswararao Doki",
                 "speaker1_social": "https://www.linkedin.com/in/reddypavankumar/",
-                "speaker2_social": "https://www.linkedin.com/in/seshaiah-machavarapu-94a91970/",
+                "speaker2_social": "https://www.linkedin.com/in/kameswararao-doki-22520743/",
                 "sessiontitle": "Deep Dive into RAP Developer Extensibility",
                 "description": "ABAP RESTful programming Model (RAP) Developer Extensibility is about how to enable and develop RAP custom extensions such as data model extensions, behavior extensions and node extensions for standard ABAP RAP based applications in S/4HANA Public, Private Cloud, BTP ABAP environment and On-premise platforms.",
                 "organization": "Booking Holdings",
@@ -560,7 +574,8 @@
                 "socialmedia": "",
                 "sessionseq": "5",
                 "tracktitle": "Artificial Intelligence + Automation",
-                "trackid": "Track 4"
+                "trackid": "Track 4",
+                "pathtags": "ai_dev, ai_admin"
             },
             {
                 "speakers": "",
@@ -638,7 +653,8 @@
                 "socialmedia": "",
                 "sessionseq": "6",
                 "tracktitle": "General (SAP BTP and other Products)",
-                "trackid": "Track 1"
+                "trackid": "Track 1",
+                "pathtags": "ai_dev, ai_arch, ai_admin"
             },
             {
                 "speakers": "",
@@ -652,7 +668,8 @@
                 "socialmedia": "",
                 "sessionseq": "6",
                 "tracktitle": "Development - Pro Code + Low Code",
-                "trackid": "Track 2"
+                "trackid": "Track 2",
+                "pathtags": "ai_dev, ai_arch"
             },
             {
                 "speakers": "",
@@ -680,7 +697,8 @@
                 "socialmedia": "",
                 "sessionseq": "6",
                 "tracktitle": "Artificial Intelligence + Automation",
-                "trackid": "Track 4"
+                "trackid": "Track 4",
+                "pathtags": "ai_dev, ai_arch, ai_cons"
             },
             {
                 "speakers": "",
@@ -708,7 +726,8 @@
                 "socialmedia": "",
                 "sessionseq": "6",
                 "tracktitle": "Concur",
-                "trackid": "Track 6"
+                "trackid": "Track 6",
+                "pathtags": "ai_pm"
             },
             {
                 "speakers": "",
@@ -800,7 +819,8 @@
                 "socialmedia": "",
                 "sessionseq": "7",
                 "tracktitle": "Artificial Intelligence + Automation",
-                "trackid": "Track 4"
+                "trackid": "Track 4",
+                "pathtags": "ai_cons, ai_pm"
             },
             {
                 "speakers": "",

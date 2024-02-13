@@ -18,6 +18,10 @@ interface ModalProps {
     sessionno: string;
     speakers: string;
     organization: string;
+    speaker1: string;
+    speaker2: string;
+    speaker1_social: string;
+    speaker2_social: string;
     isOpen: boolean;
     onClose: () => void;
     children?: React.ReactNode
