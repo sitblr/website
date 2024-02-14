@@ -109,7 +109,7 @@
             },
             {
                 "speakers": "",
-                "speaker1": "prakash.karkihallimath@sap.com",
+                "speaker1": "Prakash Karkihallimath",
                 "speaker2": "Shivakumar H S",
                 "speaker1_social": "linkedin.com/in/prakashkm",
                 "speaker2_social": "https://www.linkedin.com/in/shiva-kumar-h-s-00057517/",
@@ -767,8 +767,8 @@
         "sessionsBySequence": [
             {
                 "speakers": "",
-                "speaker1": "Uma Anbazhagan, Swati Maste",
-                "speaker2": "",
+                "speaker1": "Uma Anbazhagan",
+                "speaker2": "Swati Maste",
                 "speaker1_social": "NA",
                 "speaker2_social": "",
                 "sessiontitle": "End-to-End Use Cases with SAP BTP, SAP S/4HANA, and other SAP Cloud Products",
@@ -838,7 +838,7 @@
             },
             {
                 "speakers": "",
-                "speaker1": "Ankur Goyal",
+                "speaker1": "Bhan, Vikas",
                 "speaker2": "",
                 "speaker1_social": "NA",
                 "speaker2_social": "",
