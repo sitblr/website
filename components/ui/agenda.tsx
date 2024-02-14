@@ -135,7 +135,7 @@ const AgendaUI: React.FC<AgendaProps> = (AgendaProps) => {
             </div>
           )}
 
-        {!AgendaProps.hideSearch && <div className="bg-white w-full sticky top-0 z-50">
+        {!AgendaProps.hideSearch && <div className="bg-white w-full sticky top-0 z-50 h-20">
           <div className="mx-2 flex pt-2 items-center">
             <div className="text-2xl font-semibold pr-4">Search</div>
             <input
@@ -152,7 +152,7 @@ const AgendaUI: React.FC<AgendaProps> = (AgendaProps) => {
         {filteredData?.sessions.map((session, idx) => {
           return (
             <div key={session.time + idx} className="mx-auto bg-gray-50 ">
-              <div className={`${AgendaProps.hideSticky ? '':'top-20 sticky z-40' } rounded-l mt-4 bg-gradient-to-r from-gray-200 w-full`}>
+              <div className={`${AgendaProps.hideSticky ? '':'top-20 sticky z-40' } rounded-l mt-4 bg-gray-200 opacity-95 w-full`}>
                 <div className="flex">
                   <div className="p-4">
                     <label className="text-gray-500">{session.time}</label>
