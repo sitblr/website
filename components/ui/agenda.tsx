@@ -4,10 +4,10 @@ import { listdataPropos } from "@/components/ui/listbox";
 import { useSession } from "@/hooks/use-session-modal";
 
 interface AgendaProps {
-    hideSearch?: boolean;
-    searchPathsValue?: listdataPropos;
-    hideSticky?: boolean;
-    searchShowBreaks?: boolean;
+  hideSearch?: boolean;
+  searchPathsValue?: listdataPropos;
+  hideSticky?: boolean;
+  searchShowBreaks?: boolean;
 }
 type track = {
   id: string;
@@ -78,8 +78,8 @@ const AgendaUI: React.FC<AgendaProps> = (AgendaProps) => {
     }
 
     let queryLCL = query;
-    if(AgendaProps.searchPathsValue){
-        queryLCL = AgendaProps.searchPathsValue.key;
+    if (AgendaProps.searchPathsValue) {
+      queryLCL = AgendaProps.searchPathsValue.key;
     }
 
     let filteredData = JSON.parse(JSON.stringify(data));
@@ -97,7 +97,10 @@ const AgendaUI: React.FC<AgendaProps> = (AgendaProps) => {
       } else {
         filtSessionsByTrack = item.sessionsBySequence;
       }
-      if (filtSessionsByTrack.length > 0 || (item.type === "break" && AgendaProps.searchShowBreaks)) {
+      if (
+        filtSessionsByTrack.length > 0 ||
+        (item.type === "break" && AgendaProps.searchShowBreaks)
+      ) {
         item.sessionsBySequence = filtSessionsByTrack;
         filteredSessions.push(item);
       }
@@ -135,31 +138,39 @@ const AgendaUI: React.FC<AgendaProps> = (AgendaProps) => {
             </div>
           )}
 
-        {!AgendaProps.hideSearch && <div className="bg-white w-full sticky top-0 z-50 h-20">
-          <div className="mx-2 flex pt-2 items-center">
-            <div className="text-2xl font-semibold pr-4">Search</div>
-            <input
-              type="text"
-              ref={searchButton}
-              name="search"
-              onChange={onChangeHandle}
-              className="w-1/5 mt-1 px-3 py-4 bg-white border shadow-sm border-grey-300 placeholder-grey-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1"
-              placeholder="Search for sessions here..."
-            />
+        {!AgendaProps.hideSearch && (
+          <div className="bg-white w-full sticky top-0 z-50 h-20">
+            <div className="mx-2 flex pt-2 items-center">
+              <div className="text-2xl font-semibold pr-4">Search</div>
+              <input
+                type="text"
+                ref={searchButton}
+                name="search"
+                onChange={onChangeHandle}
+                className="w-1/5 mt-1 px-3 py-4 bg-white border shadow-sm border-grey-300 placeholder-grey-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1"
+                placeholder="Search for sessions here..."
+              />
+            </div>
           </div>
-        </div>}
+        )}
 
         {filteredData?.sessions.map((session, idx) => {
           return (
-            <div key={session.time + idx} className="mx-auto bg-gray-50 ">
-              <div className={`${AgendaProps.hideSticky ? '':'top-20 sticky z-40' } rounded-l mt-4 bg-gray-200 opacity-95 w-full`}>
-                <div className="flex">
-                  <div className="p-4">
-                    <label className="text-gray-500">{session.time}</label>
+            <div key={session.time + idx} className="mx-auto bg-gray-100 ">
+                <div
+                  className={`${
+                    AgendaProps.hideSticky ? "" : "top-20 sticky z-40"
+                  } rounded-l mt-2 w-full`}
+                >
+                  <div className="flex" >
+                    <div className="p-2 bg-gray-200 border border-gray-300">
+                      <label className="text-gray-500">{session.time}</label>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div className="flex pt-4 pb-4 pl-4 pr-4">
+              {/* <div className="flex pt-4 pb-4 pl-4 pr-4"> */}
+
+              <div className="flex">
                 <div className=" w-full">
                   <div className="flex flex-wrap">
                     {session.type === "grid" ? (
@@ -169,7 +180,7 @@ const AgendaUI: React.FC<AgendaProps> = (AgendaProps) => {
                             return (
                               <div
                                 key={seqsession.track + seqsession.sessionseq}
-                                className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 xl:w-1/4 pt-4 pr-4"
+                                className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 xl:w-1/4 pr-2 pb-2 pt-2"
                               >
                                 <div
                                   onClick={() => {
@@ -188,14 +199,18 @@ const AgendaUI: React.FC<AgendaProps> = (AgendaProps) => {
                                     );
                                     setSpeaker1(seqsession.speaker1);
                                     setSpeaker2(seqsession.speaker2);
-                                    setSpeaker1Social(seqsession.speaker1_social);
-                                    setSpeaker2Social(seqsession.speaker2_social);
+                                    setSpeaker1Social(
+                                      seqsession.speaker1_social
+                                    );
+                                    setSpeaker2Social(
+                                      seqsession.speaker2_social
+                                    );
                                     setTrack(seqsession.trackid);
                                     setOrganization(seqsession.organization);
                                     setSessionNo(seqsession.sessionseq);
                                     onOpen();
                                   }}
-                                  className="cursor-pointer bg-white border border-slate-200 rounded-none drop-shadow-xl p-2 h-full flex flex-col justify-between"
+                                  className="cursor-pointer bg-white border border-slate-200 rounded-none p-2 h-full flex flex-col justify-between"
                                 >
                                   <div>
                                     <h4 className="text-xs font-bold text-gray-700">
@@ -230,17 +245,14 @@ const AgendaUI: React.FC<AgendaProps> = (AgendaProps) => {
                     ) : (
                       <div
                         key="track.sessionseq"
-                        className="z-1 flex items-center justify-center mt-4 mx-auto w-full text-center bg-white border border-slate-200 rounded-none drop-shadow-md"
+                        className="mt-2 mx-0 z-1 flex items-center justify-items-center w-full text-center bg-white border border-slate-200 rounded-none"
                       >
-                        <div className="p-4">
+                        <div className="p-3">
                           <label className="text-gray-700">
                             {" "}
                             {session.tracktitle}
                           </label>
                         </div>
-                        {/* <label className=" text-gray-500">
-                      {session.tracktitle}
-                    </label> */}
                       </div>
                     )}
                   </div>

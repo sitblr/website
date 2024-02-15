@@ -3,11 +3,18 @@
         "sequence": "0.1",
         "time": "07:30 - 09:30",
         "type": "break",
-        "tracktitle": "Registration, Networking & Ask Me Anything Booths (SAP BTP, A.I & SAP S/4HANA)",
+        "tracktitle": "Registration & Networking",
         "sessionsBySequence": []
     },
     {
         "sequence": "0.2",
+        "time": "07:30 AM - 04:00 PM (Full Day)",
+        "type": "break",
+        "tracktitle": "Ask Me Anything Booths (SAP BTP, AI & SAP S/4HANA)",
+        "sessionsBySequence": []
+    },
+    {
+        "sequence": "0.3",
         "time": "09:30 - 09:45",
         "type": "break",
         "tracktitle": "Keynote: Sindhu Gangadharan (SVP & MD, SAP Labs India | Head User Enablement)",
@@ -96,8 +103,8 @@
                 "speakers": "",
                 "speaker1": "Reshma Jayadeva Prakash",
                 "speaker2": "Krithika Vijayashankar",
-                "speaker1_social": "NA",
-                "speaker2_social": "",
+                "speaker1_social": "https://www.linkedin.com/in/reshma-jayadeva-prakash-bb805321/",
+                "speaker2_social": "https://www.linkedin.com/in/krithika-vijayshankar-42a0093/",
                 "sessiontitle": "Concur strategy & Roadmap powered by GenAI",
                 "description": "Companies today are planning their digital journeys- transforming business models, reengineering business processes, and\nreimagining work.This session will help our customers to understand the Concur strategy by highlighting innovations powered by GenAI to plan and implement their digital journey in the upcoming Roadmap ",
                 "organization": "SAP Labs India Pvt. Ltd.",
