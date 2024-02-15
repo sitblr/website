@@ -180,7 +180,7 @@ const AgendaUI: React.FC<AgendaProps> = (AgendaProps) => {
                             return (
                               <div
                                 key={seqsession.track + seqsession.sessionseq}
-                                className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 xl:w-1/4 pr-2 pb-2 pt-2"
+                                className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 xl:w-1/4 pr-2 pb-0 pt-2"
                               >
                                 <div
                                   onClick={() => {
