@@ -163,7 +163,7 @@ const AgendaUI: React.FC<AgendaProps> = (AgendaProps) => {
                   } mt-0 w-full pt-0`}
                 >
                   <div className="flex" >
-                    <div className="p-2 bg-gray-300 rounded-none">
+                    <div className="p-2 bg-gray-200 rounded-none">
                       <label className="text-gray-600">{session.time}</label>
                     </div>
                   </div>
@@ -180,7 +180,7 @@ const AgendaUI: React.FC<AgendaProps> = (AgendaProps) => {
                             return (
                               <div
                                 key={seqsession.track + seqsession.sessionseq}
-                                className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 xl:w-1/4 pr-2 pb-2 pt-0 "
+                                className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 xl:w-1/4 pr-2 pt-2 "
                               >
                                 <div
                                   onClick={() => {
