@@ -160,11 +160,11 @@ const AgendaUI: React.FC<AgendaProps> = (AgendaProps) => {
                 <div
                   className={`${
                     AgendaProps.hideSticky ? "" : "top-20 sticky z-40"
-                  } mt-0 w-full pt-2`}
+                  } mt-0 w-full pt-0`}
                 >
                   <div className="flex" >
-                    <div className="p-2 bg-gray-400 rounded-none">
-                      <label className="text-white">{session.time}</label>
+                    <div className="p-2 bg-gray-300 rounded-none">
+                      <label className="text-gray-600">{session.time}</label>
                     </div>
                   </div>
                 </div>
@@ -245,10 +245,10 @@ const AgendaUI: React.FC<AgendaProps> = (AgendaProps) => {
                     ) : (
                       <div
                         key="track.sessionseq"
-                        className="rounded mb-2 mr-2 mx-0 z-1 flex items-center justify-items-center w-full text-center bg-white border border-slate-300"
+                        className="rounded mb-0 mr-2 mx-0 z-1 flex items-center justify-items-center w-full text-center bg-white border border-slate-300"
                       >
                         <div className="p-3">
-                          <label className="text-gray-700">
+                          <label className="text-gray-600">
                             {" "}
                             {session.tracktitle}
                           </label>
