@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from "react";
-
+import { usechecklist } from "@/hooks/use-checklist-modal";
 import { listdataPropos } from "@/components/ui/listbox";
 import { useSession } from "@/hooks/use-session-modal";
 
@@ -42,6 +42,8 @@ type eventdata = {
 type event = eventdata | null;
 
 const AgendaUI: React.FC<AgendaProps> = (AgendaProps) => {
+
+  const { onOpen: onOpenChecklist } = usechecklist();
   const [data, setData] = useState<event>(null);
   const [isMounted, setIsMounted] = useState(false);
   const [query, setQuery] = useState<String>("");
@@ -123,9 +125,10 @@ const AgendaUI: React.FC<AgendaProps> = (AgendaProps) => {
   return (
     <div>
       <div className="mx-auto max-w-screen-xl">
+            <div className="flex flex-wrap px-2">
+
         {filteredData?.eventCompleted &&
           !!filteredData?.linktopresentations && (
-            <div className="flex flex-wrap px-2">
               <a
                 className="px-2 text-white font-semibold bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
                 href={filteredData?.linktopresentations}
@@ -134,9 +137,10 @@ const AgendaUI: React.FC<AgendaProps> = (AgendaProps) => {
               >
                 Link to Presentations
               </a>
+
+          )}
               {/* <div onClick={()=>{onOpenChecklist()}} className="cursor-pointer px-2 text-white font-semibold bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Attendee Checklist</div> */}
             </div>
-          )}
 
         {!AgendaProps.hideSearch && (
           <div className="bg-white w-full sticky top-0 z-50 h-20">

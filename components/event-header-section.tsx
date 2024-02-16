@@ -1,5 +1,6 @@
 "use client";
 
+import { usechecklist } from "@/hooks/use-checklist-modal";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import Timer from "@/components/Timer";
@@ -21,45 +22,53 @@ const EventHeader = ({
   linktoeventfeedback,
 }: props) => {
   const eventDate = "2023-07-31T23:59:59";
+  const { onOpen: onOpenChecklist } = usechecklist();
 
   return (
-    <div className="font-bold py-16 space-y-5 inset-0 z-20">
+    <div className="font-bold py-4 space-y-5 inset-0 z-20">
       <div className="flex flex-row">
         <div>
           <div className="text-2xl sm:text-4xl md:text-3xl lg:text-4xl font-extrabold space-y-1 px-4">
             <h1>{title}</h1>
             <h3>Bengaluru, India</h3>
           </div>
-          <div className="flex">
+          <div className="flex flex-wrap mt-8">
             {eventCompleted ? (
-              <div className="p-4 mt-8 ">
+              <div className="p-2">
                 <a
                   target="_blank"
                   href={linktoeventfeedback}
                   rel="noopener noreferrer"
                 >
-                  <Button className="bg-blue-700 px-4 md:text-lg p-4 md:p-6 rounded-full font-semibold  text-white hover:bg-gray-500 hover:text-white">
+                  <Button className="bg-gradient-to-br from-purple-900 to-blue-700 px-4 md:text-lg p-4 md:p-6    text-white hover:bg-blue-800 hover:text-white">
                     Event Feedback
                   </Button>
                 </a>
               </div>
             ) : (
-              <div className="p-4 mt-8 ">
+              <div className="p-2">
                 <a target="_blank" href={register} rel="noopener noreferrer">
-                  <Button className="px-4  md:text-lg p-4 md:p-6 rounded-full font-semibold  text-white hover:bg-gray-500 hover:text-white">
+                  <Button className="px-4 bg-gradient-to-br from-purple-900 to-blue-700  md:text-lg p-4 md:p-6    text-white hover:bg-blue-800 hover:text-white">
                     Register Here
                   </Button>
                 </a>
               </div>
             )}
-            <div className="p-4 mt-8 ">
+            <div className="p-2">
               <a href="/paths" rel="noopener noreferrer">
-                <Button className="px-4 bg-blue-700 md:text-lg p-4 md:p-6 rounded-full font-semibold text-white hover:bg-gray-500 hover:text-white">
+                <Button className="px-4 bg-gradient-to-br from-purple-900 to-blue-700 md:text-lg p-4 md:p-6   text-white hover:bg-blue-800 hover:text-white">
                   AI Discovery Paths
                 </Button>
               </a>
             </div>
-          </div>
+            {!eventCompleted && (
+              <div className="p-2">
+                <Button onClick={()=>{onOpenChecklist()}} className="px-4 bg-gradient-to-br from-purple-900 to-blue-700 md:text-lg p-4 md:p-6   text-white hover:bg-blue-800 hover:text-white">
+                  Attendee Checklist
+                </Button>
+              </div>
+            )}
+           </div>
         </div>
 
         {/* <div className="flex px-20 items-center"> */}
