@@ -147,7 +147,7 @@ const AgendaUI: React.FC<AgendaProps> = (AgendaProps) => {
                 ref={searchButton}
                 name="search"
                 onChange={onChangeHandle}
-                className="w-1/5 mt-1 px-3 py-4 bg-white border shadow-sm border-grey-300 placeholder-grey-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1"
+                className="w-1/5 mt-1 px-3 py-4 bg-white border shadow-sm border-slate-900 placeholder-grey-600 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-none sm:text-sm focus:ring-1"
                 placeholder="Search for sessions here..."
               />
             </div>
@@ -156,15 +156,15 @@ const AgendaUI: React.FC<AgendaProps> = (AgendaProps) => {
 
         {filteredData?.sessions.map((session, idx) => {
           return (
-            <div key={session.time + idx} className="mx-auto bg-gray-100 ">
+            <div key={session.time + idx} className="mx-auto bg-gray-100 mt-2 ">
                 <div
                   className={`${
                     AgendaProps.hideSticky ? "" : "top-20 sticky z-40"
-                  } rounded-l mt-2 w-full`}
+                  } mt-0 w-full pt-2`}
                 >
                   <div className="flex" >
-                    <div className="p-2 bg-gray-200 border border-gray-300">
-                      <label className="text-gray-500">{session.time}</label>
+                    <div className="p-2 bg-gray-400 rounded-none">
+                      <label className="text-white">{session.time}</label>
                     </div>
                   </div>
                 </div>
@@ -180,7 +180,7 @@ const AgendaUI: React.FC<AgendaProps> = (AgendaProps) => {
                             return (
                               <div
                                 key={seqsession.track + seqsession.sessionseq}
-                                className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 xl:w-1/4 pr-2 pb-0 pt-2"
+                                className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 xl:w-1/4 pr-2 pb-2 pt-0 "
                               >
                                 <div
                                   onClick={() => {
@@ -210,7 +210,7 @@ const AgendaUI: React.FC<AgendaProps> = (AgendaProps) => {
                                     setSessionNo(seqsession.sessionseq);
                                     onOpen();
                                   }}
-                                  className="cursor-pointer bg-white border border-slate-200 rounded-none p-2 h-full flex flex-col justify-between"
+                                  className=" rounded cursor-pointer bg-white border border-slate-300 p-2 h-full flex flex-col justify-between"
                                 >
                                   <div>
                                     <h4 className="text-xs font-bold text-gray-700">
@@ -245,7 +245,7 @@ const AgendaUI: React.FC<AgendaProps> = (AgendaProps) => {
                     ) : (
                       <div
                         key="track.sessionseq"
-                        className="mt-2 mx-0 z-1 flex items-center justify-items-center w-full text-center bg-white border border-slate-200 rounded-none"
+                        className="rounded mb-2 mr-2 mx-0 z-1 flex items-center justify-items-center w-full text-center bg-white border border-slate-300"
                       >
                         <div className="p-3">
                           <label className="text-gray-700">
