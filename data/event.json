@@ -9,11 +9,11 @@
     "banner": "",
     "type": "Conference",
     "active": true,
-    "register": "https://konfhub.com/sitblr2024",
+    "register": "",
     "hostId": 1,
     "agenda": "",
     "eventCompleted": false,
-    "linktoeventfeedback": "",
+    "linktoeventfeedback": "https://forms.gle/QNzJ36MZSazd9k5Y6",
     "linktosessionfeedback":"1FAIpQLScLOIRqFzWL__5OPVHmJ-O59MpV_lwpK_a1hFCOSvLNvtkj4A",
     "linktopresentations": "",
     "sessions": [

@@ -33,7 +33,7 @@ const EventHeader = ({
             <h3>Bengaluru, India</h3>
           </div>
           <div className="flex flex-wrap mt-8">
-            {eventCompleted ? (
+            {linktoeventfeedback && (
               <div className="p-2">
                 <a
                   target="_blank"
@@ -45,7 +45,8 @@ const EventHeader = ({
                   </Button>
                 </a>
               </div>
-            ) : (
+            ) }
+            {register && (
               <div className="p-2">
                 <a target="_blank" href={register} rel="noopener noreferrer">
                   <Button className="px-4 bg-gradient-to-br from-purple-900 to-blue-700  md:text-lg p-4 md:p-6    text-white hover:bg-blue-800 hover:text-white">
