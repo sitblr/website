@@ -38,7 +38,7 @@
                 "socialmedia": "",
                 "sessionseq": "1",
                 "tracktitle": "General (SAP BTP and other Products)",
-                "trackid": "Track 1",
+                "trackid": "Track 1 - (Audi Max, Ground Floor)",
                 "pathtags": "ai_arch, ai_cons"
             },
             {
@@ -53,7 +53,7 @@
                 "socialmedia": "",
                 "sessionseq": "1",
                 "tracktitle": "Development - Pro Code + Low Code",
-                "trackid": "Track 2"
+                "trackid": "Track 2 - (R04, Ground Floor)"
             },
             {
                 "speakers": "",
@@ -67,7 +67,7 @@
                 "socialmedia": "",
                 "sessionseq": "1",
                 "tracktitle": "Data & Analytics + Integration",
-                "trackid": "Track 3",
+                "trackid": "Track 3 - (R05, Ground Floor)",
                 "pathtags": "ai_arch, ai_cons, ai_pm"
             },
             {
@@ -82,7 +82,7 @@
                 "socialmedia": "",
                 "sessionseq": "1",
                 "tracktitle": "Artificial Intelligence + Automation",
-                "trackid": "Track 4",
+                "trackid": "Track 4 - (Hive, Ground Floor)",
                 "pathtags": "ai_arch, ai_cons, ai_admin, ai_pm"
             },
             {
@@ -97,7 +97,7 @@
                 "socialmedia": "",
                 "sessionseq": "1",
                 "tracktitle": "SAP UI5, Fiori & Design",
-                "trackid": "Track 5"
+                "trackid": "Track 5 - (Board Room, Ground Floor)"
             },
             {
                 "speakers": "",
@@ -111,7 +111,7 @@
                 "socialmedia": "",
                 "sessionseq": "1",
                 "tracktitle": "Concur",
-                "trackid": "Track 6",
+                "trackid": "Track 6 - (Experience Center, Ground Floor)",
                 "pathtags": "ai_cons, ai_pm"
             },
             {
@@ -126,7 +126,7 @@
                 "socialmedia": "",
                 "sessionseq": "1",
                 "tracktitle": "SAP S/4HANA",
-                "trackid": "Track 7",
+                "trackid": "Track 7 - (R01, First Floor)",
                 "pathtags": "ai_cons, ai_admin"
             },
             {
@@ -141,7 +141,7 @@
                 "socialmedia": "",
                 "sessionseq": "1",
                 "tracktitle": "SAP S/4HANA + Other Cloud Products (SF, CX)",
-                "trackid": "Track 8",
+                "trackid": "Track 8 - (R02, First Floor)",
                 "pathtags": "ai_admin, ai_arch"
             }
         ]
@@ -164,7 +164,7 @@
                 "socialmedia": "",
                 "sessionseq": "2",
                 "tracktitle": "General (SAP BTP and other Products)",
-                "trackid": "Track 1",
+                "trackid": "Track 1 - (Audi Max, Ground Floor)",
                 "pathtags": "ai_arch, ai_admin, ai_pm"
             },
             {
@@ -179,7 +179,7 @@
                 "socialmedia": "",
                 "sessionseq": "2",
                 "tracktitle": "Development - Pro Code + Low Code",
-                "trackid": "Track 2"
+                "trackid": "Track 2 - (R04, Ground Floor)"
             },
             {
                 "speakers": "",
@@ -193,7 +193,7 @@
                 "socialmedia": "",
                 "sessionseq": "2",
                 "tracktitle": "Data & Analytics + Integration",
-                "trackid": "Track 3"
+                "trackid": "Track 3 - (R05, Ground Floor)"
             },
             {
                 "speakers": "",
@@ -207,7 +207,7 @@
                 "socialmedia": "",
                 "sessionseq": "2",
                 "tracktitle": "Artificial Intelligence + Automation",
-                "trackid": "Track 4",
+                "trackid": "Track 4 - (Hive, Ground Floor)",
                 "pathtags": "ai_dev, ai_arch, ai_admin"
             },
             {
@@ -222,7 +222,7 @@
                 "socialmedia": "",
                 "sessionseq": "2",
                 "tracktitle": "SAP UI5, Fiori & Design",
-                "trackid": "Track 5"
+                "trackid": "Track 5 - (Board Room, Ground Floor)"
             },
             {
                 "speakers": "",
@@ -236,7 +236,7 @@
                 "socialmedia": "",
                 "sessionseq": "2",
                 "tracktitle": "Concur",
-                "trackid": "Track 6"
+                "trackid": "Track 6 - (Experience Center, Ground Floor)"
             },
             {
                 "speakers": "",
@@ -250,7 +250,7 @@
                 "socialmedia": "",
                 "sessionseq": "2",
                 "tracktitle": "SAP S/4HANA",
-                "trackid": "Track 7"
+                "trackid": "Track 7 - (R01, First Floor)"
             },
             {
                 "speakers": "",
@@ -264,7 +264,7 @@
                 "socialmedia": "",
                 "sessionseq": "2",
                 "tracktitle": "SAP S/4HANA + Other Cloud Products (SF, CX)",
-                "trackid": "Track 8"
+                "trackid": "Track 8 - (R02, First Floor)"
             }
         ]
     },
@@ -286,7 +286,7 @@
                 "socialmedia": "",
                 "sessionseq": "3",
                 "tracktitle": "General (SAP BTP and other Products)",
-                "trackid": "Track 1",
+                "trackid": "Track 1 - (Audi Max, Ground Floor)",
                 "pathtags": "ai_arch, ai_pm"
             },
             {
@@ -301,7 +301,7 @@
                 "socialmedia": "",
                 "sessionseq": "3",
                 "tracktitle": "Development - Pro Code + Low Code",
-                "trackid": "Track 2"
+                "trackid": "Track 2 - (R04, Ground Floor)"
             },
             {
                 "speakers": "",
@@ -315,7 +315,7 @@
                 "socialmedia": "",
                 "sessionseq": "3",
                 "tracktitle": "Data & Analytics + Integration",
-                "trackid": "Track 3"
+                "trackid": "Track 3 - (R05, Ground Floor)"
             },
             {
                 "speakers": "",
@@ -329,7 +329,7 @@
                 "socialmedia": "",
                 "sessionseq": "3",
                 "tracktitle": "Artificial Intelligence + Automation",
-                "trackid": "Track 4",
+                "trackid": "Track 4 - (Hive, Ground Floor)",
                 "pathtags": "ai_dev, ai_arch, ai_pm"
             },
             {
@@ -344,7 +344,7 @@
                 "socialmedia": "",
                 "sessionseq": "3",
                 "tracktitle": "SAP UI5, Fiori & Design",
-                "trackid": "Track 5"
+                "trackid": "Track 5 - (Board Room, Ground Floor)"
             },
             {
                 "speakers": "",
@@ -358,7 +358,7 @@
                 "socialmedia": "",
                 "sessionseq": "3",
                 "tracktitle": "Concur",
-                "trackid": "Track 6",
+                "trackid": "Track 6 - (Experience Center, Ground Floor)",
                 "pathtags": "ai_cons, ai_pm"
             },
             {
@@ -373,7 +373,7 @@
                 "socialmedia": "",
                 "sessionseq": "3",
                 "tracktitle": "SAP S/4HANA",
-                "trackid": "Track 7"
+                "trackid": "Track 7 - (R01, First Floor)"
             },
             {
                 "speakers": "",
@@ -387,7 +387,7 @@
                 "socialmedia": "",
                 "sessionseq": "3",
                 "tracktitle": "SAP S/4HANA + Other Cloud Products (SF, CX)",
-                "trackid": "Track 8"
+                "trackid": "Track 8 - (R02, First Floor)"
             }
         ]
     },
@@ -416,7 +416,7 @@
                 "socialmedia": "",
                 "sessionseq": "4",
                 "tracktitle": "General (SAP BTP and other Products)",
-                "trackid": "Track 1",
+                "trackid": "Track 1 - (Audi Max, Ground Floor)",
                 "pathtags": "ai_cons"
             },
             {
@@ -431,7 +431,7 @@
                 "socialmedia": "",
                 "sessionseq": "4",
                 "tracktitle": "Development - Pro Code + Low Code",
-                "trackid": "Track 2"
+                "trackid": "Track 2 - (R04, Ground Floor)"
             },
             {
                 "speakers": "",
@@ -445,7 +445,7 @@
                 "socialmedia": "",
                 "sessionseq": "4",
                 "tracktitle": "Data & Analytics + Integration",
-                "trackid": "Track 3"
+                "trackid": "Track 3 - (R05, Ground Floor)"
             },
             {
                 "speakers": "",
@@ -459,7 +459,7 @@
                 "socialmedia": "",
                 "sessionseq": "4",
                 "tracktitle": "Artificial Intelligence + Automation",
-                "trackid": "Track 4",
+                "trackid": "Track 4 - (Hive, Ground Floor)",
                 "pathtags": "ai_dev, ai_arch"
             },
             {
@@ -474,7 +474,7 @@
                 "socialmedia": "",
                 "sessionseq": "4",
                 "tracktitle": "SAP UI5, Fiori & Design",
-                "trackid": "Track 5"
+                "trackid": "Track 5 - (Board Room, Ground Floor)"
             },
             {
                 "speakers": "",
@@ -488,7 +488,7 @@
                 "socialmedia": "",
                 "sessionseq": "4",
                 "tracktitle": "Concur",
-                "trackid": "Track 6"
+                "trackid": "Track 6 - (Experience Center, Ground Floor)"
             },
             {
                 "speakers": "",
@@ -502,7 +502,7 @@
                 "socialmedia": "",
                 "sessionseq": "4",
                 "tracktitle": "SAP S/4HANA",
-                "trackid": "Track 7",
+                "trackid": "Track 7 - (R01, First Floor)",
                 "pathtags": "ai_cons, ai_dev"
             },
             {
@@ -517,7 +517,7 @@
                 "socialmedia": "",
                 "sessionseq": "4",
                 "tracktitle": "SAP S/4HANA + Other Cloud Products (SF, CX)",
-                "trackid": "Track 8"
+                "trackid": "Track 8 - (R02, First Floor)"
             }
         ]
     },
@@ -539,7 +539,7 @@
                 "socialmedia": "",
                 "sessionseq": "5",
                 "tracktitle": "General (SAP BTP and other Products)",
-                "trackid": "Track 1"
+                "trackid": "Track 1 - (Audi Max, Ground Floor)"
             },
             {
                 "speakers": "",
@@ -553,7 +553,7 @@
                 "socialmedia": "",
                 "sessionseq": "5",
                 "tracktitle": "Development - Pro Code + Low Code",
-                "trackid": "Track 2"
+                "trackid": "Track 2 - (R04, Ground Floor)"
             },
             {
                 "speakers": "",
@@ -567,7 +567,7 @@
                 "socialmedia": "",
                 "sessionseq": "5",
                 "tracktitle": "Data & Analytics + Integration",
-                "trackid": "Track 3"
+                "trackid": "Track 3 - (R05, Ground Floor)"
             },
             {
                 "speakers": "",
@@ -581,7 +581,7 @@
                 "socialmedia": "",
                 "sessionseq": "5",
                 "tracktitle": "Artificial Intelligence + Automation",
-                "trackid": "Track 4",
+                "trackid": "Track 4 - (Hive, Ground Floor)",
                 "pathtags": "ai_dev, ai_admin"
             },
             {
@@ -596,7 +596,7 @@
                 "socialmedia": "",
                 "sessionseq": "5",
                 "tracktitle": "SAP UI5, Fiori & Design",
-                "trackid": "Track 5"
+                "trackid": "Track 5 - (Board Room, Ground Floor)"
             },
             {
                 "speakers": "",
@@ -610,7 +610,7 @@
                 "socialmedia": "",
                 "sessionseq": "5",
                 "tracktitle": "Concur",
-                "trackid": "Track 6"
+                "trackid": "Track 6 - (Experience Center, Ground Floor)"
             },
             {
                 "speakers": "",
@@ -624,7 +624,7 @@
                 "socialmedia": "",
                 "sessionseq": "5",
                 "tracktitle": "SAP S/4HANA",
-                "trackid": "Track 7"
+                "trackid": "Track 7 - (R01, First Floor)"
             },
             {
                 "speakers": "",
@@ -638,7 +638,7 @@
                 "socialmedia": "",
                 "sessionseq": "5",
                 "tracktitle": "SAP S/4HANA + Other Cloud Products (SF, CX)",
-                "trackid": "Track 8"
+                "trackid": "Track 8 - (R02, First Floor)"
             }
         ]
     },
@@ -660,7 +660,7 @@
                 "socialmedia": "",
                 "sessionseq": "6",
                 "tracktitle": "General (SAP BTP and other Products)",
-                "trackid": "Track 1",
+                "trackid": "Track 1 - (Audi Max, Ground Floor)",
                 "pathtags": "ai_dev, ai_arch, ai_admin"
             },
             {
@@ -675,7 +675,7 @@
                 "socialmedia": "",
                 "sessionseq": "6",
                 "tracktitle": "Development - Pro Code + Low Code",
-                "trackid": "Track 2",
+                "trackid": "Track 2 - (R04, Ground Floor)",
                 "pathtags": "ai_dev, ai_arch"
             },
             {
@@ -690,7 +690,7 @@
                 "socialmedia": "",
                 "sessionseq": "6",
                 "tracktitle": "Data & Analytics + Integration",
-                "trackid": "Track 3"
+                "trackid": "Track 3 - (R05, Ground Floor)"
             },
             {
                 "speakers": "",
@@ -704,7 +704,7 @@
                 "socialmedia": "",
                 "sessionseq": "6",
                 "tracktitle": "Artificial Intelligence + Automation",
-                "trackid": "Track 4",
+                "trackid": "Track 4 - (Hive, Ground Floor)",
                 "pathtags": "ai_dev, ai_arch, ai_cons"
             },
             {
@@ -719,7 +719,7 @@
                 "socialmedia": "",
                 "sessionseq": "6",
                 "tracktitle": "SAP UI5, Fiori & Design",
-                "trackid": "Track 5"
+                "trackid": "Track 5 - (Board Room, Ground Floor)"
             },
             {
                 "speakers": "",
@@ -733,7 +733,7 @@
                 "socialmedia": "",
                 "sessionseq": "6",
                 "tracktitle": "Concur",
-                "trackid": "Track 6",
+                "trackid": "Track 6 - (Experience Center, Ground Floor)",
                 "pathtags": "ai_pm"
             },
             {
@@ -748,7 +748,7 @@
                 "socialmedia": "",
                 "sessionseq": "6",
                 "tracktitle": "SAP S/4HANA",
-                "trackid": "Track 7"
+                "trackid": "Track 7 - (R01, First Floor)"
             },
             {
                 "speakers": "",
@@ -762,7 +762,7 @@
                 "socialmedia": "",
                 "sessionseq": "6",
                 "tracktitle": "SAP S/4HANA + Other Cloud Products (SF, CX)",
-                "trackid": "Track 8"
+                "trackid": "Track 8 - (R02, First Floor)"
             }
         ]
     },
@@ -784,7 +784,7 @@
                 "socialmedia": "",
                 "sessionseq": "7",
                 "tracktitle": "General (SAP BTP and other Products)",
-                "trackid": "Track 1"
+                "trackid": "Track 1 - (Audi Max, Ground Floor)"
             },
             {
                 "speakers": "",
@@ -798,7 +798,7 @@
                 "socialmedia": "",
                 "sessionseq": "7",
                 "tracktitle": "Development - Pro Code + Low Code",
-                "trackid": "Track 2"
+                "trackid": "Track 2 - (R04, Ground Floor)"
             },
             {
                 "speakers": "",
@@ -812,7 +812,7 @@
                 "socialmedia": "",
                 "sessionseq": "7",
                 "tracktitle": "Data & Analytics + Integration",
-                "trackid": "Track 3"
+                "trackid": "Track 3 - (R05, Ground Floor)"
             },
             {
                 "speakers": "",
@@ -826,7 +826,7 @@
                 "socialmedia": "",
                 "sessionseq": "7",
                 "tracktitle": "Artificial Intelligence + Automation",
-                "trackid": "Track 4",
+                "trackid": "Track 4 - (Hive, Ground Floor)",
                 "pathtags": "ai_cons, ai_pm"
             },
             {
@@ -841,7 +841,7 @@
                 "socialmedia": "",
                 "sessionseq": "7",
                 "tracktitle": "SAP UI5, Fiori & Design",
-                "trackid": "Track 5"
+                "trackid": "Track 5 - (Board Room, Ground Floor)"
             },
             {
                 "speakers": "",
@@ -855,7 +855,7 @@
                 "socialmedia": "",
                 "sessionseq": "7",
                 "tracktitle": "Concur",
-                "trackid": "Track 6"
+                "trackid": "Track 6 - (Experience Center, Ground Floor)"
             },
             {
                 "speakers": "",
@@ -869,7 +869,7 @@
                 "socialmedia": "",
                 "sessionseq": "7",
                 "tracktitle": "SAP S/4HANA",
-                "trackid": "Track 7"
+                "trackid": "Track 7 - (R01, First Floor)"
             },
             {
                 "speakers": "",
@@ -883,7 +883,7 @@
                 "socialmedia": "",
                 "sessionseq": "7",
                 "tracktitle": "SAP S/4HANA + Other Cloud Products (SF, CX)",
-                "trackid": "Track 8"
+                "trackid": "Track 8 - (R02, First Floor)"
             }
         ]
     },
