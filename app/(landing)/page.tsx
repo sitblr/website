@@ -19,6 +19,7 @@ import AcloudGuruji from "@/public/sponsers/acloudguruji.png";
 import SAPConcur from "@/public/sponsers/SAP_Concur_R_grad_blk.jpg";
 import archtech from "@/public/sponsers/archtech.png";
 import primus from "@/public/sponsers/primus.png";
+import mindset from "@/public/sponsers/mindset.png";
 import s2integrations from "@/public/sponsers/s2integrations.png";
 import sappress from "@/public/sponsers/sap-press.jpg";
 import { Button } from "@/components/ui/button";
@@ -119,7 +120,7 @@ const Home = () => {
           <div className="p-4 text-2xl font-semibold">Sponsors</div>
           <div className="font-light">
             {/* <p className="w-full mb-4 -mt-4 text-center text-base font-semibold uppercase text-gray-400 tracking-wider">
-                            Platinum Sponsors
+                             Platinum Sponsors
                         </p> */}
 
             <div className="flex flex-row justify-between p-10">
@@ -127,16 +128,16 @@ const Home = () => {
                 className="flex items-center justify-center text-gray-400 hover:text-gray-200"
                 href=""
                 target="_blank"
-                title="Primus"
+                title="Mindset"
               >
                 <div className="object-contain">
                   <Image
                     // className="w-auto"
-                    src={primus}
+                    src={mindset}
                     width={250}
                     height={100}
                     objectFit="contain"
-                    alt="Primus"
+                    alt="Mindset"
                   />
                 </div>
               </a>
@@ -158,7 +159,7 @@ const Home = () => {
                   />
                 </div>
               </a>
-              <a
+              {/* <a
                 className="flex items-center justify-center text-gray-400 hover:text-gray-200"
                 href=""
                 target="_blank"
@@ -171,7 +172,7 @@ const Home = () => {
                   objectFit="cover"
                   alt="SAP Concur"
                 />
-              </a>
+              </a> */}
               <a
                 className="flex items-center justify-center text-gray-400 hover:text-gray-200"
                 href=""
