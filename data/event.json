@@ -1,5 +1,23 @@
 [
   {
+    "id": "sap-inside-track-july-2024",
+    "title": "SAP Inside Track, 6th July 2024",
+    "location": "Bengaluru, India",
+    "dateFrom": "2024-02-17T00:00:00",
+    "dateTo": "2024-02-17T00:00:00",
+    "map": "",
+    "banner": "",
+    "type": "Conference",
+    "active": true,
+    "register": "",
+    "hostId": 1,
+    "agenda": "",
+    "eventCompleted": false,
+    "linktoeventfeedback": "https://forms.gle/QNzJ36MZSazd9k5Y6",
+    "linktosessionfeedback":"1FAIpQLScLOIRqFzWL__5OPVHmJ-O59MpV_lwpK_a1hFCOSvLNvtkj4A",
+    "linktopresentations": "",
+    "sessions": []},
+  {
     "id": "sap-inside-track-feb-2024",
     "title": "SAP Inside Track, 17th February 2024",
     "location": "Bengaluru, India",

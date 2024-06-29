@@ -78,7 +78,7 @@ const Home = () => {
   ];
 
   useEffect(() => {
-    fetch(`/api/events/sap-inside-track-feb-2024`)
+    fetch(`/api/events/sap-inside-track-july-2024`)
       .then((res) => res.json())
       .then((data) => {
         setData(data);
@@ -95,12 +95,13 @@ const Home = () => {
     // ffe505
     <div className="h-full">
       {/* <div className="relative"> */}
-      <div className="w-full bg-gradient-to-r from-[#ffb805] to-[#e1cf2b] ">
+      <div className="w-full bg-gradient-to-r ">
         <div className="mx-auto max-w-screen-xl">
           <LandingNavBar />
         </div>
       </div>
-      <div className="top-6 w-full  bg-gradient-to-r from-[#ffb805] to-[#e1cf2b] ">
+      {/* <div className="top-6 w-full  bg-gradient-to-r from-[#ffb805] to-[#e1cf2b] "> */}
+      <div className="top-6 w-full  bg-gradient-to-r ">
         <div className=" max-w-screen-xl mx-auto bg-[url('/bengaluru_city.png')]">
           <EventHeader
             title={data?.title}
