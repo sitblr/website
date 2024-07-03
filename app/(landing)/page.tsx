@@ -17,6 +17,8 @@ import Sessions from "@/components/sessions";
 import CoffeeMakerIcon from "@mui/icons-material/CoffeeMaker";
 import AcloudGuruji from "@/public/sponsers/acloudguruji.png";
 import SAPConcur from "@/public/sponsers/SAP_Concur_R_grad_blk.jpg";
+import alm from "@/public/sponsers/alm.png";
+import sodexo from "@/public/sponsers/sodexo.png";
 import archtech from "@/public/sponsers/archtech.png";
 import primus from "@/public/sponsers/primus.png";
 import mindset from "@/public/sponsers/mindset.png";
@@ -160,20 +162,6 @@ const Home = () => {
                   />
                 </div>
               </a>
-              {/* <a
-                className="flex items-center justify-center text-gray-400 hover:text-gray-200"
-                href=""
-                target="_blank"
-                title="SAP Press"
-              >
-                <Image
-                  width={175}
-                  height={175}
-                  src={SAPConcur}
-                  objectFit="cover"
-                  alt="SAP Concur"
-                />
-              </a> */}
               <a
                 className="flex items-center justify-center text-gray-400 hover:text-gray-200"
                 href=""
@@ -186,6 +174,34 @@ const Home = () => {
                   src={sappress}
                   objectFit="cover"
                   alt="SAP Press"
+                />
+              </a>
+              <a
+                className="flex items-center justify-center text-gray-400 hover:text-gray-200"
+                href=""
+                target="_blank"
+                title="SAP Press"
+              >
+                <Image
+                  width={175}
+                  height={175}
+                  src={alm}
+                  objectFit="cover"
+                  alt="SAP Concur"
+                />
+              </a>
+              <a
+                className="flex items-center justify-center text-gray-400 hover:text-gray-200"
+                href=""
+                target="_blank"
+                title="SAP Press"
+              >
+                <Image
+                  width={175}
+                  height={175}
+                  src={sodexo}
+                  objectFit="cover"
+                  alt="SAP Concur"
                 />
               </a>
             </div>
