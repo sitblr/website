@@ -30,7 +30,7 @@
                 "speakers": "",
                 "speaker1": "Rahul Lodhe",
                 "speaker2": "Ajay Tikare",
-                "speaker1_social": "NA",
+                "speaker1_social": "https://www.linkedin.com/in/rahullodhe",
                 "speaker2_social": "https://www.linkedin.com/in/ajaytikare/",
                 "sessiontitle": "SAP GenAI - Strategy and Roadmap overview",
                 "description": "This is a session shall explain the big picture around SAP's AI Strategy and the solution offerings SAP is invested in towards the same. This shall delve deeper into SAP's GenAI offerings and cover product demos and upcoming roadmap.",
@@ -38,7 +38,7 @@
                 "socialmedia": "",
                 "sessionseq": "1",
                 "tracktitle": "Keynotes, Strategy, Overviews, Architectures & Roadmaps - Business AI Focussed",
-                "trackid": "Track 1 - (Audi Max, Ground Floor)",
+                "trackid": "Track 1 - Audi Max",
                 "pathtags": "ai_arch, ai_cons"
             },
             {
@@ -57,25 +57,25 @@
             },
             {
                 "speakers": "",
-                "speaker1": "Phani Kumar Velakuchi",
-                "speaker2": "",
-                "speaker1_social": "https://www.linkedin.com/in/phani-kumar-b9506236/",
-                "speaker2_social": "",
-                "sessiontitle": "AI Role in Across Domains and Digital Commerce",
-                "description": "Usage of AI in Everyday Life, Usage of AI in Various Business Domains, Use Cases in Digital Commerce, and AI Use Cases in Trelleborg.",
-                "organization": "Trelleborg",
+                "speaker1": "Amruta Mohanty",
+                "speaker2": "Niraimathi Jeyamani",
+                "speaker1_social": "www.linkedin.com/in/amruta-mohanty",
+                "speaker2_social": "NA",
+                "sessiontitle": "Harnessing AI for smart spend management: Innovations in SAP Concur",
+                "description": "In today's rapidly evolving business landscape, harnessing the power of artificial intelligence (AI) has become instrumental in enhancing efficiency and decision-making processes. By leveraging AI-powered insights, organizations can have better cost estimation, optimize financial workflows, and gain deeper visibility into spending patterns. This session will showcase the innovations in SAP Concur that is paving the way for more efficient, compliant and cost effective expense management practices.",
+                "organization": "SAP Labs India",
                 "socialmedia": "",
-                "sessionseq": "1",
-                "tracktitle": "Business AI solutions from Ecosystem - Partners & Customers",
+                "sessionseq": "7",
+                "tracktitle": "Embedded AI across solutions - SAP S/4HANA, SuccessFactors & other SAP Products",
                 "trackid": "Track 3 - BLR05 - HIVE",
-                "pathtags": "ai_arch, ai_cons, ai_pm"
+                "pathtags": "ai_cons, ai_pm"
             },
             {
                 "speakers": "",
                 "speaker1": "Sunny Kapoor",
                 "speaker2": "Gautam Chauhan",
                 "speaker1_social": "https://www.linkedin.com/in/sunnykapoor-sk/",
-                "speaker2_social": "NA",
+                "speaker2_social": "https://www.linkedin.com/in/gautamchauhan5",
                 "sessiontitle": "The power of generative AI for enterprise integrations",
                 "description": "Generative AI can unlock innovation and redefine business processes, integrations, automations, innovations and improve efficiencies. Learn about the AI strategy for Enterprise Integrations and how SAP Integration Suite leverages AI to accelerate developer productivity and boost operational excellence.",
                 "organization": "SAP Labs India",
@@ -97,7 +97,7 @@
                 "speakers": "",
                 "speaker1": "Parvathy Sankar",
                 "speaker2": "",
-                "speaker1_social": "NA",
+                "speaker1_social": "https://www.linkedin.com/in/parvathy-sankar/",
                 "speaker2_social": "",
                 "sessiontitle": "Identifying value based Business AI scenarios with a human centric approach for SAP Customers.",
                 "description": "Very often we see companies approaching Artificial Intelligence, as an experimentation on how to use the AI technologies. It is time for the businesses to move to company wide methodologies to scale the AI technology across business. We will talk about how customers can build a structured human-centered approach, based on SAP AppHaus framework, to systematically identify business challenges and use SAP AI to resolve these challenges.",
@@ -105,14 +105,14 @@
                 "socialmedia": "",
                 "sessionseq": "2",
                 "tracktitle": "Keynotes, Strategy, Overviews, Architectures & Roadmaps - Business AI Focussed",
-                "trackid": "Track 1 - (Audi Max, Ground Floor)",
+                "trackid": "Track 1 - Audi Max",
                 "pathtags": "ai_arch, ai_admin, ai_pm"
             },
             {
                 "speakers": "",
                 "speaker1": "Ravi Grover",
                 "speaker2": "",
-                "speaker1_social": "NA",
+                "speaker1_social": "https://www.linkedin.com/in/ravigrover/",
                 "speaker2_social": "",
                 "sessiontitle": "Building Employee Retention Application with SAP Build Code and Joule",
                 "description": "Building Employee Retention Application with SAP Build Code and Joule",
@@ -120,7 +120,7 @@
                 "socialmedia": "",
                 "sessionseq": "2",
                 "tracktitle": "Building AI Applications on SAP BTP",
-                "trackid": "Track 2 - (R04, Ground Floor)"
+                "trackid": "Track 2 - BLR05 - 1st Floor Flexi"
             },
             {
                 "speakers": "",
@@ -134,7 +134,7 @@
                 "socialmedia": "",
                 "sessionseq": "2",
                 "tracktitle": "Embedded AI across solutions - SAP S/4HANA, SuccessFactors & other SAP Products",
-                "trackid": "Track 3 - (R05, Ground Floor)"
+                "trackid": "Track 3 - BLR05 - HIVE"
             },
             {
                 "speakers": "",
@@ -148,7 +148,7 @@
                 "socialmedia": "",
                 "sessionseq": "2",
                 "tracktitle": "Embedded AI across solutions - SAP S/4HANA, SuccessFactors & other SAP Products",
-                "trackid": "Track 4 - (Hive, Ground Floor)",
+                "trackid": "Track 4 - BLR05 - Experience Center",
                 "pathtags": "ai_dev, ai_arch, ai_admin"
             }
         ]
@@ -163,7 +163,7 @@
                 "speakers": "",
                 "speaker1": "Manjunath Baburao",
                 "speaker2": "",
-                "speaker1_social": "",
+                "speaker1_social": "https://www.linkedin.com/in/manjunathbaburao/",
                 "speaker2_social": "",
                 "sessiontitle": "AI in SAP BTP - Strategy and Roadmap",
                 "description": "Get a sneak peek at upcoming AI innovations planned for SAP Business Technology Platform (SAP BTP) in the coming year. Learn about the enhancements and how these changes can benefit your business.",
@@ -171,7 +171,7 @@
                 "socialmedia": "",
                 "sessionseq": "3",
                 "tracktitle": "Keynotes, Strategy, Overviews, Architectures & Roadmaps - Business AI Focussed",
-                "trackid": "Track 1 - (Audi Max, Ground Floor)",
+                "trackid": "Track 1 - Audi Max",
                 "pathtags": "ai_arch, ai_pm"
             },
             {
@@ -186,13 +186,13 @@
                 "socialmedia": "",
                 "sessionseq": "3",
                 "tracktitle": "Building AI Applications on SAP BTP",
-                "trackid": "Track 2 - (R04, Ground Floor)"
+                "trackid": "Track 2 - BLR05 - 1st Floor Flexi"
             },
             {
                 "speakers": "",
                 "speaker1": "Akash Kumar",
                 "speaker2": "",
-                "speaker1_social": "NA",
+                "speaker1_social": "https://www.linkedin.com/in/akashkumar1987/",
                 "speaker2_social": "",
                 "sessiontitle": "GenAI Solutions for Utilities",
                 "description": "The session focuses on multiple scenarios where we can utilise GenAI to enhance productivity and simplify the customer activities. In the SAP Integration Suite, message monitoring reports are essential for tracking transactions. This demo provides practical insights for developers, emphasizing the use of Business Acceleration Hub APIs. Imagine relying on daily transaction reports only to find them missing when needed. The SAP Integration Suite's message monitoring tool is invaluable despite challenges with report reliability and managing failed transactions. AI and IS-API capabilities detect issues proactively, simplifying operations and reducing stress. Explore how these innovations streamline SAP Integration Suite reporting for greater efficiency and reliability.",
@@ -200,7 +200,7 @@
                 "socialmedia": "",
                 "sessionseq": "3",
                 "tracktitle": "Embedded AI across solutions - SAP S/4HANA, SuccessFactors & other SAP Products",
-                "trackid": "Track 3 - (R05, Ground Floor)"
+                "trackid": "Track 3 - BLR05 - HIVE"
             },
             {
                 "speakers": "",
@@ -214,7 +214,7 @@
                 "socialmedia": "",
                 "sessionseq": "3",
                 "tracktitle": "Embedded AI across solutions - SAP S/4HANA, SuccessFactors & other SAP Products",
-                "trackid": "Track 4 - (Hive, Ground Floor)",
+                "trackid": "Track 4 - BLR05 - Experience Center",
                 "pathtags": "ai_dev, ai_arch, ai_pm"
             }
         ]
@@ -237,21 +237,21 @@
                 "speaker1": "Srinivasa Reddy B R",
                 "speaker2": "Nagesh Caparthy",
                 "speaker1_social": "https://www.linkedin.com/in/srinivasa-reddy-b-r-a6a26a7",
-                "speaker2_social": "",
+                "speaker2_social": "https://www.linkedin.com/in/nagesh-caparthy-027b7016/",
                 "sessiontitle": "Explore Joule Roadmap and Deepdive",
                 "description": "Understand JOULE, capabilities, roadmap and unified joule strategy. We cover latest Joule capabilities with LLM integration and document grounding. We will showcase demos of Joule in SAP cloud products (SF, S/4)",
                 "organization": "SAP Labs India",
                 "socialmedia": "",
                 "sessionseq": "4",
                 "tracktitle": "General (SAP BTP and other Products)",
-                "trackid": "Keynotes, Strategy, Overviews, Architectures & Roadmaps - Business AI Focussed",
+                "trackid": "Track 1 - Audi Max",
                 "pathtags": "ai_cons"
             },
             {
                 "speakers": "",
                 "speaker1": "Venkata Reddy P S",
                 "speaker2": "",
-                "speaker1_social": "NA",
+                "speaker1_social": "https://www.linkedin.com/in/venkata-reddy-p-s-669b2516/",
                 "speaker2_social": "",
                 "sessiontitle": "Demystifying HANA Vector capabilities for Greater benefits in Generative AI",
                 "description": "This session covers the overview of HANA vector capabilities while highlighting the benefits they offer to Generative AI applications will be covered.",
@@ -259,21 +259,21 @@
                 "socialmedia": "",
                 "sessionseq": "4",
                 "tracktitle": "Building AI Applications on SAP BTP",
-                "trackid": "Track 2 - (R04, Ground Floor)"
+                "trackid": "Track 2 - BLR05 - 1st Floor Flexi"
             },
             {
                 "speakers": "",
                 "speaker1": "SHAIK AZMATHULLA",
                 "speaker2": "",
-                "speaker1_social": "www.linkedin.com/in/shaik-azmathulla-685508b4",
+                "speaker1_social": "NA",
                 "speaker2_social": "",
                 "sessiontitle": "Business AI Integration: Streamlining SAP Transaction Monitoring with Acceleration Hub APIs",
-                "description": "In the SAP Integration Suite, message monitoring reports are essential for tracking transactions. This demo provides practical insights for developers, emphasizing the use of Business Acceleration Hub APIs. Imagine relying on daily transaction reports only to find them missing when needed. The SAP Integration Suite's message monitoring tool is invaluable despite challenges with report reliability and managing failed transactions. AI and IS-API capabilities detect issues proactively, simplifying operations and reducing stress. Explore how these innovations streamline SAP Integration Suite reporting for greater efficiency and reliability.",
+                "description": "Business AI Integration: Streamlining SAP Transaction Monitoring with Acceleration Hub APIs",
                 "organization": "Himalaya Wellness Company",
                 "socialmedia": "",
-                "sessionseq": "4",
+                "sessionseq": "5",
                 "tracktitle": "Embedded AI across solutions - SAP S/4HANA, SuccessFactors & other SAP Products",
-                "trackid": "Track 3 - (R05, Ground Floor)"
+                "trackid": "Track 3 - BLR05 - HIVE"
             },
             {
                 "speakers": "",
@@ -287,7 +287,7 @@
                 "socialmedia": "",
                 "sessionseq": "4",
                 "tracktitle": "Embedded AI across solutions - SAP S/4HANA, SuccessFactors & other SAP Products",
-                "trackid": "Track 4 - (Hive, Ground Floor)",
+                "trackid": "Track 4 - BLR05 - Experience Center",
                 "pathtags": "ai_dev, ai_arch"
             }
         ]
@@ -302,15 +302,15 @@
                 "speakers": "",
                 "speaker1": "Namadipta Patro Bellana",
                 "speaker2": "Sri Govind KR",
-                "speaker1_social": "https://www.linkedin.com/in/namadipta-patro-bellana-8000143b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-                "speaker2_social": "NA",
+                "speaker1_social": "https://www.linkedin.com/in/namadipta-patro-bellana-8000143b/",
+                "speaker2_social": "https://www.linkedin.com/in/sri-govind-k-r-071a1943/",
                 "sessiontitle": "Bringing RAG Capabilities to GenAI Hub",
                 "description": "This session focuses on the integration of RAG capabilities within the SAP Gen AI Hub, highlighting how this synergy can significantly enhance enterprise AI applications.This includes discussing ongoing research upcomimg roadmap and demos.",
                 "organization": "SAP Labs India",
                 "socialmedia": "",
                 "sessionseq": "5",
                 "tracktitle": "Keynotes, Strategy, Overviews, Architectures & Roadmaps - Business AI Focussed",
-                "trackid": "Track 1 - (Audi Max, Ground Floor)"
+                "trackid": "Track 1 - Audi Max"
             },
             {
                 "speakers": "",
@@ -324,13 +324,13 @@
                 "socialmedia": "",
                 "sessionseq": "5",
                 "tracktitle": "Building AI Applications on SAP BTP",
-                "trackid": "Track 2 - (R04, Ground Floor)"
+                "trackid": "Track 2 - BLR05 - 1st Floor Flexi"
             },
             {
                 "speakers": "",
                 "speaker1": "Naresh Kumar",
                 "speaker2": "",
-                "speaker1_social": "",
+                "speaker1_social": "https://www.linkedin.com/in/naresh-kumar-reddy-mudupulavemula-30b030287/",
                 "speaker2_social": "",
                 "sessiontitle": "SAP BTP & AI – Use cases and Demo",
                 "description": "SAP BTP & AI – Use cases and Demo",
@@ -338,7 +338,7 @@
                 "socialmedia": "",
                 "sessionseq": "5",
                 "tracktitle": "Embedded AI across solutions - SAP S/4HANA, SuccessFactors & other SAP Products",
-                "trackid": "Track 3 - (R05, Ground Floor)"
+                "trackid": "Track 3 - BLR05 - HIVE"
             },
             {
                 "speakers": "",
@@ -352,7 +352,7 @@
                 "socialmedia": "",
                 "sessionseq": "5",
                 "tracktitle": "Embedded AI across solutions - SAP S/4HANA, SuccessFactors & other SAP Products",
-                "trackid": "Track 4 - (Hive, Ground Floor)",
+                "trackid": "Track 4 - BLR05 - Experience Center",
                 "pathtags": "ai_dev, ai_admin"
             }
         ]
@@ -367,30 +367,30 @@
                 "speakers": "",
                 "speaker1": "Prangya Pradhan",
                 "speaker2": "Debdutt Mondal",
-                "speaker1_social": "NA",
-                "speaker2_social": "NA",
+                "speaker1_social": "https://www.linkedin.com/in/prangya-p-31791927/",
+                "speaker2_social": "https://www.linkedin.com/in/debdutt-mondal-77272421/",
                 "sessiontitle": "First Impression of AI Regulations",
                 "description": "Artificial intelligence (AI) regulations are rapidly evolving, and businesses need to start paying attention. This session will provide you with an overview of the current regulatory landscape for AI, and discuss how you can prepare your business for the future.",
                 "organization": "SAP Labs India",
                 "socialmedia": "",
                 "sessionseq": "6",
                 "tracktitle": "Keynotes, Strategy, Overviews, Architectures & Roadmaps - Business AI Focussed",
-                "trackid": "Track 1 - (Audi Max, Ground Floor)",
+                "trackid": "Track 1 - Audi Max",
                 "pathtags": "ai_dev, ai_arch, ai_admin"
             },
             {
                 "speakers": "",
                 "speaker1": "Navya Khurana",
                 "speaker2": "Aryan Raj Sinha",
-                "speaker1_social": "NA",
-                "speaker2_social": "NA",
+                "speaker1_social": "https://www.linkedin.com/in/navya-khurana-1b78a6187/",
+                "speaker2_social": "https://www.linkedin.com/in/aryan-raj-sinha/",
                 "sessiontitle": "Mastering Advanced Summarization Techniques: Transforming Latent Data into Insights",
                 "description": "Explore advanced methodologies for creating effective summarization techniques(Chain of Density, stuff, map_reduce, refine) to enhance AI's ability to generate precise and relevant summaries. Learn to extract valuable insights from latent data and apply these techniques to various Business Objects.",
                 "organization": "SAP Labs India",
                 "socialmedia": "",
                 "sessionseq": "6",
                 "tracktitle": "Building AI Applications on SAP BTP",
-                "trackid": "Track 2 - (R04, Ground Floor)",
+                "trackid": "Track 2 - BLR05 - 1st Floor Flexi",
                 "pathtags": "ai_dev, ai_arch"
             },
             {
@@ -405,21 +405,21 @@
                 "socialmedia": "",
                 "sessionseq": "6",
                 "tracktitle": "Embedded AI across solutions - SAP S/4HANA, SuccessFactors & other SAP Products",
-                "trackid": "Track 3 - (R05, Ground Floor)"
+                "trackid": "Track 3 - BLR05 - HIVE"
             },
             {
                 "speakers": "",
                 "speaker1": "Ranjeet Kumar",
                 "speaker2": "Vasantha S",
-                "speaker1_social": "NA",
-                "speaker2_social": "NA",
+                "speaker1_social": "https://www.linkedin.com/in/ranjeet-kumar-8b8152b1/",
+                "speaker2_social": "https://www.linkedin.com/in/vasantha-s-50a4702",
                 "sessiontitle": "Empower Your Business with Intelligent Situation Handling",
                 "description": "Situation Handling in SAP S/4HANA Cloud automatically notifies the responsible users about critical issues that require their attention, such as upcoming deadlines, expiring contracts, and many more. Learn more about the different configuration options, analytics capabilities, and how we're moving towards enhanced intelligence in the situation resolution process.",
                 "organization": "SAP Labs India",
                 "socialmedia": "",
                 "sessionseq": "6",
                 "tracktitle": "Embedded AI across solutions - SAP S/4HANA, SuccessFactors & other SAP Products",
-                "trackid": "Track 4 - (Hive, Ground Floor)",
+                "trackid": "Track 4 - BLR05 - Experience Center",
                 "pathtags": "ai_dev, ai_arch, ai_cons"
             }
         ]
@@ -442,14 +442,14 @@
                 "speaker1": "Priti Dhingra",
                 "speaker2": "Abhishek Mishra",
                 "speaker1_social": "NA",
-                "speaker2_social": "",
+                "speaker2_social": "https://www.linkedin.com/in/abhishek-mishra-4b709b17/",
                 "sessiontitle": "Transforming Business Applications with AI & GenAI with Intelligent Scenario Lifecycle Management (ISLM)",
                 "description": "Equip yourself to harness the power of AI and generative AI. Join us to explore the capabilities of ISLM, a framework that seamlessly integrates AI into business applications. Discover how ISLM facilitates the creation and operation of AI use cases using SAP HANA ML, SAP AI Core, and AI services available through SAP BTP. Uncover ISLM's advanced features and learn about its ongoing evolution to effortlessly incorporate generative AI.",
                 "organization": "SAP Labs India",
                 "socialmedia": "",
                 "sessionseq": "7",
                 "tracktitle": "General (SAP BTP and other Products)",
-                "trackid": "Track 1 - (Audi Max, Ground Floor)"
+                "trackid": "Track 1 - Audi Max"
             },
             {
                 "speakers": "",
@@ -463,7 +463,7 @@
                 "socialmedia": "",
                 "sessionseq": "7",
                 "tracktitle": "Development - Pro Code + Low Code",
-                "trackid": "Track 2 - (R04, Ground Floor)"
+                "trackid": "Track 2 - BLR05 - 1st Floor Flexi"
             },
             {
                 "speakers": "",
@@ -477,7 +477,7 @@
                 "socialmedia": "",
                 "sessionseq": "7",
                 "tracktitle": "Data & Analytics + Integration",
-                "trackid": "Track 3 - (R05, Ground Floor)"
+                "trackid": "Track 3 - BLR05 - HIVE"
             },
             {
                 "speakers": "",
@@ -491,7 +491,7 @@
                 "socialmedia": "",
                 "sessionseq": "7",
                 "tracktitle": "Artificial Intelligence + Automation",
-                "trackid": "Track 4 - (Hive, Ground Floor)",
+                "trackid": "Track 4 - BLR05 - Experience Center",
                 "pathtags": "ai_cons, ai_pm"
             }
         ]
@@ -506,29 +506,29 @@
                 "speakers": "",
                 "speaker1": "Akshay Kumar S",
                 "speaker2": "Divya Chandrika Mohan",
-                "speaker1_social": "NA",
-                "speaker2_social": "NA",
+                "speaker1_social": "https://www.linkedin.com/in/akshaykumarsureshchand/",
+                "speaker2_social": "https://www.linkedin.com/in/divya-chandrika-mohan-3769bbb3/",
                 "sessiontitle": "SAP Strategy 360 : Innovate with Business AI",
                 "description": "Let us jointly explore SAP’s strategy and decipher how we can bring it to life in 2024 and beyond. Navigating ahead with SAP’s strategy for speed and success. Tune into the world of strategy to explore the opportunities and recipes for success.",
                 "organization": "SAP Labs India",
                 "socialmedia": "",
                 "sessionseq": "7",
                 "tracktitle": "Keynotes, Strategy, Overviews, Architectures & Roadmaps - Business AI Focussed",
-                "trackid": "Track 1 - (Audi Max, Ground Floor)"
+                "trackid": "Track 1 - Audi Max"
             },
             {
                 "speakers": "",
                 "speaker1": "Ajit Kumar Panda",
                 "speaker2": "Vedant Gupta",
-                "speaker1_social": "NA",
-                "speaker2_social": "NA",
+                "speaker1_social": "https://www.linkedin.com/in/ajit-kumar-panda-22ba1953/",
+                "speaker2_social": "https://www.linkedin.com/in/vedant-gupta-ai/",
                 "sessiontitle": "Beyond Basics: Advanced Prompt Engineering With a Focus on RAG and LLM Agents",
                 "description": "In this session, we will showcase advanced prompt engineering techniques like Chain of Thought, Tree of Thought, ReAct and latest innovations like LLM based Agents.",
                 "organization": "SAP Labs India",
                 "socialmedia": "",
                 "sessionseq": "7",
                 "tracktitle": "Building AI Applications on SAP BTP",
-                "trackid": "Track 2 - (R04, Ground Floor)"
+                "trackid": "Track 2 - BLR05 - 1st Floor Flexi"
             },
             {
                 "speakers": "",
@@ -542,21 +542,21 @@
                 "socialmedia": "",
                 "sessionseq": "7",
                 "tracktitle": "Embedded AI across solutions - SAP S/4HANA, SuccessFactors & other SAP Products",
-                "trackid": "Track 3 - (R05, Ground Floor)"
+                "trackid": "Track 3 - BLR05 - HIVE"
             },
             {
                 "speakers": "",
-                "speaker1": "Roohi Ganatra",
-                "speaker2": "",
-                "speaker1_social": "NA",
-                "speaker2_social": "",
-                "sessiontitle": "AI in Sales Cloud: Adaptive, Insightful, Connected",
-                "description": "This UX session explores the transformative power of AI in sales clouds, focusing on creating adaptive, insightful, and connected customer experiences. Participants will learn how AI seamlessly connects marketing, sales, and supply chain functions for a harmonised User experience. The session covers leveraging data through AI for better intelligence, informed decision-making, and improved profitability. Key topics include cross-app connectivity within the CX product line, benefits of a modular, agile architecture, optimisation of sales processes, unified pipeline management, and AI-driven recommendations for enhanced product stocking and pricing strategies.",
+                "speaker1": "Rekha",
+                "speaker2": "Shrinivasan",
+                "speaker1_social": "www.linkedin.com/in/rekha-dr",
+                "speaker2_social": "https://www.linkedin.com/in/shrinivasan-neelamegam/",
+                "sessiontitle": "Creating a Chatbot from Scratch Using Build Apps and SAP AI Core",
+                "description": "In this session, we shall explore the integration between SAP Build Apps, a Low Code/No Code tool  and SAP AI Core for creating a Chatbot App on BTP. The concepts you learn here can be applied to any other AI models as well. There will be a presentation followed by a live demo of App creation.",
                 "organization": "SAP Labs India",
                 "socialmedia": "",
                 "sessionseq": "7",
                 "tracktitle": "Embedded AI across solutions - SAP S/4HANA, SuccessFactors & other SAP Products",
-                "trackid": "Track 4 - (Hive, Ground Floor)",
+                "trackid": "Track 4 - BLR05 - Experience Center",
                 "pathtags": "ai_cons, ai_pm"
             }
         ]
@@ -579,7 +579,7 @@
                 "socialmedia": "",
                 "sessionseq": "7",
                 "tracktitle": "Keynotes, Strategy, Overviews, Architectures & Roadmaps - Business AI Focussed",
-                "trackid": "Track 1 - (Audi Max, Ground Floor)"
+                "trackid": "Track 1 - Audi Max"
             },
             {
                 "speakers": "",
@@ -587,41 +587,41 @@
                 "speaker2": "Prashant Telkar",
                 "speaker1_social": "https://www.linkedin.com/in/shubham-saklani-a1ab0696/",
                 "speaker2_social": "https://www.linkedin.com/in/prashant-telkar-1aba639/",
-                "sessiontitle": "EOur Journey with BTP and GenAI - for cloud based business data error analyser service",
+                "sessiontitle": "Our Journey with BTP and GenAI - for cloud based business data error analyser service",
                 "description": "Creating business test data, including both master and transaction data, using OData APIs presents challenges for organisations due to the complexity of error messages returned by the APIs. When errors occur during the data creation process, understanding the root cause becomes cumbersome and time-consuming, leading to delays in test data preparation and subsequent solution finding. This problem statement can be effectively addressed through the implementation of a cloud-based Generative AI-based BTP service. This innovative solution leverages LLMs and RAG to analyze error messages, identify root causes, and provide actionable insights for resolution. In session, we would like to take the audience on our development journey with BTP and Gen AI and share our experience in building mentioned service.",
                 "organization": "SAP Labs India",
                 "socialmedia": "",
                 "sessionseq": "7",
                 "tracktitle": "Building AI Applications on SAP BTP",
-                "trackid": "Track 2 - (R04, Ground Floor)"
+                "trackid": "Track 2 - BLR05 - 1st Floor Flexi"
             },
             {
                 "speakers": "",
-                "speaker1": "",
+                "speaker1": "Priyanka Venugopal",
+                "speaker2": "Suryam Srivastava",
+                "speaker1_social": "https://www.linkedin.com/in/priyankavenugopal17/",
+                "speaker2_social": "https://www.linkedin.com/in/suryam-srivastava-47859a114/",
+                "sessiontitle": "In Product Communications - Minimizing Day 1 Impact",
+                "description": "In Product Communications minimizes the Day 1 impact experience for our end users by alerting them to the significant features that is rolled out with an upgrade.",
+                "organization": "SAP Labs India",
+                "socialmedia": "",
+                "sessionseq": "7",
+                "tracktitle": "Embedded AI across solutions - SAP S/4HANA, SuccessFactors & other SAP Products",
+                "trackid": "Track 3 - BLR05 - HIVE"
+            },
+            {
+                "speakers": "",
+                "speaker1": "Roohi Ganatra",
                 "speaker2": "",
-                "speaker1_social": "",
-                "speaker2_social": "no",
-                "sessiontitle": "",
-                "description": "",
+                "speaker1_social": "https://www.linkedin.com/in/roohi-ganatra/",
+                "speaker2_social": "",
+                "sessiontitle": "AI in Sales Cloud: Adaptive, Insightful, Connected",
+                "description": "This UX session explores the transformative power of AI in sales clouds, focusing on creating adaptive, insightful, and connected customer experiences. Participants will learn how AI seamlessly connects marketing, sales, and supply chain functions for a harmonised User experience. The session covers leveraging data through AI for better intelligence, informed decision-making, and improved profitability. Key topics include cross-app connectivity within the CX product line, benefits of a modular, agile architecture, optimisation of sales processes, unified pipeline management, and AI-driven recommendations for enhanced product stocking and pricing strategies.",
                 "organization": "SAP Labs India",
                 "socialmedia": "",
                 "sessionseq": "7",
-                "tracktitle": "Embedded AI across solutions - SAP S/4HANA, SuccessFactors & other SAP Products",
-                "trackid": "Track 3 - (R05, Ground Floor)"
-            },
-            {
-                "speakers": "",
-                "speaker1": "Amruta Mohanty",
-                "speaker2": "Niraimathi Jeyamani",
-                "speaker1_social": "NA",
-                "speaker2_social": "NA",
-                "sessiontitle": "Harnessing AI for smart spend management: Innovations in SAP Concur",
-                "description": "In today's rapidly evolving business landscape, harnessing the power of artificial intelligence (AI) has become instrumental in enhancing efficiency and decision-making processes. By leveraging AI-powered insights, organizations can have better cost estimation, optimize financial workflows, and gain deeper visibility into spending patterns. This session will showcase the innovations in SAP Concur that is paving the way for more efficient, compliant and cost effective expense management practices.",
-                "organization": "SAP Labs India",
-                "socialmedia": "",
-                "sessionseq": "7",
-                "tracktitle": "Embedded AI across solutions - SAP S/4HANA, SuccessFactors & other SAP Products",
-                "trackid": "Track 4 - (Hive, Ground Floor)",
+                "tracktitle": "Embedded AI across solutions - SAP S/4HANA, SuccessFactors & other SAP Productss",
+                "trackid": "Track 4 - BLR05 - Experience Center",
                 "pathtags": "ai_cons, ai_pm"
             }
         ]
@@ -637,7 +637,7 @@
         "sequence": "100",
         "time": "04:15 - 05:00",
         "type": "break",
-        "tracktitle": "The End - Evening Snacks & Networking",
+        "tracktitle": "The End - Live Music Performance, Evening Snacks & Networking",
         "sessionsBySequence": []
     }
 ]
