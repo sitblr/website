@@ -49,7 +49,7 @@ const ChecklistModal: React.FC<ModalProps> = ({
                         <li>Park your vehicles in MLCP as directed by security.
                         </li><li>Proceed to BLR05 building for the registration.
                         </li><li>Do not forget to bring your Company ID card or government authorized ID card.
-                        </li><li>Note that the registrations start sharp at 7:30 AM. We recommend you be at the venue by 7:30 AM so you could network with attendees, speakers and also visit <span className='font-semibold'>Ask me Anything Booths</span>.
+                        </li><li>Note that the registrations start sharp at 7:30 AM. We recommend you be at the venue by 7:30 AM so you could network with attendees, speakers and also visit <span className='font-semibold'>Meet AI Experts Zone</span>.
                         </li><li>There will be volunteers to guide you throughout the event. Please feel free to navigate from one session to another regardless of the track.
                         </li><li>Please bring your own water bottles. Water will be available in plenty for refilling your water bottles.
                         </li><li>During your sojourn in the SAP Labs campus, please help us keep the SAP Labs campus clean and green.
