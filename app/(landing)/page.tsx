@@ -28,7 +28,8 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import SessionModal from "@/components/modal/SessionModal";
 import { useSession } from "@/hooks/use-session-modal";
-
+import sdh from "@/public/sponsers/sdh.png";
+import deloitte from "@/public/sponsers/deloitte.png";
 import ChecklistModal from "@/components/modal/ChecklistModal";
 import ScrollToTop from "@/components/ui/ScrollToTop";
 import SwitchUI from "@/components/ui/switch";
@@ -131,6 +132,23 @@ const Home = () => {
                 className="flex items-center justify-center text-gray-400 hover:text-gray-200"
                 href=""
                 target="_blank"
+                title="Deloitte"
+              >
+                <div className="object-contain">
+                  <Image
+                    // className="w-auto"
+                    src={deloitte}
+                    width={250}
+                    height={100}
+                    objectFit="contain"
+                    alt="deloitte"
+                  />
+                </div>
+              </a>
+              <a
+                className="flex items-center justify-center text-gray-400 hover:text-gray-200"
+                href=""
+                target="_blank"
                 title="Mindset"
               >
                 <div className="object-contain">
@@ -202,6 +220,20 @@ const Home = () => {
                   src={sodexo}
                   objectFit="cover"
                   alt="SAP Concur"
+                />
+              </a>
+              <a
+                className="flex items-center justify-center text-gray-400 hover:text-gray-200"
+                href=""
+                target="_blank"
+                title="SDH"
+              > 
+                <Image
+                  width={175}
+                  height={175}
+                  src={sdh}
+                  objectFit="cover"
+                  alt="SDH"
                 />
               </a>
             </div>
