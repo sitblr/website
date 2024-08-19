@@ -17,18 +17,14 @@ import Sessions from "@/components/sessions";
 import CoffeeMakerIcon from "@mui/icons-material/CoffeeMaker";
 import AcloudGuruji from "@/public/sponsers/acloudguruji.png";
 import SAPConcur from "@/public/sponsers/SAP_Concur_R_grad_blk.jpg";
-//import alm from "@/public/sponsers/alm.png";
-//import sodexo from "@/public/sponsers/sodexo.png";
 import archtech from "@/public/sponsers/archtech.png";
 import primus from "@/public/sponsers/primus.png";
 import mindset from "@/public/sponsers/mindset.png";
-//import s2integrations from "@/public/sponsers/s2integrations.png";
 import sappress from "@/public/sponsers/sap-press.jpg";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import SessionModal from "@/components/modal/SessionModal";
 import { useSession } from "@/hooks/use-session-modal";
-//import sdh from "@/public/sponsers/sdh.png";
 import deloitte from "@/public/sponsers/deloitte.png";
 import ChecklistModal from "@/components/modal/ChecklistModal";
 import ScrollToTop from "@/components/ui/ScrollToTop";
@@ -163,23 +159,7 @@ const Home = () => {
                 </div>
               </a>
 
-              <a
-                className="flex items-center justify-center text-gray-400 hover:text-gray-200"
-                href=""
-                target="_blank"
-                title="S2 integrations"
-              >
-                <div className="object-contain">
-                  <Image
-                    // className="w-auto"
-                    src={s2integrations}
-                    width={100}
-                    height={100}
-                    objectFit="contain"
-                    alt="s2 integrations"
-                  />
-                </div>
-              </a>
+              
               <a
                 className="flex items-center justify-center text-gray-400 hover:text-gray-200"
                 href=""
@@ -192,48 +172,6 @@ const Home = () => {
                   src={sappress}
                   objectFit="cover"
                   alt="SAP Press"
-                />
-              </a>
-              <a
-                className="flex items-center justify-center text-gray-400 hover:text-gray-200"
-                href=""
-                target="_blank"
-                title="SAP Press"
-              >
-                <Image
-                  width={175}
-                  height={175}
-                  src={alm}
-                  objectFit="cover"
-                  alt="SAP Concur"
-                />
-              </a>
-              <a
-                className="flex items-center justify-center text-gray-400 hover:text-gray-200"
-                href=""
-                target="_blank"
-                title="SAP Press"
-              >
-                <Image
-                  width={175}
-                  height={175}
-                  src={sodexo}
-                  objectFit="cover"
-                  alt="SAP Concur"
-                />
-              </a>
-              <a
-                className="flex items-center justify-center text-gray-400 hover:text-gray-200"
-                href=""
-                target="_blank"
-                title="SDH"
-              > 
-                <Image
-                  width={175}
-                  height={175}
-                  src={sdh}
-                  objectFit="cover"
-                  alt="SDH"
                 />
               </a>
             </div>
