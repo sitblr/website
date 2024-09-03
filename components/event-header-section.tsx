@@ -32,6 +32,7 @@ const EventHeader = ({
             <h1>{title}</h1>
             <h3>Bengaluru, India</h3>
           </div>
+          <div><script src=https://widget.konfhub.com/widget.js button_id="btn_d3f6b031f6e8"></script></div>
           <div className="flex flex-wrap mt-8">
             {linktoeventfeedback && (
               <div className="p-2">
