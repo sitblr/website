@@ -1,20 +1,27 @@
 [
     {
         "sequence": "0.1",
+        "time": "",
+        "type": "break",
+        "tracktitle": "https://konfhub.com/sap-inside-track-bengaluru-2024-business-ai-edition",
+        "sessionsBySequence": []
+    },
+    {
+        "sequence": "0.2",
         "time": "07:30 - 09:30",
         "type": "break",
         "tracktitle": "Registration,Networking & Pods",
         "sessionsBySequence": []
     },
     {
-        "sequence": "0.2",
+        "sequence": "0.3",
         "time": "08:00 AM - 04:30 PM (Full Day)",
         "type": "break",
         "tracktitle": "Meet AI Expert Zone",
         "sessionsBySequence": []
     },
     {
-        "sequence": "0.3",
+        "sequence": "0.4",
         "time": "09:30 - 10:00",
         "type": "break",
         "tracktitle": "Keynote: Sindhu Gangadharan (MD, SAP Labs India Head, Customer Innovation Services, SAP)",
