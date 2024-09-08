@@ -1,27 +1,21 @@
 [
+
     {
         "sequence": "0.1",
-        "time": "",
-        "type": "break",
-        "tracktitle": "https://konfhub.com/sap-inside-track-bengaluru-2024-business-ai-edition",
-        "sessionsBySequence": []
-    },
-    {
-        "sequence": "0.2",
         "time": "07:30 - 09:30",
         "type": "break",
         "tracktitle": "Registration,Networking & Pods",
         "sessionsBySequence": []
     },
     {
-        "sequence": "0.3",
+        "sequence": "0.2",
         "time": "08:00 AM - 04:30 PM (Full Day)",
         "type": "break",
         "tracktitle": "Meet AI Expert Zone",
         "sessionsBySequence": []
     },
     {
-        "sequence": "0.4",
+        "sequence": "0.3",
         "time": "09:30 - 10:00",
         "type": "break",
         "tracktitle": "Keynote: Sindhu Gangadharan (MD, SAP Labs India Head, Customer Innovation Services, SAP)",
@@ -29,6 +23,39 @@
     },
     {
         "sequence": "1",
+        "time": "",
+        "type": "grid",
+        "tracktitle": "<Not Required>",
+        "sessionsBySequence": [
+            {
+                "attendee": "",
+                "speaker1": "Attendee Registration",
+                "speaker1_social": "https://konfhub.com/sap-inside-track-bengaluru-2024-business-ai-edition",
+                "sessiontitle": "Attendee Registration",
+                "description": "",
+                "organization": "",
+                "socialmedia": "",
+                "sessionseq": "1",
+                "tracktitle": "",
+                "trackid": "",
+                "pathtags": ""
+            },
+            {
+                "speakers": "",
+                "speaker1": "Speaker Registration",
+                "speaker1_social": "https://docs.google.com/forms/d/1joAZYYBDB0XX1Ch0gCyqy-PYY9u4x7Otwts6C_J1qDg/viewform?edit_requested=true",
+                "sessiontitle": "Speaker Registration",
+                "description": "",
+                "organization": "",
+                "socialmedia": "",
+                "sessionseq": "1",
+                "tracktitle": "",
+                "trackid": ""
+            }
+        ]
+    },
+    {
+        "sequence": "2",
         "time": "10:15 - 10:45",
         "type": "grid",
         "tracktitle": "<Not Required>",
@@ -95,7 +122,7 @@
         ]
     },
     {
-        "sequence": "2",
+        "sequence": "3",
         "time": "10:45 - 11:15",
         "type": "grid",
         "tracktitle": "<Not Required>",
@@ -161,7 +188,7 @@
         ]
     },
     {
-        "sequence": "3",
+        "sequence": "4",
         "time": "11:15 - 11:45",
         "type": "grid",
         "tracktitle": "<Not Required>",
@@ -227,14 +254,14 @@
         ]
     },
     {
-        "sequence": "3.5",
+        "sequence": "4.5",
         "time": "11:45 - 12:45",
         "type": "break",
         "tracktitle": "Lunch",
         "sessionsBySequence": []
     },
     {
-        "sequence": "4",
+        "sequence": "5",
         "time": "12:45 - 01:15",
         "type": "grid",
         "tracktitle": "<Not Required>",
@@ -300,7 +327,7 @@
         ]
     },
     {
-        "sequence": "5",
+        "sequence": "6",
         "time": "01:15 - 01:45",
         "type": "grid",
         "tracktitle": "<Not Required>",
@@ -365,7 +392,7 @@
         ]
     },
     {
-        "sequence": "6",
+        "sequence": "7",
         "time": "01:45 - 02:15",
         "type": "grid",
         "tracktitle": "<Not Required>",
@@ -432,14 +459,14 @@
         ]
     },
     {
-        "sequence": "3.5",
+        "sequence": "8.5",
         "time": "02:15 - 02:30",
         "type": "break",
         "tracktitle": "15'm Break & Networking",
         "sessionsBySequence": []
     },
     {
-        "sequence": "7",
+        "sequence": "9",
         "time": "02:30 - 03:00",
         "type": "grid",
         "tracktitle": "<Not Required>",
@@ -504,7 +531,7 @@
         ]
     },
     {
-        "sequence": "7",
+        "sequence": "10",
         "time": "03:00 - 03:30",
         "type": "grid",
         "tracktitle": "<Not Required>",
@@ -569,7 +596,7 @@
         ]
     },
     {
-        "sequence": "7",
+        "sequence": "11",
         "time": "03:30 - 04:00",
         "type": "grid",
         "tracktitle": "<Not Required>",
