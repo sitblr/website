@@ -9,13 +9,6 @@
     },
     {
         "sequence": "0.2",
-        "time": "08:00 AM - 04:30 PM (Full Day)",
-        "type": "break",
-        "tracktitle": "Meet AI Expert Zone",
-        "sessionsBySequence": []
-    },
-    {
-        "sequence": "0.3",
         "time": "09:30 - 10:00",
         "type": "break",
         "tracktitle": "Keynote: Sindhu Gangadharan (MD, SAP Labs India Head, Customer Innovation Services, SAP)",
