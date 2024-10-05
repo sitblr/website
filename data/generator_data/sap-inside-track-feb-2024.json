@@ -55,12 +55,12 @@
         "sessionsBySequence": [
             {
                 "speakers": "",
-                "speaker1": "Sairam",
-                "speaker2": "Prasanna",
+                "speaker1": "Sudhakar Singh",
+                "speaker2": "Srivathsa Dixit",
                 "speaker1_social": "https://www.linkedin.com/in/rahullodhe",
                 "speaker2_social": "https://www.linkedin.com/in/ajaytikare/",
-                "sessiontitle": "Deepdive into SAP JOULE",
-                "description": "Deepdive into SAP JOULE",
+                "sessiontitle": "Deep dive into the SAP Business AI Strategy",
+                "description": "Deep dive into the SAP Business AI Strategy",
                 "organization": "SAP Labs India",
                 "socialmedia": "",
                 "sessionseq": "1",
