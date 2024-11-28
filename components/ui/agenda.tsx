@@ -66,7 +66,7 @@ const AgendaUI: React.FC<AgendaProps> = (AgendaProps) => {
   } = useSession();
 
   useEffect(() => {
-    fetch(`/api/events/sap-inside-track-feb-2024`)
+    fetch(`/api/events/sap-inside-track-dec-2024`)
       .then((res) => res.json())
       .then((data) => {
         setData(data);

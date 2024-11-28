@@ -77,7 +77,7 @@ const Home = () => {
   ];
 
   useEffect(() => {
-    fetch(`/api/events/sap-inside-track-july-2024`)
+    fetch(`/api/events/sap-inside-track-dec-2024`)
       .then((res) => res.json())
       .then((data) => {
         setData(data);

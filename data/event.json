@@ -1,4 +1,21 @@
-[
+[{
+  "id": "sap-inside-track-dec-2024", 
+  "title": "SAP Inside Track, 7th December 2024",
+  "location": "Bengaluru, India",
+  "dateFrom": "2024-02-17T00:00:00",
+  "dateTo": "2024-02-17T00:00:00",
+  "map": "",
+  "banner": "",
+  "type": "Conference",
+  "active": true,
+  "register": "https://konfhub.com/sap-inside-track-bengaluru-december-2024-business-ai-edition",
+  "hostId": 1,
+  "agenda": "",
+  "eventCompleted": false,
+  "linktoeventfeedback": "",
+  "linktosessionfeedback":"1FAIpQLScLOIRqFzWL__5OPVHmJ-O59MpV_lwpK_a1hFCOSvLNvtkj4A",
+  "linktopresentations": "",
+  "sessions": []},
   {
     "id": "sap-inside-track-july-2024", 
     "title": "SAP Inside Track, 7th December 2024",

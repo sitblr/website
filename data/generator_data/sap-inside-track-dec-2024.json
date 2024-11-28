@@ -1,0 +1,23 @@
+[
+    {
+        "sequence": "0.1",
+        "time": "07:30 - 09:30",
+        "type": "break",
+        "tracktitle": "Registration & Networking",
+        "sessionsBySequence": []
+    },
+    {
+        "sequence": "0.3",
+        "time": "09:30 - 10:00",
+        "type": "break",
+        "tracktitle": "Keynote: Sindhu Gangadharan (MD, SAP Labs India Head, Customer Innovation Services, SAP)",
+        "sessionsBySequence": []
+    },
+    {
+        "sequence": "0.3",
+        "time": "10:00 - 10:30",
+        "type": "break",
+        "tracktitle": "Fireside chat with SAP Customer & Partner Executives",
+        "sessionsBySequence": []
+    }
+]
