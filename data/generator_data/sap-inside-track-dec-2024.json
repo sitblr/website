@@ -541,10 +541,10 @@
                 {
                     "speakers": "",
                     "speaker1": "Mayank",
-                    "speaker2": "Mahesh Palavalli",
+                    "speaker2": "",
                     "speaker1_social": "https://www.linkedin.com/in/mpsingh18/",
                     "speaker2_social": "https://www.linkedin.com/in/mpsingh18/",
-                    "speaker3_social": "https://www.linkedin.com/in/maheshpalavalli/",
+                    "speaker3_social": "",
                     "sessiontitle": "SAP and AWS Joint Reference Architectures",
                     "description": "SAP and AWS have joined forces and have come up with a set of Reference Architectures to tackle practical business scenarios using various SAP BTP and AWS services. These Joint Reference Architectures (JRA) built by SAP & AWS will be the foundation for building new applications, extensions, analytical dashboards, or machine learning models for our customers. SAP & AWS are committed to updating and improving the architecture with new services and features released by SAP and AWS in the future. ",
                     "organization1": "Amazon",
