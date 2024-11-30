@@ -16,7 +16,8 @@ interface ModalProps {
     sessiondetail: string;
     sessionno: string;
     speakers: string;
-    organization: string;
+    organization1: string;
+    organization2: string;
     speaker1: string;
     speaker2: string;
     speaker1_social: string;
@@ -33,7 +34,8 @@ const SessionModal: React.FC<ModalProps> = ({
     sessiondetail,
     sessionno,
     speakers,
-    organization,
+    organization1,
+    organization2,
     isOpen,
     onClose,
     children
@@ -72,7 +74,7 @@ const SessionModal: React.FC<ModalProps> = ({
                                     <span className="inline underline text-blue-600">{sessiondata.speaker2}</span>
                                 </a> 
                             </span>}
-                        <span>‎ | {sessiondata.organization}</span>
+                        <span>‎ | {sessiondata.organization1} | {sessiondata.organization2}</span>
                     </p>
                 </div>
                 <hr></hr>

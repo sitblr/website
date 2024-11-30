@@ -23,25 +23,7 @@ async function run() {
     "https://www.googleapis.com/auth/drive.file",
   ];
 
-  let sessionOriginal = {
-    speakers: "",
-    speaker1: "",
-    speaker2: "",
-    speaker3: "",
-    speaker4: "",
-    speaker1_social: "",
-    speaker2_social: "",
-    speaker3_social: "",
-    speaker4_social: "",
-    sessiontitle: "",
-    description: "",
-    organization: "",
-    socialmedia: "",
-    track: "",
-    sessionseq: "",
-    tracktitle: "",
-    track: "",
-  };
+  let rows, sessionrawsseq;
   try {
     const jwt = new JWT({
       email: creds.client_email,
@@ -56,6 +38,8 @@ async function run() {
     await doc.loadInfo();
     const sheet = doc.sheetsByTitle["Sessions Sequenced"];
     const sheetTrackSeq = doc.sheetsByTitle["Timing & Sequence Mapping"];
+    const sheetTrackSeqDemoPod = doc.sheetsByTitle["Timing & Sequence Mapping DemoPod"];
+    const TrackMetadata = doc.sheetsByTitle["Track Metadata"];
 
     if (!sheet) {
       throw new Error('Sheet "Sessions Sequenced" not found.');
@@ -65,8 +49,10 @@ async function run() {
     }
 
     // const sheet = doc.sheetsByIndex[0];
-    const rows = await sheet.getRows();
-    const sessionrawsseq = await sheetTrackSeq.getRows();
+    rows = await sheet.getRows();
+    sessionrawsseq = await sheetTrackSeq.getRows();
+    sessionrawsseqdemopod = await sheetTrackSeqDemoPod.getRows();
+    trackmetadatarows = await TrackMetadata.getRows();
 
   } catch (error) {
     console.error("Error accessing Google Sheets:", error.message);
@@ -74,16 +60,31 @@ async function run() {
   }
 
   let rawdata = [];
+  let rawdataDemoPod = [];
   rows.forEach(function (obj) {
-    if (obj.get("selected") === "Selected") {
+    if (obj.get("IsSelected") === "Selected") {
       rawdata.push(obj.toObject());
     }
   });
 
-  let sessionsseq = [];
+  let sessionsseq = [],
+    demopodsseq = [],
+    trackseq = {};
   sessionrawsseq.forEach(function (obj) {
     sessionsseq.push(obj.toObject());
   });
+  sessionrawsseqdemopod.forEach(function (obj) {
+    demopodsseq.push(obj.toObject());
+  });
+  trackmetadatarows.forEach(function (obj) {
+    let data = obj.toObject();
+    trackseq[data.Track] = data.seq;
+  });
+  // const trackmetadatarowsFormatted = arr.map(item => ({
+  //   [item.Track]: { track: item.seq }
+  // }));
+
+
 
   // const auth = new google.auth.GoogleAuth({
   //   keyFile: __dirname+"/cred.json",
@@ -106,7 +107,7 @@ async function run() {
 
   // return;
 
-  rawdata.sort((a, b) => a.trackno.localeCompare(b.trackno));
+  // rawdata.sort((a, b) => a.Track.localeCompare(b.Track));
   const groupBy = (array, key) =>
     array.reduce((result, currentValue) => {
       (result[currentValue[key]] = result[currentValue[key]] || []).push(
@@ -119,27 +120,36 @@ async function run() {
   rawdata.forEach(function (data) {
     let sessionOriginal = {
       speakers: "",
-      speaker1: data.speaker1,
-      speaker2: data.speaker2,
-      speaker3: data.speaker3,
-      speaker4: data.speaker4,
-      speaker1_social: data.social1,
-      speaker2_social: data.social2,
-      speaker3_social: data.social4,
-      speaker4_social: data.social4,
-      sessiontitle: data.title,
-      description: data.abstract,
-      organization: data.company1,
+      speaker1: data.Speaker1,
+      speaker2: data.Speaker2,
+      speaker3: data.Speaker3,
+      speaker4: data.Speaker4,
+      speaker1_social: data.Speaker1LinkedIn,
+      speaker2_social: data.Speaker1LinkedIn,
+      speaker3_social: data?.Speaker2LinkedIn,
+      speaker4_social: data?.Speaker3LinkedIn,
+      sessiontitle: data.Title,
+      description: data.Description,
+      organization1: data.Company1,
+      organization2: data.Company2,
       socialmedia: "",
-      sessionseq: data.sessionseq,
-      tracktitle: data.trackname,
-      trackid: data.trackno,
-      pathtags: data.PathTags
+      sessionseq: data.Sequence,
+      tracktitle: data.Track,
+      trackid: data.Track,
+      trackseq: parseInt(trackseq[data.Track]),
+      pathtags: data.PathTags,
+      type: data.Type
     };
     convertedData.push(sessionOriginal);
   });
 
-  convertedData = groupBy(convertedData, "sessionseq");
+  convertedData.sort((a, b) => a.trackseq - b.trackseq);
+
+  let lectures = convertedData.filter(obj => obj.type === "Lecture");
+  let demopods = convertedData.filter(obj => obj.type === "Demo Pod");
+
+  lectures = groupBy(lectures, "sessionseq");
+  demopods = groupBy(demopods, "sessionseq");
   // console.log(rawdata);
   // const sessionsseq = [
   //   { sequence: 0.1, time: "07:30 - 09:30", type: "break", tracktitle: "Networking & Registration - Ask Me Anything Booths" },
@@ -171,18 +181,30 @@ async function run() {
   //   },
   // ];
 
-  let finalSessions = [];
+  let finalSessions = {};
 
   sessionsseq.forEach(function (seq) {
-    if (convertedData[seq.sequence]) {
-      seq.sessionsBySequence = convertedData[seq.sequence];
+    if (lectures[seq.sequence]) {
+      seq.sessionsBySequence = lectures[seq.sequence];
     } else {
       seq.sessionsBySequence = [];
     }
   });
 
-  let dataStr = JSON.stringify(sessionsseq, null, 4);
-  let session = JSON.parse(JSON.stringify(sessionOriginal));
+
+  demopodsseq.forEach(function (seq) {
+    if (demopods[seq.sequence]) {
+      seq.sessionsBySequence = demopods[seq.sequence];
+    } else {
+      seq.sessionsBySequence = [];
+    }
+  });
+
+  finalSessions.lectures = sessionsseq;
+  finalSessions.demopods = demopodsseq;
+
+  let dataStr = JSON.stringify(finalSessions, null, 4);
+  // let session = JSON.parse(JSON.stringify(sessionOriginal));
   // Write data to JSON file
   fs.writeFileSync(__dirname + "/" + `sap-inside-track-${process.argv[2]}-${process.argv[3]}` + ".json", dataStr);
   console.log("Succesfully the agenda is updated in the file")
