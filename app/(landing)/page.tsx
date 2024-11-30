@@ -117,7 +117,7 @@ const Home = () => {
       </div>
       <div>
         <div className="mx-auto max-w-screen-xl">
-          <div className="p-4 text-2xl font-semibold">Sponsors</div>
+          <div className=" text-3xl font-semibold text-sky-900">Sponsors</div>
           <div className="font-light">
             {/* <p className="w-full mb-4 -mt-4 text-center text-base font-semibold uppercase text-gray-400 tracking-wider">
                              Platinum Sponsors

@@ -1,14 +1,22 @@
 const { JWT } = require("google-auth-library");
 const { GoogleSpreadsheet } = require("google-spreadsheet");
-const {google} = require('googleapis');
+const { google } = require('googleapis');
 // const creds = require("./credentials.json"); // the file saved above
 const fs = require("fs");
 const path = require("path");
 // console.log(process.argv);
 require('dotenv').config();
-let creds = JSON.parse(process.env.GOOGLEWORKSHEETSAPI);
-// console.log(creds)
-// test
+let creds;
+try {
+  creds = JSON.parse(process.env.GOOGLEWORKSHEETSAPI);
+  if (!creds) {
+    throw new Error("GOOGLEWORKSHEETSAPI environment variable is not set or is empty.");
+  }
+} catch (error) {
+  console.error("Error parsing GOOGLEWORKSHEETSAPI environment variable:", error.message);
+  process.exit(1);
+}
+
 async function run() {
   const SCOPES = [
     "https://www.googleapis.com/auth/spreadsheets",
@@ -19,8 +27,12 @@ async function run() {
     speakers: "",
     speaker1: "",
     speaker2: "",
+    speaker3: "",
+    speaker4: "",
     speaker1_social: "",
     speaker2_social: "",
+    speaker3_social: "",
+    speaker4_social: "",
     sessiontitle: "",
     description: "",
     organization: "",
@@ -30,23 +42,36 @@ async function run() {
     tracktitle: "",
     track: "",
   };
+  try {
+    const jwt = new JWT({
+      email: creds.client_email,
+      key: creds.private_key,
+      scopes: SCOPES,
+    });
+    const doc = new GoogleSpreadsheet(
+      process.argv[3],
+      jwt
+    );
 
-  const jwt = new JWT({
-    email: creds.client_email,
-    key: creds.private_key,
-    scopes: SCOPES,
-  });
-  const doc = new GoogleSpreadsheet(
-    "1DqHqfKfDJgxgXjxk-RRWxK7MdGXEpnuccXxJwZJ9DCI",
-    jwt
-  );
+    await doc.loadInfo();
+    const sheet = doc.sheetsByTitle["Sessions Sequenced"];
+    const sheetTrackSeq = doc.sheetsByTitle["Tracks Sequenced"];
 
-  await doc.loadInfo();
-  const sheet = doc.sheetsByTitle["Sessions Sequenced"];
-  const sheetTrackSeq = doc.sheetsByTitle["Tracks Sequenced"];
-  // const sheet = doc.sheetsByIndex[0];
-  const rows = await sheet.getRows();
-  const sessionrawsseq = await sheetTrackSeq.getRows();
+    if (!sheet) {
+      throw new Error('Sheet "Sessions Sequenced" not found.');
+    }
+    if (!sheetTrackSeq) {
+      throw new Error('Sheet "Tracks Sequenced" not found.');
+    }
+
+    // const sheet = doc.sheetsByIndex[0];
+    const rows = await sheet.getRows();
+    const sessionrawsseq = await sheetTrackSeq.getRows();
+
+  } catch (error) {
+    console.error("Error accessing Google Sheets:", error.message);
+    process.exit(1);
+  }
 
   let rawdata = [];
   rows.forEach(function (obj) {
@@ -57,7 +82,7 @@ async function run() {
 
   let sessionsseq = [];
   sessionrawsseq.forEach(function (obj) {
-      sessionsseq.push(obj.toObject());
+    sessionsseq.push(obj.toObject());
   });
 
   // const auth = new google.auth.GoogleAuth({
@@ -79,7 +104,7 @@ async function run() {
   //   });
 
 
-// return;
+  // return;
 
   rawdata.sort((a, b) => a.trackno.localeCompare(b.trackno));
   const groupBy = (array, key) =>
@@ -96,8 +121,12 @@ async function run() {
       speakers: "",
       speaker1: data.speaker1,
       speaker2: data.speaker2,
+      speaker3: data.speaker3,
+      speaker4: data.speaker4,
       speaker1_social: data.social1,
       speaker2_social: data.social2,
+      speaker3_social: data.social4,
+      speaker4_social: data.social4,
       sessiontitle: data.title,
       description: data.abstract,
       organization: data.company1,
