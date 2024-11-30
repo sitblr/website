@@ -49,7 +49,7 @@ async function run() {
       scopes: SCOPES,
     });
     const doc = new GoogleSpreadsheet(
-      process.argv[3],
+      "1E_hNWjCrsvi_K1ed9KJSnAq3r18adnPIC9oM-hSTn8A",
       jwt
     );
 
@@ -184,7 +184,7 @@ async function run() {
   let dataStr = JSON.stringify(sessionsseq, null, 4);
   let session = JSON.parse(JSON.stringify(sessionOriginal));
   // Write data to JSON file
-  fs.writeFileSync(__dirname + "/" + process.argv[2] + ".json", dataStr);
+  fs.writeFileSync(__dirname + "/" + `sap-inside-track-${process.argv[1]}-${process.argv[2]}` + ".json", dataStr);
   console.log("Succesfully the agenda is updated in the file")
 }
 

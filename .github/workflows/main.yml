@@ -2,6 +2,13 @@ name: Update Data JSON file
 
 on:
   workflow_dispatch:
+    inputs:
+      year:
+        description: "Year of the event"
+        required: true
+      month:
+        description: "Month of the event"
+        required: true
 
 jobs:
   build:
@@ -23,7 +30,7 @@ jobs:
 
       - name: Build and update JSON file
         # uses: actions/run
-        run: npm run builddata
+        run: npm run builddata -- --year ${{ github.event.inputs.month }} --month ${{ github.event.inputs.year }}
 
       - name: Commit and push if it changed
         run: |

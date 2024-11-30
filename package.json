@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "builddata": "node ./data/generator_data/index.js sap-inside-track-dec-2024 1DqHqfKfDJgxgXjxk-RRWxK7MdGXEpnuccXxJwZJ9DCI"
+    "builddata": "node ./data/generator_data/index.js"
   },
   "dependencies": {
     "@emotion/react": "^11.11.1",
