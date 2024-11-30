@@ -30,7 +30,7 @@ jobs:
 
       - name: Build and update JSON file
         # uses: actions/run
-        run: npm run builddata -- --year ${{ github.event.inputs.month }} --month ${{ github.event.inputs.year }}
+        run: npm run builddata ${{ github.event.inputs.month }} ${{ github.event.inputs.year }}
 
       - name: Commit and push if it changed
         run: |

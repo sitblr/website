@@ -55,13 +55,13 @@ async function run() {
 
     await doc.loadInfo();
     const sheet = doc.sheetsByTitle["Sessions Sequenced"];
-    const sheetTrackSeq = doc.sheetsByTitle["Tracks Sequenced"];
+    const sheetTrackSeq = doc.sheetsByTitle["Timing & Sequence Mapping"];
 
     if (!sheet) {
       throw new Error('Sheet "Sessions Sequenced" not found.');
     }
     if (!sheetTrackSeq) {
-      throw new Error('Sheet "Tracks Sequenced" not found.');
+      throw new Error('Sheet "Timing & Sequence Mapping');
     }
 
     // const sheet = doc.sheetsByIndex[0];
@@ -184,7 +184,7 @@ async function run() {
   let dataStr = JSON.stringify(sessionsseq, null, 4);
   let session = JSON.parse(JSON.stringify(sessionOriginal));
   // Write data to JSON file
-  fs.writeFileSync(__dirname + "/" + `sap-inside-track-${process.argv[1]}-${process.argv[2]}` + ".json", dataStr);
+  fs.writeFileSync(__dirname + "/" + `sap-inside-track-${process.argv[2]}-${process.argv[3]}` + ".json", dataStr);
   console.log("Succesfully the agenda is updated in the file")
 }
 
