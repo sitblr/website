@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import { usechecklist } from "@/hooks/use-checklist-modal";
 import { listdataPropos } from "@/components/ui/listbox";
 import { useSession } from "@/hooks/use-session-modal";
-import { FaChalkboardTeacher, FaLaptopCode, FaHandsHelping } from 'react-icons/fa';
+import { FaChalkboardTeacher, FaLaptopCode, FaCode } from 'react-icons/fa';
 
 interface AgendaProps {
   hideSearch?: boolean;
@@ -195,7 +195,7 @@ const AgendaUI: React.FC<AgendaProps> = (AgendaProps) => {
                   <span className="text-xs">Demo Pods</span>
                 </button>
                 <button onClick={() => scrollToSection("hands-on")} className="flex flex-col items-center text-sky-500">
-                  <FaHandsHelping size={24} />
+                  <FaCode size={24} />
                   <span className="text-xs">Hands-on</span>
                 </button>
               </div>
