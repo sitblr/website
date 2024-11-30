@@ -167,17 +167,17 @@ const AgendaUI: React.FC<AgendaProps> = (AgendaProps) => {
                 />
               </div>
               <div className="mx-2 sticky hidden md:block ">
-                <div className="flex justify-around text-sky-700">
+                <div className="flex justify-around text-sky-800">
                   <button onClick={() => scrollToSection("lecture-sessions")} className="px-4 py-2 hover:bg-sky-100 flex items-center">
                     <FaChalkboardTeacher size={18} className="mr-2" />
-                    <span>Lectures</span>
+                    <span>Lecture Sessions</span>
                   </button>
                   <button onClick={() => scrollToSection("demo-pods")} className="px-4 py-2 hover:bg-sky-100 flex items-center">
-                    <FaChalkboardTeacher size={18} className="mr-2" />
+                    <FaLaptopCode size={18} className="mr-2" />
                     <span>Demo Pods</span>
                   </button>
                   <button onClick={() => scrollToSection("hands-on")} className="px-4 py-2 hover:bg-sky-100 flex items-center">
-                    <FaChalkboardTeacher size={18} className="mr-2" />
+                    <FaCode size={18} className="mr-2" />
                     <span>Hands-On</span>
                   </button>
                 </div>
@@ -263,9 +263,10 @@ const AgendaUI: React.FC<AgendaProps> = (AgendaProps) => {
                                     }}
                                     className=" rounded cursor-pointer bg-white border border-slate-300 p-2 h-full flex flex-col justify-between"
                                   >
-                                    <p className="text-blue-600 underline text-xs font-semibold mt-2">
+                                    <p className="text-blue-600 underline text-xs font-semibold mt-2 mb-2">
                                       {seqsession.sessiontitle}
                                     </p>
+                                    <hr />
                                     <p className="text-xs text-gray-800 mt-2 line-clamp-3 mb-2">
                                       {seqsession.description}
                                     </p>
@@ -374,9 +375,10 @@ const AgendaUI: React.FC<AgendaProps> = (AgendaProps) => {
                                     }}
                                     className=" rounded cursor-pointer bg-white border border-slate-300 p-2 h-full flex flex-col justify-between"
                                   >
-                                    <p className="text-blue-600 underline text-xs font-semibold mt-2">
+                                    <p className="text-blue-600 underline text-xs font-semibold mt-2 mb-2">
                                       {seqsession.sessiontitle}
                                     </p>
+                                    <hr />
                                     <p className="text-xs text-gray-800 mt-2 line-clamp-3 mb-2">
                                       {seqsession.description}
                                     </p>
@@ -425,9 +427,61 @@ const AgendaUI: React.FC<AgendaProps> = (AgendaProps) => {
           })}
         </div>
 
-        <div id="hands-on">
-          <h2 className="text-4xl font-bold my-4  text-sky-900">Hands-on</h2>
-          {/* Add content for Hands-on here */}
+        <div id="hands-on" className="mt-4">
+          <h2 className="text-4xl font-bold my-4 text-sky-900">Hands-on</h2>
+
+
+          <div className="mx-auto bg-gray-100 mt-2">
+            <div className="flex">
+              <div className="w-full">
+                <div className="flex flex-wrap">
+                  {filteredData?.sessions.handson.map((session, idx) => {
+                    const speakers = [session.speaker1, session.speaker2, session.speaker3, session.speaker4].filter(Boolean);
+                    const speakerList = speakers.join(" | ");
+                    return (
+                      <div key={`${session.tracktitle}-${idx}`} className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 xl:w-1/4 pr-2 pt-2">
+                        <div
+                          onClick={() => {
+                            setTrackTitle(session.tracktitle);
+                            setSessionTitle(session.sessiontitle);
+                            setSessionDesc(session.description);
+                            setSessionFeedbackURL(filteredData?.linktosessionfeedback);
+                            setSpeakers(
+                              session.speaker2
+                                ? session.speaker1 + " | " + session.speaker2
+                                : session.speaker1
+                            );
+                            setSpeaker1(session.speaker1);
+                            setSpeaker2(session.speaker2);
+                            setSpeaker1Social(session.speaker1_social);
+                            setSpeaker2Social(session.speaker2_social);
+                            setTrack(session.trackid);
+                            setOrganization1(session.organization1);
+                            setOrganization2(session.organization2);
+                            setSessionNo(session.sessionseq);
+                            onOpen();
+                          }}
+                          className="rounded cursor-pointer bg-white border border-slate-300 p-2 h-full flex flex-col justify-between"
+                        >
+                          <p className="text-blue-600 underline text-xs font-semibold mt-2 mb-2">
+                            {session.sessiontitle}
+                          </p>
+                          <hr />
+                          <p className="text-xs text-gray-800 mt-2 line-clamp-8 mb-2">
+                            {session.description}
+                          </p>
+                          <hr />
+                          <p className="text-xs font-semibold text-gray-500 mt-1 mb-1">
+                            {speakerList}
+                          </p>
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

@@ -37,6 +37,7 @@ async function run() {
 
     await doc.loadInfo();
     const sheet = doc.sheetsByTitle["Sessions Sequenced"];
+    const sheetHandsOn = doc.sheetsByTitle["HandsOn"];
     const sheetTrackSeq = doc.sheetsByTitle["Timing & Sequence Mapping"];
     const sheetTrackSeqDemoPod = doc.sheetsByTitle["Timing & Sequence Mapping DemoPod"];
     const TrackMetadata = doc.sheetsByTitle["Track Metadata"];
@@ -53,6 +54,7 @@ async function run() {
     sessionrawsseq = await sheetTrackSeq.getRows();
     sessionrawsseqdemopod = await sheetTrackSeqDemoPod.getRows();
     trackmetadatarows = await TrackMetadata.getRows();
+    handsOnSheetData = await sheetHandsOn.getRows();
 
   } catch (error) {
     console.error("Error accessing Google Sheets:", error.message);
@@ -69,7 +71,8 @@ async function run() {
 
   let sessionsseq = [],
     demopodsseq = [],
-    trackseq = {};
+    trackseq = {},
+    handsOndata = [];
   sessionrawsseq.forEach(function (obj) {
     sessionsseq.push(obj.toObject());
   });
@@ -79,7 +82,13 @@ async function run() {
   trackmetadatarows.forEach(function (obj) {
     let data = obj.toObject();
     trackseq[data.Track] = data.seq;
+  });handsOnSheetData
+
+  handsOnSheetData.forEach(function (obj) {
+    handsOndata.push(obj.toObject());
   });
+
+
   // const trackmetadatarowsFormatted = arr.map(item => ({
   //   [item.Track]: { track: item.seq }
   // }));
@@ -116,7 +125,7 @@ async function run() {
       return result;
     }, {});
 
-  let convertedData = [];
+  let convertedData = [], handsOnConvData = [];
   rawdata.forEach(function (data) {
     let sessionOriginal = {
       speakers: "",
@@ -141,6 +150,32 @@ async function run() {
       type: data.Type
     };
     convertedData.push(sessionOriginal);
+  });
+
+  handsOndata.forEach(function (data) {
+    let sessionOriginal = {
+      // speakers: "",
+      speaker1: data.Speaker1,
+      speaker2: data.Speaker2,
+      speaker3: data.Speaker3,
+      speaker4: data.Speaker4,
+      // speaker1_social: data.Speaker1LinkedIn,
+      // speaker2_social: data.Speaker1LinkedIn,
+      // speaker3_social: data?.Speaker2LinkedIn,
+      // speaker4_social: data?.Speaker3LinkedIn,
+      sessiontitle: data.Title,
+      description: data.Description,
+      // organization1: data.Company1,
+      // organization2: data.Company2,
+      // socialmedia: "",
+      // sessionseq: data.Sequence,
+      // tracktitle: data.Track,
+      // trackid: data.Track,
+      // trackseq: parseInt(trackseq[data.Track]),
+      pathtags: data.PathTags
+      // type: data.Type
+    };
+    handsOnConvData.push(sessionOriginal);
   });
 
   convertedData.sort((a, b) => a.trackseq - b.trackseq);
@@ -202,6 +237,7 @@ async function run() {
 
   finalSessions.lectures = sessionsseq;
   finalSessions.demopods = demopodsseq;
+  finalSessions.handson = handsOnConvData;
 
   let dataStr = JSON.stringify(finalSessions, null, 4);
   // let session = JSON.parse(JSON.stringify(sessionOriginal));
