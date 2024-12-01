@@ -184,17 +184,17 @@ const AgendaUI: React.FC<AgendaProps> = (AgendaProps) => {
               </div>
             </div>
 
-            <div className="bg-white w-full fixed bottom-0 z-50 block md:hidden">
+            <div className="bg-sky-100 w-full fixed bottom-0 z-50 block md:hidden">
               <div className="flex justify-around pt-2 pb-2">
-                <button onClick={() => scrollToSection("lecture-sessions")} className="flex flex-col items-center text-sky-500">
+                <button onClick={() => scrollToSection("lecture-sessions")} className="flex flex-col items-center text-sky-700">
                   <FaChalkboardTeacher size={24} />
                   <span className="text-xs">Lectures</span>
                 </button>
-                <button onClick={() => scrollToSection("demo-pods")} className="flex flex-col items-center text-sky-500">
+                <button onClick={() => scrollToSection("demo-pods")} className="flex flex-col items-center text-sky-700">
                   <FaLaptopCode size={24} />
                   <span className="text-xs">Demo Pods</span>
                 </button>
-                <button onClick={() => scrollToSection("hands-on")} className="flex flex-col items-center text-sky-500">
+                <button onClick={() => scrollToSection("hands-on")} className="flex flex-col items-center text-sky-700">
                   <FaCode size={24} />
                   <span className="text-xs">Hands-on</span>
                 </button>
