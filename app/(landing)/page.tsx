@@ -111,13 +111,13 @@ const Home = () => {
         </div>
       </div>
 
-      <AgendaUI/>
-      
+      <AgendaUI />
+
       <div>
       </div>
       <div>
         <div className="mx-auto max-w-screen-xl">
-          <div className=" text-3xl font-semibold text-sky-900">Sponsors</div>
+          <div className="mt-8 text-4xl font-semibold text-sky-900">Sponsors</div>
           <div className="font-light">
             {/* <p className="w-full mb-4 -mt-4 text-center text-base font-semibold uppercase text-gray-400 tracking-wider">
                              Platinum Sponsors
@@ -159,7 +159,7 @@ const Home = () => {
                 </div>
               </a>
 
-              
+
               <a
                 className="flex items-center justify-center text-gray-400 hover:text-gray-200"
                 href=""
