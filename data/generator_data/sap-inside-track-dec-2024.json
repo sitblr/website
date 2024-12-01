@@ -816,34 +816,49 @@
             "speaker1": "Maheswar",
             "speaker2": "Gajraj Mohini",
             "sessiontitle": "GenAI Hub based Ai Application development",
-            "description": "Deepen your knowledge of prompt engineering and refine your skills in crafting highly effective prompts for AI models. Prompt engineering is crucial in steering AI models toward producing desired outputs by guiding their responses in a targeted direction. Through these exercises, you will gain valuable insights into deploying an LLM model and learn how to harness its capabilities to execute a variety of queries with precision and accuracy."
+            "description": "Deepen your knowledge of prompt engineering and refine your skills in crafting highly effective prompts for AI models. Prompt engineering is crucial in steering AI models toward producing desired outputs by guiding their responses in a targeted direction. Through these exercises, you will gain valuable insights into deploying an LLM model and learn how to harness its capabilities to execute a variety of queries with precision and accuracy.",
+            "organization1": "SAP",
+            "tracktitle": "Cafeteria",
+            "trackid": "Cafeteria"
         },
         {
             "speaker1": "Stephen Cherian",
             "speaker2": "Anuragh",
             "sessiontitle": "Terraform Provider for SAP BTP",
-            "description": "The Terraform provider for SAP BTP allows the management of resources on the SAP Business Technology Platform via Terraform.\n \n You will find the detailed information about the provider in the official documentation in the Terraform registry.\n \n You find usage examples in the examples folder of this repository."
+            "description": "The Terraform provider for SAP BTP allows the management of resources on the SAP Business Technology Platform via Terraform.\n \n You will find the detailed information about the provider in the official documentation in the Terraform registry.\n \n You find usage examples in the examples folder of this repository.",
+            "organization1": "SAP",
+            "tracktitle": "Cafeteria",
+            "trackid": "Cafeteria"
         },
         {
             "speaker1": "Shankari GS",
             "speaker2": "Vijay",
             "speaker3": "Thambiayah",
             "sessiontitle": "Integrate CAP NodejS Application in SAP Build Process Automation",
-            "description": "The goal is to cover all the necessary steps to consume the CAP Service API functions in a Process, not to provide a real use case. With Action concept, it simplifies the experience for Citizen Developers to consume APIs without coding (no-code)."
+            "description": "The goal is to cover all the necessary steps to consume the CAP Service API functions in a Process, not to provide a real use case. With Action concept, it simplifies the experience for Citizen Developers to consume APIs without coding (no-code).",
+            "organization1": "SAP",
+            "tracktitle": "Cafeteria",
+            "trackid": "Cafeteria"
         },
         {
             "speaker1": "Vedant Gupta",
             "speaker2": "Aryan",
             "speaker3": "Ajit",
             "sessiontitle": "SAP Build Code",
-            "description": "SAP Build Code is an application development environment for Java and JavaScript. The turnkey solution combines runtime and design time capabilities with built-in enterprise solution integrations, DevOps, and Application Lifecycle Management. Joule, the AI copilot that understands your business, is available to assist with code generation."
+            "description": "SAP Build Code is an application development environment for Java and JavaScript. The turnkey solution combines runtime and design time capabilities with built-in enterprise solution integrations, DevOps, and Application Lifecycle Management. Joule, the AI copilot that understands your business, is available to assist with code generation.",
+            "organization1": "SAP",
+            "tracktitle": "Cafeteria",
+            "trackid": "Cafeteria"
         },
         {
             "speaker1": "Vasanth",
             "speaker2": "Sandhya",
             "speaker3": "Kishore",
             "sessiontitle": "SAP HANA Cloud with Vector Engine and GenAI Hub",
-            "description": "In this use case, we will embark on a journey to explore the capabilities of SAP HANA Cloud vector engine, SAP Generative AI Hub and the Python Langchain Framework. The goal is to equip you with the knowledge and skills to handle unstructured and semi-structured data and build efficient applications."
+            "description": "In this use case, we will embark on a journey to explore the capabilities of SAP HANA Cloud vector engine, SAP Generative AI Hub and the Python Langchain Framework. The goal is to equip you with the knowledge and skills to handle unstructured and semi-structured data and build efficient applications.",
+            "organization1": "SAP",
+            "tracktitle": "Cafeteria",
+            "trackid": "Cafeteria"
         },
         {
             "speaker1": "Ram Prasad",
@@ -851,12 +866,18 @@
             "speaker3": "Roshini",
             "speaker4": "Utkarsh",
             "sessiontitle": "Building CAP plugins with Nodejs",
-            "description": "Hands On about building a CAP plugin with NodeJS.The idea is to create a plugin once and use it many times, hence to reduce the total effort of development and operations, so CAP application developers can focus on their domain"
+            "description": "Hands On about building a CAP plugin with NodeJS.The idea is to create a plugin once and use it many times, hence to reduce the total effort of development and operations, so CAP application developers can focus on their domain",
+            "organization1": "SAP",
+            "tracktitle": "Cafeteria",
+            "trackid": "Cafeteria"
         },
         {
             "speaker1": "Nagesh",
             "sessiontitle": "Unleashing Potential: Hands-On Session with Joule, the UI for AI",
-            "description": "Deepen your understanding of activating Joule with SAP products. Learn about key prerequisites including SAP Cloud Identity Services and SAP Business Technology Platform (BTP), and explore the Joule activation process."
+            "description": "Deepen your understanding of activating Joule with SAP products. Learn about key prerequisites including SAP Cloud Identity Services and SAP Business Technology Platform (BTP), and explore the Joule activation process.",
+            "organization1": "SAP",
+            "tracktitle": "Cafeteria",
+            "trackid": "Cafeteria"
         }
     ]
 }

@@ -165,12 +165,12 @@ async function run() {
       // speaker4_social: data?.Speaker3LinkedIn,
       sessiontitle: data.Title,
       description: data.Description,
-      // organization1: data.Company1,
+      organization1: "SAP",
       // organization2: data.Company2,
       // socialmedia: "",
       // sessionseq: data.Sequence,
-      // tracktitle: data.Track,
-      // trackid: data.Track,
+      tracktitle: "Cafeteria",
+      trackid: "Cafeteria",
       // trackseq: parseInt(trackseq[data.Track]),
       pathtags: data.PathTags
       // type: data.Type

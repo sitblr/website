@@ -266,12 +266,12 @@ const AgendaUI: React.FC<AgendaProps> = (AgendaProps) => {
                                     <p className="text-blue-600 underline text-xs font-semibold mt-2 mb-2">
                                       {seqsession.sessiontitle}
                                     </p>
-                                    <hr />
-                                    <p className="text-xs text-gray-800 mt-2 line-clamp-3 mb-2">
+                                    {/* <hr /> */}
+                                    <p className="text-xs text-gray-800 line-clamp-3 mb-2">
                                       {seqsession.description}
                                     </p>
-                                    <hr />
-                                    <p className="text-xs font-semibold text-gray-500 mt-1 mb-1">
+                                    {/* <hr /> */}
+                                    <p className="text-xs font-semibold text-gray-500 mb-1">
                                       {seqsession.speaker2
                                         ? seqsession.speaker1 +
                                         " | " +
@@ -378,12 +378,12 @@ const AgendaUI: React.FC<AgendaProps> = (AgendaProps) => {
                                     <p className="text-blue-600 underline text-xs font-semibold mt-2 mb-2">
                                       {seqsession.sessiontitle}
                                     </p>
-                                    <hr />
-                                    <p className="text-xs text-gray-800 mt-2 line-clamp-3 mb-2">
+                                    {/* <hr /> */}
+                                    <p className="text-xs text-gray-800 line-clamp-3 mb-2">
                                       {seqsession.description}
                                     </p>
-                                    <hr />
-                                    <p className="text-xs font-semibold text-gray-500 mt-2 mb-2">
+                                    {/* <hr /> */}
+                                    <p className="text-xs font-semibold text-gray-500 mb-2">
                                       {seqsession.speaker2
                                         ? seqsession.speaker1 +
                                         " | " +
@@ -447,9 +447,7 @@ const AgendaUI: React.FC<AgendaProps> = (AgendaProps) => {
                             setSessionDesc(session.description);
                             setSessionFeedbackURL(filteredData?.linktosessionfeedback);
                             setSpeakers(
-                              session.speaker2
-                                ? session.speaker1 + " | " + session.speaker2
-                                : session.speaker1
+                              speakerList
                             );
                             setSpeaker1(session.speaker1);
                             setSpeaker2(session.speaker2);
