@@ -676,23 +676,6 @@
                 },
                 {
                     "speakers": "",
-                    "speaker1": "Megha",
-                    "speaker2": "Vasantha S",
-                    "speaker1_social": "NA",
-                    "speaker2_social": "NA",
-                    "speaker3_social": "NA",
-                    "sessiontitle": "Empower Your Business with Intelligent Situation Handling",
-                    "description": "Situation Handling in SAP S/4HANA Cloud automatically notifies the responsible users about critical issues that require their attention, such as upcoming deadlines, expiring contracts, and many more. Learn more about the different configuration options, analytics capabilities, and how we're moving towards enhanced intelligence in the situation resolution process.",
-                    "organization1": "SAP",
-                    "socialmedia": "",
-                    "sessionseq": "1",
-                    "tracktitle": "Demo Pod 13",
-                    "trackid": "Demo Pod 13",
-                    "trackseq": null,
-                    "type": "Demo Pod"
-                },
-                {
-                    "speakers": "",
                     "speaker1": "Arti Gopalan",
                     "speaker2": "",
                     "speaker1_social": "https://www.linkedin.com/in/artigopalan/",
@@ -706,6 +689,23 @@
                     "tracktitle": "Pod 11",
                     "trackid": "Pod 11",
                     "trackseq": 11,
+                    "type": "Demo Pod"
+                },
+                {
+                    "speakers": "",
+                    "speaker1": "Megha",
+                    "speaker2": "Vasantha S",
+                    "speaker1_social": "NA",
+                    "speaker2_social": "NA",
+                    "speaker3_social": "NA",
+                    "sessiontitle": "Empower Your Business with Intelligent Situation Handling",
+                    "description": "Situation Handling in SAP S/4HANA Cloud automatically notifies the responsible users about critical issues that require their attention, such as upcoming deadlines, expiring contracts, and many more. Learn more about the different configuration options, analytics capabilities, and how we're moving towards enhanced intelligence in the situation resolution process.",
+                    "organization1": "SAP",
+                    "socialmedia": "",
+                    "sessionseq": "1",
+                    "tracktitle": "Pod 13",
+                    "trackid": "Pod 13",
+                    "trackseq": 13,
                     "type": "Demo Pod"
                 }
             ]
@@ -881,9 +881,9 @@
                     "organization1": "SAP",
                     "socialmedia": "",
                     "sessionseq": "2",
-                    "tracktitle": "Demo Pod 13",
-                    "trackid": "Demo Pod 13",
-                    "trackseq": null,
+                    "tracktitle": "Pod 13",
+                    "trackid": "Pod 13",
+                    "trackseq": 13,
                     "type": "Demo Pod"
                 }
             ]
