@@ -350,6 +350,23 @@
                 },
                 {
                     "speakers": "",
+                    "speaker1": "Ranjeet Kumar",
+                    "speaker2": "",
+                    "speaker1_social": "https://www.linkedin.com/in/ranjeet-kumar-8b8152b1/",
+                    "speaker2_social": "https://www.linkedin.com/in/ranjeet-kumar-8b8152b1/",
+                    "speaker3_social": "",
+                    "sessiontitle": "Empower Your Business with Intelligent Situation Handling",
+                    "description": "Situation Handling in SAP S/4HANA Cloud automatically notifies the responsible users about critical issues that require their attention, such as upcoming deadlines, expiring contracts, and many more. Learn more about the different configuration options, analytics capabilities, and how we're moving towards enhanced intelligence in the situation resolution process.",
+                    "organization1": "SAP",
+                    "socialmedia": "",
+                    "sessionseq": "5",
+                    "tracktitle": "Hive",
+                    "trackid": "Hive",
+                    "trackseq": 3,
+                    "type": "Lecture"
+                },
+                {
+                    "speakers": "",
                     "speaker1": "Ritesh Agrawal",
                     "speaker2": "",
                     "speaker1_social": "https://www.linkedin.com/in/agrawalritz/",
@@ -659,6 +676,23 @@
                 },
                 {
                     "speakers": "",
+                    "speaker1": "Megha",
+                    "speaker2": "Vasantha S",
+                    "speaker1_social": "NA",
+                    "speaker2_social": "NA",
+                    "speaker3_social": "NA",
+                    "sessiontitle": "Empower Your Business with Intelligent Situation Handling",
+                    "description": "Situation Handling in SAP S/4HANA Cloud automatically notifies the responsible users about critical issues that require their attention, such as upcoming deadlines, expiring contracts, and many more. Learn more about the different configuration options, analytics capabilities, and how we're moving towards enhanced intelligence in the situation resolution process.",
+                    "organization1": "SAP",
+                    "socialmedia": "",
+                    "sessionseq": "1",
+                    "tracktitle": "Demo Pod 13",
+                    "trackid": "Demo Pod 13",
+                    "trackseq": null,
+                    "type": "Demo Pod"
+                },
+                {
+                    "speakers": "",
                     "speaker1": "Arti Gopalan",
                     "speaker2": "",
                     "speaker1_social": "https://www.linkedin.com/in/artigopalan/",
@@ -833,6 +867,23 @@
                     "tracktitle": "Pod 11",
                     "trackid": "Pod 11",
                     "trackseq": 11,
+                    "type": "Demo Pod"
+                },
+                {
+                    "speakers": "",
+                    "speaker1": "Abinash Routary",
+                    "speaker2": "Madhumitha C",
+                    "speaker1_social": "NA",
+                    "speaker2_social": "NA",
+                    "speaker3_social": "NA",
+                    "sessiontitle": "Model Enterprise Responsibilities for a Business User in S/4HANA Using Responsibility Management",
+                    "description": "Come learn and experience how SAP Responsibility Management in S/4HANA is now helping business area to model enterprise responsibilities for a business user easily.With it’s strong Query APIs and easy modelling of data , the RM become the central place for responsibility modelling as the need of managing responsibilities for a business user  in Cloud and On Premise.",
+                    "organization1": "SAP",
+                    "socialmedia": "",
+                    "sessionseq": "2",
+                    "tracktitle": "Demo Pod 13",
+                    "trackid": "Demo Pod 13",
+                    "trackseq": null,
                     "type": "Demo Pod"
                 }
             ]
