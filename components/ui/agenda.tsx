@@ -315,7 +315,7 @@ const AgendaUI: React.FC<AgendaProps> = (AgendaProps) => {
           })}
         </div>
 
-        <div id="demo-pods">
+        <div id="demo-pods" className="mt-16">
           <h2 className="text-4xl font-bold my-4  text-sky-900">Demo Pods</h2>
           {filteredData?.sessions.demopods.map((session, idx) => {
             return (
@@ -427,7 +427,7 @@ const AgendaUI: React.FC<AgendaProps> = (AgendaProps) => {
           })}
         </div>
 
-        <div id="hands-on" className="mt-4">
+        <div id="hands-on" className="mt-16">
           <h2 className="text-4xl font-bold my-4 text-sky-900">Hands-on</h2>
 
 
