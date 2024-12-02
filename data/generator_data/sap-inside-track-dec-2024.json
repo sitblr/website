@@ -807,6 +807,23 @@
                     "trackid": "Pod 10",
                     "trackseq": 10,
                     "type": "Demo Pod"
+                },
+                {
+                    "speakers": "",
+                    "speaker1": "Arti Gopalan",
+                    "speaker2": "",
+                    "speaker1_social": "https://www.linkedin.com/in/artigopalan/",
+                    "speaker2_social": "https://www.linkedin.com/in/artigopalan/",
+                    "speaker3_social": "",
+                    "sessiontitle": "Modernize, Integrate, and Innovate with API-centric and Event-driven Integration",
+                    "description": "Integrate mission-critical applications and systems to accelerate innovation across the extended enterprise. Learn about how SAP Integration Suite is evolving to provide the best of the breed features to meet the enterprise integration needs of organizations.  ",
+                    "organization1": "SAP Labs India Pvt. Ltd.",
+                    "socialmedia": "",
+                    "sessionseq": "2",
+                    "tracktitle": "Pod 11",
+                    "trackid": "Pod 11",
+                    "trackseq": 11,
+                    "type": "Demo Pod"
                 }
             ]
         }
