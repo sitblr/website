@@ -267,7 +267,7 @@ const AgendaUI: React.FC<AgendaProps> = (AgendaProps) => {
                                       {seqsession.sessiontitle}
                                     </p>
                                     {/* <hr /> */}
-                                    <p className="text-xs text-gray-800 line-clamp-3 mb-2">
+                                    <p className="text-xs text-gray-800 whitespace-pre-wrap line-clamp-5 mb-2">
                                       {seqsession.description}
                                     </p>
                                     {/* <hr /> */}
@@ -379,7 +379,7 @@ const AgendaUI: React.FC<AgendaProps> = (AgendaProps) => {
                                       {seqsession.sessiontitle}
                                     </p>
                                     {/* <hr /> */}
-                                    <p className="text-xs text-gray-800 line-clamp-3 mb-2">
+                                    <p className="text-xs text-gray-800 whitespace-pre-wrap line-clamp-5 mb-2">
                                       {seqsession.description}
                                     </p>
                                     {/* <hr /> */}

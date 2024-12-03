@@ -59,7 +59,7 @@ const SessionModal: React.FC<ModalProps> = ({
             <DialogContent>
                 <DialogHeader>
                     <DialogTitle>{sessiondata.session}</DialogTitle>
-                    <DialogDescription>
+                    <DialogDescription className='whitespace-pre-wrap'>
                         {sessiondata.sessiondesc}
                     </DialogDescription>
                 </DialogHeader>
