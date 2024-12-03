@@ -126,30 +126,62 @@ async function run() {
     }, {});
 
   let convertedData = [], handsOnConvData = [];
+  // rawdata.forEach(function (data) {
+  //   let sessionOriginal = {
+  //     speakers: "",
+  //     speaker1: data.Speaker1,
+  //     speaker2: data.Speaker2,
+  //     speaker3: data.Speaker3,
+  //     speaker4: data.Speaker4,
+  //     speaker1_social: data.Speaker1LinkedIn,
+  //     speaker2_social: data.Speaker2LinkedIn,
+  //     speaker3_social: data?.Speaker3LinkedIn,
+  //     speaker4_social: data?.Speaker4LinkedIn,
+  //     sessiontitle: data.Title,
+  //     description: data.Description,
+  //     organization1: data.Company1,
+  //     organization2: data.Company2,
+  //     socialmedia: "",
+  //     sessionseq: data.Sequence,
+  //     tracktitle: data.Track,
+  //     trackid: data.Track,
+  //     trackseq: parseInt(trackseq[data.Track]),
+  //     pathtags: data.PathTags,
+  //     type: data.Type
+  //   };
+  //   convertedData.push(sessionOriginal);
+  // });
   rawdata.forEach(function (data) {
-    let sessionOriginal = {
-      speakers: "",
-      speaker1: data.Speaker1,
-      speaker2: data.Speaker2,
-      speaker3: data.Speaker3,
-      speaker4: data.Speaker4,
-      speaker1_social: data.Speaker1LinkedIn,
-      speaker2_social: data.Speaker2LinkedIn,
-      speaker3_social: data?.Speaker3LinkedIn,
-      speaker4_social: data?.Speaker4LinkedIn,
-      sessiontitle: data.Title,
-      description: data.Description,
-      organization1: data.Company1,
-      organization2: data.Company2,
-      socialmedia: "",
-      sessionseq: data.Sequence,
-      tracktitle: data.Track,
-      trackid: data.Track,
-      trackseq: parseInt(trackseq[data.Track]),
-      pathtags: data.PathTags,
-      type: data.Type
-    };
-    convertedData.push(sessionOriginal);
+    // Split the sequence into an array if it contains commas
+    // console.log(data)
+    const sequences = data.Sequence.toString().split(',').map(seq => seq.trim());
+
+    // Iterate through each sequence and create a record
+    sequences.forEach(sequence => {
+      let sessionOriginal = {
+        speakers: "",
+        speaker1: data.Speaker1,
+        speaker2: data.Speaker2,
+        speaker3: data.Speaker3,
+        speaker4: data.Speaker4,
+        speaker1_social: data.Speaker1LinkedIn,
+        speaker2_social: data.Speaker2LinkedIn,
+        speaker3_social: data?.Speaker3LinkedIn,
+        speaker4_social: data?.Speaker4LinkedIn,
+        sessiontitle: data.Title,
+        description: data.Description,
+        organization1: data.Company1,
+        organization2: data.Company2,
+        socialmedia: "",
+        sessionseq: parseInt(sequence), // Assign the individual sequence number
+        tracktitle: data.Track,
+        trackid: data.Track,
+        trackseq: parseInt(trackseq[data.Track]),
+        pathtags: data.PathTags,
+        type: data.Type
+      };
+      convertedData.push(sessionOriginal);
+    });
   });
 
   handsOndata.forEach(function (data) {
