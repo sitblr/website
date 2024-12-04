@@ -80,36 +80,48 @@ const AgendaUI: React.FC<AgendaProps> = (AgendaProps) => {
     if (!query && !AgendaProps.searchPathsValue) {
       return JSON.parse(JSON.stringify(data));
     }
-
+  
     let queryLCL = query;
     if (AgendaProps.searchPathsValue) {
       queryLCL = AgendaProps.searchPathsValue.key;
     }
-
+  
     let filteredData = JSON.parse(JSON.stringify(data));
-    let filteredSessions = [];
-    filteredData.sessions.lectures.forEach(function (item) {
-      if (item.type === "grid") {
-        var filtSessionsByTrack = item.sessionsBySequence.filter(function (el) {
-          return (
-            el.description.toLowerCase().includes(queryLCL.toLowerCase()) ||
-            el.sessiontitle.toLowerCase().includes(queryLCL.toLowerCase()) ||
-            el.tracktitle.toLowerCase().includes(queryLCL.toLowerCase()) ||
-            el?.pathtags?.toLowerCase()?.includes(queryLCL.toLowerCase())
-          );
-        });
-      } else {
-        filtSessionsByTrack = item.sessionsBySequence;
-      }
-      if (
-        filtSessionsByTrack.length > 0 ||
-        (item.type === "break" && AgendaProps.searchShowBreaks)
-      ) {
-        item.sessionsBySequence = filtSessionsByTrack;
-        filteredSessions.push(item);
-      }
-    });
-    filteredData.sessions.lectures = filteredSessions;
+  
+    const filterSessions = (sessions) => {
+      let filteredSessions = [];
+      
+      sessions.forEach(function (item) {
+        let filtSessionsByTrack;
+  
+        if (item.type === "grid") {
+          filtSessionsByTrack = item.sessionsBySequence.filter(function (el) {
+            return (
+              el.description.toLowerCase().includes(queryLCL.toLowerCase()) ||
+              el.sessiontitle.toLowerCase().includes(queryLCL.toLowerCase()) ||
+              el.tracktitle.toLowerCase().includes(queryLCL.toLowerCase()) ||
+              (el?.pathtags?.toLowerCase()?.includes(queryLCL.toLowerCase()))
+            );
+          });
+        } else {
+          filtSessionsByTrack = item.sessionsBySequence;
+        }
+  
+        if (
+          filtSessionsByTrack.length > 0 ||
+          (item.type === "break" && AgendaProps.searchShowBreaks)
+        ) {
+          item.sessionsBySequence = filtSessionsByTrack;
+          filteredSessions.push(item);
+        }
+      });
+  
+      return filteredSessions;
+    };
+  
+    filteredData.sessions.lectures = filterSessions(filteredData.sessions.lectures);
+    filteredData.sessions.demopods = filterSessions(filteredData.sessions.demopods);
+    
     return filteredData;
   };
 
