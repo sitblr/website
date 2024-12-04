@@ -227,6 +227,8 @@ const AgendaUI: React.FC<AgendaProps> = (AgendaProps) => {
                         session.sessionsBySequence.map((seqsession, idx) => {
                           switch (session.type) {
                             case "grid":
+                              const speakers = [seqsession.speaker1, seqsession.speaker2, seqsession.speaker3, seqsession.speaker4].filter(Boolean);
+                              const speakerList = speakers.join(" | ");
                               return (
                                 <div
                                   key={`${session.time}-${idx}-${seqsession.track}-${seqsession.sessionseq}`}
@@ -241,11 +243,7 @@ const AgendaUI: React.FC<AgendaProps> = (AgendaProps) => {
                                         filteredData?.linktosessionfeedback
                                       );
                                       setSpeakers(
-                                        seqsession.speaker2
-                                          ? seqsession.speaker1 +
-                                          " | " +
-                                          seqsession.speaker2
-                                          : seqsession.speaker1
+                                        speakerList
                                       );
                                       setSpeaker1(seqsession.speaker1);
                                       setSpeaker2(seqsession.speaker2);
@@ -272,11 +270,7 @@ const AgendaUI: React.FC<AgendaProps> = (AgendaProps) => {
                                     </p>
                                     {/* <hr /> */}
                                     <p className="text-xs font-semibold text-gray-500 mb-1">
-                                      {seqsession.speaker2
-                                        ? seqsession.speaker1 +
-                                        " | " +
-                                        seqsession.speaker2
-                                        : seqsession.speaker1}
+                                      {speakerList}
                                     </p>
 
                                     <hr />
@@ -339,6 +333,8 @@ const AgendaUI: React.FC<AgendaProps> = (AgendaProps) => {
                         session.sessionsBySequence.map((seqsession, idx) => {
                           switch (session.type) {
                             case "grid":
+                              const speakers = [seqsession.speaker1, seqsession.speaker2, seqsession.speaker3, seqsession.speaker4].filter(Boolean);
+                              const speakerList = speakers.join(" | ");
                               return (
                                 <div
                                   key={`${session.time}-${idx}-${seqsession.track}-${seqsession.sessionseq}`}
@@ -353,11 +349,7 @@ const AgendaUI: React.FC<AgendaProps> = (AgendaProps) => {
                                         filteredData?.linktosessionfeedback
                                       );
                                       setSpeakers(
-                                        seqsession.speaker2
-                                          ? seqsession.speaker1 +
-                                          " | " +
-                                          seqsession.speaker2
-                                          : seqsession.speaker1
+                                        speakerList
                                       );
                                       setSpeaker1(seqsession.speaker1);
                                       setSpeaker2(seqsession.speaker2);
@@ -384,11 +376,7 @@ const AgendaUI: React.FC<AgendaProps> = (AgendaProps) => {
                                     </p>
                                     {/* <hr /> */}
                                     <p className="text-xs font-semibold text-gray-500 mb-2">
-                                      {seqsession.speaker2
-                                        ? seqsession.speaker1 +
-                                        " | " +
-                                        seqsession.speaker2
-                                        : seqsession.speaker1}
+                                      {speakerList}
                                     </p>
 
                                     <hr />
