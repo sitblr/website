@@ -767,6 +767,22 @@
                 },
                 {
                     "speakers": "",
+                    "speaker1": "Sreekanth Sreedharan",
+                    "speaker2": "",
+                    "speaker1_social": "NA",
+                    "speaker2_social": "",
+                    "sessiontitle": "SAP BTP Partner Solution Enablement Overview - Build & SAP Business AI",
+                    "description": "A brief overview of the Build and Business AI enablement portfolio, certifications, and offerings.",
+                    "organization1": "SAP",
+                    "socialmedia": "",
+                    "sessionseq": 1,
+                    "tracktitle": "Pod 13",
+                    "trackid": "Pod 13",
+                    "trackseq": 13,
+                    "type": "Demo Pod"
+                },
+                {
+                    "speakers": "",
                     "speaker1": "Megha",
                     "speaker2": "Vasantha S",
                     "speaker1_social": "NA",
@@ -1016,7 +1032,7 @@
         {
             "speaker1": "Stephen Cherian",
             "speaker2": "Anuragh",
-            "sessiontitle": "Terraform Provider for SAP BTP",
+            "sessiontitle": "From clicks to code: Managing your SAP BTP infrastructure with Terraform",
             "description": "The Terraform provider for SAP BTP allows the management of resources on the SAP Business Technology Platform via Terraform.\n \n You will find the detailed information about the provider in the official documentation in the Terraform registry.\n \n You find usage examples in the examples folder of this repository.",
             "organization1": "SAP",
             "tracktitle": "Cafeteria",
@@ -1026,6 +1042,7 @@
             "speaker1": "Shankari GS",
             "speaker2": "Vijay",
             "speaker3": "Thambiayah",
+            "speaker4": "shrinivasan",
             "sessiontitle": "Integrate CAP NodejS Application in SAP Build Process Automation",
             "description": "The goal is to cover all the necessary steps to consume the CAP Service API functions in a Process, not to provide a real use case. With Action concept, it simplifies the experience for Citizen Developers to consume APIs without coding (no-code).",
             "organization1": "SAP",
@@ -1036,6 +1053,7 @@
             "speaker1": "Vedant Gupta",
             "speaker2": "Aryan",
             "speaker3": "Ajit",
+            "speaker4": "divya",
             "sessiontitle": "SAP Build Code",
             "description": "SAP Build Code is an application development environment for Java and JavaScript. The turnkey solution combines runtime and design time capabilities with built-in enterprise solution integrations, DevOps, and Application Lifecycle Management. Joule, the AI copilot that understands your business, is available to assist with code generation.",
             "organization1": "SAP",
@@ -1065,8 +1083,19 @@
         },
         {
             "speaker1": "Nagesh",
+            "speaker2": "vishnu",
+            "speaker3": "narayan",
             "sessiontitle": "Unleashing Potential: Hands-On Session with Joule, the UI for AI",
             "description": "Deepen your understanding of activating Joule with SAP products. Learn about key prerequisites including SAP Cloud Identity Services and SAP Business Technology Platform (BTP), and explore the Joule activation process.",
+            "organization1": "SAP",
+            "tracktitle": "Cafeteria",
+            "trackid": "Cafeteria"
+        },
+        {
+            "speaker1": "sudarshan",
+            "speaker2": "sachin",
+            "sessiontitle": "Hands-On session with document Grounding ",
+            "description": "This Hands-on is geared towards all personas looking to get started with conversational search and information retrieval scenario via Joule using Document Grounding",
             "organization1": "SAP",
             "tracktitle": "Cafeteria",
             "trackid": "Cafeteria"
