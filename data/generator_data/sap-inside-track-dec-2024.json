@@ -1033,7 +1033,7 @@
             "speaker1": "Stephen Cherian",
             "speaker2": "Anuragh",
             "sessiontitle": "From clicks to code: Managing your SAP BTP infrastructure with Terraform",
-            "description": "The Terraform provider for SAP BTP allows the management of resources on the SAP Business Technology Platform via Terraform.\n \n You will find the detailed information about the provider in the official documentation in the Terraform registry.\n \n You find usage examples in the examples folder of this repository.",
+            "description": "Join this hands-on session to explore how Terraform, the industry-standard Infrastructure as Code (IaC) tool, simplifies the setup and management of SAP BTP subaccounts. Terraform enables you to define and provision infrastructure resources declaratively, ensuring efficiency and consistency. Guided exercises will showcase best practices for configuring and managing BTP subaccounts and their associated resources using the Terraform Provider for SAP BTP.",
             "organization1": "SAP",
             "tracktitle": "Cafeteria",
             "trackid": "Cafeteria"
