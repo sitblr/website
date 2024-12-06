@@ -83,7 +83,7 @@ const SessionModal: React.FC<ModalProps> = ({
                 </div>
                 <hr></hr>
                 <a className="text-center px-2 text-white font-semibold bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
-                    href={`https://docs.google.com/forms/d/e/${sessiondata.sessionFeedbackURL}/viewform?usp=pp_url&entry.1161658033=${sessiondata.track}&entry.973977996=${sessiondata.sessionno}&entry.749693569=${encodeURIComponent(sessiondata.tracktitle)}&entry.96440064=${encodeURIComponent(sessiondata.session)}`} target="_blank" rel="noopener noreferrer">Give Your Feedback</a>
+                    href={`https://docs.google.com/forms/d/e/${sessiondata.sessionFeedbackURL}/viewform?usp=pp_url&entry.749693569=${encodeURIComponent(sessiondata.tracktitle)}&entry.96440064=${encodeURIComponent(sessiondata.session)}`} target="_blank" rel="noopener noreferrer">Give Your Feedback</a>
             </DialogContent>
         </Dialog>
     )
