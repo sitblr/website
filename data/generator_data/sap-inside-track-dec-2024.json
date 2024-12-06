@@ -570,22 +570,6 @@
             "sessionsBySequence": [
                 {
                     "speakers": "",
-                    "speaker1": "Ranjeet",
-                    "speaker2": "",
-                    "speaker1_social": "NA",
-                    "speaker2_social": "",
-                    "sessiontitle": "Know SAP Better",
-                    "description": "Know SAP Better",
-                    "organization1": "SAP",
-                    "socialmedia": "",
-                    "sessionseq": 1,
-                    "tracktitle": "Pod 3",
-                    "trackid": "Pod 3",
-                    "trackseq": 3,
-                    "type": "Demo Pod"
-                },
-                {
-                    "speakers": "",
                     "speaker1": "Kavyashree B",
                     "speaker2": "Shashank Chandel",
                     "speaker1_social": "https://www.linkedin.com/in/kavyashree-b-b824647a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -773,22 +757,6 @@
             "type": "grid",
             "tracktitle": "<Not Required>",
             "sessionsBySequence": [
-                {
-                    "speakers": "",
-                    "speaker1": "Ranjeet",
-                    "speaker2": "",
-                    "speaker1_social": "NA",
-                    "speaker2_social": "",
-                    "sessiontitle": "Know SAP Better",
-                    "description": "Know SAP Better",
-                    "organization1": "SAP",
-                    "socialmedia": "",
-                    "sessionseq": 2,
-                    "tracktitle": "Pod 3",
-                    "trackid": "Pod 3",
-                    "trackseq": 3,
-                    "type": "Demo Pod"
-                },
                 {
                     "speakers": "",
                     "speaker1": "Adhikamsetty, Venkata Krishna",
