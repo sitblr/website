@@ -564,7 +564,7 @@
     "demopods": [
         {
             "sequence": "1",
-            "time": "10:30 - 12:00",
+            "time": "Morning",
             "type": "grid",
             "tracktitle": "<Not Required>",
             "sessionsBySequence": [
@@ -753,7 +753,7 @@
         },
         {
             "sequence": "2",
-            "time": "01:30 - 03:00",
+            "time": "Afternoon",
             "type": "grid",
             "tracktitle": "<Not Required>",
             "sessionsBySequence": [
