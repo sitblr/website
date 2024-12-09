@@ -55,13 +55,13 @@ const EventHeader = ({
                 </a>
               </div>
             )}
-            <div className="p-2">
+            {/* <div className="p-2">
               <a href="/paths" rel="noopener noreferrer">
                 <Button className="px-4 bg-gradient-to-br from-purple-900 to-blue-700 md:text-lg p-4 md:p-6   text-white hover:bg-blue-800 hover:text-white">
                   AI Discovery Paths
                 </Button>
               </a>
-            </div>
+            </div> */}
             {!eventCompleted && (
               <div className="p-2">
                 <Button onClick={()=>{onOpenChecklist()}} className="px-4 bg-gradient-to-br from-purple-900 to-blue-700 md:text-lg p-4 md:p-6   text-white hover:bg-blue-800 hover:text-white">
