@@ -124,40 +124,7 @@ const Home = () => {
                         </p> */}
 
             <div className="flex flex-row justify-between p-10">
-              <a
-                className="flex items-center justify-center text-gray-400 hover:text-gray-200"
-                href=""
-                target="_blank"
-                title="Deloitte"
-              >
-                <div className="object-contain">
-                  <Image
-                    // className="w-auto"
-                    src={deloitte}
-                    width={250}
-                    height={100}
-                    objectFit="contain"
-                    alt="deloitte"
-                  />
-                </div>
-              </a>
-              <a
-                className="flex items-center justify-center text-gray-400 hover:text-gray-200"
-                href=""
-                target="_blank"
-                title="Mindset"
-              >
-                <div className="object-contain">
-                  <Image
-                    // className="w-auto"
-                    src={mindset}
-                    width={250}
-                    height={100}
-                    objectFit="contain"
-                    alt="Mindset"
-                  />
-                </div>
-              </a>
+              
 
 
               <a
