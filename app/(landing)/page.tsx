@@ -21,6 +21,7 @@ import archtech from "@/public/sponsers/archtech.png";
 import primus from "@/public/sponsers/primus.png";
 import mindset from "@/public/sponsers/mindset.png";
 import sappress from "@/public/sponsers/sap-press.jpg";
+import aws from "@/public/sponsers/icons8-aws-logo-384.png";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import SessionModal from "@/components/modal/SessionModal";
@@ -126,7 +127,20 @@ const Home = () => {
             <div className="flex flex-row justify-between p-10">
               
 
-
+<a
+                className="flex items-center justify-center text-gray-400 hover:text-gray-200"
+                href=""
+                target="_blank"
+                title="AWS"
+              >
+                <Image
+                  width={175}
+                  height={175}
+                  src={aws}
+                  objectFit="cover"
+                  alt="AWS"
+                />
+              </a>
               <a
                 className="flex items-center justify-center text-gray-400 hover:text-gray-200"
                 href=""
