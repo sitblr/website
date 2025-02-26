@@ -11,7 +11,7 @@
             "sequence": "0.3",
             "time": "09:30 - 10:30",
             "type": "break",
-            "tracktitle": "Keynote from Sindhu Gangadharan (SVP & MD, SAP Labs India | Head, Customer Innovation Services) and Fireside chat with customers and partners",
+            "tracktitle": "Keynote from Sindhu Gangadharan MD, SAP Labs India | Head, Customer Innovation Services, SAP | and Fireside chat with customers and partners",
             "sessionsBySequence": []
         },
         {
@@ -29,12 +29,12 @@
             "sessionsBySequence": [
                 {
                     "speakers": "",
-                    "speaker1": "Rahul Lodhe",
+                    "speaker1": "",
                     "speaker2": "",
-                    "speaker1_social": "https://www.linkedin.com/in/rahullodhe/",
+                    "speaker1_social": "",
                     "speaker2_social": "",
-                    "sessiontitle": "Transforming Business AI with Data and AI Agents",
-                    "description": "Transforming Business AI with Data and AI Agents",
+                    "sessiontitle": "",
+                    "description": "",
                     "organization1": "SAP Labs India",
                     "socialmedia": "",
                     "sessionseq": 1,
@@ -579,9 +579,9 @@
                     "organization1": "SAP Labs India Pvt Ltd",
                     "socialmedia": "",
                     "sessionseq": 1,
-                    "tracktitle": "Pod 4",
-                    "trackid": "Pod 4",
-                    "trackseq": 4,
+                    "tracktitle": "Pod 5",
+                    "trackid": "Pod 5",
+                    "trackseq": 5,
                     "type": "Demo Pod"
                 },
                 {
@@ -596,9 +596,9 @@
                     "organization2": "",
                     "socialmedia": "",
                     "sessionseq": 1,
-                    "tracktitle": "Pod 5",
-                    "trackid": "Pod 5",
-                    "trackseq": 5,
+                    "tracktitle": "Pod 6",
+                    "trackid": "Pod 6",
+                    "trackseq": 6,
                     "type": "Demo Pod"
                 },
                 {
@@ -612,9 +612,9 @@
                     "organization1": "SAP",
                     "socialmedia": "",
                     "sessionseq": 1,
-                    "tracktitle": "Pod 6",
-                    "trackid": "Pod 6",
-                    "trackseq": 6,
+                    "tracktitle": "Pod 7",
+                    "trackid": "Pod 7",
+                    "trackseq": 7,
                     "type": "Demo Pod"
                 },
                 {
@@ -628,9 +628,9 @@
                     "organization1": "SAP LABS INDIA PVT. LTD.",
                     "socialmedia": "",
                     "sessionseq": 1,
-                    "tracktitle": "Pod 7",
-                    "trackid": "Pod 7",
-                    "trackseq": 7,
+                    "tracktitle": "Pod 8",
+                    "trackid": "Pod 8",
+                    "trackseq": 8,
                     "type": "Demo Pod"
                 },
                 {
@@ -645,9 +645,9 @@
                     "organization2": "",
                     "socialmedia": "",
                     "sessionseq": 1,
-                    "tracktitle": "Pod 8",
-                    "trackid": "Pod 8",
-                    "trackseq": 8,
+                    "tracktitle": "Pod 9",
+                    "trackid": "Pod 9",
+                    "trackseq": 9,
                     "type": "Demo Pod"
                 },
                 {
@@ -661,9 +661,9 @@
                     "organization1": "SAP Labs India Pvt Ltd",
                     "socialmedia": "",
                     "sessionseq": 1,
-                    "tracktitle": "Pod 9",
-                    "trackid": "Pod 9",
-                    "trackseq": 9,
+                    "tracktitle": "Pod 10",
+                    "trackid": "Pod 10",
+                    "trackseq": 10,
                     "type": "Demo Pod"
                 },
                 {
@@ -677,9 +677,9 @@
                     "organization1": "SAP Labs India Pvt Ltd",
                     "socialmedia": "",
                     "sessionseq": 1,
-                    "tracktitle": "Pod 10",
-                    "trackid": "Pod 10",
-                    "trackseq": 10,
+                    "tracktitle": "Pod 11",
+                    "trackid": "Pod 11",
+                    "trackseq": 11,
                     "type": "Demo Pod"
                 },
                 {
@@ -693,9 +693,9 @@
                     "organization1": "SAP Labs India Pvt. Ltd.",
                     "socialmedia": "",
                     "sessionseq": 1,
-                    "tracktitle": "Pod 11",
-                    "trackid": "Pod 11",
-                    "trackseq": 11,
+                    "tracktitle": "Pod 12",
+                    "trackid": "Pod 12",
+                    "trackseq": 12,
                     "type": "Demo Pod"
                 },
                 {
@@ -709,9 +709,9 @@
                     "organization1": "SAP Labs India Pvt Ltd",
                     "socialmedia": "",
                     "sessionseq": 1,
-                    "tracktitle": "Pod 12",
-                    "trackid": "Pod 12",
-                    "trackseq": 12,
+                    "tracktitle": "Pod 13",
+                    "trackid": "Pod 13",
+                    "trackseq": 13,
                     "type": "Demo Pod"
                 },
                 {
@@ -725,9 +725,9 @@
                     "organization1": "SAP Labs India ",
                     "socialmedia": "",
                     "sessionseq": 1,
-                    "tracktitle": "Pod 13",
-                    "trackid": "Pod 13",
-                    "trackseq": 13,
+                    "tracktitle": "Pod 14",
+                    "trackid": "Pod 14",
+                    "trackseq": 14,
                     "type": "Demo Pod"
                 }
             ]
@@ -749,9 +749,9 @@
                     "organization1": "SAP Labs",
                     "socialmedia": "",
                     "sessionseq": 2,
-                    "tracktitle": "Pod 4",
-                    "trackid": "Pod 4",
-                    "trackseq": 4,
+                    "tracktitle": "Pod 5",
+                    "trackid": "Pod 5",
+                    "trackseq": 5,
                     "type": "Demo Pod"
                 },
                 {
@@ -765,9 +765,9 @@
                     "organization1": "SAP LABS INDIA PVT. LTD.",
                     "socialmedia": "",
                     "sessionseq": 2,
-                    "tracktitle": "Pod 5",
-                    "trackid": "Pod 5",
-                    "trackseq": 5,
+                    "tracktitle": "Pod 6",
+                    "trackid": "Pod 6",
+                    "trackseq": 6,
                     "type": "Demo Pod"
                 },
                 {
@@ -781,9 +781,9 @@
                     "organization1": "SAP LABS INDIA PVT. LTD.",
                     "socialmedia": "",
                     "sessionseq": 2,
-                    "tracktitle": "Pod 6",
-                    "trackid": "Pod 6",
-                    "trackseq": 6,
+                    "tracktitle": "Pod 7",
+                    "trackid": "Pod 7",
+                    "trackseq": 7,
                     "type": "Demo Pod"
                 },
                 
@@ -799,9 +799,9 @@
                     "organization2": "",
                     "socialmedia": "",
                     "sessionseq": 2,
-                    "tracktitle": "Pod 7",
-                    "trackid": "Pod 7",
-                    "trackseq": 7,
+                    "tracktitle": "Pod 8",
+                    "trackid": "Pod 8",
+                    "trackseq": 8,
                     "type": "Demo Pod"
                 },
                 {
@@ -815,9 +815,9 @@
                     "organization1": "SAP Labs India Pvt Ltd",
                     "socialmedia": "",
                     "sessionseq": 2,
-                    "tracktitle": "Pod 8",
-                    "trackid": "Pod 8",
-                    "trackseq": 8,
+                    "tracktitle": "Pod 9",
+                    "trackid": "Pod 9",
+                    "trackseq": 9,
                     "type": "Demo Pod"
                 },
                 {
@@ -831,9 +831,9 @@
                     "organization1": "SAP India",
                     "socialmedia": "",
                     "sessionseq": 2,
-                    "tracktitle": "Pod 9",
-                    "trackid": "Pod 9",
-                    "trackseq": 9,
+                    "tracktitle": "Pod 10",
+                    "trackid": "Pod 10",
+                    "trackseq": 10,
                     "type": "Demo Pod"
                 },
                 {
@@ -847,9 +847,9 @@
                     "organization1": "SAP LABS INDIA PVT. LTD.",
                     "socialmedia": "",
                     "sessionseq": 2,
-                    "tracktitle": "Pod 10",
-                    "trackid": "Pod 10",
-                    "trackseq": 10,
+                    "tracktitle": "Pod 11",
+                    "trackid": "Pod 11",
+                    "trackseq": 11,
                     "type": "Demo Pod"
                 },
                 {
@@ -863,9 +863,9 @@
                     "organization1": "SAP Labs",
                     "socialmedia": "",
                     "sessionseq": 2,
-                    "tracktitle": "Pod 11",
-                    "trackid": "Pod 11",
-                    "trackseq": 11,
+                    "tracktitle": "Pod 12",
+                    "trackid": "Pod 12",
+                    "trackseq": 12,
                     "type": "Demo Pod"
                 },
                 {
@@ -879,9 +879,9 @@
                     "organization1": "SAP Labs",
                     "socialmedia": "",
                     "sessionseq": 2,
-                    "tracktitle": "Pod 12",
-                    "trackid": "Pod 12",
-                    "trackseq": 12,
+                    "tracktitle": "Pod 13",
+                    "trackid": "Pod 13",
+                    "trackseq": 13,
                     "type": "Demo Pod"
                 },
                 {
@@ -895,9 +895,9 @@
                     "organization1": "IBM India PVt Ltd",
                     "socialmedia": "",
                     "sessionseq": 2,
-                    "tracktitle": "Pod 13",
-                    "trackid": "Pod 13",
-                    "trackseq": 13,
+                    "tracktitle": "Pod 14",
+                    "trackid": "Pod 14",
+                    "trackseq": 14,
                     "type": "Demo Pod"
                 }
             ]
