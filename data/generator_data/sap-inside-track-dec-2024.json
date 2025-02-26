@@ -29,12 +29,12 @@
             "sessionsBySequence": [
                 {
                     "speakers": "",
-                    "speaker1": "",
+                    "speaker1": "Rahul Lodhe",
                     "speaker2": "",
                     "speaker1_social": "",
                     "speaker2_social": "",
-                    "sessiontitle": "",
-                    "description": "",
+                    "sessiontitle": "Transforming Business AI with Data and AI Agents",
+                    "description": "Transforming Business AI with Data and AI Agents",
                     "organization1": "SAP Labs India",
                     "socialmedia": "",
                     "sessionseq": 1,
