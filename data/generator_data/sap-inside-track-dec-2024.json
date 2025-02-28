@@ -722,6 +722,22 @@
                     "trackid": "Pod 14",
                     "trackseq": 14,
                     "type": "Demo Pod"
+                },
+                {
+                    "speakers": "",
+                    "speaker1": "Neeraj Mani ",
+                    "speaker2": "Varghese George",
+                    "speaker1_social": "",
+                    "speaker2_social": "",
+                    "sessiontitle": "IT-ITeS SSC nasscom",
+                    "description": "NASSCOM's Talent Connect portal: A revolutionary portal that bridges the gap between businesses scouting for digitally skilled candidates and certified talent aspiring to level up their careers. Get the access to 150+ industries, 1.4 lac+ opportunities, PAN India.",
+                    "organization1": "",
+                    "socialmedia": "",
+                    "sessionseq": 1,
+                    "tracktitle": "Pod 15",
+                    "trackid": "Pod 15",
+                    "trackseq": 15,
+                    "type": "Demo Pod"
                 }
             ]
         },
@@ -891,6 +907,22 @@
                     "tracktitle": "Pod 14",
                     "trackid": "Pod 14",
                     "trackseq": 14,
+                    "type": "Demo Pod"
+                },
+                {
+                    "speakers": "",
+                    "speaker1": "Neeraj Mani ",
+                    "speaker2": "Varghese George",
+                    "speaker1_social": "",
+                    "speaker2_social": "",
+                    "sessiontitle": "IT-ITeS SSC nasscom",
+                    "description": "NASSCOM's Talent Connect portal: A revolutionary portal that bridges the gap between businesses scouting for digitally skilled candidates and certified talent aspiring to level up their careers. Get the access to 150+ industries, 1.4 lac+ opportunities, PAN India.",
+                    "organization1": "",
+                    "socialmedia": "",
+                    "sessionseq": 1,
+                    "tracktitle": "Pod 15",
+                    "trackid": "Pod 15",
+                    "trackseq": 15,
                     "type": "Demo Pod"
                 }
             ]
