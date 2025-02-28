@@ -552,13 +552,6 @@
             "type": "break",
             "tracktitle": "Snacks & Networking",
             "sessionsBySequence": []
-        },
-        {
-            "sequence": "10",
-            "time": "05:00 - 07:00",
-            "type": "break",
-            "tracktitle": "Special celebratory evening - with a live band performance",
-            "sessionsBySequence": []
         }
     ],
     "demopods": [
