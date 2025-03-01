@@ -798,17 +798,17 @@
                 
                 {
                     "speakers": "",
-                    "speaker1": "Win Acharya",
-                    "speaker2": "",
-                    "speaker1_social": "https://www.linkedin.com/in/winacharya/",
+                    "speaker1": "Abhishek Kumar",
+                    "speaker2": "Shubhangi Dhawan",
+                    "speaker1_social": "",
                     "speaker2_social": "",
-                    "sessiontitle": "SAP Build PA Process Variants, Notifications",
-                    "description": "Learn about customizing and sending Notifications in SAP Build Process Automation for Process and Variants",
+                    "sessiontitle": "SAP Business AI commercial model",
+                    "description": "The session aims to provide an overview of the "SAP Business AI Commercial Model", covering key aspects such as selling Business AI and the associated incentive programs. Understanding this model is crucial before initiating any SAP Business AI project, as it equips end users to make informed decisions.",
                     "organization1": "SAP Labs India Pvt Ltd",
                     "organization2": "",
                     "socialmedia": "",
                     "sessionseq": 2,
-                    "tracktitle": "Pod 8",
+                    "tracktitle": "Pod 7",
                     "trackid": "Pod 8",
                     "trackseq": 8,
                     "type": "Demo Pod"
