@@ -20,6 +20,7 @@ import SAPConcur from "@/public/sponsers/SAP_Concur_R_grad_blk.jpg";
 import archtech from "@/public/sponsers/archtech.png";
 import primus from "@/public/sponsers/primus.png";
 import mindset from "@/public/sponsers/mindset.png";
+import rojo_logo from "@/public/sponsers/Rojo_logo.png";
 import sappress from "@/public/sponsers/sap-press.jpg";
 import aws from "@/public/sponsers/icons8-aws-logo-384.png";
 import { Button } from "@/components/ui/button";
@@ -139,6 +140,20 @@ const Home = () => {
                   src={aws}
                   objectFit="cover"
                   alt="AWS"
+                />
+              </a>
+              <a
+                className="flex items-center justify-center text-gray-400 hover:text-gray-200"
+                href=""
+                target="_blank"
+                title="rojo_logo"
+              >
+                <Image
+                  width={175}
+                  height={175}
+                  src={rojo_logo}
+                  objectFit="cover"
+                  alt="rojo_logo"
                 />
               </a>
               <a
