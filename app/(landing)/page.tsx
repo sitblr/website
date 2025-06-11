@@ -145,6 +145,20 @@ const Home = () => {
                 className="flex items-center justify-center text-gray-400 hover:text-gray-200"
                 href=""
                 target="_blank"
+                title="mindset"
+              >
+                <Image
+                  width={175}
+                  height={175}
+                  src={mindset}
+                  objectFit="cover"
+                  alt="mindset"
+                />
+              </a>
+              <a
+                className="flex items-center justify-center text-gray-400 hover:text-gray-200"
+                href=""
+                target="_blank"
                 title="SAP Press"
               >
                 <Image
