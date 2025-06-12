@@ -486,7 +486,7 @@
     "handson": [
         {
             "speaker1": "",
-            "speaker2": "Divya Shanmugam",
+            "speaker2": "",
             "sessiontitle": "Managing your SAP BTP Accounts through the Terraform Provider for BTP",
             "description":"In today’s cloud-native world, automation is key to efficient, scalable, and repeatable infrastructure management. This hands-on session introduces the Terraform Provider for SAP BTP, a powerful tool that brings Infrastructure as Code (IaC) principles to the SAP Business Technology Platform (BTP). Participants will learn how to define, provision, and manage SAP BTP subaccounts, entitlements, service instances, and other key resources using Terraform.",
             "organization1": "SAP",
@@ -494,8 +494,8 @@
             "trackid": "Cafeteria"
         },
         {
-            "speaker1": "Vipin Vijaykumar",
-            "speaker2": "Anuragh Gupta",
+            "speaker1": "",
+            "speaker2": "",
             "sessiontitle": "Joule for Developers, ABAP AI Capabilities",
             "description":"Explore the ABAP AI SDK with ISLM to embed AI scenarios into your ABAP applications on the SAP BTP ABAP Environment and S/4HANA Cloud Public Edition (Planned downports for S/4HANA Cloud private edition and S/4HANA on-premise",
             "organization1": "SAP",
@@ -503,9 +503,8 @@
             "trackid": "Cafeteria"
         },
         {
-            "speaker1": "Vasanth",
-            "speaker2": "Sandhya",
-            "speaker3": "Kishore",
+            "speaker1": "",
+            "speaker2": "",
             "sessiontitle": "Building ABAP RAP Applications with SAP Build",
             "description": "Learn to build an ABAP RAP end-to-end application using ABAP Development Tools (ADT) in Eclipse and SAP Build.",
             "organization1": "SAP",
@@ -514,7 +513,7 @@
         },
         {
             "speaker1": "",
-            "speaker2": "Aryan",
+            "speaker2": "",
             "sessiontitle": "SAP Build Code - Generative AI-Powered Development with Joule co-pilot",
             "description": "This project embeds AI into a CAP application using AI Core and HANA's vector database via the SAP Cloud AI SDK. It enables AI-powered features like similarity search and recommendations, driving intelligent automation and data-driven decisions.",
             "organization1": "SAP",
@@ -522,7 +521,7 @@
             "trackid": "Cafeteria"
         },
         {
-            "speaker1": "Swarnava Chatterjee",
+            "speaker1": "",
             "speaker2": "",
             "sessiontitle": "Develop an Enterprise Grade CAP Application following the BTP Developer's Guide",
             "description": "Build a enterprise grade CAP application with Capabilities like change tracking, audit logging, attachments using simple cap plugins and enable your cap application to be a enterprise grade application",
