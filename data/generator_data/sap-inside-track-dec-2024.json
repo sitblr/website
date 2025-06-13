@@ -104,7 +104,7 @@
                     "speaker1": "Shashank Singh",
                     "speaker2": "Kedar Kashikar",
                     "speaker1_social": "https://www.linkedin.com/in/shashank-singh-278708110/",
-                    "speaker2_social": "",
+                    "speaker2_social": "https://www.linkedin.com/in/kedar-kashikar-2bb1866a/",
                     "sessiontitle": "Building Smarter integrations with the AI adapter in SAP Integration Suite",
                     "description": "In this session, we will explore how the AI Adapter for SAP Cloud Integration empowers businesses to enhance their integration scenarios with artificial intelligence. The AI Adapter enables seamless access to AI capabilities directly within your integration flows.",
                     "organization1": "Rojo Integrations",
@@ -117,8 +117,8 @@
                 },
                 {
                     "speakers": "",
-                    "speaker1": "Ashok Rajashekar",
-                    "speaker2": "",
+                    "speaker1": "Nikita Jain",
+                    "speaker2": "Shilpi Sen",
                     "speaker1_social": "",
                     "speaker2_social": "",
                     "sessiontitle": "Integrating SAP Analytics Cloud Charts with Applications Using the Widget API",
@@ -492,6 +492,22 @@
             "sessionsBySequence": [
                 {
                     "speakers": "",
+                    "speaker1": "Kedar Kashikar",
+                    "speaker2": "Punith Oswal",
+                    "speaker1_social": "https://www.linkedin.com/in/kedar-kashikar-2bb1866a/",
+                    "speaker2_social": "https://www.linkedin.com/in/punith-oswal-065b4911a/",
+                    "sessiontitle": "Demonstrating the Power of Prepackaged Integration: SAP Signavio Content Ready on SAP Integration Suite",
+                    "description":"",
+                    "organization1": "Rojo Integrations",
+                    "socialmedia": "",
+                    "sessionseq": 1,
+                    "tracktitle": "Pod 0",
+                    "trackid": "Pod 0",
+                    "trackseq": 5,
+                    "type": "Demo Pod"
+                },
+                {
+                    "speakers": "",
                     "speaker1": "Sharath Jois",
                     "speaker2": "Aruna K",
                     "speaker1_social": "https://www.linkedin.com/in/sharath-jois-756620136/",
@@ -503,7 +519,7 @@
                     "sessionseq": 1,
                     "tracktitle": "Pod 1",
                     "trackid": "Pod 1",
-                    "trackseq": 5,
+                    "trackseq": 6,
                     "type": "Demo Pod"
                 },
                 {
@@ -520,7 +536,7 @@
                     "sessionseq": 1,
                     "tracktitle": "Pod 2",
                     "trackid": "Pod 2",
-                    "trackseq": 6,
+                    "trackseq": 7,
                     "type": "Demo Pod"
                 },
                 {
@@ -536,7 +552,7 @@
                     "sessionseq": 1,
                     "tracktitle": "Pod 3",
                     "trackid": "Pod 3",
-                    "trackseq": 7,
+                    "trackseq": 8,
                     "type": "Demo Pod"
                 },
                 {
@@ -552,7 +568,7 @@
                     "sessionseq": 1,
                     "tracktitle": "Pod 4",
                     "trackid": "Pod 4",
-                    "trackseq": 8,
+                    "trackseq": 9,
                     "type": "Demo Pod"
                 },
                 {
@@ -569,7 +585,7 @@
                     "sessionseq": 1,
                     "tracktitle": "Pod 5",
                     "trackid": "Pod 5",
-                    "trackseq": 9,
+                    "trackseq": 10,
                     "type": "Demo Pod"
                 },
                 {
@@ -585,7 +601,7 @@
                     "sessionseq": 1,
                     "tracktitle": "Pod 6",
                     "trackid": "Pod 6",
-                    "trackseq": 10,
+                    "trackseq": 11,
                     "type": "Demo Pod"
                 },
                 {
@@ -601,7 +617,7 @@
                     "sessionseq": 1,
                     "tracktitle": "Pod 7",
                     "trackid": "Pod 7",
-                    "trackseq": 11,
+                    "trackseq": 12,
                     "type": "Demo Pod"
                 },
                 {
@@ -617,7 +633,7 @@
                     "sessionseq": 1,
                     "tracktitle": "Pod 8",
                     "trackid": "Pod 8",
-                    "trackseq": 12,
+                    "trackseq": 13,
                     "type": "Demo Pod"
                 }
             ]
@@ -628,6 +644,22 @@
             "type": "grid",
             "tracktitle": "<Not Required>",
             "sessionsBySequence": [
+                {
+                    "speakers": "",
+                    "speaker1": "Kedar Kashikar",
+                    "speaker2": "Shashank Singh",
+                    "speaker1_social": "https://www.linkedin.com/in/kedar-kashikar-2bb1866a/",
+                    "speaker2_social": "https://www.linkedin.com/in/shashank-singh-278708110/",
+                    "sessiontitle": "Building Smarter integrations with the AI adapter in SAP Integration Suite",
+                    "description":"",
+                    "organization1": "Rojo Integrations",
+                    "socialmedia": "",
+                    "sessionseq": 2,
+                    "tracktitle": "Pod 0",
+                    "trackid": "Pod 0",
+                    "trackseq": 5,
+                    "type": "Demo Pod"
+                },
                 {
                     "speakers": "",
                     "speaker1": "Sudarshan KR",
@@ -641,7 +673,7 @@
                     "sessionseq": 2,
                     "tracktitle": "Pod 1",
                     "trackid": "Pod 1",
-                    "trackseq": 5,
+                    "trackseq": 6,
                     "type": "Demo Pod"
                 },
                 {
@@ -657,7 +689,7 @@
                     "sessionseq": 2,
                     "tracktitle": "Pod 2",
                     "trackid": "Pod 2",
-                    "trackseq": 6,
+                    "trackseq": 7,
                     "type": "Demo Pod"
                 },
                 {
@@ -673,7 +705,7 @@
                     "sessionseq": 2,
                     "tracktitle": "Pod 3",
                     "trackid": "Pod 3",
-                    "trackseq": 7,
+                    "trackseq": 8,
                     "type": "Demo Pod"
                 },
                
@@ -691,7 +723,7 @@
                     "sessionseq": 2,
                     "tracktitle": "Pod 4",
                     "trackid": "Pod 4",
-                    "trackseq": 8,
+                    "trackseq": 9,
                     "type": "Demo Pod"
                 },
                 {
@@ -707,7 +739,7 @@
                     "sessionseq": 2,
                     "tracktitle": "Pod 5",
                     "trackid": "Pod 5",
-                    "trackseq": 9,
+                    "trackseq": 10,
                     "type": "Demo Pod"
                 },
                 {
@@ -716,14 +748,14 @@
                     "speaker2": "Neha Garg",
                     "speaker1_social": "https://www.linkedin.com/in/varshanadig/",
                     "speaker2_social": "",
-                    "sessiontitle": "In today’s dynamic financial landscape, Accounts Receivable (AR) isn’t just about collections—it’s about cash flow optimization, proactive risk mitigation, and intelligent automation. This session will explore how the SAP AR Agent transforms traditional AR processes by leveraging AI-driven insights, workflow automation, and recommend intelligent agentic actions, and also execute them for you. Discover real-world use cases, key features, and how organizations can unlock operational efficiency and improved their receivables management through smart AR agent powered by SAP Joule.",
-                    "description": "Joule in Action: Integrating Joule with S/4 and SuccessFactors with SAP Build WorkZone as central entry point",
+                    "sessiontitle": "Joule in Action: Integrating Joule with S/4 and SuccessFactors with SAP Build WorkZone as central entry point",
+                    "description": "In today’s dynamic financial landscape, Accounts Receivable (AR) isn’t just about collections—it’s about cash flow optimization, proactive risk mitigation, and intelligent automation. This session will explore how the SAP AR Agent transforms traditional AR processes by leveraging AI-driven insights, workflow automation, and recommend intelligent agentic actions, and also execute them for you. Discover real-world use cases, key features, and how organizations can unlock operational efficiency and improved their receivables management through smart AR agent powered by SAP Joule.",
                     "organization1": "SAP Labs India",
                     "socialmedia": "",
                     "sessionseq": 2,
                     "tracktitle": "Pod 6",
                     "trackid": "Pod 6",
-                    "trackseq": 10,
+                    "trackseq": 11,
                     "type": "Demo Pod"
                 },
                 {
@@ -739,7 +771,7 @@
                     "sessionseq": 2,
                     "tracktitle": "Pod 7",
                     "trackid": "Pod 7",
-                    "trackseq": 11,
+                    "trackseq": 12,
                     "type": "Demo Pod"
                 },
                 {
@@ -755,7 +787,7 @@
                     "sessionseq": 2,
                     "tracktitle": "Pod 8",
                     "trackid": "Pod 8",
-                    "trackseq": 12,
+                    "trackseq": 13,
                     "type": "Demo Pod"
                 }
             ]
