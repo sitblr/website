@@ -23,6 +23,7 @@ import mindset from "@/public/sponsers/mindset.png";
 import rojo_logo from "@/public/sponsers/Rojo_logo.png";
 import sappress from "@/public/sponsers/sap-press.jpg";
 import aws from "@/public/sponsers/icons8-aws-logo-384.png";
+import rojo from "@/public/sponsers/Rojo_logo.png";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import SessionModal from "@/components/modal/SessionModal";
@@ -140,6 +141,35 @@ const Home = () => {
                   src={aws}
                   objectFit="cover"
                   alt="AWS"
+                />
+              </a>
+
+              <a
+                className="flex items-center justify-center text-gray-400 hover:text-gray-200"
+                href=""
+                target="_blank"
+                title="mindset"
+              >
+                <Image
+                  width={175}
+                  height={175}
+                  src={mindset}
+                  objectFit="cover"
+                  alt="mindset"
+                />
+              </a>
+              <a
+                className="flex items-center justify-center text-gray-400 hover:text-gray-200"
+                href=""
+                target="_blank"
+                title="rojo"
+              >
+                <Image
+                  width={175}
+                  height={175}
+                  src={rojo}
+                  objectFit="cover"
+                  alt="rojo"
                 />
               </a>
               <a
