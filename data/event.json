@@ -124,7 +124,7 @@
       {
         "sessionsByTrack": [
           {
-            "speakers": "DUMMY Break",
+            "speakers": "DUMMY  Break",
             "sessiontitle": "DUMMY Break",
             "track": "Track 1",
             "sessionseq": 4.1,
